@@ -7,33 +7,37 @@ n = random.randrange(3,6,1)
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "36-(5*5)"
-solution2 = "26^{0}-25^{0}".format(n)
+solution1 = "26^{{{0}}}".format(n)
+solution2 = "25^{{{0}}}".format(n)
+solution3 = "26^{{{0}}}-25^{{{0}}}".format(n)
 
 # Group all solutions into a list
-solutions = [solution1, solution2]
+solutions = [solution1, solution2, solution3]
 
-# hint id
-hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
     <script type="text/javascript">
       //fill in number of hint
         var hint_number = 2;
+
       //fill in hint input box id
         var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
                 "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
       //fill in problem input box id
         var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
                "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
-      //fill in hint text id. Need to match the hint_id from above
+               
+      //fill in hint text id. Need to match the hint_text_id from above
         var hintTextIds = ["cse103fall2016week1problem1part1",
                   "cse103fall2016week1problem1part2"];
     </script>
 
 
 
-<ul><li>Roll two fair dice: a red die and a green die.</li></ul><p>How many different ways are there of getting at least one six?</p>
+<p>Consider strings of length $n2 made out of the 26 lower case letters"a-z". Suppose that order matters and that the same letter can occurmultiple times.</p><ul><li>How many strings of length $n2 consisting of lower case English letters are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -41,9 +45,17 @@ hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"
     </customresponse>
 
 
-<ul><li>How many strings of $n lower case English letters are there that have the letter \(x\) in them somewhere? Here strings may use the same letter more than once.</li></ul><p>(Hint: It might be easier to first count the strings that don't have an \(x\) in them.)</p>
+<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>excluding the letter "x"</strong>, are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>and including at least one "x"</strong>, are there?</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>
@@ -88,7 +100,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     hint_text, hint_answer = c_hint.conditional_hint(param)
     if not hint_text:
       return
-    hint = string_format.format_c_hint(hint, hint_id, hint_answer, i)
+    hint = string_format.format_c_hint(hint_text, hint_text_id, hint_answer, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 

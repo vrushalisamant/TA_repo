@@ -1,10 +1,14 @@
-* markdown_files stores problems written in markdown
+## Markdown files to XML files
 
-* output_file stores XML output from translate.py
+* ```problem_XML_files``` has problems in XML outputed from ```translate.py```
 
-* translate.py is used to generate XML from MD
+* ```problem_information_from_WebWork``` has informations gathered from WebWork for each assignment.
 
-* problem_info stores problem information used to write MD files
+* ```problem_source_files``` has problems written in markdown
+
+* ```translate.py``` is used to generate XML files from markdown files using ```template.xml``` as problem template.
+
+* ```translate_w_variables.py``` is used to generate XML files from markdown files using ```template_w_variables.xml``` as problem template. This is used specifically for problems with variables in solution.
 
 
 ## How to write problem and tranlate to XML ([Tutorial Video](https://www.youtube.com/watch?v=5IE5V39dE4E))

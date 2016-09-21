@@ -3,38 +3,41 @@
     <script type="loncapa/python">
 
 # random variables (no need to import random library)
-n = random.randrange(3,6,1)
+a = random.randrange(10,14,1)
+n = random.randrange(2,5,1)
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "26^{{{0}}}".format(n)
-solution2 = "25^{{{0}}}".format(n)
-solution3 = "26^{{{0}}}-25^{{{0}}}".format(n)
+solution1 = "3*2"
+solution2 = "{0}*2*{1}".format(a,n)
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3]
+solutions = [solution1, solution2]
 
-# hint id
-hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
     <script type="text/javascript">
       //fill in number of hint
         var hint_number = 2;
+
       //fill in hint input box id
         var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
                 "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
       //fill in problem input box id
         var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
                "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
-      //fill in hint text id. Need to match the hint_id from above
+               
+      //fill in hint text id. Need to match the hint_text_id from above
         var hintTextIds = ["cse103fall2016week1problem1part1",
                   "cse103fall2016week1problem1part2"];
     </script>
 
 
 
-<p>Lower case English letters are from "a-z". The order matters here. For example, "ab" is a different string from "ba". Repetition is allowed, i.e. the same letter can occur multiple times in a string.</p><ul><li>How many strings of length $n2 consisting of lower case English letters are there?</li></ul>
+<ul><li>For lunch, you eat a sandwich and a piece of fruit. The sandwich can be either veggie, chicken, or beef; and the fruit can be  an orange or an apple.</li></ul><p>How many different lunch combinations do you have?</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -42,17 +45,9 @@ hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"
     </customresponse>
 
 
-<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>excluding the letter "x"</strong>, are there?</li></ul>
+<ul><li>A particular brand of shirt comes in $a colors, has a maleversion and a female version, and comes in $n sizes for each sex.</li></ul><p>How many different types of this shirt are made?</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>and including at least one "x"</strong>, are there?</li></ul>
-
-    <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>
@@ -97,7 +92,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     hint_text, hint_answer = c_hint.conditional_hint(param)
     if not hint_text:
       return
-    hint = string_format.format_c_hint(hint, hint_id, hint_answer, i)
+    hint = string_format.format_c_hint(hint_text, hint_text_id, hint_answer, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 

@@ -3,38 +3,42 @@
     <script type="loncapa/python">
 
 # random variables (no need to import random library)
-a = random.randrange(10,14,1)
-n = random.randrange(2,5,1)
+a = random.randrange(2,3,1)
+b = random.randrange(2,3,1)
+c = 7-a-b
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "3*2"
-solution2 = "{0}*2*{1}".format(a,n)
+solution1 = "10*26"
+solution2 = "10^{0}*26^{1}*10^(7-{0}-{1})".format(a,b)
 
 # Group all solutions into a list
 solutions = [solution1, solution2]
 
-# hint id
-hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
     <script type="text/javascript">
       //fill in number of hint
         var hint_number = 2;
+
       //fill in hint input box id
         var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
                 "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
       //fill in problem input box id
         var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
                "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
-      //fill in hint text id. Need to match the hint_id from above
+               
+      //fill in hint text id. Need to match the hint_text_id from above
         var hintTextIds = ["cse103fall2016week1problem1part1",
                   "cse103fall2016week1problem1part2"];
     </script>
 
 
 
-<ul><li>For lunch, I can eat one sandwich and a piece of fruit. I can choose between veggie, chicken, and beef sandwiches; and between an orange and an apple.</li></ul><p>How many different lunch combinations can I have?</p>
+<ul><li>How many ways are there of picking one digit (from 0-9), and one letter (A-Z)?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -42,7 +46,7 @@ hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"
     </customresponse>
 
 
-<ul><li>A particular brand of shirt comes in $a colors, has a maleversion and a female version, and comes in $n sizes for each sex.</li></ul><p>How many different types of this shirt are made?</p>
+<ul><li>Suppose automobile license plates in an imaginary country consist of$a numbers,followed by $b letters, followed by $c numbers.</li></ul><p>How many different standard plates are possible in this system? (Assume repetition of letters and numbers is allowed.)</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -89,7 +93,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     hint_text, hint_answer = c_hint.conditional_hint(param)
     if not hint_text:
       return
-    hint = string_format.format_c_hint(hint, hint_id, hint_answer, i)
+    hint = string_format.format_c_hint(hint_text, hint_text_id, hint_answer, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 

@@ -3,39 +3,46 @@
     <script type="loncapa/python">
 
 # random variables (no need to import random library)
-r1 = random.randrange(10,20,1)
-r2 = random.randrange(5,r1,1)
+coins = random.randrange(9,11,1)
+heads = coins-1
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "{0}".format(r1)
-solution2 = "{0}".format(r2)
-solution3 = "{0}/{1}".format(r2,r1)
+
+solution1 = "2^{{{0}}}".format(coins)
+solution2 = "1/2^{{{0}}}".format(coins)
+solution3 = "{0}!/({0}-1)!".format(coins)
+solution4 = "{0}!/({0}-1)!)/2^{{{0}}}".format(coins)
+solution5 = "1-1/2^{{{0}}}".format(coins)
+solution6 = "({0}!/(6!({0}-6)!))/2^{{{0}}}".format(coins)
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3]
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
 
-# hint id
-hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
     <script type="text/javascript">
       //fill in number of hint
         var hint_number = 2;
+
       //fill in hint input box id
         var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
                 "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
       //fill in problem input box id
         var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
                "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
-      //fill in hint text id. Need to match the hint_id from above
+               
+      //fill in hint text id. Need to match the hint_text_id from above
         var hintTextIds = ["cse103fall2016week1problem1part1",
                   "cse103fall2016week1problem1part2"];
     </script>
 
 
 
-<p>Suppose we have $r1 cards, numbered 1,...,$r1. Suppose that when we pick a card at random the distribution of the card number is uniform. Let \(A\) be the event that number of the card that we picked is smaller or equal to $r2. What is the probability of the event \(A\)?</p><ul><li><strong>Copy</strong> the number of cards here</li></ul>
+<p>A fair coin is tossed $coins times.</p><ul><li>The outcome space for the experiment is the set of all H/T sequences  of length $coins, What is the size of this outcome space?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -43,7 +50,7 @@ hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"
     </customresponse>
 
 
-<ul><li><strong>Copy</strong> the maximal card value in \(A\) here</li></ul>
+<ul><li>Assuming that the coin is fair, all sequences have the same  probability, which is:</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -51,9 +58,33 @@ hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"
     </customresponse>
 
 
-<ul><li>The probability of the event is equal to?</li></ul>
+<ul><li>What is the size of the event set for getting exactly $heads heads?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>What is the probability of getting exactly $heads heads?</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>What is the probability of getting at most $heads heads?</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>What is the probability of getting exactly 6 heads?</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution6\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>
@@ -98,7 +129,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     hint_text, hint_answer = c_hint.conditional_hint(param)
     if not hint_text:
       return
-    hint = string_format.format_c_hint(hint, hint_id, hint_answer, i)
+    hint = string_format.format_c_hint(hint_text, hint_text_id, hint_answer, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 
