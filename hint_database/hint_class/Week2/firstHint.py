@@ -1,5 +1,5 @@
 # Make sure you name your file with className.py
-class className:
+class firstHint:
 	"""
 	Author: <your name>
 	Date: <MM-DD-YYYY HH:MM>
@@ -11,10 +11,10 @@ class className:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-		if (condition):
-			return "hint","hint_solution"
+		if '9' in self.attempt:
+			return "Answer this hint","hint solution"
 		return "", ""
 
 	def get_problems(self):
-		self.problem_list = [("problemType/problemName"), ("problemType/problemName2")]
+		self.problem_list = ["Combinatorics/p10", "Combinatorics/sw10_2_14", "Poker/q2"]
 		return self.problem_list

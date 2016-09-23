@@ -63,7 +63,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     return
   hint = u_hint.universal_hint_w_variables(param, variable_values.keys())
   if hint:
-    hint = string_format.format_u_hint(hint)
+    hint = string_format.format_u_hint(hint, hint_id, i)
   else:
     hint_text, hint_answer = c_hint.conditional_hint_w_variables(param, variable_values.keys())
     if not hint_text:

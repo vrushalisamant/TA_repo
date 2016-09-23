@@ -1,7 +1,8 @@
 import cluster_functions
+from search import search
 
-def conditional_hint(p):
-    return "This is a hint. Please type 888 below", "888"
+def conditional_hint(id_str, p):
+    return search(id_str, p)
 
 def conditional_hint_w_variables(p, variables):
     """
