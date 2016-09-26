@@ -1,5 +1,4 @@
-# Make sure you name your file with className.py
-class Printout:
+class NumericalAnswer:
 	"""
 	Author: Yoav Freund
 	Date: 9/25/2016
@@ -11,12 +10,12 @@ class Printout:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-                print 'attempt=',self.attempt
-                print 'attempt_tree=\n',self.att_tree
-                print '\nanswer=',self.answer
-                print 'answer tree=\n',self.ans_tree
+                if len(self.att_tree)==4 and self.att_tree[0]=='X':
+                        return 'Incorrect answer, please write an expression, not the final numerical result',''
 		return "", ""
 
 	def get_problems(self):
 		self.problem_list = []
 		return self.problem_list
+
+    
