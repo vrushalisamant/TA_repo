@@ -10,10 +10,14 @@
 
 * Run test.py
 
-    python test.py
+```
+python test.py <week_no> <problem_no> <part_no> <no of attempts tested> <name of hint filter> 
+```
+for example:
 
-* Type in your week id problem id and part id. (Make sure it match the problem info files)
-
+```
+python test.py 2 13 1 10 firstHint
+```
 * Read the output to make sure it is correct.
 
 * Run update_dictionary.py

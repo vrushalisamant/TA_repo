@@ -34,11 +34,15 @@ def check_final_answer(params,tol = 1+1e-3):
 
 
 if __name__ == "__main__":
-    week = raw_input("Week ID:")
-    problem = raw_input("Problem ID:")
-    part = raw_input("Part_ID:")
-    test_length = raw_input("How many samples you want to see:")
-    file_path = raw_input("Type in name of your class:\n")
+    import sys
+    print 'argv=',sys.argv
+    week,problem,part,test_length,file_path=sys.argv[1:]
+
+#    week = raw_input("Week ID:")
+#    problem = raw_input("Problem ID:")
+#    part = raw_input("Part_ID:")
+#    test_length = raw_input("How many samples you want to see:")
+#    file_path = raw_input("Type in name of your class:\n")
 
 
     '''Read data file'''
