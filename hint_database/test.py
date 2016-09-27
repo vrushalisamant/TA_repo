@@ -125,25 +125,26 @@ def all_hints_test(path,testdata):
                 print "Correct answer!"
             else:
                 universal_hint = ""
-                for f_name in universal_hint_files:
-                    f_address = uni_package_name + "." + f_name
-                    try:
-                        uni_f = locate(f_address)
-                    except:
-                        traceback.print_exc()
-                        sys.exit("ERROR: syntax error in universal hint function!!")
+                if len(p['att_tree']) > 1:
+                    for f_name in universal_hint_files:
+                        f_address = uni_package_name + "." + f_name
+                        try:
+                            uni_f = locate(f_address)
+                        except:
+                            traceback.print_exc()
+                            sys.exit("ERROR: syntax error in universal hint function!!")
 
-                    try:
-                        universal_hint = uni_f.check_attempt(params)
-                    except:
-                        traceback.print_exc()
-                        sys.exit("ERROR: syntax error in universal hint function!!")
+                        try:
+                            universal_hint = uni_f.check_attempt(params)
+                        except:
+                            traceback.print_exc()
+                            sys.exit("ERROR: syntax error in universal hint function!!")
 
+                        if universal_hint:
+                            print universal_hint
+                            break
                     if universal_hint:
-                        print universal_hint
-                        break
-                if universal_hint:
-                    continue
+                        continue
 
                 hint = ""
                 for class_name in hint_classes:
