@@ -325,9 +325,11 @@ def p_error(p):
 #     yacc.token()
 
 # START lex and yacc
-lexer = WebworkLexer(debug=True)
+#lexer = WebworkLexer(debug=True)
+lexer = WebworkLexer()
 tokens = lexer.tokens
-parser = yacc.yacc(debug=True)
+#parser = yacc.yacc(debug=True)
+parser = yacc.yacc()
 
 # set up debugging.
 

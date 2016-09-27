@@ -1,8 +1,8 @@
 # Make sure you name your file with className.py
-class Printout:
+class firstHint:
 	"""
-	Author: Yoav Freund
-	Date: 9/25/2016
+	Author: <your name>
+	Date: <MM-DD-YYYY HH:MM>
 	"""
 
 	def check_attempt(self, params):
@@ -11,12 +11,10 @@ class Printout:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-                print 'attempt=',self.attempt
-                print 'attempt_tree=\n',self.att_tree
-                print '\nanswer=',self.answer
-                print 'answer tree=\n',self.ans_tree
+		if '9' in self.attempt:
+			return "1st test hint","1st hint solution"
 		return "", ""
 
 	def get_problems(self):
-		self.problem_list = []
+		self.problem_list = ["Combinatorics/p10", "Combinatorics/sw10_2_14", "Poker/q2"]
 		return self.problem_list
