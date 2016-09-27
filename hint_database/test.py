@@ -86,18 +86,24 @@ def single_hint_test(path,testdata):
 
 
 def all_hints_test(path,testdata):
+    'Read universal hint functions'''
+    uni_folder_name = 'hint_class/Universal'
+    uni_package_name = uni_folder_name.replace('/', '.')#"".join(package_name.split('/')[-1])
+    universal_hint_files = []
+    for f in listdir(os.path.expanduser(uni_folder_name)):
+        if isfile(join(os.path.expanduser(uni_folder_name), f)) and \
+                f.endswith('.py') and f != '__init__.py':
+            universal_hint_files.append(os.path.splitext(f)[0])
+
     'Read hint class'''
     folder_name = path
     package_name = folder_name.replace('/', '.')#"".join(package_name.split('/')[-1])
-    hint_class_files = []
+    hint_classes = []
     for f in listdir(os.path.expanduser(folder_name)):
         if isfile(join(os.path.expanduser(folder_name), f)) and \
                 f.endswith('.py') and f != '__init__.py' and f != 'template.py':
-            hint_class_files.append(f)
+            hint_classes.append(os.path.splitext(f)[0])
 
-    hint_classes = []
-    for n in hint_class_files:
-        hint_classes.append(os.path.splitext(n)[0])
 
     i = 1
 
@@ -118,6 +124,27 @@ def all_hints_test(path,testdata):
             if match==ans_tree or check_final_answer(params):
                 print "Correct answer!"
             else:
+                universal_hint = ""
+                for f_name in universal_hint_files:
+                    f_address = uni_package_name + "." + f_name
+                    try:
+                        uni_f = locate(f_address)
+                    except:
+                        traceback.print_exc()
+                        sys.exit("ERROR: syntax error in universal hint function!!")
+
+                    try:
+                        universal_hint = uni_f.check_attempt(params)
+                    except:
+                        traceback.print_exc()
+                        sys.exit("ERROR: syntax error in universal hint function!!")
+
+                    if universal_hint:
+                        print universal_hint
+                        break
+                if universal_hint:
+                    continue
+
                 hint = ""
                 for class_name in hint_classes:
                     class_address = package_name + "." + class_name + "." + class_name
