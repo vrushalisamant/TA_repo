@@ -15,7 +15,7 @@ from pydoc import locate
 import os
 import traceback
 from os import listdir
-from os.path import isfile, join
+from os.path import isfile, join, expanduser, splitext
 
 def check_final_answer(params,tol = 1+1e-3):
     att_tree = params['att_tree']
@@ -40,26 +40,26 @@ def get_all_classes(path):
     'Read first universal hint functions'''
     uni_folder_name = 'hint_class/first_Universal'
     first_universal_hint_files = []
-    for f in listdir(os.path.expanduser(uni_folder_name)):
-        if isfile(join(os.path.expanduser(uni_folder_name), f)) and \
+    for f in listdir(expanduser(uni_folder_name)):
+        if isfile(join(expanduser(uni_folder_name), f)) and \
                 f.endswith('.py') and f != '__init__.py':
-            first_universal_hint_files.append(os.path.splitext(f)[0])
+            first_universal_hint_files.append(splitext(f)[0])
 
     'Read hint class'''
     folder_name = path
     hint_classes = []
-    for f in listdir(os.path.expanduser(folder_name)):
-        if isfile(join(os.path.expanduser(folder_name), f)) and \
+    for f in listdir(expanduser(folder_name)):
+        if isfile(join(expanduser(folder_name), f)) and \
                 f.endswith('.py') and f != '__init__.py' and f != 'template.py':
-            hint_classes.append(os.path.splitext(f)[0])
+            hint_classes.append(splitext(f)[0])
 
     'Read last universal hint functions'''
     l_uni_folder_name = 'hint_class/last_Universal'
     last_universal_hint_files = []
-    for f in listdir(os.path.expanduser(l_uni_folder_name)):
-        if isfile(join(os.path.expanduser(l_uni_folder_name), f)) and \
+    for f in listdir(expanduser(l_uni_folder_name)):
+        if isfile(join(expanduser(l_uni_folder_name), f)) and \
                 f.endswith('.py') and f != '__init__.py':
-            last_universal_hint_files.append(os.path.splitext(f)[0])
+            last_universal_hint_files.append(splitext(f)[0])
 
 
     return first_universal_hint_files, hint_classes, last_universal_hint_files
@@ -79,6 +79,10 @@ def single_hint_test(path, new_class_name, testdata):
             continue
 
         params = make_params(answer,attempt)
+
+        if params == {}:
+            continue
+
         match = find_matches(params)
         ans_tree = params['ans_tree'][0]
         if match==ans_tree or check_final_answer(params):

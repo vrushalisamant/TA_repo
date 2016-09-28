@@ -9,5 +9,5 @@ def check_attempt(params):
                 if attempt_piece != ans_piece:
                     return 'The sub-expression {0} is correct, it could also be written as {1}'.format(attempt_piece,ans_piece)
                 else:
-                    return 'The sub-expression {0} is correct'.fromat(attempt_piece)
+                    return 'The sub-expression {0} is correct'.format(attempt_piece)
     return ""
