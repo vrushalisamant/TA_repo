@@ -1,4 +1,5 @@
 import markdown
+import json
 
 def read_md(contents):
 	start_index = contents.index("```python\n")
@@ -40,10 +41,11 @@ def convert_html(html_code, template):
 if __name__ == "__main__":
 	week = raw_input("Week ID:")
 	problem = raw_input("Problem ID:")
-	input_file_name = "markdown_files/Week{0}_Problem{1}.md".format(week, problem)
-	output_file_name = "output_files/Week{0}_Problem{1}.xml".format(week, problem)
-	#input_file_name = "markdown_files/sample.md"
-	#output_file_name = "output_files/sample_output.xml"
+	mapping = json.loads(open("problems_mapping.json").read())
+	mapping_key = "Week{0}_Problem{1}".format(week, problem)
+	file_name = mapping[mapping_key]
+	input_file_name = "problem_source_files/{0}.md".format(file_name)
+	output_file_name = "problem_XML_files/{0}.xml".format(mapping_key)
 	template_file = "template.xml"
 
 	f = open(template_file, "r")

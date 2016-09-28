@@ -37,7 +37,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Consider strings of length $n2 made out of the 26 lower case letters"a-z". Suppose that order matters and that the same letter can occurmultiple times.</p><ul><li>How many strings of length $n2 consisting of lower case English letters are there?</li></ul>
+<p>Consider strings of length $n made out of the 26 lower case letters"a-z". Suppose that order matters and that the same letter can occurmultiple times.</p><ul><li>How many strings of length $n consisting of lower case English letters are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -45,7 +45,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>excluding the letter "x"</strong>, are there?</li></ul>
+<ul><li>How many strings of length $n consisting of lower case English letters, <strong>excluding the letter "x"</strong>, are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -53,7 +53,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>and including at least one "x"</strong>, are there?</li></ul>
+<ul><li>How many strings of length $n consisting of lower case English letters, <strong>and including at least one "x"</strong>, are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -95,7 +95,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     return
   hint = u_hint.universal_hint(param)
   if hint:
-    hint = string_format.format_u_hint(hint)
+    hint = string_format.format_u_hint(hint, hint_text_id, i)
   else:
     hint_text, hint_answer = c_hint.conditional_hint(param)
     if not hint_text:

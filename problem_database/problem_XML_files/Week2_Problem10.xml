@@ -11,7 +11,7 @@ r2 = random.randrange(5,r1,1)
 solution1 = "1/{0}".format(r1)
 solution2 = "({1}-1)/{0}".format(r1,r2)
 solution3 = "({0}-{1})/{0}".format(r1,r2)
-solution3 = "1"
+solution4 = "1"
 
 # Group all solutions into a list
 solutions = [solution1, solution2, solution3]
@@ -105,7 +105,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
     return
   hint = u_hint.universal_hint(param)
   if hint:
-    hint = string_format.format_u_hint(hint)
+    hint = string_format.format_u_hint(hint, hint_text_id, i)
   else:
     hint_text, hint_answer = c_hint.conditional_hint(param)
     if not hint_text:
