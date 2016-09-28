@@ -11,6 +11,7 @@ class Printout:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
+                print 'printout'
                 print 'attempt_tree=\n',self.att_tree
                 print 'answer tree=\n',self.ans_tree
 		return "", ""
