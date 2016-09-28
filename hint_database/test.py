@@ -4,8 +4,8 @@
 #
 # NOTICE: Name of the hint class has to be the same as the hint class file
 #
-# Name: Zeng Fan
-# Date: Sep 26, 2016
+# Name: Zeng Fan / Zhen Zhai
+# Date: Sep 27, 2016
 from hint_class_helpers.make_params import make_params
 from hint_class_helpers.find_matches import find_matches
 from hint_class_helpers.get_numerical_answer import get_numerical_answer
@@ -36,74 +36,164 @@ def check_final_answer(params,tol = 1+1e-3):
         return False
 
 
-def single_hint_test(path,testdata):
-    'Read hint class'''
-    folder_name,hint_class_name = os.path.split(path)
-    hint_class = os.path.splitext(hint_class_name)[0]
-    package_name = folder_name.replace('/', '.')#"".join(package_name.split('/')[-1])
-    class_address = package_name + "." + hint_class + "." + hint_class
-    print class_address
-    try:
-        ClassName = locate(class_address)
-    except:
-        traceback.print_exc()
-        sys.exit("ERROR: syntax error in HINT CLASS!!")
-
-    try:
-        hint_instance = ClassName()
-    except TypeError:
-        sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
-
-    i = 1
-
-    for test in testdata:
-        print "\nUserID:",i
-        i+=1
-        attempt = test['attempt']
-        answer = test['answer']
-        print "attempt:",attempt
-        print "answer:",answer
-
-        if not attempt:
-            print "Attempt is empty"
-        else:
-            params = make_params(answer,attempt)
-            match = find_matches(params)
-            ans_tree = params['ans_tree'][0]
-            if match==ans_tree or check_final_answer(params):
-                print "Correct answer!"
-            else:
-                try:
-                    hint, hint_ans = hint_instance.check_attempt(params)
-                except:
-                    traceback.print_exc()
-                    sys.exit("ERROR: syntax error in HINT CLASS!!")
-
-                if not hint:
-                    print "Hint does not hit"
-                else:
-                    print hint, hint_ans
-
-
-def all_hints_test(path,testdata):
-    'Read universal hint functions'''
-    uni_folder_name = 'hint_class/Universal'
-    uni_package_name = uni_folder_name.replace('/', '.')#"".join(package_name.split('/')[-1])
-    universal_hint_files = []
+def get_all_classes(path):
+    'Read first universal hint functions'''
+    uni_folder_name = 'hint_class/first_Universal'
+    first_universal_hint_files = []
     for f in listdir(os.path.expanduser(uni_folder_name)):
         if isfile(join(os.path.expanduser(uni_folder_name), f)) and \
                 f.endswith('.py') and f != '__init__.py':
-            universal_hint_files.append(os.path.splitext(f)[0])
+            first_universal_hint_files.append(os.path.splitext(f)[0])
 
     'Read hint class'''
     folder_name = path
-    package_name = folder_name.replace('/', '.')#"".join(package_name.split('/')[-1])
     hint_classes = []
     for f in listdir(os.path.expanduser(folder_name)):
         if isfile(join(os.path.expanduser(folder_name), f)) and \
                 f.endswith('.py') and f != '__init__.py' and f != 'template.py':
             hint_classes.append(os.path.splitext(f)[0])
 
+    'Read last universal hint functions'''
+    l_uni_folder_name = 'hint_class/last_Universal'
+    last_universal_hint_files = []
+    for f in listdir(os.path.expanduser(l_uni_folder_name)):
+        if isfile(join(os.path.expanduser(l_uni_folder_name), f)) and \
+                f.endswith('.py') and f != '__init__.py':
+            last_universal_hint_files.append(os.path.splitext(f)[0])
+
+
+    return first_universal_hint_files, hint_classes, last_universal_hint_files
+
+
+def single_hint_test(path, new_class_name, testdata):
+    first_u_hints, hint_classes, last_u_hints = get_all_classes(path)
+    hint_classes.remove(new_class_name)
+    
+    i = 1
+
+    for test in testdata:
+        attempt = test['attempt']
+        answer = test['answer']
+        if not attempt:
+            print "Attempt is empty"
+            continue
+
+        params = make_params(answer,attempt)
+        match = find_matches(params)
+        ans_tree = params['ans_tree'][0]
+        if match==ans_tree or check_final_answer(params):
+            print "Correct answer!"
+            continue
+
+        hint = ""
+        # try first universal hints
+        package_name = 'hint_class.first_Universal'
+        if len(params['att_tree']) > 1:
+            for f_name in first_u_hints:
+                f_address = package_name + "." + f_name
+                try:
+                    uni_f = locate(f_address)
+                except:
+                    traceback.print_exc()
+                    sys.exit("ERROR: syntax error in universal hint function!!")
+
+                try:
+                    hint = uni_f.check_attempt(params)
+                except:
+                    traceback.print_exc()
+                    sys.exit("ERROR: syntax error in universal hint function!!")
+
+                if hint:
+                    break
+            if hint:
+                continue
+
+        # try conditional hints
+        folder_name = path
+        package_name = folder_name.replace('/', '.')
+        for class_name in hint_classes:
+            class_address = package_name + "." + class_name + "." + class_name
+            try:
+                ClassName = locate(class_address)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+            try:
+                hint_instance = ClassName()
+            except TypeError:
+                sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+
+            try:
+                hint, hint_ans = hint_instance.check_attempt(params)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+            if hint:
+                break
+        if hint:
+            continue
+
+
+        print "\nUserID:",i
+        i+=1
+        print "attempt:",attempt
+        print "answer:",answer
+
+        # Try new hint
+        class_address = package_name + "." + new_class_name + "." + new_class_name
+        try:
+            ClassName = locate(class_address)
+        except:
+            traceback.print_exc()
+            sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+        try:
+            hint_instance = ClassName()
+        except TypeError:
+            sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+
+        try:
+            hint, hint_ans = hint_instance.check_attempt(params)
+        except:
+            traceback.print_exc()
+            sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+        if hint:
+            print "hint:", hint
+            print "solution:", hint_ans
+            continue
+
+        # Try last universal hint
+        package_name = 'hint_class.last_Universal'
+        last_universal_hint = ""
+        for f_name in last_u_hints:
+            f_address = package_name + "." + f_name
+            try:
+                uni_f = locate(f_address)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in universal hint function!!")
+
+            try:
+                hint = uni_f.check_attempt(params)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in universal hint function!!")
+
+            if hint:
+                print "hint:", hint
+                break
+
+        if not hint:
+            print "Hint does not hit!"
+
+
+
+
+def all_hints_test(path,testdata):
+    first_u_hints, hint_classes, last_u_hints = get_all_classes(path)
 
     i = 1
 
@@ -117,61 +207,92 @@ def all_hints_test(path,testdata):
 
         if not attempt:
             print "Attempt is empty"
-        else:
-            params = make_params(answer,attempt)
-            match = find_matches(params)
-            ans_tree = params['ans_tree'][0]
-            if match==ans_tree or check_final_answer(params):
-                print "Correct answer!"
-            else:
-                universal_hint = ""
-                if len(p['att_tree']) > 1:
-                    for f_name in universal_hint_files:
-                        f_address = uni_package_name + "." + f_name
-                        try:
-                            uni_f = locate(f_address)
-                        except:
-                            traceback.print_exc()
-                            sys.exit("ERROR: syntax error in universal hint function!!")
+            continue
 
-                        try:
-                            universal_hint = uni_f.check_attempt(params)
-                        except:
-                            traceback.print_exc()
-                            sys.exit("ERROR: syntax error in universal hint function!!")
+        params = make_params(answer,attempt)
+        match = find_matches(params)
+        ans_tree = params['ans_tree'][0]
+        if match==ans_tree or check_final_answer(params):
+            print "Correct answer!"
+            continue
 
-                        if universal_hint:
-                            print universal_hint
-                            break
-                    if universal_hint:
-                        continue
+        # try first universal hints
+        package_name = 'hint_class.first_Universal'
+        universal_hint = ""
+        if len(params['att_tree']) > 1:
+            for f_name in first_u_hints:
+                f_address = package_name + "." + f_name
+                try:
+                    uni_f = locate(f_address)
+                except:
+                    traceback.print_exc()
+                    sys.exit("ERROR: syntax error in universal hint function!!")
 
-                hint = ""
-                for class_name in hint_classes:
-                    class_address = package_name + "." + class_name + "." + class_name
-                    try:
-                        ClassName = locate(class_address)
-                    except:
-                        traceback.print_exc()
-                        sys.exit("ERROR: syntax error in HINT CLASS!!")
+                try:
+                    universal_hint = uni_f.check_attempt(params)
+                except:
+                    traceback.print_exc()
+                    sys.exit("ERROR: syntax error in universal hint function!!")
 
-                    try:
-                        hint_instance = ClassName()
-                    except TypeError:
-                        sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+                if universal_hint:
+                    print universal_hint
+                    break
+            if universal_hint:
+                continue
 
-                    try:
-                        hint, hint_ans = hint_instance.check_attempt(params)
-                    except:
-                        traceback.print_exc()
-                        sys.exit("ERROR: syntax error in HINT CLASS!!")
 
-                    if hint:
-                        print hint, hint_ans
-                        break
+        # try conditional hints
+        folder_name = path
+        package_name = folder_name.replace('/', '.')#"".join(package_name.split('/')[-1])
 
-                if not hint:
-                    print "Hint does not hit!"
+        hint = ""
+        for class_name in hint_classes:
+            class_address = package_name + "." + class_name + "." + class_name
+            try:
+                ClassName = locate(class_address)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+            try:
+                hint_instance = ClassName()
+            except TypeError:
+                sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+
+            try:
+                hint, hint_ans = hint_instance.check_attempt(params)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+            if hint:
+                print hint, hint_ans
+                break
+
+
+        # Try last universal hint
+        package_name = 'hint_class.last_Universal'
+        last_universal_hint = ""
+        for f_name in last_u_hints:
+            f_address = package_name + "." + f_name
+            try:
+                uni_f = locate(f_address)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in universal hint function!!")
+
+            try:
+                last_universal_hint = uni_f.check_attempt(params)
+            except:
+                traceback.print_exc()
+                sys.exit("ERROR: syntax error in universal hint function!!")
+
+            if last_universal_hint:
+                print "hint:", last_universal_hint
+                break
+
+        if not hint:
+            print "Hint does not hit!"
 
 
 
@@ -212,11 +333,10 @@ if __name__ == "__main__":
     testdata = problem_data[0:int(test_length)]
     testdata = tuple(testdata)
 
+    path = 'hint_class/Week{0}'.format(week)
     if class_name:
-        path = 'hint_class/Week{0}/{1}.py'.format(week, class_name)
-        single_hint_test(path,testdata)
+        single_hint_test(path, class_name, testdata)
     else:
-        path = 'hint_class/Week{0}'.format(week)
         all_hints_test(path,testdata)
 
 
