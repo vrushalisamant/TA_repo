@@ -9,7 +9,7 @@ heads = coins-1
 solution1 = "2^{{{0}}}".format(coins)
 solution2 = "1/2^{{{0}}}".format(coins)
 solution3 = "{0}!/({0}-1)!".format(coins)
-solution4 = "{0}!/({0}-1)!)/2^{{{0}}}".format(coins)
+solution4 = "{0}!/({0}-1)!/2^{{{0}}}".format(coins)
 solution5 = "1-1/2^{{{0}}}".format(coins)
 solution6 = "({0}!/(6!({0}-6)!))/2^{{{0}}}".format(coins)
 

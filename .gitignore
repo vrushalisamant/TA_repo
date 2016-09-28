@@ -1,2 +1,4 @@
-*.pyc
-*.out
+.pyc
+.out
+hint_database/parsetab.py
+
