@@ -1,5 +1,7 @@
 ## How to create and add hint
 
+* Start by forking this repo.
+
 * Go to ```2015data``` and in the corresponding week, look through the history data to fill in some hint in the hint table.
 
 * Create your hint class in ```hint_class``` folder in the corresponding week.
@@ -23,4 +25,4 @@ python test.py 2 13 1 10 firstHint
 
 * Read the output to make sure it is correct.
 
-* Push to github.
+* Do a pull request
