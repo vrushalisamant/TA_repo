@@ -98,13 +98,13 @@ def single_hint_test(path, new_class_name, testdata):
                 try:
                     uni_f = locate(f_address)
                 except:
-                    traceback.print_exc()
+                    #traceback.print_exc()
                     sys.exit("ERROR: syntax error in universal hint function!!")
 
                 try:
                     hint = uni_f.check_attempt(params)
                 except:
-                    traceback.print_exc()
+                    #traceback.print_exc()
                     sys.exit("ERROR: syntax error in universal hint function!!")
 
                 if hint:

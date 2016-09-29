@@ -59,10 +59,8 @@
 ### Running translator script
 * open terminal to run
 
-		python translate.py
+		python translate.py <week_id> <problem_id>
 
-* input week id and problem id
-
-* find output file in output_files folder
+* find output file in ```output_files``` folder
 
 * copy paste content to edX to test
