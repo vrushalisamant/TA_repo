@@ -65,6 +65,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
       for (var i=0; i != hint_number; i++) {
         hide_hint(i);
       }
+      show_hint(hint_number);
     </script>
 
   </text>

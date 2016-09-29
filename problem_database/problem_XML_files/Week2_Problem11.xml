@@ -13,20 +13,23 @@ solution2 = "1/13"
 # Group all solutions into a list
 solutions = [solution1, solution2]
 
-# hint id
-hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
     <script type="text/javascript">
       //fill in number of hint
         var hint_number = 2;
+
       //fill in hint input box id
         var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
                 "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
       //fill in problem input box id
         var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
                "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
-      //fill in hint text id. Need to match the hint_id from above
+               
+      //fill in hint text id. Need to match the hint_text_id from above
         var hintTextIds = ["cse103fall2016week1problem1part1",
                   "cse103fall2016week1problem1part2"];
     </script>
@@ -57,10 +60,7 @@ hint_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"
 
     <script type="loncapa/python">
 from hint import evaluate
-from hint import cluster_functions
-from hint import universal_hints as u_hint
-from hint import conditional_hints as c_hint
-from hint import format as string_format
+from hint import get_hint
 
 # grader of the problem
 def check(expect, ans):
@@ -78,17 +78,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
   if new_cmap[key]['correctness'] == "correct":
     return
 
-  param = cluster_functions.make_params(solutions[i], ans)
-  if param == {}:
-    return
-  hint = u_hint.universal_hint(param)
-  if hint:
-    hint = string_format.format_u_hint(hint)
-  else:
-    hint_text, hint_answer = c_hint.conditional_hint(param)
-    if not hint_text:
-      return
-    hint = string_format.format_c_hint(hint, hint_id, hint_answer, i)
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 
@@ -98,6 +88,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
       for (var i=0; i != hint_number; i++) {
         hide_hint(i);
       }
+      show_hint(hint_number);
     </script>
 
   </text>
