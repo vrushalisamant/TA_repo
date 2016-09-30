@@ -1,4 +1,4 @@
-## Markdown files to XML files
+## Markdown files to XML files(Moved to [TA_repo](https://github.com/cse103/TA_repo/tree/master/problem_database))
 
 * ```problem_XML_files``` has problems in XML outputed from ```translate.py```
 
@@ -59,10 +59,8 @@
 ### Running translator script
 * open terminal to run
 
-		python translate.py
+		python translate.py <week_id> <problem_id>
 
-* input week id and problem id
-
-* find output file in output_files folder
+* find output file in ```output_files``` folder
 
 * copy paste content to edX to test
