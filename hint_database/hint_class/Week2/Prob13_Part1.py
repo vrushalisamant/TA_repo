@@ -2,7 +2,8 @@
 
 from sets import Set
 
-from Parse_tree_properties import collect_terms
+from hint_class_helpers.find_matches import find_matches
+from hint_class_helpers.parse_tree_properties import collect_terms
 
 class Prob13_Part1:
 	"""
@@ -18,13 +19,13 @@ class Prob13_Part1:
 		self.ans_tree = params['ans_tree'] #solution tree
 
                 # all print commands inside a check_attempt filter are for debugging only and should be disabled before deploying the hint.
-                print 'Prob13_Part1',self.answer,self.attempt #debug print
+                #print 'Prob13_Part1',self.answer,self.attempt #debug print
 
                 #check if the form of the parse tree has the right
                 #shape: an operator and two leafs that correspond to
                 #the operands
                 if len(self.att_tree)==3 and self.att_tree[1][0]=='X' and self.att_tree[2][0]=='X':
-                        print 'attempt_tree=\n',self.att_tree #debug
+                        #print 'attempt_tree=\n',self.att_tree #debug
 
                         # Preparations ---------------------------------------
                         parts={}  # A dictionary of dictionaries that
@@ -38,9 +39,9 @@ class Prob13_Part1:
                                                   'a':tree[1][1],
                                                   'b':tree[2][1]}
                                 operands[tree_name]=Set([tree[1][1], tree[2][1]])
-                                print 'using collect term on',tree_name,collect_terms(tree)
-                        print 'parts=', parts  
-                        print 'operands',operands
+                                #print 'using collect term on',tree_name,collect_terms(tree)
+                        #print 'parts=', parts  
+                        #print 'operands',operands
 
                         # identifying mistakes
                         if parts['att']['b']==2:
@@ -51,14 +52,16 @@ class Prob13_Part1:
                         # answer.
                         unrecognized=operands['att']-operands['ans']
 
-                        print 'unrecognized=',unrecognized
+                        #print 'unrecognized=',unrecognized
                         if len(unrecognized)>0:
-                                hint='The numbers in the question are '+','.join([str(x) for x in operands['ans']])
-                                hint+='. Where did '+','.join([str(x) for x in unrecognized])+\
-                                        ' come from? \n Please replace with expression using the number in the question'
+                                inanswerstring= ','.join([str(x) for x in operands['ans']])
+                                unrecstring=','.join([str(x) for x in unrecognized])
+                                hint='The numbers in the question are: '+inanswerstring
+                                hint+='. Where did '+unrecstring+' come from? \n'
+                                hint+='Please replace '+unrecstring+' with expressions that use the numbers '+inanswerstring
                                 return hint,''
                         
-		return 'Prob13_part1'+str(self.att_tree),""
+		return '',''
 
 	def get_problems(self):
 		self.problem_list = [("Combinatorics/p13",1)]
