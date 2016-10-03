@@ -3,7 +3,7 @@
 from sets import Set
 
 from hint_class_helpers.find_matches import find_matches
-from hint_class_helpers.parse_tree_properties import collect_terms
+from hint_class_helpers.Parse_tree_properties import collect_terms
 
 class Prob13_Part1:
 	"""
@@ -18,13 +18,18 @@ class Prob13_Part1:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
+
+                hint=''
+
                 # all print commands inside a check_attempt filter are for debugging only and should be disabled before deploying the hint.
                 #print 'Prob13_Part1',self.answer,self.attempt #debug print
 
+                if '!' in self.attempt:
+                        hint='The factorial function (!) is not relevant to this question'
                 #check if the form of the parse tree has the right
                 #shape: an operator and two leafs that correspond to
                 #the operands
-                if len(self.att_tree)==3 and self.att_tree[1][0]=='X' and self.att_tree[2][0]=='X':
+                elif len(self.att_tree)==3 and self.att_tree[1][0]=='X' and self.att_tree[2][0]=='X':
                         #print 'attempt_tree=\n',self.att_tree #debug
 
                         # Preparations ---------------------------------------
@@ -34,6 +39,7 @@ class Prob13_Part1:
                         operands={} # A dict of Sets which holds the
                                     # operands in the attempt and the
                                     # operands in the answer.
+                        # extract the relevant parts of the parse tree.
                         for tree_name,tree in [('att',self.att_tree),('ans',self.ans_tree)]:
                                 parts[tree_name]={'op':tree[0][0],
                                                   'a':tree[1][1],
@@ -44,9 +50,19 @@ class Prob13_Part1:
                         #print 'operands',operands
 
                         # identifying mistakes
-                        if parts['att']['b']==2:
-                                return 'It seems that you have the order of the operands reversed, What is the number of binary strings of length 3? [_]','2^3'
+                        if not parts['att']['op'] in ['^','**']:
+                                hint='The operator you are using: '+parts['att']['op']+' is incorrect,'
+                        elif parts['att']['b']==parts['ans']['a'] and parts['att']['a']==parts['ans']['b']:
+                                hint='It seems that you have the order of the operands reversed, '
+                        elif parts['att']['a'] != parts['ans']['a']:
+                                hint='The first operand should not be '+str(parts['att']['a'])
+                        elif parts['att']['b'] != parts['ans']['b']:
+                                hint='The second operand should not be '+str(parts['att']['b'])
                         
+                if len(hint)>0:
+                        return hint+'\nWhat is the number of binary strings of length 3? [_]','2^3'
+
+                else:
                         # unrecognized = the set of terms (numbers)
                         # that appear in the attempt but not in the
                         # answer.
