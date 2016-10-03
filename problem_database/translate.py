@@ -41,14 +41,14 @@ def convert_html(html_code, template):
 
 if __name__ == "__main__":
 	if sys.argv[1] == "--help":
-        print("Please type in parameters as follow:")
-        print("python translate.py <Week ID> <Problem ID>")
-        sys.exit()
+		print "Please type in parameters as follow:"
+		print "python translate.py <Week ID> <Problem ID>"
+		sys.exit()
 
-    try:
-        week,problem= sys.argv[1:]
-    except:
-        sys.exit("Error, see 'python translate.py --help' for input requirement")
+	try:
+		week,problem= sys.argv[1:]
+	except:
+		sys.exit("Error, see 'python translate.py --help' for input requirement")
 	#week = raw_input("Week ID:")
 	#problem = raw_input("Problem ID:")
 	mapping = json.loads(open("problems_mapping.json").read())

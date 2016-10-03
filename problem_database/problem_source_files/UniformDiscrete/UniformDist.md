@@ -14,23 +14,21 @@ solution4 = "1"
 solutions = [solution1, solution2, solution3]
 
 ```
-Suppose we have a stack of $r1 cards, numbered 1,...,$r1. Suppose we
-pick a pcard uniformly at random (i.e. all cards have the same
-probability of being picked).
+Suppose we have a stack of $r1 cards, numbered 1,...,$r1. Suppose we pick a card uniformly at random (i.e. all cards have the same probability of being picked).
 
 
-* what is the the probability that the number on the card we picked is
-  equal to $r2 ?
+* What is the probability that the number on the card we picked is
+  equal to $r2?
 
 [_]
 
-* what is the the probability that the number on the card we picked is
-  smaller than $r2 ?
+* What is the probability that the number on the card we picked is
+  smaller than $r2?
 
 [_]
 
-* what is the the probability that the number on the card we picked is
-  larger than $r2 ?
+* What is the probability that the number on the card we picked is
+  larger than $r2?
 
 [_]
 
