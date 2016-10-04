@@ -1,0 +1,100 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+R1=random.randrange(7,15,1)    # number of cards
+R2=random.randrange(2,R1-1,1)    # number of envelopes
+
+solution1 = "{1}^{{{0}}}".format(R1,R2)
+solution2 = "C({0}+{1}-1,{0})".format(R1,R2)
+solution3 = "C({0}-1,{0}-{1})".format(R1,R2)
+
+solutions = [solution1, solution2, solution3]
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>Suppose we have $R1 cards and $R2 envelopes to put them in. The envelopes are marked (1,...,$R2).We will calculate the number of ways to put the cards into the envelopes under different conditions.</p><ol><li><p>Suppose all the cards are <em>distinct</em> (i.e. are numbered    (1,2,....,$R1)). How many ways are there to place cards into    envelopes?    As should be expected from the first part of a question, this is    an easy one. Think of placing the cards into envelopes in the    following way: take the first card and choose an envelope for it,    then take the second card and choose an envelope for it etc. Until    all of the cards have been placed. Clearly we can get any possible    combination this way. It takes a little thought, but you can also    convince yourself that there is only <em>one</em> way to get each    combination. In other words, there is no overcounting.</p><p>Counting the number of combinations we get this way is simple. At each of the $R1 step we place one card in one of the $R2envelopes. Taking the product over all of these steps we get thatthe number of combinations is </p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+</li><li><p>Suppose that cards are <em>identical</em>. (The envelopes remain distinct)    How many combinations are possible in this case?</p><p>Consider the difference between part 1 and part 2. In part 1, each configurationspecified exactly <em>which</em> cards were placed in each envelope. Herethe cards are identical, therefor we can only say how <em>many</em> cardsare in each envelope, but we cannot identify them.</p><p>Thinking of the problem this way, we realize that it ismathematically equivalent to the problem of choosing $R1 candieswhen there are $R2 <em>types</em> of candy to choose from. As the Candiesare indistinguishable, we are only interested in the number ofcandies chosen from each type. The correspondence is card &lt;-&gt; candy and candy type &lt;-&gt; envelope.</p><p>If you go back to this problem, you will recall the formula for it and use it to get theanswer: </p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+</li><li><p>Suppose the cards are identical as in 2. and, in addition, we    require that each envelope contain at least one card.  In this    case we first have to check that the number of cards is at least    as large as the number of envelopes, otherwise there will be no    way to satisfy the requirements. Luckily (thanks to the magic of    WebWork) $R1&gt;$R2.</p><p>OK, good. Now we can proceed in two steps, first, take $R2 cardsand put one card in each envelope, satisfying the reuirement thateach envelop contains a card. The remaining cards can be placed inany envelope, with no constraints. We now have the same situationwe had in part 2. but where, instead of $R1 cards, we have$R1-$R2=$R1-$R2 cards. We use the same formula that we usedin 2. to find that the answer is</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+</li></ol>
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>
