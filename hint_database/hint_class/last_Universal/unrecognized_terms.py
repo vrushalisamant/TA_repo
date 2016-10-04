@@ -6,8 +6,8 @@ def check_attempt(params):
     unrecognized=set(att_terms) - set(ans_terms)-set([0,1])
     #print 'unrecognized=',unrecognized
     if len(unrecognized)>0:
-        inanswerstring= ','.join([str(x) for x in ans_terms])
-        unrecstring=','.join([str(x) for x in unrecognized])
+        inanswerstring= ','.join([str(x) for x in set(ans_terms)-set([1])])
+        unrecstring=','.join([str(x) for x in set(unrecognized)-set([1])])
         hint='The numbers in the question are: '+inanswerstring
         hint+='. Where did '+unrecstring+' come from? '
         hint+='Please replace '+unrecstring+' with expressions that use the numbers '+inanswerstring
