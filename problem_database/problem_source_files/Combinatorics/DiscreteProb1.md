@@ -5,11 +5,9 @@ RL = R - 1
 solution1 = "{0}^4".format(R)
 solution2 = "4"
 solution3 = "({0}-1)*{0}".format(R)
-solution4 = "{0}*({0}-1)".format(R)
-solution5 = "{0}^4".format(R)
-solution6 = "{0}*({0}-1)/({0}^4)".format(R)
+solution4 = "{0}*({0}-1)/({0}^4)".format(R)
 
-solutions = [solution1,solution2,solution3,solution4,solution5,solution6]
+solutions = [solution1,solution2,solution3,solution4]
 ```
 
 Suppose a seqeunce of 4 digits in the range 1-$R is chosen uniformly
@@ -25,24 +23,16 @@ second digits are unequal?
 
 [_]
 
-* Now we want to compute the size of the set \\\(A\\\). To do that it is useful to realize that we need only concern ourselves with the choices of two digits, say digits 1 and 2.  This is because digit 1 determines the value of digit 3 and digit 2 determines the value of digit 
+* Now we want to compute the size of the set \\\(A\\\). To do that it is useful to realize that we need only concern ourselves with the choices of two digits, say digits 1 and 2.  This is because digit 1 determines the value of digit 3 and digit 2 determines the value of digit
 
 [_]
 
-* Now, how many choices do we have for digit 1? Obviously, any integer in the range \\\(1,\ldots,$R\\\), or $Rchoices. Once the first digit has been chosen, we have one less choice for the second digit, in other words $RL. The size ofthe set \\\(A\\\) is the product of these two numbers,i.e. 
+* Now, how many choices do we have for digit 1? Obviously, any integer in the range \\\(1,\ldots,$R\\\), or $Rchoices. Once the first digit has been chosen, we have one less choice for the second digit, in other words $RL. The size ofthe set \\\(A\\\) is the product of these two numbers,i.e.
 
 [_]
 
 * Putting this all together we get that the probability of \\\(A\\\) is
 
 \\\(P(A)=\\\)
-
-[_]
-
-\\\(/\\\) 
-
-[_]
-
-\\\(=\\\) 
 
 [_]
