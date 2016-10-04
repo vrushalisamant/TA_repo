@@ -214,6 +214,11 @@ def all_hints_test(path,testdata):
             continue
 
         params = make_params(answer,attempt)
+
+
+        if params == {}:
+            continue
+            
         match = find_matches(params)
         ans_tree = params['ans_tree'][0]
         if match==ans_tree or check_final_answer(params):
