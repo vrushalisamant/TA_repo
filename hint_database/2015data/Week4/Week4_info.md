@@ -1,4 +1,23 @@
 ##Week4
+
+        Assigned problem file name:
+        +--------+------------+------------------------------------------------------------------------------+
+        | set_id | problem_id | source_file                                                                  |
+        +--------+------------+------------------------------------------------------------------------------+
+        | Week4  |          1 | Reorganized/CumulativeDistributionFunctions/cdf_rs.pg                        |
+        | Week4  |          2 | Reorganized/CumulativeDistributionFunctions/cumulative_uniform_masses_5.pg   |
+        | Week4  |          3 | local/Reorganized/CumulativeDistributionFunctions/cdf_random.YoavsVersion.pg |
+        | Week4  |          4 | Reorganized/BayesConditional/BayesBurglary_ZZ.pg                             |
+        | Week4  |          5 | Reorganized/BayesConditional/probs_43_with_randomization.pg                  |
+        | Week4  |          6 | Reorganized/PokerConditional/poker_cond4_1.pg                                |
+        | Week4  |          7 | Reorganized/PokerConditional/poker_cond5_1.pg                                |
+        | Week4  |          8 | Reorganized/PokerConditional/poker_cond2_1.pg                                |
+        | Week4  |          9 | Reorganized/PokerConditional/poker_cond3.pg                                  |
+        | Week4  |         10 | Reorganized/PokerConditional/poker_cond6_2.pg                                |
+        +--------+------------+------------------------------------------------------------------------------+
+
+
+
 ### Sorted with number of attempts
 [problem 2](https://github.com/cse103/Attempt_Analysis/blob/master/clustering_code/clusters/Week4/md_files/Week4_2_clusters.md): 3885
 

@@ -328,6 +328,10 @@ if __name__ == "__main__":
 
     try:
         week,problem,part,test_length = sys.argv[1:5]
+        int(week)
+        int(problem)
+        int(part)
+        int(test_length)
         class_name = ""
         if len(sys.argv) > 5:
             class_name = sys.argv[5]
@@ -336,14 +340,22 @@ if __name__ == "__main__":
         else:
             print('Week_ID='+week+', Problem_ID='+problem+', Part_ID='+part+', Sample Numbers='+test_length+'. Don\'t suppress other hints.')
     except:
-        sys.exit("Error, see 'python test.py --help' for input requirement")
+        sys.exit("Error, invalid input. Please see 'python test.py --help' for input requirement")
 
-    '''Read data file'''
-    data_file = "2015data/pkl/Week"+week+"_data.pkl"
+    '''Read data file from 2015 set'''
+    week2015 = week
+    problem2015 = problem
+    if week == '2' and int(problem) > 6:
+        problem2015 = str(int(problem) + 1)
+    elif week == '6':
+        week2015 = '6.2'
+    elif week == '7':
+        week2015 = '7a'
+    data_file = "2015data/pkl/Week"+week2015+"_data.pkl"
     print "Reading ",data_file
     weekdata = pickle.load(open(data_file,'rb'))
 
-    key = (problem,part)
+    key = (problem2015,part)
     problem_data = weekdata[key]
     testdata = problem_data[0:int(test_length)]
     testdata = tuple(testdata)

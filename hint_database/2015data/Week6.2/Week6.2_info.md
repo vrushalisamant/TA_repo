@@ -1,4 +1,23 @@
 ##Week6.2
+
+        Assigned problem file name:
+        +---------+------------+---------------------------------------------------+
+        | set_id  | problem_id | source_file                                       |
+        +---------+------------+---------------------------------------------------+
+        | Week6.2 |          1 | Reorganized/ExponentialPoisson/poisson_zz.pg      |
+        | Week6.2 |          2 | Reorganized/ExponentialPoisson/ur_pb_14_1.pg      |
+        | Week6.2 |          3 | Reorganized/ExponentialPoisson/ur_pb_9_4.pg       |
+        | Week6.2 |          4 | Reorganized/ExponentialPoisson/stat212-HW06-20.pg |
+        | Week6.2 |          5 | Reorganized/ExponentialPoisson/poisson_rs.pg      |
+        | Week6.2 |          6 | Reorganized/ExpectationVariance/probs69.pg        |
+        | Week6.2 |          7 | Reorganized/ExpectationVariance/ExpVarOfSum.pg    |
+        | Week6.2 |          8 | Reorganized/CentralLimitTheorem/ur_pb_12_4.pg     |
+        | Week6.2 |          9 | Reorganized/CentralLimitTheorem/ur_pb_11_7.pg     |
+        | Week6.2 |         10 | Reorganized/CentralLimitTheorem/ur_pb_12_3.pg     |
+        | Week6.2 |         11 | Reorganized/CentralLimitTheorem/clt_demo.pg       |
+        +---------+------------+---------------------------------------------------+
+
+
 ### Sorted with number of attempts
 [problem 9](https://github.com/cse103/Attempt_Analysis/blob/master/clustering_code/clusters/Week6.2/md_files/Week6.2_9_clusters.md): 2205
 

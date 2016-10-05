@@ -16,5 +16,5 @@ class className:
 		return "", ""
 
 	def get_problems(self):
-		self.problem_list = [("problemType/problemName"), ("problemType/problemName2")]
+		self.problem_list = [("problemType/problemName/partId"), ("problemType/problemName2/partId")]
 		return self.problem_list

@@ -1,5 +1,25 @@
 ##Week2
 
+	Assigned problem file name:
+   	+--------+------------+---------------------------------------------+
+   	| set_id | problem_id | source_file                                 |
+   	+--------+------------+---------------------------------------------+
+   	| Week2  |          1 | Reorganized/Sets/BasicSets_1.pg             |
+   	| Week2  |          2 | Reorganized/Sets/q2.pg                      |
+   	| Week2  |          3 | Reorganized/Sets/BasicSets1.pg              |
+   	| Week2  |          4 | Reorganized/Sets/ClassSize.pg               |
+   	| Week2  |          5 | Reorganized/Combinatorics/p10.pg            |
+   	| Week2  |          6 | Reorganized/Combinatorics/sw10_2_14_PGML.pg |
+   	| Week2  |          8 | Reorganized/Combinatorics/p12.pg            |
+   	| Week2  |          9 | Reorganized/Combinatorics/sw10_1_21_pgml.pg |
+   	| Week2  |         10 | Reorganized/Combinatorics/sw10_2_52.pg      |
+   	| Week2  |         11 | Reorganized/UniformDiscrete/UniformDist.pg  |
+   	| Week2  |         12 | Reorganized/UniformDiscrete/UniformDist3.pg |
+   	| Week2  |         13 | Reorganized/Combinatorics/coinProblems.pg   |
+   	| Week2  |         14 | local/Reorganized/Combinatorics/p13.pg      |
+   	+--------+------------+---------------------------------------------+
+
+
 ### Sorted with number of attempts
 [problem 13](https://github.com/cse103/Attempt_Analysis/blob/master/clustering_code/clusters/Week2/md_files/Week2_13_clusters.md): 2248
 
@@ -92,12 +112,149 @@ problem 1（Set Problem): 97
 
 		 part  1 :  12
 		 part  2 :  19
-		 
-		 
+
+
 ### Problem Content
 
 
-Problem 1-4 are problems of Sets
+
+Problem 1
+
+		$min = random(3,6,1);
+		$max = random(10,16,1);
+		@rng = ($min..$max);
+		$rs = Set(join(",",@rng));
+		$S = Set(3,5,7,9,11,13,15);
+		$A = $rs->intersect($S);
+		$Ac = Set(1,2,3,4,5,6);
+
+		######################################################################
+		BEGIN_PGML
+
+		##Mathematical Preliminaries##
+
+		Probability theory is about sets. In the first lesson you encountered
+		the set of possible outcomes of flipping two coins which contains four
+		elements. If we use [`H`] to denote "Heads" and [`T`] to denote
+		"Tails" then the set of possible outcomes, also known as the
+		_outcome space_ contains four elements: [`\{(H,H),(H,T),(T,H),(T,T)\}`]. We say
+		that the outcome space is the set of four _tuples_ . As the
+		concepts of "set" and "tuple" will be used many times throughout
+		the course, we take some pains to define these concepts and the
+		associated notation, in a somewhat formal mathematical way.
+
+		#### Sets ####
+		*Sets* are collections of _elements_ .
+		We will mostly consider sets of numbers, but elements can be most anything.
+
+		A set can be specified by listing its elements between braces, as in
+
+		o The possible outcomes of the roll of a six sided die: [`A= \{1,2,3,4,5,6\}`]
+		o The positive integers: [`\mathbb{Z}^+= \{1,2,\ldots\}`]
+		o The possible outcomes of the flip of a coin: [`C= \{ H,T \}`]
+
+		We say that [`5`] is an element of [`A`] and denote it by [`5 \in A`]. Sets
+		are _unordered_ collections, in other words [`\{1,2,3,4,5,6\} =
+		\{5,2,1,3,4,6\}`]. The number of times an element can appear in a set
+		is either 0 or 1, *an element  cannot appear multiple times
+		in the set*. For that there is a different construct called *bags* which we shall not use in this course.
+
+		Write the set [`A`] given above as the possible outcomes of the roll of a six-sided die. (Separate the elements using commas and surround the list with curly braces as in the examples above.)
+		[______]{$Ac}
+
+		What is the set of odd numbers that are larger than [$min-1] and smaller than [$max+1]?
+		Answer = [______]{$A}
+
+Problem 2
+
+		BEGIN_PGML
+
+		### Union, Intersection, and Complements for Sets of Countries ###
+		Suppose A = {'China','France','Egypt','US'}, B = {x | x is a country in Asia}, C = {x | x is a country not in Europe}.
+
+		In the answer, use the numbers {0,1,2,3} to represent the four countries {'China','France','Egypt','US'}. In other words {'China'}={0}, {'France','US'}={1,3}.
+
+		a. What is the set [`A \cap B`]? The intersection of two sets is the set of elements in both A and B. The set of countries in A that are also in Asia is [_______]{Set(0)}
+
+		b. What is the set [`A \cap C^c`]? The complement of C is the entire outcome space excluding the elements in C. The outcome space here is the set of all countries, and excluding all countries in C, namely non-European countries, we know [`C^c`] means all European countries. When we take its intersection with A, we get [________]{Set(1)}
+
+		c. What is the set [`A \cap (B \cup C)`]? The union of two sets is the set formed by all the elements in both sets. [`B \cup C`] means all countries that are in Asia OR not in Europe. Note that all countries in Asia are not in Europe, which means each element in B is in C, so [`B \subset C`]. In this case, [`B \cup C = C`]. The intersection of this set with A is therefore [_________________]{Set(0,2,3)}
+
+Problem 3
+
+		$isProfessor = ($studentLogin eq 'yoav.freund' || $studentLogin eq 'professor');
+		Context("Interval");
+		$showPartialCorrectAnswers = 1; # show student the correct part of their answer.
+
+		@A_elements=NchooseK(10,8);
+		$A=Set("{".join(",",@A_elements)."}");
+
+		@B_elements=NchooseK(10,6);
+		$B=Set("{".join(",",@B_elements)."}");
+
+		@C_elements=NchooseK(10,7);
+		$C=Set("{".join(",",@C_elements)."}");
+
+		@Universe_elements=NchooseK(10,10);
+		$Universe=Set("{".join(",",@Universe_elements)."}");
+
+		$Ac=Set($Universe-$A);
+		$Bc=Set($Universe-$B);
+		$Cc=Set($Universe-$C);
+
+		BEGIN_PGML
+
+		### More Practice with Set Union, Intersection, Complement ###
+		Let the outcome space be [`\{0,1,...9\}`], and define subsets of this outcome space [`A = [$A]`], [`B = [$B]`], and [`C = [$C]`].  Evaluate the following sets:
+
+		o [`A^c`]?  [_________]{$Ac}
+		o [`B^c`]?  [_________]{$Bc}
+		o [`C^c`]?  [_________]{$Cc}
+		o [`A^c \cup B^c`]? [__________]{Union($Ac,$Bc)}
+		o [`A^c \cup B^c \cup C^c`]? [__________]{Union($Ac,$Bc,$Cc)}
+		o [`(A^c \cup B^c \cup C^c)^c`]? [__________]{$Universe-Union($Ac,$Bc,$Cc)}
+
+		Then evaluate the following sets:
+		o [`A \cap B`]? [__________]{$A->intersect($B)}
+		o [`A \cap B \cap C`]? [__________]{$A->intersect($B)->intersect($C)}
+
+		### De Morgan's Law for Sets ###
+		Notice something?  [`(A^c \cup B^c \cup C^c)^c = A \cap B \cap C`]!  
+
+		This is not a coincidence.  There is a more general underlying fact that holds for sets, and an analogous version for boolean logic.  
+		For any sets [`S_1,S_2,...S_n`], [`(S_1^c \cup S_2^c \cup ...S_n^c)^c = S_1 \cap S_2 ...S_n`]
+
+		Likewise, [`(S_1^c \cap S_2^c \cap ...S_n^c)^c = S_1 \cup S_2 ...S_n`]
+
+Problem 4
+
+		#$Prod=List([List(["R",0]),List(["R",1])]);
+		#$L = Compute("(R,0),(R,1),(G,0),(G,1),(B,0),(B,1)");
+		$L=List("(R,0),(R,1),(G,0),(G,1),(B,0),(B,1)");
+		$L ->{open} = "{";
+		$L ->{close} = "}";
+		$L ->{requireParenMatch}=0;
+
+		$R=random(10,30,1);
+		$K=random(2,6,1);
+		$N=int($R/$K);
+
+		TEXT(PGML::Format2(<<'END_PGML'));
+
+		## The size of a set ##
+
+		The _size_ of a set [`A`] is the number of elements in it and is denoted
+		by [`|A|`]  
+
+		Thus [`|\{H,T\}|=2`],  [`|\emptyset|=0`] and [`|\mathbb{Z}^+|=\infty`]
+
+		#### Problem ####
+
+		1.   What is the size of the set [`\{R,G,B\}`]? [___]{3}
+		2.   What is the size of the set [`\{0,1\}`]? [___]{2}
+		3.   What is the size of the set [` \{0,1,2,3\} \cap \{0,2,4,6,8,10\} `]? [___]{2}
+		4.   Let [`A`] be the set of integers between 1 and [$R]. Let [`B`] be the set of integers divisible by [$K].  What is the size of [`A \cap B`] is [___]{$N}?
+
 
 Problem 5
 
