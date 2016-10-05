@@ -67,7 +67,10 @@ def get_all_classes(path):
 
 def single_hint_test(path, new_class_name, testdata):
     first_u_hints, hint_classes, last_u_hints = get_all_classes(path)
-    hint_classes.remove(new_class_name)
+    try:
+        hint_classes.remove(new_class_name)
+    except:
+        sys.exit('ERROR: Cannot find the input class name')
     
     i = 1
 
