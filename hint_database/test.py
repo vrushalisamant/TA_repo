@@ -323,6 +323,7 @@ if __name__ == "__main__":
     if sys.argv[1] == "--help":
         print("Please type in parameters as follow:")
         print("<Week ID> <Problem ID> <Part ID> <Sample Numbers> <Hint Class Name(Optional)>")
+        print("If you are using 2015 data to test, please type in the week id, problem id, and part id in 2015 data")
         print("If you don't want to suppress other hints, please type in the class name.")
         sys.exit()
 
