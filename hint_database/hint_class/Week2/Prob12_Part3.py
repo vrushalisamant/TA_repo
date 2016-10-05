@@ -33,5 +33,5 @@ class Prob12_Part3:
 
 
 	def get_problems(self):
-		self.problem_list = ["Combinatorics/p12/part3"]
+		self.problem_list = ["Combinatorics/coinProblems/part3"]
 		return self.problem_list
