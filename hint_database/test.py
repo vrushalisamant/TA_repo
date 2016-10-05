@@ -345,12 +345,12 @@ if __name__ == "__main__":
     '''Read data file from 2015 set'''
     week2015 = week
     problem2015 = problem
-    if week == '2' and int(problem) > 6:
-        problem2015 = str(int(problem) + 1)
-    elif week == '6':
-        week2015 = '6.2'
-    elif week == '7':
-        week2015 = '7a'
+    #if week == '2' and int(problem) > 6:
+    #    problem2015 = str(int(problem) + 1)
+    #elif week == '6':
+    #    week2015 = '6.2'
+    #elif week == '7':
+    #    week2015 = '7a'
     data_file = "2015data/pkl/Week"+week2015+"_data.pkl"
     print "Reading ",data_file
     weekdata = pickle.load(open(data_file,'rb'))
