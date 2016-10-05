@@ -63,5 +63,5 @@ class Prob13_Part1:
                         return '',''
 
 	def get_problems(self):
-		self.problem_list = [("Combinatorics/p13",1)]
+		self.problem_list = ["Combinatorics/p13/part1"]
 		return self.problem_list

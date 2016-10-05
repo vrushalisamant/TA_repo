@@ -136,6 +136,7 @@ def single_hint_test(path, new_class_name, testdata):
 
             if hint:
                 break
+
         if hint:
             continue
 
@@ -277,6 +278,8 @@ def all_hints_test(path,testdata):
             if hint:
                 print hint, hint_ans
                 break
+        if hint:
+            continue
 
 
         # Try last universal hint
