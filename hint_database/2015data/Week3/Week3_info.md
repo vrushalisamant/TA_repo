@@ -1,5 +1,26 @@
 ##Week3
 
+        Assigned problem file name:
+        +--------+------------+------------------------------------------------------------+
+        | set_id | problem_id | source_file                                                |
+        +--------+------------+------------------------------------------------------------+
+        | Week3  |          1 | local/Reorganized/Combinatorics/sw10_2_21_PGML.pg          |
+        | Week3  |          2 | local/Reorganized/Combinatorics/GrinsteadSnell3.2.18.pg    |
+        | Week3  |          3 | Reorganized/Combinatorics/GrinsteadSnell3.2.10.pg          |
+        | Week3  |          4 | Reorganized/Combinatorics/DiscreteProb1.pg                 |
+        | Week3  |          5 | Reorganized/Combinatorics/q1.pg                            |
+        | Week3  |          6 | Reorganized/Combinatorics/withoutReplacementExplanation.pg |
+        | Week3  |          7 | Reorganized/Combinatorics/PigeonHole_PGML_ZZ.pg            |
+        | Week3  |          8 | Reorganized/Combinatorics/BinomialCoeffExplanation.pg      |
+        | Week3  |          9 | local/Reorganized/StarsAndBars/ChoosingCandies.pg          |
+        | Week3  |         10 | Reorganized/StarsAndBars/Envelopes1.pg                     |
+        | Week3  |         11 | Reorganized/Poker/q2.pg                                    |
+        | Week3  |         12 | Reorganized/Poker/q4_0.pg                                  |
+        | Week3  |         13 | Reorganized/Poker/q4_2.pg                                  |
+        | Week3  |         14 | Reorganized/Poker/q4_4.pg                                  |
+        | Week3  |         15 | Reorganized/Poker/q4_6.pg                                  |
+        +--------+------------+------------------------------------------------------------+
+
 ### Sorted with number of attempts
 [problem 2](https://github.com/cse103/Attempt_Analysis/blob/master/clustering_code/clusters/Week3/md_files/Week3_2_clusters.md): 3928
 
@@ -225,8 +246,28 @@ Problem 4
 
 
 Problem 5
+(Set problem)
 
-	(Set problem)
+    $min = random(1,5,1);
+    $max = random(5,10,1);
+    @R = ($min..$max);
+    $oneDraw = Set(join(",",@R));
+    @a = ();
+    foreach $i(@R) {
+        foreach $j(@R) {
+            push(@a, ($i+$j))
+        }
+    }
+    $S = Set(join(",",@a));
+
+    BEGIN_PGML
+
+    You are given two decks of numbered cards, each deck consists of [$max-$min+1] cards numbered from [$min] to [$max].  
+
+    An experiment consists of drawing a card from each deck and summing their values. The sum is the outcome of the experiment. What is the outcome space?
+
+    Recall that the outcome space is the set of all possible outcomes. Since one card draw can be any of [$oneDraw], the outcome space of the sum of two draws includes all possible results obtained by summing up two draws from [$oneDraw]. The outcome space of the sum is therefore,  [__________________________________________________]{$S}
+
 
 
 Problem 6
@@ -308,7 +349,7 @@ Problem 7
 Problem 8
 
 	(part 1,2,3 are multiple choice questions, below is part 4)
-	
+
     $R1=random(5,20,1);  # Number of balls (both white and black)
     $R2=random(2,$R1-1,1);  # Number of white balls
 

@@ -1,4 +1,20 @@
 ##Week8
+
+        Assigned problem file name:
+        +--------+------------+-------------------------------------------------------+
+        | set_id | problem_id | source_file                                           |
+        +--------+------------+-------------------------------------------------------+
+        | Week8  |          1 | local/Reorganized/RandomizedAlgs/TestingOrderInAnd.pg |
+        | Week8  |          2 | Reorganized/RandomizedAlgs/RandAlgs_2_1.pg            |
+        | Week8  |          3 | Reorganized/RandomizedAlgs/RandAlgs_2_2.pg            |
+        | Week8  |          4 | Reorganized/RandomizedAlgs/QuicksortPivot.pg          |
+        | Week8  |          5 | Reorganized/RandomizedAlgs/probs9QuicksortVariant.pg  |
+        | Week8  |          7 | Reorganized/RandomizedAlgs/Hashing_1.pg               |
+        | Week8  |          8 | Reorganized/RandomizedAlgs/Hashing_2.pg               |
+        | Week8  |          9 | Reorganized/RandomizedAlgs/Hashing_3.pg               |
+        +--------+------------+-------------------------------------------------------+
+
+
 ### Sorted with number of attempts
 	 problem  3 :  2719
 			 part  1 :  944

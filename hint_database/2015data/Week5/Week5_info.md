@@ -1,4 +1,22 @@
 ## Week5
+
+        Assigned problem file name:
+        +--------+------------+--------------------------------------------------------------+
+        | set_id | problem_id | source_file                                                  |
+        +--------+------------+--------------------------------------------------------------+
+        | Week5  |          1 | Reorganized/ConditionalProbability/Independence_1.pg         |
+        | Week5  |          2 | Reorganized/ConditionalProbability/ConditionalProbability.pg |
+        | Week5  |          3 | local/Reorganized/MarkovChebyshev/MarkovInequality.pg        |
+        | Week5  |          4 | Reorganized/MarkovChebyshev/chebyshev_1.pg                   |
+        | Week5  |          5 | Reorganized/MarkovChebyshev/RiggedDice.pg                    |
+        | Week5  |          6 | Reorganized/ExpectationVariance/Notes_3_2_1.pg               |
+        | Week5  |          7 | Reorganized/ExpectationVariance/Notes_3_2_2.pg               |
+        | Week5  |          8 | Reorganized/Covariance/ContingencyTables1.pg                 |
+        | Week5  |          9 | local/Reorganized/Covariance/ContingencyTables5.pg           |
+        +--------+------------+--------------------------------------------------------------+
+
+
+
 ### Sorted with number of attempts
 [problem 9](https://github.com/cse103/Attempt_Analysis/blob/master/clustering_code/clusters/Week5/md_files/Week5_9_clusters.md): 3017
 
@@ -230,9 +248,179 @@ Problem 5
 
 
 
-Problem 6 and 7
+Problem 6 (table problem)
 
-    Fill in the table problems
+    ## The mean, or expected value ##
+
+    For a random variable [`X`] that takes on a finite set of possible values, the
+    [$BITALIC]* mean [$EITALIC]*, or [$BITALIC]* expected value [$EITALIC]*, is
+
+    [$BCENTER]*
+    [`` \mathbb{E}(X) \ = \ \sum_{x} x \, \mbox{Pr}(X = x) ``]
+    [$ECENTER]*
+
+    (where the summation is over all the possible values [`x`] that [`X`] can have). This
+    is a direct generalization of the notion of [$BITALIC]* average [$EITALIC]* (which is typically
+    defined in situations where the outcomes are equally likely). If [`X`] is a continuous
+    random variable, then this summation needs to be replaced by an equivalent integral;
+    but we'll get to that later in the course.
+
+    Here are some examples.
+
+    ---
+    ### [$BITALIC]* Coin with bias (heads probability) [`p`]. [$EITALIC]* ###
+
+    Define [`X`] to be [`1`] if the outcome is heads, or [`0`] if it is tails. Then
+
+    [$BCENTER]*
+    [`` \mathbb{E}(X)
+    \ = \
+    0 \cdot \mbox{Pr}(X = 0) + 1 \cdot \mbox{Pr}(X = 1)  
+    \ = \
+    0 \cdot (1-p) + 1 \cdot p
+    \ = \ ``][______]{p}
+    [$ECENTER]*
+
+    Another random variable on this space is [`X^2`], which also takes on values in [`\{0,1\}`].
+    Notice that [`X^2 = X`], and in fact [`X^k = X`] for all [`k = 1,2,3,\ldots`]! Thus,
+    [`\mathbb{E}(X^2) = p`] as well. This simple case shows that in general, [`\mathbb{E}(X^2) \neq \mathbb{E}(X)^2`].
+
+    ---
+
+    ### [$BITALIC]* Fair die. [$EITALIC]* ###
+
+    Define [`X`] to be the outcome of the roll, so [`X \in \{1,2,3,4,5,6\}`]. Then
+
+    [$BCENTER]*
+    [`` \mathbb{E}(X)
+    \ = \
+    1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + 3 \cdot \frac{1}{6} + 4 \cdot \frac{1}{6}
+    + 5 \cdot \frac{1}{6} + 6 \cdot \frac{1}{6}
+    \ = \ ``][_______]{3.5}.
+    [$ECENTER]*
+
+    ---
+
+    ### [$BITALIC]* Two dice. [$EITALIC]* ###
+
+    Let [`X`] be their sum, so that [`X \in \{2,3,4,\ldots, 12\}`]. We can calculate the probabilities
+    of each possible value of [`X`] and tabulate them as follows:
+
+    END_PGML
+
+    $bHTML="";
+    $eHTML="";
+    $F1 = PGML::Format2("[`1/36`]");
+    $F2 = PGML::Format2("[`2/36`]");
+    $F3 = PGML::Format2("[`3/36`]");
+    $F4 = PGML::Format2("[`4/36`]");
+    $F5 = PGML::Format2("[`5/36`]");
+    $F6 = PGML::Format2("[`6/36`]");
+    $x = PGML::Format2("[`x`]");
+    $y = PGML::Format2("[`\text{Pr}(X=x)`]");
+
+    $F5_ANS = PGML::Format2(<<END_PGML);
+    [____]{5/36}
+    END_PGML;
+
+    $F3_ANS = PGML::Format2(<<END_PGML);
+    [____]{3/36}
+    END_PGML;
+
+
+    TEXT(
+    BeginTable(),
+    $PAR,
+    Row([$x,2,3,4,5,6,7,8,9,10,11,12],separation=>10),
+    Row([$y,$F1,$F2,$F3,$F4,$F5_ANS,$F6,$F5,$F4,$F3_ANS ,$F2,$F1],separation=>10),
+    EndTable()
+    );
+
+    BEGIN_PGML
+
+    This gives [`\mathbb{E}(X) = `][_________________________________________________________________]{7}.
+
+    END_PGML
+
+
+
+Problem 7 (table problem)
+
+    ## The mean, or expected value (cont.) ##
+    ---
+    ### [$BITALIC]* Roll n die; how many sixes appear? [$EITALIC]* ###
+
+    Let [`X`] be the number of [`6`]'s. We've already analyzed the distribution of [`X`], so
+
+    [$BCENTER]*
+    [`` E(X)
+    \ = \
+    \sum_{k = 0}^n k \, \mbox{Pr}(X = k)
+    \ = \
+    \sum_{k = 0}^n k {n \choose k} \left(\frac{1}{6} \right)^k \left( \frac{5}{6} \right)^{n-k}
+    \ = \
+    \frac{n}{6}.
+    ``]
+    [$ECENTER]*
+
+    The last step is somewhat mysterious; just take our word for it, and we'll get back to it later!
+
+    ---
+    ### [$BITALIC]* Toss a fair coin forever; how many tosses to the first heads? [$EITALIC]* ###
+
+    Let [`X \in \{1,2,\ldots\}`] be the number of tosses until you first see heads. Then
+
+    [$BCENTER]*
+    [`` \mbox{Pr}(X = k)
+    \ = \
+    \mbox{Pr}((T,T,T,\ldots,T,H))
+    \ = \
+    \frac{1}{2^k}.
+    ``]
+    [$ECENTER]*
+
+    It follows that
+
+    [$BCENTER]*
+    [`` \mathbb{E}(X)
+    \ = \
+    \sum_{k=1}^\infty \frac{k}{2^k}
+    \ = \ ``][______]{2}.
+    [$ECENTER]*
+
+    To answer this question we need the following formulas for the infinite geometric series: for any  [`0 < r < 1`]
+
+    [$BCENTER]*
+    [`` r + r^2 + \cdots \ = \ \frac{r}{1-r}.``]
+    [$ECENTER]*
+    and
+    [$BCENTER]*
+    [`` r + 2r^2 + 3r^3+\cdots \ = \ \frac{r}{(1-r)^2}.``]
+    [$ECENTER]*
+
+    You can find these and other useful sums here:
+    http://en.wikipedia.org/wiki/List_of_mathematical_series#Low-order_polylogarithms
+
+    ---
+    ### [$BITALIC]* Toss a coin with bias [`p`] forever; how many tosses to the first heads? [$EITALIC]* ###
+
+    Once again, [`X \in \{1,2,\ldots\}`], but this time the distribution is different:
+
+    [$BCENTER]*
+    [`` \mbox{Pr}(X = k)
+    \ = \
+    \mbox{Pr}((T,T,T,\ldots,T,H))
+    \ = \
+    (1-p)^{k-1}p.
+    ``]
+    [$ECENTER]*
+
+    Using the same technique as before, we get [`\mathbb{E}(X) =`][______]{1/p}.
+
+    There's another way to derive this expectation. We always need at least one coin toss.
+    If we're lucky (with probability [`p`]), we're done; otherwise (with probability [`1-p`]),
+    we start again from scratch. Therefore [`\mathbb{E}(X) = 1 + (1-p) \mathbb{E}(X)`], and we have the same result.
+
 
 
 

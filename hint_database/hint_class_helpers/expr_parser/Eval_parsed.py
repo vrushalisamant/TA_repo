@@ -104,6 +104,9 @@ def eval_parsed(e, variable_list={}, label='R'):
                     raise Exception("%s doesn't have a value for evaluation"%op)
 
             ev=eval_parsed(op, variable_list, label=label+'.0')
+            if not ev:
+                return
+                
             v=get_number(ev)
             
             if f=='X':  # X indicates a single number
@@ -131,8 +134,11 @@ def eval_parsed(e, variable_list={}, label='R'):
         elif len(e)==3:
             [[f,span],op1,op2]=e
             ev1=eval_parsed(op1, variable_list, label=label+'.0')
-            v1=get_number(ev1)
             ev2=eval_parsed(op2, variable_list, label=label+'.1')
+
+            if not ev1 or not ev2:
+                return
+            v1=get_number(ev1)
             v2=get_number(ev2)
 
             if f=='+':    ans= v1+v2
@@ -153,9 +159,9 @@ def eval_parsed(e, variable_list={}, label='R'):
         else:
             raise Exception('Unrecognized expression form: %s'%e)
     except Exception as ex:
-        print 'Eval_parsed Exception:',ex
+        #print 'Eval_parsed Exception:',ex
         #traceback.print_exc()
-        traceback.print_exc(file=sys.stdout)
+        #traceback.print_exc(file=sys.stdout)
         return None
         #raise WebworkParseException(ex)
         # return ((e[0][0], None, e[0][1]),)

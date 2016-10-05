@@ -1,5 +1,21 @@
 ##Week7a
 
+            Assigned problem file name:
+          +--------+------------+------------------------------------------------+
+          | set_id | problem_id | source_file                                    |
+          +--------+------------+------------------------------------------------+
+          | Week7a |          1 | Reorganized/HypothesisTesting/error.pg         |
+          | Week7a |          2 | Reorganized/HypothesisTesting/psychic.pg       |
+          | Week7a |          3 | Reorganized/HypothesisTesting/paired_t_test.pg |
+          | Week7a |          4 | Reorganized/HypothesisTesting/pooled.pg        |
+          | Week7a |          5 | Reorganized/HypothesisTesting/gust63.pg        |
+          | Week7a |          6 | local/Reorganized/HypothesisTesting/gust75.pg  |
+          | Week7a |          7 | local/Reorganized/HypothesisTesting/Chi2.2.pg  |
+          | Week7a |          8 | local/Reorganized/HypothesisTesting/Chi2.3.pg  |
+          | Week7a |          9 | local/setTestPreparationST/prob4.pg            |
+          +--------+------------+------------------------------------------------+
+
+
 ### Sorted with number of attempts
 
 problem 9 (Answer include variables): 2497
@@ -53,9 +69,46 @@ problem 1 (Multiple Choice): 49
 
 ### Problem Content
 
-Problem 1:
+Problem 1 (Multiple choice problem)
 
-	Multiple choice problem
+    $mc1 = new_multiple_choice();
+    $mc1->qa('Increasing \(\alpha\) will: ',
+    	'Increase Type I error, decrease type II error'
+    );
+    $mc1->extra(
+    	'Increase Type II error, decrease type I error',
+    	'Decrease both.',
+    	'Increase both.'
+    );
+
+    BEGIN_TEXT
+
+    $PAR
+    Choosing \(\alpha\) is a compromise between two types of errors: $BR
+    $BBOLD Type I error $EBOLD: Rejecting the null hypothesis when it is correct $BR
+    $BBOLD Type II error $EBOLD: Failing to reject the null hypothesis when it is
+    incorrect.
+
+    $PAR
+    $BCENTER
+    \{ begintable(3) \}
+    \{ row( " ", "Null hypothesis true (Seatbelts don't help)", "Null hypothesis false (Seatbelts help)") \}
+    \{ row( "Fail to reject", "correct", "Type II" ) \}
+    \{ row( "Reject null", "Type I", "correct" ) \}
+    \{ endtable() \}
+    $ECENTER
+
+    $PAR
+    \{ $mc1->print_q() \}
+    $BR
+    \{ $mc1->print_a() \}
+
+    $PAR
+    Alpha value is an upper bound on the probability of making a type I error (Incorrect rejection). $PAR
+
+    END_TEXT
+    ANS(radio_cmp($mc1->correct_ans));
+
 
 
 
@@ -83,19 +136,155 @@ Problem 2:
       Can you reject at the .01 significance level? (answer "yes" or "no") [_______]{"no"}
 
 
-Problem 3:
+Problem 3: (Multiple choice problem)
 
-	Multiple choice problem
+    $mc1 = new_multiple_choice();
+    $mc1->qa('We have two alternatives layouts of the web pages A/B and want to decide which keeps the user on our web site for a longer time. To
+    avoid confusing the user with constantly changing design, we use the same layout to the web pages presented to each user whenever they visit the site. which hypothesis test should we use?',
+    	'two sample t-test, pooled variance'
+    );
+    $mc1->makeLast(
+    	'1-sided z-value',
+    	'One sample t-test',
+            'two sample t-test, pooled variance',
+    	'paired t-test'
+    );
+
+    $mc2 = new_multiple_choice();
+    $mc2->qa('If we show both layouts to the same user upon his different visits, which hypothesis test should we use?', 'paired t-test'
+    );
+    $mc2->makeLast(
+    	'1-sided z-value',
+    	'One sample t-test',
+    	'two sample t-test, pooled variance',
+            'paired t-test'
+    );
+
+    $mc3 = new_multiple_choice();
+    $mc3->qa("Which testing will better help us identify the superior layout? Consider the following scenario. Suppose layout B is generally more attractive than layout A. User John and user Peter both visited the website twice, and are presented with both layouts. With layout B, John's visit time increases from 60 seconds to 61 seconds, and Peter's visit time increases from 90 seconds to 91 seconds. The variance of the $BBOLD sample difference of average time $EBOLD is higher than the variance of the $BBOLD sample average of difference $EBOLD. Different users have varied behavior, but the trend is more clear if we focus on the change of each individual. Pairing data can factor out variations from one user to the next. In other words, compared to two sample t-test, paired t-test",  'lowers probability of Type II error, for the same probability of Type I error'
+    );
+    $mc3->makeLast(
+            'lowers probability of Type II error, for the same probability of Type I error',
+    	'lowers probability of Type I error, for the same probability of Type II error',
+            'does not help. Both types of error still have the same probability'
+    );
+
+    BEGIN_PGML
+    ## The Student t-Test ##
+
+    The t-test, invented in 1908 by William Sealy Gosset (whose pen-name was "Student") is one of the most commonly used statistical tests.
+
+    The basic premise of the test is that we have two populations and we wish to know whether there is a significant difference between their means. For example, we would like to know whether kids that drink at least one glass of milk each day are significantly taller than their peers. The null hypothesis is that the means of both populations are the same.
+
+    The two populations are assumed to be normally distributed. Or, invoking the central limit theorm, they are assumed to be the sum or mean of a large number of IID random variables.
+
+    There are many variants of the t-test. We list some of the most popular.
+    1. *One sample t-test:* We assume that we know the mean of one population and that we have a sample from the other population. Note that this is still different from the Z-test, because we do not a-priori know the variance of the sampled population.
+    2. *Two sample t-test, Pooled std:* We have samples from both populations, and we assume that their variances are equal. Therefor we can pool both samples to estimate the variance.
+    3. *Two sample t-test, un-Pooled std:* As in 2. but we don't assume that variances of the two populations are equal.
+    4. *Paired t-test:* Suppose we want to show that coffee effects the speed with which people can perform calculations. We can test each person before and after drinking coffee and compare the two performances. In this situation we can "pair" the measurements, which here simply means take their difference. The test we then perform is a one-sample t-test in which the null hypothesis is that the mean is zero. We could, of course, use the same samples to perform a two-sample t-test, however, this would be a *weaker* test, i.e. it will have a higher probability of making a type II error (fail to reject the null hypothesis) for the same probability of making a type I error.
+
+    ----
+    END_PGML
+
+    BEGIN_TEXT
+    $PAR$PAR
+    $BBOLD A/B testing of web pages $EBOLD $PAR
+
+    Suppose we want people to stay on our web page as long as possible,
+    measure time between first and last click-on-site. $BR
+
+    \{ $mc1->print_q() \}
+    \{ $mc1->print_a() \}
+
+    $PAR
+    \{ $mc2->print_q() \}
+    \{ $mc2->print_a() \}
+
+    $PAR
+    \{ $mc3->print_q() \}
+    \{ $mc3->print_a() \}
+
+    END_TEXT
+    ANS(radio_cmp($mc1->correct_ans));
+    ANS(radio_cmp($mc2->correct_ans));
+    ANS(radio_cmp($mc3->correct_ans));
 
 
-Problem 4:
 
-	Multiple choice problem
+
+Problem 4: (Multiple choice problem)
+
+    $mc1 = new_multiple_choice();
+    $mc1->qa('Cholesterol levels are measured for 28 heart attack patients (2 days after their attacks) and 30 other hospital patients who did not have a heart attack. We test if the means are no difference for the two groups. Sample standard deviation for the heart attack group is 9.0, and that for the control group is 4.1. Which test should we use?',
+    	'two sample t-test, un-pooled variance'
+    );
+    $mc1->makeLast(
+    	 'two sample t-test, un-pooled variance',
+            'two sample t-test, pooled variance',
+    	'paired t-test'
+    );
+
+    $mc2 = new_multiple_choice();
+    $mc2->qa('Hours spent studying per week are reported by students in a class survey. Students who say they usually sit in the front are compared to students who say they usually sit in the back. The sample std for the front group is 1.09, and that for the back group is 0.89. Which test should we use?', 'two sample t-test, pooled variance'
+    );
+    $mc2->makeLast(
+    	'two sample t-test, un-pooled variance',
+            'two sample t-test, pooled variance',
+    	'paired t-test'
+    );
+
+    $mc3 = new_multiple_choice();
+    $mc3->qa("Which test will yield more significant results (lower p-value for the same observation)? ",  'two sample t-test, pooled variance'
+    );
+    $mc3->makeLast(
+            'two sample t-test, un-pooled variance',
+    	'two sample t-test, pooled variance'
+    );
+
+
+    BEGIN_PGML
+    ## Two-sample t-Tests##
+    ---
+    END_PGML
+
+    BEGIN_TEXT
+    $PAR$PAR
+
+    \{ $mc1->print_q() \}
+    \{ $mc1->print_a() \}
+
+    $PAR
+    \{ $mc2->print_q() \}
+    \{ $mc2->print_a() \}
+
+    $PAR
+    \{ $mc3->print_q() \}
+    \{ $mc3->print_a() \}
+
+    END_TEXT
+
+    ANS(radio_cmp($mc1->correct_ans));
+    ANS(radio_cmp($mc2->correct_ans));
+    ANS(radio_cmp($mc3->correct_ans));
+
+
 
 
 Problem 5:
 
-	Missing from database :(
+    ## Paired t-Tests##
+    ---
+
+    In this problem, we consider a * paired t-test* (defined in 8.6.2 in "Notes on hypothesis testing and central limit theorem" on moodle). The setting is that two normal random variables [`X`] and [`Y`] are sampled. We pair each of the samples from the first variable with each of the samples from the second variable, and we check the "null hypothesis" that the two elements in each pair have the same mean, i.e. [`\mu_X = \mu_Y`], against the alternative hypothesis that [`\mu_X \neq \mu_Y`]. Now create a new random variable [`D`] by taking the difference between the two elements in each pair. The "null hypothesis" can therefore be defined as [`\mu_D = 0`], and the alternative hypothesis [`\mu_D \neq 0`]. Note that if the two variables are normally distributed, their difference is also normally distributed, so [`D`] is a Normal variable. We then calculate the confidence interval for the mean of [`D`] .
+
+    1.  Suppose that for a given data set of [`D`], a 95% confidence interval is calculated to be (-3.45,1.78).  If you were to perform a hypothesis test at the 5% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell". [____________________]{"no"}
+
+    2.  Suppose that for a given data set of [`D`], a 99% confidence interval is calculated to be (-10.77,-2.35).  If you were to perform a hypothesis test at the 1% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".  [____________________]{"yes"}
+
+    3.  Suppose that for a given data set of [`D`], a 97% confidence interval is calculated to be (25.6,41.1).  If you were to perform a hypothesis test at the 3% significance level to test the null hypothesis, would you reject it?  Answer "yes", "no", or "can't tell".  [____________________]{"yes"}
+
+
 
 
 
