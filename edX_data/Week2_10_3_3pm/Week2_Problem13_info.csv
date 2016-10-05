@@ -1,0 +1,7 @@
+part,incorrect_attempt,part,incorrect_attempt,part,incorrect_attempt
+1,26^42,2,25^42,3,26^42-25^42
+1,,2,,3,26^4
+1,,2,,3,5*(26^4)
+1,4^26,2,4^25,3,(26^4)+((26^3)*(25))+((26^2)*(25^2))+(26*(25^3))
+incorrect count
+"('part1', 2)","('part2', 2)","('part3', 4)"

@@ -1,0 +1,11 @@
+part,incorrect_attempt,part,incorrect_attempt,part,incorrect_attempt
+1,,2,,3,
+1,13/36,2,,3,
+1,,2,,3,25^4
+1,,2,2115751,3,1953125
+1,11/36,2,,3,
+1,1439,2,,3,9765625
+1,,2,,3,
+1,,2,,3,66250
+incorrect count
+"('part1', 4)","('part2', 5)","('part3', 7)"

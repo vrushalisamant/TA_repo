@@ -38,7 +38,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<ul><li>How many ways are there of picking one digit (from 0-9), and one letter (A-Z)?</li></ul>
+<ul><li>How many ways are there of picking one digit (from 0-9), followed by one letter (A-Z)?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -46,7 +46,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>Suppose automobile license plates in an imaginary country consist of$a numbers,followed by $b letters, followed by $c numbers.</li></ul><p>How many different standard plates are possible in this system? (Assume repetition of letters and numbers is allowed.)</p>
+<ul><li>Suppose automobile license plates in an imaginary country consist of $a numbers,followed by $b letters, followed by $c numbers.</li></ul><p>How many different standard plates are possible in this system? (Assume repetition of letters and numbers is allowed.)</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -62,10 +62,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
     <script type="loncapa/python">
 from hint import evaluate
-from hint import cluster_functions
-from hint import universal_hints as u_hint
-from hint import conditional_hints as c_hint
-from hint import format as string_format
+from hint import get_hint
 
 # grader of the problem
 def check(expect, ans):
@@ -83,17 +80,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
   if new_cmap[key]['correctness'] == "correct":
     return
 
-  param = cluster_functions.make_params(solutions[i], ans)
-  if param == {}:
-    return
-  hint = u_hint.universal_hint(param)
-  if hint:
-    hint = string_format.format_u_hint(hint)
-  else:
-    hint_text, hint_answer = c_hint.conditional_hint(param)
-    if not hint_text:
-      return
-    hint = string_format.format_c_hint(hint_text, hint_text_id, hint_answer, i)
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 
@@ -103,6 +90,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
       for (var i=0; i != hint_number; i++) {
         hide_hint(i);
       }
+      show_hint(hint_number);
     </script>
 
   </text>

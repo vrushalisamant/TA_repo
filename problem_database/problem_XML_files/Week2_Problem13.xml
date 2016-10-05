@@ -37,7 +37,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Consider strings of length $n2 made out of the 26 lower case letters"a-z". Suppose that order matters and that the same letter can occurmultiple times.</p><ul><li>How many strings of length $n2 consisting of lower case English letters are there?</li></ul>
+<p>Consider strings of length $n made out of the 26 lower case letters"a-z". Suppose that order matters and that the same letter can occurmultiple times.</p><ul><li>How many strings of length $n consisting of lower case English letters are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -45,7 +45,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>excluding the letter "x"</strong>, are there?</li></ul>
+<ul><li>How many strings of length $n consisting of lower case English letters, <strong>excluding the letter "x"</strong>, are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -53,7 +53,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>How many strings of length $n2 consisting of lower case English letters, <strong>and including at least one "x"</strong>, are there?</li></ul>
+<ul><li>How many strings of length $n consisting of lower case English letters, <strong>and including at least one "x"</strong>, are there?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -69,10 +69,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
     <script type="loncapa/python">
 from hint import evaluate
-from hint import cluster_functions
-from hint import universal_hints as u_hint
-from hint import conditional_hints as c_hint
-from hint import format as string_format
+from hint import get_hint
 
 # grader of the problem
 def check(expect, ans):
@@ -90,17 +87,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
   if new_cmap[key]['correctness'] == "correct":
     return
 
-  param = cluster_functions.make_params(solutions[i], ans)
-  if param == {}:
-    return
-  hint = u_hint.universal_hint(param)
-  if hint:
-    hint = string_format.format_u_hint(hint)
-  else:
-    hint_text, hint_answer = c_hint.conditional_hint(param)
-    if not hint_text:
-      return
-    hint = string_format.format_c_hint(hint_text, hint_text_id, hint_answer, i)
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 
@@ -110,6 +97,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
       for (var i=0; i != hint_number; i++) {
         hide_hint(i);
       }
+      show_hint(hint_number);
     </script>
 
   </text>
