@@ -16,6 +16,7 @@ import os
 import traceback
 from os import listdir
 from os.path import isfile, join, expanduser, splitext
+import json
 
 def check_final_answer(params,tol = 1+1e-3):
     att_tree = params['att_tree']
@@ -73,6 +74,36 @@ def single_hint_test(path, new_class_name, testdata):
         sys.exit('ERROR: Cannot find the input class name')
     
     i = 1
+
+    # Try new hint
+    folder_name = path
+    package_name = folder_name.replace('/', '.')
+    class_address = package_name + "." + new_class_name + "." + new_class_name
+    try:
+        cond_ClassName = locate(class_address)
+    except:
+        traceback.print_exc()
+        sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+    try:
+        cond_hint_instance = cond_ClassName()
+    except TypeError:
+        sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+
+    try:
+        pro_list = cond_hint_instance.get_problems()
+    except:
+        sys.exit("ERROR: no function get_problems in hint class.")
+
+    all_pros = json.loads(open("problems_mapping.json").read())
+    for p in pro_list:
+        if not '/part' in p:
+            sys.exit("ERROR: please include part id in the get_problems.")
+        par_index = p.index('/part')
+        if not any(p[:par_index] == pros[1] for pros in all_pros.items()):
+            sys.exit("ERROR: wrong problem name in get_problems.")
+
+
 
     for test in testdata:
         attempt = test['attempt']
@@ -150,28 +181,17 @@ def single_hint_test(path, new_class_name, testdata):
         print "answer:",answer
 
         # Try new hint
-        class_address = package_name + "." + new_class_name + "." + new_class_name
         try:
-            ClassName = locate(class_address)
+            hint, hint_ans = cond_hint_instance.check_attempt(params)
         except:
             traceback.print_exc()
             sys.exit("ERROR: syntax error in HINT CLASS!!")
-
-        try:
-            hint_instance = ClassName()
-        except TypeError:
-            sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
-
-        try:
-            hint, hint_ans = hint_instance.check_attempt(params)
-        except:
-            traceback.print_exc()
-            sys.exit("ERROR: syntax error in HINT CLASS!!")
-
+        
         if hint:
             print "hint:", hint
             print "solution:", hint_ans
             continue
+
 
         # Try last universal hint
         package_name = 'hint_class.last_Universal'
