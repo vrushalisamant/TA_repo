@@ -5,7 +5,7 @@
 # NOTICE: Name of the hint class has to be the same as the hint class file
 #
 # Name: Zeng Fan / Zhen Zhai
-# Date: Sep 27, 2016
+# Date: Oct 5, 2016
 from hint_class_helpers.make_params import make_params
 from hint_class_helpers.find_matches import find_matches
 from hint_class_helpers.get_numerical_answer import get_numerical_answer
@@ -68,6 +68,7 @@ def get_all_classes(path):
 
 def single_hint_test(path, new_class_name, testdata):
     first_u_hints, hint_classes, last_u_hints = get_all_classes(path)
+
     try:
         hint_classes.remove(new_class_name)
     except:
@@ -83,17 +84,17 @@ def single_hint_test(path, new_class_name, testdata):
         cond_ClassName = locate(class_address)
     except:
         traceback.print_exc()
-        sys.exit("ERROR: syntax error in HINT CLASS!!")
+        sys.exit("ERROR: syntax error in hint class {0}.".format(class_address))
 
     try:
         cond_hint_instance = cond_ClassName()
     except TypeError:
-        sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+        sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE {0}.".format(cond_ClassName))
 
     try:
         pro_list = cond_hint_instance.get_problems()
     except:
-        sys.exit("ERROR: no function get_problems in hint class.")
+        sys.exit("ERROR: no function get_problems in hint class {0}.".format(class_address))
 
     all_pros = json.loads(open("problems_mapping.json").read())
     for p in pro_list:
@@ -120,7 +121,7 @@ def single_hint_test(path, new_class_name, testdata):
         match = find_matches(params)
         ans_tree = params['ans_tree'][0]
         if match==ans_tree or check_final_answer(params):
-            print "Correct answer!"
+            #print "Correct answer!"
             continue
 
         hint = ""
@@ -133,13 +134,13 @@ def single_hint_test(path, new_class_name, testdata):
                     uni_f = locate(f_address)
                 except:
                     #traceback.print_exc()
-                    sys.exit("ERROR: syntax error in universal hint function!!")
+                    sys.exit("ERROR: syntax error in universal hint function {0}.".format(f_address))
 
                 try:
                     hint = uni_f.check_attempt(params)
                 except:
                     #traceback.print_exc()
-                    sys.exit("ERROR: syntax error in universal hint function!!")
+                    sys.exit("ERROR: syntax error in universal hint function {0}.".format(f_address))
 
                 if hint:
                     break
@@ -155,19 +156,22 @@ def single_hint_test(path, new_class_name, testdata):
                 ClassName = locate(class_address)
             except:
                 traceback.print_exc()
-                sys.exit("ERROR: syntax error in HINT CLASS!!")
+                sys.exit("ERROR: syntax error in HINT CLASS {0}.".format(ClassName))
 
             try:
                 hint_instance = ClassName()
             except TypeError:
-                sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE !!")
+                sys.exit("ERROR: name of the HINT CLASS has to be the same as the name of the FILE {0}.".format(class_address))
 
             try:
                 hint, hint_ans = hint_instance.check_attempt(params)
             except:
                 traceback.print_exc()
-                sys.exit("ERROR: syntax error in HINT CLASS!!")
+                sys.exit("ERROR: syntax error in HINT CLASS {0}.".format(class_address))
 
+            if hint and not hint_ans:
+                sys.exit("ERROR: you can't leave the second returned string empty. Please ask a question in your hint.")
+                
             if hint:
                 break
 
@@ -181,12 +185,15 @@ def single_hint_test(path, new_class_name, testdata):
         print "answer:",answer
 
         # Try new hint
+        class_address = package_name + "." + new_class_name + "." + new_class_name
         try:
             hint, hint_ans = cond_hint_instance.check_attempt(params)
         except:
             traceback.print_exc()
-            sys.exit("ERROR: syntax error in HINT CLASS!!")
-        
+            sys.exit("ERROR: syntax error in HINT CLASS {0}.".format(class_address))
+        if hint and not hint_ans:
+                sys.exit("ERROR: you can't leave the second returned string empty. Please ask a question in your hint.")
+
         if hint:
             print "hint:", hint
             print "solution:", hint_ans
@@ -202,13 +209,13 @@ def single_hint_test(path, new_class_name, testdata):
                 uni_f = locate(f_address)
             except:
                 traceback.print_exc()
-                sys.exit("ERROR: syntax error in universal hint function!!")
+                sys.exit("ERROR: syntax error in universal hint function {0}.".format(f_address))
 
             try:
                 hint = uni_f.check_attempt(params)
             except:
                 traceback.print_exc()
-                sys.exit("ERROR: syntax error in universal hint function!!")
+                sys.exit("ERROR: syntax error in universal hint function {0}.".format(f_address))
 
             if hint:
                 print "hint:", hint
@@ -297,6 +304,9 @@ def all_hints_test(path,testdata):
             except:
                 traceback.print_exc()
                 sys.exit("ERROR: syntax error in HINT CLASS!!")
+
+            if hint and not hint_ans:
+                sys.exit("ERROR: you can't leave the second returned string empty. Please ask a question in your hint.")
 
             if hint:
                 print hint, hint_ans
