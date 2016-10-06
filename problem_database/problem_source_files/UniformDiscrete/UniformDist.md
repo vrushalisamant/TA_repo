@@ -11,7 +11,7 @@ solution3 = "({0}-{1})/{0}".format(r1,r2)
 solution4 = "1"
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3]
+solutions = [solution1, solution2, solution3, solution4]
 
 ```
 Suppose we have a stack of $r1 cards, numbered 1,...,$r1. Suppose we pick a card uniformly at random (i.e. all cards have the same probability of being picked).
