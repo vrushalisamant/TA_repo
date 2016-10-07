@@ -16,6 +16,7 @@ k = Tk[t]
 
 R1=random.randrange(5,20,1)  # Number of balls (both white and black)
 R2=random.randrange(2,R1-1,1)  # Number of white balls
+R3=R1-R2 # Number of black balls
 
 solution1 = "{0}!/({1}!*({0}-{1})!)".format(R1,R2)
 
@@ -79,7 +80,7 @@ size four from \\\(\\\{1,2,\ldots,10\\\}\\\)   The number of ways to do this is 
 PROBLEM:
 
 Suppose we have $R1 bins, numbered 1,...,$R1 and that we have $R1 balls,
-$R2 of them white and $R1-$R2 of them black.
+$R2 of them white and $R3 of them black.
 
 o How many white/black patterns can one make by placing the balls in the bins?
 

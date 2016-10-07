@@ -4,6 +4,7 @@ a = random.randrange(2,3,1)
 n = fac(26)/fac(26-1)
 b = random.randrange(3,6,1)
 c = b + 1
+d = int(c * fac(26)/fac(26-a) + 1)
 
 solution1 = "P(26,{0})".format(a)
 solution2 = "({1} - 1)*P(26,{0}) + 1".format(a,b)
@@ -22,6 +23,6 @@ Consider a list of randomly generated $a-letter "words" printed on a paper. The 
 
 [_]
 
-* At least how many identical "words" are printed if there are \\\($c * P(26,$a) + 1\\\) "words" on the list?
+* At least how many identical "words" are printed if there are $d "words" on the list?
 
 [_]
