@@ -1,4 +1,5 @@
 # Make sure you name your file with className.py
+# To test your class make sure you add the local path of hint_class_helpers in your system path
 class className:
 	"""
 	Author: <your name>
@@ -16,5 +17,5 @@ class className:
 		return "", ""
 
 	def get_problems(self):
-		self.problem_list = [("problemType/problemName/partId"), ("problemType/problemName2/partId")]
+		self.problem_list = ["problemType/problemName/part1", "problemType/problemName2/part2"]
 		return self.problem_list

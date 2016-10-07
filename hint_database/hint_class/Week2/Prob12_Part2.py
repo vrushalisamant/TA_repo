@@ -2,10 +2,10 @@
 
 from sets import Set
 
-class Prob13_Part1:
+class Prob12_Part2:
 	"""
-	Author: Yoav Freund
-	Date: 9/25/2016
+	Author: Shen Ting Ang
+	Date: 10/4/2016
 	"""
 
         def check_attempt(self, params):
@@ -56,12 +56,12 @@ class Prob13_Part1:
                                     hint='The second operand should not be {0}. '.format(str(parts['att']['b']))
 
                         if len(hint)>0:
-                                return hint+'What is the number of binary strings of length 3?','2^3'
+                                return hint+'What is the probability of a particular sequence for 3 coin flips?','1/2^3'
                         else:
                                 return '',''
                 except Exception:
                         return '',''
 
 	def get_problems(self):
-		self.problem_list = ["Combinatorics/p13/part1"]
+		self.problem_list = ["Combinatorics/coinProblems/part2"]
 		return self.problem_list
