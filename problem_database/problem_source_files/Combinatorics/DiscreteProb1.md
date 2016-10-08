@@ -10,14 +10,13 @@ solution4 = "{0}*({0}-1)/({0}^4)".format(R)
 solutions = [solution1,solution2,solution3,solution4]
 ```
 
-Suppose a seqeunce of 4 digits in the range 1-$R is chosen uniformly at random. What is the probability that the first and third digit are
-equal, the second and the fourth digits are equal, but the first and second digits are unequal?
+Suppose a sequence of 4 digits in the range 1-$R, endpoints inclusive, is chosen uniformly at random. What is the probability that the first and third digits are equal, the second and the fourth digits are equal, but the first and second digits are unequal?
 
-* We are going to use the standard formula for probability of sets in a discrete uniform distribution space: the probability of a set \\\(A\\\) in an event space \\\(\Omega\\\) is
+* We are going to use the standard formula for probability of sets in a discrete uniform distribution space: the probability of a set \\\(A\\\) in the sample space \\\(\Omega\\\) is
 
     \\\[P(A) = \frac{|A|}{|\Omega|}\\\]
 
-* In the denominator we place the *size* of the sample space. This is easy, as we have $R choices in each of the four locations the number of sequences, which is equal to the size of the sample space, thus \\\(|\Omega| = \\\)
+* In the denominator we place the *size* of the sample space. This is easy, as we have $R choices for each of the four four digits. The number of sequences is equal to the size of the sample space. Thus \\\(|\Omega| = \\\)
 
 [_]
 
@@ -25,7 +24,7 @@ equal, the second and the fourth digits are equal, but the first and second digi
 
 [_]
 
-* Now, how many choices do we have for digit 1? Obviously, any integer in the range \\\(1,\ldots,$R\\\), or $Rchoices. Once the first digit has been chosen, we have one less choice for the second digit, in other words $RL. The size of the set \\\(A\\\) is the product of these two numbers:
+* Now, how many choices do we have for digit 1? Obviously, any integer in the range \\\(1,\ldots,$R\\\), or $R choices. Once digit 1 has been chosen, we have one less choice for digit 2, in other words $RL. The size of the set \\\(A\\\) is the product of these two numbers:
 
 [_]
 

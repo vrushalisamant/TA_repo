@@ -7,7 +7,7 @@ c = b + 1
 d = int(c * fac(26)/fac(26-a) + 1)
 
 solution1 = "P(26,{0})".format(a)
-solution2 = "({1} - 1)*P(26,{0}) + 1".format(a,b)
+solution2 = "({1} - 1) * P(26,{0}) + 1".format(a,b)
 solution3 = "{0} + 1".format(c)
 
 solutions = [solution1, solution2, solution3]
@@ -23,6 +23,6 @@ Consider a list of randomly generated $a-letter "words" printed on a paper. The 
 
 [_]
 
-* At least how many identical "words" are printed if there are $d "words" on the list?
+* Consider a list of $d "words". What is the largest integer \(j\) such that at least one "word" appears at least \(j\) times?
 
 [_]
