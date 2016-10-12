@@ -16,15 +16,15 @@ class Prob3_Part1:
                 #print "Prob3_Part1 matches: ", matches
 
                 for m in matches:
-                        if 'R.1' in m:
-                                return "What should be the base of your exponential calculation?","The number of choices you have."
-                        if 'R.0' in m:
-                            return "What should be the exponent of your calculation?","The number of digits you have."
+                        if 'R.0' not in m:
+                                return "If you have n digits and m choices per digit, what should be the base for your exponential expression?","{0}".format("m")
+                        if 'R.1' not in m:
+                            return "If you have n digits and m choices per digit, what should be the exponent in your expression?", "{0}".format("n")
 
                 if ("^" not in self.attempt):
-                    return "If there are n digits and m choices for each digit, what format should your answer be in?", "a^b"
+                    return "If there are n digits and m choices for each digit, what format should your answer be in?", "{0}^{1}".format("a","b")
                 else:
-                    return "If there are n spots, and m choices for each spot, is the total number of combinations n^m or m^n?","m^n" 
+                    return "If there are n spots, and m choices for each spot, is the total number of combinations n^m or m^n?","{0}^{1}".format("m","n") 
                 return "", ""
 
 	def get_problems(self):

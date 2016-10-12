@@ -16,7 +16,7 @@ class Prob3_Part3:
                 #print "Prob3_Part3 matches: ", matches
 
 		if ("-1" not in self.attempt):
-			return "Having n choices for digits 1 and 3, how many choices remain for digits 2 and 4?","n-1 choices. Combine these two values to get the total number of choices (or, in other words, the size of A)."
+			return "Having n choices for digits 1 and 3, how many choices remain for digits 2 and 4?","{0}-{1}".format("n","1")
 		return "", ""
 
 	def get_problems(self):
