@@ -1,4 +1,4 @@
-class Problem10Part6:
+class Prob10_Part6:
 	"""
 	Author: Sunil Raiyani
 	Date: 10/11/2016
@@ -30,7 +30,7 @@ class Problem10Part6:
 				hint='Shouldn\'t the number of ways to select the remaining cards(part 5) appear in your solution?'
 			
 			if len(hint)>0:
-                                return hint+' What is the number of ways to get a hand of 3 cards in which exactly 2 cards are from the same suit?','C(4,1) * C(13,2) * C(39,3-2)'
+                                return hint+' From a deck of cards with 2 suits and 3 ranks, what is the number of ways to get a hand of 3 cards in which exactly 2 cards are from the same suit?','2 * 3 * 3'
                         else:
                                 return '',''
 		except Exception:
