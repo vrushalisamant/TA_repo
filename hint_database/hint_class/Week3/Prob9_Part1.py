@@ -29,7 +29,7 @@ class Prob9_Part1:
 
 
 			if len(hint)>0:
-                                return hint + ' Suppose you have 2 distinct cards and 2 envelopes(marked 1 and 2), now take the first card and choose an envelope for it, then take the second card and choose an envelope from it, so in this case how many ways are there to place cards into envelopes? ','2*2 i.e 2^2' 
+                                return hint + ' Suppose you have 2 distinct cards and 2 envelopes(marked 1 and 2), now take the first card and choose an envelope for it, then take the second card and choose an envelope from it, so in this case how many ways are there to place cards into envelopes? ','2^2' 
 			else:
 				return '',''
                         
