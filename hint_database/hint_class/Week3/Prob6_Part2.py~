@@ -15,7 +15,7 @@ class Prob6_Part2:
 
 		try:
 			if not 'P' in self.attempt:
-				hint = "Do you think whether the permutations should be used here? How should your answer in part 1 be related to this part?"
+				hint = "Do you think that it is necessary to use permutations here? How should your answer in part 1 should be related to this part?"
 			elif not '+' in self.attempt and not '1' in self.attempt:
 				hint = 'What is the formula of pigeon-hole principle? Should you add 1 at the end of your equation?'
 
