@@ -16,9 +16,10 @@ class Prob3_Part3:
                 #print "Prob3_Part3 matches: ", matches
 
 		if ("-1" not in self.attempt):
-			return "Having n choices for digits 1 and 3, how many choices remain for digits 2 and 4?","{0}-{1}".format("n","1")
+			return "Having, for example, 6 choices for digits 1 and 3, how many choices remain for digits 2 and 4?","{0}-{1}".format(6,1)
 		return "", ""
 
 	def get_problems(self):
 		self.problem_list = ["Combinatorics/DiscreteProb1/part3"]
 		return self.problem_list
+
