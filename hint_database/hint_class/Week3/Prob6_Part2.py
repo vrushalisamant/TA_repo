@@ -20,7 +20,7 @@ class Prob6_Part2:
 				hint = 'What is the formula of pigeon-hole principle? Should you add 1 at the end of your equation?'
 
 			if len(hint)>0:
-				return hint + 'There are 3 colors of marbles.How many marbles do we need in order to guarantee that there is at least one color for whicch we have at least 6 marbles?', '3*(6-1)+1'
+				return hint + 'There are 3 colors of marbles.How many marbles do we need in order to guarantee that there is at least one color for whicch we have at least 6 marbles?','3*(6-1)+1'
 			else:
 				return '',''
 		except Exception:
