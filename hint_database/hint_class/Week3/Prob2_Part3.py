@@ -17,8 +17,8 @@ class Prob2_Part3:
 
         try:
             if '^' not in self.attempt:
-                hint='Missing ^ in the answer.'
-                return hint, 'Did you consider the probabilities of the coin flips? '
+                hint='Missing ^ in the answer. '
+                return hint + 'What is the probability of a specific combination of 3 coin flips? ', '1/2^3'
             #check if the form of the parse tree has the right
             #shape: an operator and two leafs that correspond to
             #the operands

@@ -17,21 +17,21 @@ class Prob2_Part5:
 
         try:
             if '^' not in self.attempt:
-                hint='Missing ^ in the answer.'
-                return hint, 'Did you consider the probabilities of the coin flips? '
+                hint='Missing ^ in the answer. '
+                return hint + 'What is the probability of a specific combination of 3 coin flips? ', '1/2^3'
             #check if the form of the parse tree has the right
             #shape: an operator and two leafs that correspond to
             #the operands
 
             elif 'C(' not in self.attempt and '!' not in self.attempt:
-                hint='Missing choose function in the answer.'
-                return hint, 'Did you consider the possible combinations of coin flips?'
+                hint='Missing choose function in the answer. '
+                return hint + 'How many possible ways are there to get 2 questions correct out of 5 questions?', '5!/(2!*3!)'
             elif '+' not in self.attempt:
-                hint='Missing + in the answer.'
-                return hint, 'There might be multiple combinations that should be added together.'
+                hint='Missing + in the answer. '
+                return hint + 'How many possible scenarios are there for a student to get at most 2 questions wrong?', '3'
             elif '1-' not in self.attempt:
-                hint='Missing - in the answer.'
-                return hint, 'The answer might be best obtained using complements.'
+                hint='The answer might be best obtained using complements. '
+                return hint + 'The opposite of getting at most 2 questions wrong is getting at least _ questions wrong.', '3'
 
             else:
                 return "",""
