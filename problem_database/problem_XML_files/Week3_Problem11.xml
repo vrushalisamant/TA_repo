@@ -9,6 +9,7 @@ def combination(n,k):
 
 nCards=random.randrange(4,7,1)
 b=random.randrange(2,nCards-1,1)
+c = nCards-b
 
 solution1 = "C(52,{0})".format(nCards)
 solution2 = "4"
@@ -42,7 +43,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h2>Probability of cards of the same suite</h2><p>A poker hand consisting of $nCards cards is dealt from a standard deck of 52 cards.Find the probability that the hand contains exactly $b cards of the same suite. It is allowed to have any number of cards in other suites.</p><p>First, we know the number of all possible hands of $nCards cards is </p>
+<h2>Probability of cards of the same suit</h2><p>A poker hand consisting of $nCards cards is dealt from a standard deck of 52 cards.Find the probability that the hand contains exactly $b cards of the same suit. It is allowed to have any number of cards in other suits.</p><p>First, we know the number of all possible hands of $nCards cards is</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -50,7 +51,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Then, we calculate the number of hands that contain exactly $b cards of the same suite.</p><p>We first choose which suite the $b cards is. Obviously, there are </p>
+<p>Then, we calculate the number of hands that contain exactly $b cards of the same suit.</p><p>We first choose which suit the $b cards is. How many possibilities are there?</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -58,7 +59,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>possibilities.</p><p>The number of possibilities for the ranks of these cards is </p>
+<p>The number of possibilities for the ranks of these cards is</p>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -66,7 +67,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>The other $nCards-$b cards in the hand can be any cards that has a different suite than the $b cards. There are a total of </p>
+<p>The other $c cards in the hand can be any cards that has a different suit than the $b cards. How many are there?</p>
 
     <customresponse cfn="check" expect="\[$solution4\]">
       <textline/>
@@ -74,7 +75,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>such cards. To choose $nCards-$b from them, there are </p>
+<p>How many possible ways to choose $c from them.</p>
 
     <customresponse cfn="check" expect="\[$solution5\]">
       <textline/>
@@ -82,7 +83,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>possibilities.</p><p>Thus we can compute the number of hands that have exactly $b cards of the same suite, which is </p>
+<p>Thus we can compute the number of hands that have exactly $b cards of the same suit, which is</p>
 
     <customresponse cfn="check" expect="\[$solution6\]">
       <textline/>
@@ -90,7 +91,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Finally we can calculate the probability of such hands, by calculating th ratio of the number of such hands to the number of all hands. This is </p>
+<p>Finally we can calculate the probability of such hands, by calculating the ratio of the number of such hands to the number of all hands. This is</p>
 
     <customresponse cfn="check" expect="\[$solution7\]">
       <textline/>

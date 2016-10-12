@@ -34,7 +34,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Suppose a seqeunce of 4 digits in the range 1-$R is chosen uniformlyat random. What is the probability that the first and third digit areequal, the second and the fourth digits are equal, but the first andsecond digits are unequal?</p><ul><li><p>We are going to use the standard formula for probability of sets in a discrete uniform distribution space: the probability of a set \(A\) in an event space \(\Omega\) is</p><p>\[P(A) = \frac{|A|}{|\Omega|}\]</p></li><li><p>In the enumerator we place the <em>size</em> of the sample space. This is easy, as we have $R choices in each of the four locations the number of sequences, which is equal to the size of the sample space, thus \(|\Omega| = \)</p></li></ul>
+<p>Suppose a seqeunce of 4 digits in the range 1-$R is chosen uniformly at random. What is the probability that the first and third digit areequal, the second and the fourth digits are equal, but the first and second digits are unequal?</p><ul><li><p>We are going to use the standard formula for probability of sets in a discrete uniform distribution space: the probability of a set \(A\) in an event space \(\Omega\) is</p><p>\[P(A) = \frac{|A|}{|\Omega|}\]</p></li><li><p>In the denominator we place the <em>size</em> of the sample space. This is easy, as we have $R choices in each of the four locations the number of sequences, which is equal to the size of the sample space, thus \(|\Omega| = \)</p></li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -42,7 +42,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>Now we want to compute the size of the set \(A\). To do that it is useful to realize that we need only concern ourselves with the choices of two digits, say digits 1 and 2.  This is because digit 1 determines the value of digit 3 and digit 2 determines the value of digit</li></ul>
+<ul><li>Now we want to compute the size of the set \(A\). To do that it is useful to realize that we need only concern ourselves with the choices of two digits, say digits 1 and 2.  This is because digit 1 determines the value of digit 3. Which digit does digit 2 determines?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -50,7 +50,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>Now, how many choices do we have for digit 1? Obviously, any integer in the range \(1,\ldots,$R\), or $Rchoices. Once the first digit has been chosen, we have one less choice for the second digit, in other words $RL. The size ofthe set \(A\) is the product of these two numbers,i.e.</li></ul>
+<ul><li>Now, how many choices do we have for digit 1? Obviously, any integer in the range \(1,\ldots,$R\), or $Rchoices. Once the first digit has been chosen, we have one less choice for the second digit, in other words $RL. The size of the set \(A\) is the product of these two numbers:</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>

@@ -7,6 +7,7 @@ a = random.randrange(2,3,1)
 n = fac(26)/fac(26-1)
 b = random.randrange(3,6,1)
 c = b + 1
+d = int(c * fac(26)/fac(26-a) + 1)
 
 solution1 = "P(26,{0})".format(a)
 solution2 = "({1} - 1)*P(26,{0}) + 1".format(a,b)
@@ -52,7 +53,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>At least how many identical "words" are printed if there are \($c * P(26,$a) + 1\) "words" on the list?</li></ul>
+<ul><li>At least how many identical "words" are printed if there are $d "words" on the list?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>

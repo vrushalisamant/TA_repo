@@ -4,14 +4,15 @@
 
 p = random.randrange(6,8,1)
 ten = 10
+k = p*10
 
 if (p == 6):
     solution1 ="(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+C(10,{0}+3)+1)/(2^{{{1}}})".format(p,ten)
 
-if (p == 7): 
+if (p == 7):
     solution1 = "(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+1)/(2^{{{1}}})".format(p,ten)
 
-if (p == 8): 
+if (p == 8):
     solution1 = "(C(10,{0})+C(10,{0}+1)+1)/(2^{{{1}}})".format(p,ten)
 
 solutions = [solution1]
@@ -38,7 +39,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Here we will calculate the probability of a student getting at least $p*10 percent on a true/false exam with 10 questions.</p><p>The probability that a student gets a grade of $p*10 percent or better by guessing is </p>
+<p>Here we will calculate the probability of a student getting at least $k percent on a true/false exam with 10 questions.</p><p>The probability that a student gets a grade of $k percent or better by guessing is</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>

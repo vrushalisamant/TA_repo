@@ -1,6 +1,0 @@
-part,incorrect_attempt,part,incorrect_attempt
-1,,2,
-1,26^9,2,
-1,,2,"P(10,2)*P(26,2)*P(10,3)"
-incorrect count
-"('part1', 1)","('part2', 3)"
