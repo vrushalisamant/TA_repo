@@ -17,14 +17,13 @@ class Prob3_Part1:
 
                 for m in matches:
                         if 'R.0' not in m:
-                                return "If you have 3 spot and 4 choices per spot, what should be the base for your exponential expression?","{0}".format(4)
+                                return "If you have 3 spot and 4 choices per spot, what should be the base for your exponential expression?","4"
                         if 'R.1' not in m:
-                            return "If you have 3 spots and 4 choices per spot, what should be the exponent in your expression?", "{0}".format(3)
-
+                            return "If you have 3 spots and 4 choices per spot, what should be the exponent in your expression?", "3"
                 if ("^" not in self.attempt):
-                    return "If there are 3 spots and 4 choices for each spot, what format should your answer be in? 4^_", "{0}".format(3)
+                    return "If there are 3 spots and 4 choices for each spot, what format should your answer be in? 4^_", "3"
                 else:
-                    return "If there are 3 spots, and 4 choices for each spot, is the total number of combinations 3^4 or 4^3?","{0}^{1}".format(4,3) 
+                    return "If there are 3 spots, and 4 choices for each spot, is the total number of combinations 3^4 or 4^3?","4^3" 
                 return "", ""
 
 	def get_problems(self):
