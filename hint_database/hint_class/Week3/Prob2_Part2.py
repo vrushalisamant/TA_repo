@@ -1,6 +1,5 @@
 # Make sure you name your file with className.py
 from hint_class_helpers.find_matches import find_matches
-from sets import Set
 
 class Prob2_Part2:
     """
@@ -25,7 +24,7 @@ class Prob2_Part2:
 
             elif 'C(' not in self.attempt and '!' not in self.attempt:
                 hint='Missing choose function in the answer. '
-                return hint + 'How many possible ways are there to get 2 questions correct out of 5 questions?', '5!/(2!*3!)'
+                return hint + 'How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)', '2'
 
             else:
                 return "",""

@@ -1,6 +1,5 @@
 # Make sure you name your file with className.py
 from hint_class_helpers.find_matches import find_matches
-from sets import Set
 
 class Prob2_Part3:
     """
