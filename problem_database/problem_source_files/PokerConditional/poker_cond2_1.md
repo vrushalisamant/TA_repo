@@ -1,21 +1,12 @@
 ```python
-import math
 # random variables (no need to import random library)
 
-def cnk(n, k):
-    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k)) 
-
-v = cnk(52, 7)
-a1 = cnk(52 - 5, 2) - cnk(52 - 5 - 4, 2)
-a2 = cnk(47, 2)
-a3 = (cnk(52 - 5, 2) - cnk(52 - 5 - 4, 2) + 16)/cnk(52 - 5, 2)
-
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
-solution1 = "16"
-solution2 = "{0}".format(a1)
-solution3 = "{0}".format(a2)
-solution4 = "{0}".format(a3)
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "4^2"
+solution2 = "C(52-5,2) - C(52-5-4,2)"
+solution3 = "C(52-5,2)"
+solution4 = "(C(52-5,2) - C(52-5-4,2) + 4^2) / C(52-5,2)"
 
 
 # Group all solutions into a list
@@ -48,29 +39,29 @@ Therefore the calculation of conditional probability (for finite sample spaces w
     The question is asking for \\\(P(A|B)\\\). According to the formula above we need to find \\\(|A\\cap B|\\\) and \\\(|B|\\\).
     - In this case \\\(A \\cap B\\\) is the set {7-card hands that contain the 5 revealed cards AND contain a straight}. To get a straight, the remaining two cards (turn and river) must either be {7,8} or contain 3. We hence define two subsets within \\\(A \\cap B\\\):
     - \\\(S_1\\\): {7-card hands that are in \\\(A \\cap B\\\) AND the remaining two cards are 7 and 8, regardless of order}.
-    
-    \\\(|S_1|=\\\) 
+
+    \\\(|S_1|=\\\)
 
     [_]
 
     - \\\(S_2\\\): {7-card hands that are in \\\(A \\cap B\\\) AND its turn and river contain 3}.
-    
+
     \\\(|S_2| = \\\)
 
     [_]
 
     Because there is no overlap in these two subsets \\\(S_1 \\cap S_2 = \\emptyset\\\) and these two subsets cover all possible valid hands \\\(A \\cap B = S_1 \\cup S_2 \\\), by definition \\\(S_1\\\) and \\\(S_2\\\) form a _partition_ of \\\(A \\cap B\\\), and we have \\\(|A \\cap B| = |S_1| + |S_2|\\\).
-    
-    - Computing \\\(|B|\\\) should be easy. 5 cards in the hand are already fixed, so we can choose any card as our turn and river from the rest 47 cards. 
-    
+
+    - Computing \\\(|B|\\\) should be easy. 5 cards in the hand are already fixed, so we can choose any card as our turn and river from the rest 47 cards.
+
     \\\(|B| = \\\)
-    
+
     [_]
 
-    - The conditional probability 
-    
-    \\\(P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{|A\\cap B|}{|B|} = \\frac{|S_1|+|S_2|}{|B|}\\\) is 
-    
+    - The conditional probability
+
+    \\\(P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{|A\\cap B|}{|B|} = \\frac{|S_1|+|S_2|}{|B|}\\\) is
+
     [_]
 
 ---

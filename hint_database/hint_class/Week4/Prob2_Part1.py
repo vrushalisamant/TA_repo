@@ -1,4 +1,4 @@
-class Prob5_Part1:
+class Prob2_Part1:
 	"""
 	Author: Sunil Raiyani
 	Date: 10/13/2016
