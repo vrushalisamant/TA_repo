@@ -25,5 +25,5 @@ class Prob5_Part1:
 		        return '',''
 
 	def get_problems(self):
-		self.problem_list = ["BayesConditional/probs_43_with_randomization/part1"]
+		self.problem_list = ["BayesConditional/probs_43_w_randomization/part1"]
 		return self.problem_list
