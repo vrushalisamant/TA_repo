@@ -18,7 +18,7 @@ class Prob3_Part1:
 
 		matches = find_matches(params)
 		matching_node = [m[0] for m in matches]
-	
+		
 		try:
                         
 			if '^' in self.attempt or '**' in self.attempt:
@@ -27,7 +27,7 @@ class Prob3_Part1:
 			elif 'P' in self.attempt:
 				hint='Is order important in this case?'
 
-			elif ('R.0' in matching_node and self.att_tree[2][0]=='X') or (self.att_tree[1][0]=='X' and 'R.1' in matching_node) or ('R.0' in matching_node and 'R.1' in matching_node):
+			elif ('R.0' in matching_node and 'R.1' in matching_node):
 				
 				if '+' in self.attempt:
                         		hint='Do you think \'+\' is correct choice in this case?'

@@ -22,11 +22,11 @@ class Prob3_Part2:
 
 		try:
                         
-			if 'R.1' in matching_node:
+			if 'R.1' in matching_node and 'R.0' not in matching_node:
 				hint = "The denominator is correct. Here you need a 3 and either a 6 or A on the turn and river to get straight in given situation of cards. So the number of such card pairs, ignoring order, is?"
 				return hint,'4*8'
 
-			elif 'R.0' in matching_node:
+			elif 'R.0' in matching_node and 'R.1' not in matching_node:
 				hint = "The numerator is correct."
 			
 				
