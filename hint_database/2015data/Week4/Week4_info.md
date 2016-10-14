@@ -4,16 +4,13 @@
         +--------+------------+------------------------------------------------------------------------------+
         | set_id | problem_id | source_file                                                                  |
         +--------+------------+------------------------------------------------------------------------------+
-        | Week4  |          1 | Reorganized/CumulativeDistributionFunctions/cdf_rs.pg                        |
-        | Week4  |          2 | Reorganized/CumulativeDistributionFunctions/cumulative_uniform_masses_5.pg   |
-        | Week4  |          3 | local/Reorganized/CumulativeDistributionFunctions/cdf_random.YoavsVersion.pg |
-        | Week4  |          4 | Reorganized/BayesConditional/BayesBurglary_ZZ.pg                             |
-        | Week4  |          5 | Reorganized/BayesConditional/probs_43_with_randomization.pg                  |
-        | Week4  |          6 | Reorganized/PokerConditional/poker_cond4_1.pg                                |
-        | Week4  |          7 | Reorganized/PokerConditional/poker_cond5_1.pg                                |
-        | Week4  |          8 | Reorganized/PokerConditional/poker_cond2_1.pg                                |
-        | Week4  |          9 | Reorganized/PokerConditional/poker_cond3.pg                                  |
-        | Week4  |         10 | Reorganized/PokerConditional/poker_cond6_2.pg                                |
+        | Week4  | geovonni         4 | Reorganized/BayesConditional/BayesBurglary_ZZ.pg                             |
+        | Week4  | sunil            5 | Reorganized/BayesConditional/probs_43_with_randomization.pg                  |
+        | Week4  | jigar            6 | Reorganized/PokerConditional/poker_cond4_1.pg                                |
+        | Week4  | shen             7 | Reorganized/PokerConditional/poker_cond5_1.pg                                |
+        | Week4  | chang            8 | Reorganized/PokerConditional/poker_cond2_1.pg                                |
+        | Week4  | vrushali         9 | Reorganized/PokerConditional/poker_cond3.pg                                  |
+        | Week4  | akanksha        10 | Reorganized/PokerConditional/poker_cond6_2.pg                                |
         +--------+------------+------------------------------------------------------------------------------+
 
 

@@ -2,18 +2,28 @@
   <text>
     <script type="loncapa/python">
 
-ns = random.randrange(4,6,1)
-nr = random.randrange(10,16,1)
-n = ns*nr
+# random variables (no need to import random library)
 
-solution1 = "{0}".format(nr)
-solution2 = "{0}-1".format(nr)
-solution3 = "C({0},3)".format(ns)
-solution4 = "C({0},2)".format(ns)
-solution5 = "{1}*({1}-1)*C({0},3)*C({0},2)".format(ns,nr)
-solution6 = "{1}*({1}-1)*C({0},3)*C({0},2)/C({2},5)".format(ns,nr,n)
 
-solutions = [solution1,solution2,solution3,solution4,solution5,solution6]  
+n = random.choice(range(13,16,1))
+x = random.choice(range(2,9,1))
+y = random.choice(range(x+2,13,1))
+a1 = 1.0 * (n-x)*(n-x-1)/2/((n-1)*(n-2))
+a2 = (n-x)*(n-x-1)/2
+a3 = (n-1)*(n-2)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+solution1 = "{0}".format(a3)
+solution2 = "{0} - {1} - 1".format(y, x)
+solution3 = "{0}".format(a2)
+solution4 = "{0}".format(a1)
+
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3, solution4]
+
+
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -37,7 +47,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h3>Full House: 2 of one rank and 3 of another rank</h3><p><em>Remember, the deck you are using has $ns suits and $nr ranks.</em></p><ul><li>The number of possibilities for the rank of the triple is</li></ul>
+<p>Three cards are drawn sequentially from a deck that contains \($n\) cards numbered 1 to \($n\) in an arbitrary order. Suppose the first card drawn is a \($x\), what is the probability that the three cards form an increasing sequence?</p><p>Note that unlike the previous question, we are considering a sequence instead of a set of cards, so the order matters. Define the event of interest, A, as the set of all increasing 3-card sequences, i.e. \[A = \{(x_1,x_2,x_3) | x_1 &lt; x_2 &lt; x_3\} \]</p><p>where \(\{x_1, x_2, x_3\}\) in \(\{1, \cdots, $n\}\). Define event \(B\) as the set of 3-card sequence that starts with \($x\), i.e. \[B = \{(x_1,x_2,x_3) | x_1=$x\} \] or simply  \(B = \{($x,x_2,x_3)\} \)</p><p>\(|B| = \) </p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -45,7 +55,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>Given the rank of the triple, the number of possibilities for the rank of the pair is</li></ul>
+<p>It follows that \[ A \cap B = \{($x,x_2,x_3) | $x &lt; x_2 &lt; x_3\} \]</p><p>This set can be partitioned into subsets according to \(x_3\), where in each subset \(x_3\) is a constant: \[ A \cap B = \cup_{x_3 = $x+2}^{$n}{($x,x_2,x_3)|$x &lt; x_2 &lt; x_3} \]</p><p>Let \(S_{x_3=t}\) represent the subset \[\{($x,x_2,t)|$x &lt; x_2 &lt; t\}\], </p><p>then \[|A \cap B| = \sum_{t = $x+2}^{$n} \left|S_{x_3=t}\right| \].</p><ul><li>To compute each \(\left|S_{x_3=t}\right|\), let's start with a specific case, say,  \(t=$y\),</li></ul><p>\(\left|S_{x_3=$y}\right| = \left| \{($x,x_2,$y)|$x &lt; x_2 &lt; $y\} \right| = \) </p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -53,7 +63,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>The number of possibilities for the suit of the triple is</li></ul>
+<ul><li>Generalize this computation, it should be straightforward to compute \(|A \cap B|\) as the sum of \(S_{x_3=t}\) over all valid \(t\).\(|A \cap B| = \)</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -61,25 +71,9 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>The number of possibilities for the suit of the pair is</li></ul>
+<ul><li>Now we are ready to compute the conditional probability </li></ul><p>\(P(A|B) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution4\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<ul><li>Thus the number of hands that is a full house is</li></ul>
-
-    <customresponse cfn="check" expect="\[$solution5\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<ul><li>The ratio of this number to the number of all hands</li></ul>
-
-    <customresponse cfn="check" expect="\[$solution6\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>

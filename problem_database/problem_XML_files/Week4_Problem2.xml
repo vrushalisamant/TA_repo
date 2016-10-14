@@ -2,20 +2,20 @@
   <text>
     <script type="loncapa/python">
 
-p = random.randrange(6,8,1)
-ten = 10
-k = p*10
+# random variables (no need to import random library)
+p_men = random.randrange(6,8,1)
+p_women = random.randrange(3,5,1)
+p_male_given_colorblind = p_men/(p_men+p_women)
 
-if (p == 6):
-    solution1 ="(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+C(10,{0}+3)+1)/(2^{{{1}}})".format(p,ten)
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+solution1 = "{0}/({0}+{1})".format(p_men, p_women)
 
-if (p == 7):
-    solution1 = "(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+1)/(2^{{{1}}})".format(p,ten)
 
-if (p == 8):
-    solution1 = "(C(10,{0})+C(10,{0}+1)+1)/(2^{{{1}}})".format(p,ten)
-
+# Group all solutions into a list
 solutions = [solution1]
+
+
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -39,7 +39,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Here we will calculate the probability of a student getting at least $k percent on a true/false exam with 10 questions.</p><p>The probability that a student gets a grade of $k percent or better by guessing is</p>
+<p>Suppose that there are equal numbers of men and women in the world, and that \($p_men\)% of men are colorblind \($p_women\)% of women are colorblind. A person is chosen at random and found to be colorblind. What is the probability that the person is male? </p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -47,7 +47,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-
+<p>Reverse the condition:\[\textbf{Pr}(\text{male}|\text{colorblind}) = \frac{Pr(\text{male}, \text{colorblind)}}{\textbf{Pr}(\text{colorblin)}} = \]\[\frac{\textbf{Pr}(\text{colorblind}|\text{male})\textbf{Pr}(\text{male})}{\textbf{Pr}(\text{colorblind})}\]</p><p>Law of total probability + Bayes rule:\[\textbf{Pr}(\text{colorblind}) = \text{Pr}(\text{male}, \text{colorblind}) + \textbf{Pr}(\text{female}, \text{colorblind}) =\]\[\textbf{Pr}(\text{colorblind}|\text{male})\textbf{Pr}(\text{male}) + \textbf{Pr}(\text{colorblind}|\text{female})\textbf{Pr}(\text{female})\]</p><hr />
     
     
 

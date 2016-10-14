@@ -1,8 +1,0 @@
-part,incorrect_attempt,part,incorrect_attempt
-1,,2,
-1,,2,
-1,5!(2!*2!),2,
-1,,2,"C(50,1)*C(49,1)*C(48,1)*C(47,1)*C(46,1)*C(45,1)"
-1,,2,52*51*50*49*48*47/6
-incorrect count
-"('part1', 3)","('part2', 4)"

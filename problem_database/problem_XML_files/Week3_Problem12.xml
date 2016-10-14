@@ -32,7 +32,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h2>Probability of Poker Hands</h2><p>You are given a deck of cards with <em>$ns suites</em> and <em>$nr ranks</em>. A hand consists of 5 cards from this deck, and may fall into one of the categories. We are going to compute the probability of each category.</p><p>The number of all possible hands is </p>
+<h2>Probability of Poker Hands</h2><p>You are given a deck of cards with <em>$ns suits</em> and <em>$nr ranks</em>. A hand consists of 5 cards from this deck, and may fall into one of the categories. We are going to compute the probability of each category.</p><p>The number of all possible hands is </p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>

@@ -3,20 +3,20 @@ import math
 # random variables (no need to import random library)
 
 def cnk(n, k):
-    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k)) 
+    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k))
 
 a1 = 1-3/cnk(52-7,2)
 a2 = (1-3/cnk(52-7,2))*(1-3/cnk(52-9,2))
 
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
 solution1 = "3"
 solution2 = "{0}".format(a1)
 solution3 = "{0}".format(a2)
 
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3, solution4]
+solutions = [solution1, solution2, solution3]
 
 
 ```

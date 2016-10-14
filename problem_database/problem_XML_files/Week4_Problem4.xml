@@ -2,20 +2,27 @@
   <text>
     <script type="loncapa/python">
 
-p = random.randrange(6,8,1)
-ten = 10
-k = p*10
+import math
+# random variables (no need to import random library)
 
-if (p == 6):
-    solution1 ="(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+C(10,{0}+3)+1)/(2^{{{1}}})".format(p,ten)
+def cnk(n, k):
+    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k)) 
 
-if (p == 7):
-    solution1 = "(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+1)/(2^{{{1}}})".format(p,ten)
+a1 = cnk(32, 5) - cnk(20, 5)
+a2 = cnk(52, 5) - cnk(40, 5)
+a3 = (cnk(32, 5)-cnk(20, 5))/(cnk(52, 5)-cnk(40, 5))
 
-if (p == 8):
-    solution1 = "(C(10,{0})+C(10,{0}+1)+1)/(2^{{{1}}})".format(p,ten)
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+solution1 = "{0}".format(a1)
+solution2 = "{0}".format(a2)
+solution3 = "{0}".format(a3)
 
-solutions = [solution1]
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3]
+
+
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -39,9 +46,25 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Here we will calculate the probability of a student getting at least $k percent on a true/false exam with 10 questions.</p><p>The probability that a student gets a grade of $k percent or better by guessing is</p>
+<ul><li><p>Find the probability that a poker hand of 5 cards from a standard deck will contain no card smaller than 7 (i.e. 2,3...6) (call this event \(A\)), given that it contains at least one face card (i.e. J, Q, K) (call this event \(B\))We define two events:</p></li><li><p>Event \(A\): The hand contains no card smaller than 7.</p></li><li><p>Event \(B\): The hand contains at least one face card.</p></li></ul><p>We first compute the size of the relevant events \(|A \cap B| = \)</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\(|B| = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>We then use the ratio between the sizes of the events to find the conditional probability:</p><ul><li>The conditional probability \(P(A|B) = \)</li></ul>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>

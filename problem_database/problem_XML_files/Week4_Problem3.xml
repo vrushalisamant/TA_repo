@@ -2,20 +2,23 @@
   <text>
     <script type="loncapa/python">
 
-p = random.randrange(6,8,1)
-ten = 10
-k = p*10
+import math
+# random variables (no need to import random library)
+def cnk(n, k):
+    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k))
 
-if (p == 6):
-    solution1 ="(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+C(10,{0}+3)+1)/(2^{{{1}}})".format(p,ten)
+a1 = (4 * 8) / cnk(52 - 5, 2)
 
-if (p == 7):
-    solution1 = "(C(10,{0})+C(10,{0}+1)+C(10,{0}+2)+1)/(2^{{{1}}})".format(p,ten)
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+solution1 = "4*8"
+solution2 = "{0}".format(a1)
 
-if (p == 8):
-    solution1 = "(C(10,{0})+C(10,{0}+1)+1)/(2^{{{1}}})".format(p,ten)
 
-solutions = [solution1]
+# Group all solutions into a list
+solutions = [solution1, solution2]
+
+
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -39,9 +42,17 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Here we will calculate the probability of a student getting at least $k percent on a true/false exam with 10 questions.</p><p>The probability that a student gets a grade of $k percent or better by guessing is</p>
+<p>*Suppose you have been dealt 4\(\heartsuit\) and 5 \(\heartsuit\). What is the conditional probability that you will get a straight given that you have been dealt these two cards, and that the flop is "2\(\clubsuit\), Q\(\clubsuit\), K\(\diamondsuit\)"</p><p>In this case we need a 3 and either a 6 or A on the turn and river.</p><ul><li>The number of such card pairs, ignoring order, is </li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<ul><li>The conditional probability is </li></ul>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>

@@ -33,7 +33,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Suppose we have $R1 cards and $R2 envelopes to put them in. The envelopes are marked (1,...,$R2).We will calculate the number of ways to put the cards into the envelopes under different conditions.</p><ol><li><p>Suppose all the cards are <em>distinct</em> (i.e. are numbered    (1,2,....,$R1)). How many ways are there to place cards into    envelopes?    As should be expected from the first part of a question, this is    an easy one. Think of placing the cards into envelopes in the    following way: take the first card and choose an envelope for it,    then take the second card and choose an envelope for it etc. Until    all of the cards have been placed. Clearly we can get any possible    combination this way. It takes a little thought, but you can also    convince yourself that there is only <em>one</em> way to get each    combination. In other words, there is no overcounting.</p><p>Counting the number of combinations we get this way is simple. At each of the $R1 step we place one card in one of the $R2envelopes. Taking the product over all of these steps we get thatthe number of combinations is </p>
+<p>Suppose we have $R1 cards and $R2 envelopes to put them in. The envelopes are marked (1,...,$R2). We will calculate the number of ways to put the cards into the envelopes under different conditions.</p><ul><li>Suppose all the cards are <em>distinct</em> (i.e. are numbered (1,2,....,$R1)). How many ways are there to place cards into envelopes? As should be expected from the first part of a question, this is an easy one. Think of placing the cards into envelopes in the following way: take the first card and choose an envelope for it, then take the second card and choose an envelope for it etc. Until all of the cards have been placed. Clearly we can get any possible combination this way. It takes a little thought, but you can also convince yourself that there is only <em>one</em> way to get each combination. In other words, there is no overcounting.</li></ul><p>Counting the number of combinations we get this way is simple. At each of the $R1 step we place one card in one of the $R2 envelopes. Taking the product over all of these steps we get that the number of combinations is</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -41,7 +41,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-</li><li><p>Suppose that cards are <em>identical</em>. (The envelopes remain distinct)    How many combinations are possible in this case?</p><p>Consider the difference between part 1 and part 2. In part 1, each configurationspecified exactly <em>which</em> cards were placed in each envelope. Herethe cards are identical, therefor we can only say how <em>many</em> cardsare in each envelope, but we cannot identify them.</p><p>Thinking of the problem this way, we realize that it ismathematically equivalent to the problem of choosing $R1 candieswhen there are $R2 <em>types</em> of candy to choose from. As the Candiesare indistinguishable, we are only interested in the number ofcandies chosen from each type. The correspondence is card &lt;-&gt; candy and candy type &lt;-&gt; envelope.</p><p>If you go back to this problem, you will recall the formula for it and use it to get theanswer: </p>
+<ul><li>Suppose that cards are <em>identical</em>. (The envelopes remain distinct) How many combinations are possible in this case?</li></ul><p>Consider the difference between part 1 and part 2. In part 1, each configuration specified exactly <em>which</em> cards were placed in each envelope. Here the cards are identical, therefor we can only say how <em>many</em> cards are in each envelope, but we cannot identify them.</p><p>Thinking of the problem this way, we realize that it is mathematically equivalent to the problem of choosing $R1 candies when there are $R2 <em>types</em> of candy to choose from. As the Candies are indistinguishable, we are only interested in the number of candies chosen from each type. The correspondence is card &lt;-&gt; candy and candy type &lt;-&gt; envelope.</p><p>If you go back to this problem, you will recall the formula for it and use it to get the answer:</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -49,7 +49,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-</li><li><p>Suppose the cards are identical as in 2. and, in addition, we    require that each envelope contain at least one card.  In this    case we first have to check that the number of cards is at least    as large as the number of envelopes, otherwise there will be no    way to satisfy the requirements. Luckily (thanks to the magic of    WebWork) $R1&gt;$R2.</p><p>OK, good. Now we can proceed in two steps, first, take $R2 cardsand put one card in each envelope, satisfying the reuirement thateach envelop contains a card. The remaining cards can be placed inany envelope, with no constraints. We now have the same situationwe had in part 2. but where, instead of $R1 cards, we have$R1-$R2=$R1-$R2 cards. We use the same formula that we usedin 2. to find that the answer is</p>
+<ul><li>Suppose the cards are identical as in 2. and, in addition, we require that each envelope contain at least one card.  In this case we first have to check that the number of cards is at least as large as the number of envelopes, otherwise there will be no way to satisfy the requirements. Luckily (thanks to the magic of EdX) $R1&gt;$R2.</li></ul><p>OK, good. Now we can proceed in two steps, first, take $R2 cards and put one card in each envelope, satisfying the reuirement that each envelop contains a card. The remaining cards can be placed in any envelope, with no constraints. We now have the same situation we had in part 2. but where, instead of $R1 cards, we have $R1-$R2=$R1-$R2 cards. We use the same formula that we used in 2. to find that the answer is</p>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -57,7 +57,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-</li></ol>
+
     
     
 
