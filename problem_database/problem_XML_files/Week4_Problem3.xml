@@ -2,17 +2,12 @@
   <text>
     <script type="loncapa/python">
 
-import math
 # random variables (no need to import random library)
-def cnk(n, k):
-    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k))
-
-a1 = (4 * 8) / cnk(52 - 5, 2)
 
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
 solution1 = "4*8"
-solution2 = "{0}".format(a1)
+solution2 = "(4 * 8) / C(52-5, 2)"
 
 
 # Group all solutions into a list
@@ -42,7 +37,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>*Suppose you have been dealt 4\(\heartsuit\) and 5 \(\heartsuit\). What is the conditional probability that you will get a straight given that you have been dealt these two cards, and that the flop is "2\(\clubsuit\), Q\(\clubsuit\), K\(\diamondsuit\)"</p><p>In this case we need a 3 and either a 6 or A on the turn and river.</p><ul><li>The number of such card pairs, ignoring order, is </li></ul>
+<p>*Suppose you have been dealt 4\(\heartsuit\) and 5 \(\heartsuit\). What is the conditional probability that you will get a straight given that you have been dealt these two cards, and that the flop is "2\(\clubsuit\), Q\(\clubsuit\), K\(\diamondsuit\)"</p><p>In this case we need a 3 and either a 6 or A on the turn and river.</p><ul><li>The number of such card pairs, ignoring order, is</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -50,7 +45,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>The conditional probability is </li></ul>
+<ul><li>The conditional probability is</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>

@@ -7,14 +7,13 @@ perc = atpt/100
 #burglary percentage
 fals = random.randrange(1,3,1)
 fperc = fals/100
-sol = (perc/10000)/(perc*0.0001+ fperc*0.9999)
 
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
 solution1 = "1/10000"
-solution2 = "{0}*0.0001 + {1}*0.9999".format(perc, fperc)
-solution3 = "{0}*0.0001*100".format(perc)
-solution4 = "{0}".format(sol)
+solution2 = "{0}*(1/10000) + {1}*(1-1/10000)".format(perc, fperc)
+solution3 = "{0}*(1/10000)".format(perc)
+solution4 = "({0}/10000)/({0}*(1/10000) + {1}*(1-1/10000))".format(perc, fperc)
 
 # Group all solutions into a list
 solutions = [solution1, solution2, solution3, solution4]
@@ -25,9 +24,9 @@ solutions = [solution1, solution2, solution3, solution4]
 ## Bayes' Burglary ##
 o  The following example is taken from _Probabilistic Reasoning in Intelligent Systems_ by Judea Pearl:
 
-You wake up in the middle of the night to the shrill sound of your burglar alarm. What is the chance that a burglary attempt has taken place? The relevant facts are: 
+You wake up in the middle of the night to the shrill sound of your burglar alarm. What is the chance that a burglary attempt has taken place? The relevant facts are:
 
-o  There is a $atpt% chance that an attempted burglary attempt will trigger the alarm. That is 
+o  There is a $atpt% chance that an attempted burglary attempt will trigger the alarm. That is
 \\\[P(\\mbox{alarm} | \\mbox{burglary}) = $perc\\\]
 
 o  There is a $fals% chance of a false alarm.
@@ -48,7 +47,7 @@ o  The one term we don't immediately know is \\\(P(\mbox{alarm})\\\).  By the su
 
 [_]
 
-.  What is \\\(P(\\mbox{burglary}, \\mbox{alarm})*100\\\)
+.  What is \\\(P(\\mbox{burglary}, \\mbox{alarm})\\\)
 
 [_]
 
