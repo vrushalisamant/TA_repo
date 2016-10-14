@@ -8,17 +8,21 @@ y = random.choice(range(x+2,13,1))
 a1 = 1.0 * (n-x)*(n-x-1)/2/((n-1)*(n-2))
 a2 = (n-x)*(n-x-1)/2
 a3 = (n-1)*(n-2)
+a4 = (n-1)
+a5 = (n-2)
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
-solution1 = "{0}".format(a3)
-solution2 = "{0} - {1} - 1".format(y, x)
-solution3 = "{0}".format(a2)
-solution4 = "{0}".format(a1)
+solution1 = "{0}".format(a4)
+solution2 = "{0}".format(a5)
+solution3 = "{0}".format(a3)
+solution4 = "{0} - {1} - 1".format(y, x)
+solution5 = "{0}".format(a2)
+solution6 = "{0}".format(a1)
 
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3, solution4]
+solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
 
 
 ```
@@ -31,7 +35,15 @@ Note that unlike the previous question, we are considering a sequence instead of
 
 where \\\(\\\{x_1, x_2, x_3\\\}\\\) in \\\(\\\{1, \\cdots, $n\\\}\\\). Define event \\\(B\\\) as the set of 3-card sequence that starts with \\\($x\\\), i.e. \\\[B = \\\{(x_1,x_2,x_3) | x_1=$x\\\} \\\] or simply  \\\(B = \\\{($x,x_2,x_3)\\\} \\\)
 
-\\\(|B| = \\\) 
+- How many cards can be selected as \\\(x_2\\\) in \\\(B\\\) :
+
+[_]
+
+- How many cards can be selected as \\\(x_3\\\) in \\\(B\\\) when \\\(x_2\\\) is already selected :
+
+[_]
+
+- What is the size of \\\(B\\\) i.e. \\\(|B| = \\\) 
 
 [_]
 
