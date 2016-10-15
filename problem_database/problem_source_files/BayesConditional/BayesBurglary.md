@@ -57,9 +57,5 @@ o  The one term we don't immediately know is \\\(P(\mbox{alarm})\\\).  By the su
 [_]
 
 Thus our belief in a burglary has risen approximately a hundredfold from its default value of \\\(10^{-4}\\\)  on account of the alarm.
-It is frequently the case, as in this example, that we wish to update the chances of an event \\\(H\\\) based on new evidence \\\(E\\\)  In other words, we wish to know \\\(P(H | E)\\\)
-o  The derivation above implicitly uses the following formula, called Bayes Rule:
-\\\[P(H | E)\\ = \\ \\frac{P(E|H) P(H)}{P(E)}\\\]
-
 
 ---
