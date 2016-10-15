@@ -1,19 +1,12 @@
 ```python
-import math
 # random variables (no need to import random library)
 
-def cnk(n, k):
-    return math.factorial(n)/(math.factorial(n - k) * math.factorial(k)) 
-
-a1 = cnk(32, 5) - cnk(20, 5)
-a2 = cnk(52, 5) - cnk(40, 5)
-a3 = (cnk(32, 5)-cnk(20, 5))/(cnk(52, 5)-cnk(40, 5))
 
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
-solution1 = "{0}".format(a1)
-solution2 = "{0}".format(a2)
-solution3 = "{0}".format(a3)
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "C(32,5) - C(20,5)"
+solution2 = "C(52,5) - C(40,5)"
+solution3 = "(C(32,5) - C(20,5))/(C(52,5) - C(40,5))"
 
 
 # Group all solutions into a list
@@ -46,4 +39,3 @@ We then use the ratio between the sizes of the events to find the conditional pr
 - The conditional probability \\\(P(A|B) = \\\)
 
 [_]
-
