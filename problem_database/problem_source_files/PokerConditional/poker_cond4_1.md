@@ -30,7 +30,7 @@ Event A: You will get a straight.
 
 Event B:  You have been dealt with 5 cards i.e. 4\\\(\\heartsuit\\\), 5 \\\(\\heartsuit\\\), 2\\\(\\clubsuit\\\), Q\\\(\\clubsuit\\\), K\\\(\\diamondsuit\\\).
 
-In this case you need a 3 and either a 6 or A on the turn and river in order to get straight.
+In this case you need a 3 and either a 6 or A(ace) on the turn and river in order to get straight.
 
 - The number of such card pairs, ignoring order, is the size of  \(|A \cap B| = \)  
 
