@@ -22,15 +22,25 @@ solutions = [solution1, solution2]
 
 
 
-*Suppose you have been dealt 4\\\(\\heartsuit\\\) and 5 \\\(\\heartsuit\\\). What is the conditional probability that you will get a straight given that you have been dealt these two cards, and that the flop is "2\\\(\\clubsuit\\\), Q\\\(\\clubsuit\\\), K\\\(\\diamondsuit\\\)"
+Suppose you have been dealt 4\\\(\\heartsuit\\\) and 5 \\\(\\heartsuit\\\). What is the conditional probability that you will get a straight (five cards in sequence, but not all from the same suit) given that you have been dealt these two cards, and that the flop is "2\\\(\\clubsuit\\\), Q\\\(\\clubsuit\\\), K\\\(\\diamondsuit\\\)"
 
-In this case we need a 3 and either a 6 or A on the turn and river.
+Consider following events,
 
-- The number of such card pairs, ignoring order, is 
+Event A: You will get a straight.
+
+Event B:  You have been dealt with 5 cards i.e. 4\\\(\\heartsuit\\\), 5 \\\(\\heartsuit\\\), 2\\\(\\clubsuit\\\), Q\\\(\\clubsuit\\\), K\\\(\\diamondsuit\\\).
+
+In this case you need a 3 and either a 6 or A on the turn and river in order to get straight.
+
+- The number of such card pairs, ignoring order, is the size of  \(|A \cap B| = \)  
 
 [_]
 
-- The conditional probability is 
+The conditional probability:
+
+\[P(A|B) = \frac{P(A \cap B)}{P(B)} =  \frac{|A \cap B|}{|B|} \]
+
+- The conditional probability \(P(A|B) = \) 
 
 [_]
 
