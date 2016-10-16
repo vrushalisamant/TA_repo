@@ -118,4 +118,3 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
 
   </text>
 </problem>
-
