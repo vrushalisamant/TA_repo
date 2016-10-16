@@ -39,8 +39,7 @@ solutions = [solution1, solution2, solution3, solution4, solution5, solution6, s
 ```
 ## Conditional Probability ##
 
-Consider the following Venn diagram, describing three events labeled
-A,B and C.
+Consider the following Venn diagram, describing three events labeled A,B and C.
 
 <img src="/static/Venn3.jpg" style="width:300px;height:300px;"/>
 
@@ -53,8 +52,7 @@ You are given the following information:
 \\\[ P(C \cup B) = $pbuc \\\]
 \\\[ P(A \cup B \cup C) = $pabc \\\]
 
-Compute the following quantities. Hint: write expressions involving
-the numbers above, rather than calculating the numerical result.
+Compute the following quantities. Hint: write expressions involving the numbers above, rather than calculating the numerical result.
 
 \\\[ P(A \cap B) = \\\]
 

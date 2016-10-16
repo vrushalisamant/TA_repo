@@ -21,10 +21,14 @@ def rnd(x):
 pa=rnd(sum([P[1][i][j] for i,j in pairs]))
 pb=rnd(sum([P[i][1][j] for i,j in pairs]))
 pc=rnd(sum([P[i][j][1] for i,j in pairs]))
-paub=rnd(sum(P[1][1][i] for i in range(2)))
-pauc=rnd(sum(P[1][i][1] for i in range(2)))
-pbuc=rnd(sum(P[i][1][1] for i in range(2)))
+paib=rnd(sum(P[1][1][i] for i in range(2)))
+paic=rnd(sum(P[1][i][1] for i in range(2)))
+pbic=rnd(sum(P[i][1][1] for i in range(2)))
 pabc=rnd(sum([sum([sum(L) for L in M]) for M in P]))
+
+paub=pa+pb-paib
+pauc=pa+pc-paic
+pbuc=pb+pc-paic
 
 solution1 = "{0}+{1}-{2}".format(pa,pb,paub)
 solution2 = "{0}+{1}-{2}".format(pb,pc,pbuc)
@@ -58,7 +62,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h2>Conditional Probability</h2><p>Consider the following Venn diagram, describing three events labeledA,B and C.</p><img src="/static/Venn3.jpg" style="width:300px;height:300px;"/><p>You are given the following information:\[ P(A) = $pa \]\[ P(B) = $pb \]\[ P(C) = $pc \]\[ P(A \cup B) = $paub \]\[ P(A \cup C) = $pauc \]\[ P(C \cup B) = $pbuc \]\[ P(A \cup B \cup C) = $pabc \]</p><p>Compute the following quantities. Hint: write expressions involvingthe numbers above, rather than calculating the numerical result.</p><p>\[ P(A \cap B) = \]</p>
+<h2>Conditional Probability</h2><p>Consider the following Venn diagram, describing three events labeled A,B and C.</p><p><img src="/static/Venn3.jpg" style="width:300px;height:300px;"/></p><p>You are given the following information:\[ P(A) = $pa \]\[ P(B) = $pb \]\[ P(C) = $pc \]\[ P(A \cup B) = $paub \]\[ P(A \cup C) = $pauc \]\[ P(C \cup B) = $pbuc \]\[ P(A \cup B \cup C) = $pabc \]</p><p>Compute the following quantities. Hint: write expressions involving the numbers above, rather than calculating the numerical result.</p><p>\[ P(A \cap B) = \]</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
