@@ -96,7 +96,7 @@ def single_hint_test(path, new_class_name, testdata):
     except:
         sys.exit("ERROR: no function get_problems in hint class {0}.".format(class_address))
 
-    all_pros = json.loads(open("problems_mapping.json").read())
+    all_pros = json.loads(open("../problem_database/problems_mapping.json").read())
     for p in pro_list:
         if not '/part' in p:
             sys.exit("ERROR: please include part id in the get_problems.")
