@@ -3,17 +3,17 @@
     <script type="loncapa/python">
 
 # random variables (no need to import random library)
-
+p_men = random.randrange(6,8,1)/100.
+p_women = random.randrange(3,5,1)/100.
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "C(32,5) - C(20,5)"
-solution2 = "C(52,5) - C(40,5)"
-solution3 = "(C(32,5) - C(20,5))/(C(52,5) - C(40,5))"
-
+solution1 = "{0}*0.5".format(p_men)
+solution2 = "{0}*0.5+{1}*0.5".format(p_men,p_women)
+solution3 = "({0})/({1})".format(solution1,solution2)
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3]
+solutions = [solution1]
 
 
 # hint text id
@@ -39,7 +39,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<ul><li><p>Find the probability that a poker hand of 5 cards from a standard deck will contain no card smaller than 7 (i.e. 2,3...6) (call this event \(A\)), given that it contains at least one face card (i.e. J, Q, K) (call this event \(B\))We define two events:</p></li><li><p>Event \(A\): The hand contains no card smaller than 7.</p></li><li><p>Event \(B\): The hand contains at least one face card.</p></li></ul><p>We first compute the size of the relevant events \(|A \cap B| = \)</p>
+<p>Suppose that there are equal numbers of men and women in the world, and that \($p_men\)% of men are colorblind \($p_women\)% of women are colorblind.</p><p>A person is chosen at random and found to be colorblind. What is the probability that the person is male?</p><p>We need to reverse the direction of conditioning. We are given \(\text{Pr}(\text{colorblind}|\text{male})\) and we need to compute \(\text{Pr}(\text{male}|\text{colorblind})\)?</p><p>To do so we use Bayes Formula, which for this setting is:\[\textbf{Pr}(\text{male}|\text{colorblind}) = \frac{\textbf{Pr}(\text{male},\text{colorblind)}}{\textbf{Pr}(\text{colorblind)}} \]\[=\frac{\textbf{Pr}(\text{colorblind}|\text{male})\textbf{Pr}(\text{male})}{\textbf{Pr}(\text{colorblind})}\]</p><p>We will compute the enumerator and denominator of the Bayes equation separately:</p><p>First, enumerator is\[\textbf{Pr}(\text{male}, \text{colorblind})= \textbf{Pr}(\text{colorblind}| \text{male})* \textbf{Pr}(\text{male}) \]</p><p>which is equal to</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -47,7 +47,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>\(|B| = \)</p>
+<p>Second, the denominator is \(\textbf{Pr}(\text{colorblind})\) can be calculated using the Law of total probability as follows:\[\textbf{Pr}(\text{colorblind}) = \textbf{Pr}(\text{male}, \text{colorblind}) + \textbf{Pr}(\text{female}, \text{colorblind}) \]\[= \textbf{Pr}(\text{colorblind}|\text{male})\textbf{Pr}(\text{male}) + \textbf{Pr}(\text{colorblind}|\text{female})\textbf{Pr}(\text{female})\]</p><p>Which means that the denominator is equal to:</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -55,7 +55,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>We then use the ratio between the sizes of the events to find the conditional probability:</p><ul><li>The conditional probability \(P(A|B) = \)</li></ul>
+<p>Finally, we take the ratio of the enumerator and denominator to find the final answer:</p><p>\[\text{Pr}(\text{male}|\text{colorblind})=\]</p>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
