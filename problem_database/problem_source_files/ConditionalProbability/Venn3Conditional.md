@@ -18,10 +18,14 @@ def rnd(x):
 pa=rnd(sum([P[1][i][j] for i,j in pairs]))
 pb=rnd(sum([P[i][1][j] for i,j in pairs]))
 pc=rnd(sum([P[i][j][1] for i,j in pairs]))
-paub=rnd(sum(P[1][1][i] for i in range(2)))
-pauc=rnd(sum(P[1][i][1] for i in range(2)))
-pbuc=rnd(sum(P[i][1][1] for i in range(2)))
+paib=rnd(sum(P[1][1][i] for i in range(2)))
+paic=rnd(sum(P[1][i][1] for i in range(2)))
+pbic=rnd(sum(P[i][1][1] for i in range(2)))
 pabc=rnd(sum([sum([sum(L) for L in M]) for M in P]))
+
+paub=pa+pb-paib
+pauc=pa+pc-paic
+pbuc=pb+pc-paic
 
 solution1 = "{0}+{1}-{2}".format(pa,pb,paub)
 solution2 = "{0}+{1}-{2}".format(pb,pc,pbuc)
