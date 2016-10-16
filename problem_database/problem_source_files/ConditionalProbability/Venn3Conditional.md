@@ -36,7 +36,9 @@ solutions = [solution1, solution2, solution3, solution4, solution5, solution6, s
 ## Conditional Probability ##
 
 Consider the following Venn diagram, describing three events labeled
-A,B and C. (include image Venn3.jpeg)
+A,B and C.
+
+<img src="/static/Venn3.jpg" style="width:300px;height:300px;"/>
 
 You are given the following information:
 \\\[ P(A) = $pa \\\]
@@ -44,7 +46,7 @@ You are given the following information:
 \\\[ P(C) = $pc \\\]
 \\\[ P(A \cup B) = $paub \\\]
 \\\[ P(A \cup C) = $pauc \\\]
-\\\[ P(C \cup B) = $pcub \\\]
+\\\[ P(C \cup B) = $pbuc \\\]
 \\\[ P(A \cup B \cup C) = $pabc \\\]
 
 Compute the following quantities. Hint: write expressions involving
@@ -80,4 +82,3 @@ Hint: Google the "inclusion exclusion principle for three sets"
 \\\[ P(A | B \cap C) = \\\]
 
 [_]
-
