@@ -32,8 +32,8 @@ solution2 = "{0}+{1}-{2}".format(pb,pc,pbuc)
 solution3 = "{0}+{1}-{2}".format(pa,pc,pauc)
 solution4 = "({0})/{1}".format(solution1,pb)
 solution5 = "({0})/{1}".format(solution1,pa)
-solution6 ="{0}-({1}+{2}+{3})+({4}+{5}+{6})".format(pabc,pa,pb,pc,solution1,solution2,solution3)
-solution7 ="{0}/{1}".format(solution6,solution2)
+solution6 ="{0}+({4})+({5})+({6})-({1}+{2}+{3})".format(pabc,pa,pb,pc,solution1,solution2,solution3)
+solution7 ="({0})/({1})".format(solution6,solution2)
 
 solutions = [solution1, solution2, solution3, solution4, solution5, solution6, solution7]
 ```
