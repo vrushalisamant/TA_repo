@@ -2,7 +2,7 @@
 # random variables (no need to import random library)
 
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
 solution1 = "4*8"
 solution2 = "(4 * 8) / C(52-5, 2)"
 
@@ -32,11 +32,6 @@ In this case you need a 3 and either a 6 or A(ace) on the turn and river in orde
 [_]
 
 
-The conditional probability:
-
-\\\[P(A|B) = \\frac{P(A \\cap B)}{P(B)} = \\frac{\\frac{|A \\cap B|}{|\\Omega|}}{\\frac{|B|}{|\\Omega|}} = \\frac{|A \\cap B|}{|B|} \\\]
-
-- The conditional probability \\\(P(A|B) =\\\) 
+- The conditional probability \\\(P(A|B) =\\\)
 
 [_]
-
