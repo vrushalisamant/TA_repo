@@ -1,6 +1,6 @@
 from hint_class_helpers.find_matches import find_matches
 
-class Prob3_Part2:
+class Prob6_Part2:
 	"""
 	Author: Jigar Patel
 	Date: 10/13/2016
