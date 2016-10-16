@@ -9,7 +9,7 @@ for i in range(2):
 	for j in range(2):
 	   P[i].append([])
 	   for k in range(2):
-	      P[i][j].append(random.randrange(0,3,1)/20.)
+	      P[i][j].append(random.randrange(1,3,1)/20.)
 
 pairs=[(0,0),(0,1),(1,0),(1,1)]
 def rnd(x):
