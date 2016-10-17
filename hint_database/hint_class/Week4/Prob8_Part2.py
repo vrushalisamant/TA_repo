@@ -16,7 +16,7 @@ class Prob8_Part2:
 		hint = ''
 		
 		matches = find_matches(params)
-		print "PROBLEM 8 PART 2: ", matches
+		#print "PROBLEM 8 PART 2: ", matches
  		
  
  		try:
@@ -24,12 +24,12 @@ class Prob8_Part2:
 				hint = 'To calculate the probability that an event occurs, divide the size of the event by the size of the outcome space. What is the size of the event in this case?','3'
                          
  			elif '1-' not in self.attempt:
- 				hint = 'The conditional probability that you win a coin toss given that you bet on heads, is 1-probability(opponent wins). Submit the following calculation for the probability that you win with the blanks replaced with the appropriate numbers, and then apply this concept to the above problem: 1-(__/__).'
- 				return hint,'1-(1/2)'
+ 				hint = 'The conditional probability that you win a coin toss given that you bet on heads, is 1-probability(opponent wins) = 1-(___).'
+ 				return hint,'1/2'
  
  			elif 'C' not in self.attempt:
- 				hint = 'If you are choosing 2 cards from a pool of 26 from which 3 cards have already been drawn, how many choices do you have? Submit the following calculation of the total number of combinations with the blanks replaced with the appropriate numbers, and then apply this concept to the above problem: C(26-__,__)'
- 				return hint, 'C(26-3,2)'
+ 				hint = 'If you are choosing 2 cards from a pool of 26 from which 3 cards have already been drawn, how many choices do you have?: C(26-3,__)'
+ 				return hint, '2'
  			else:
  				return '',''
 

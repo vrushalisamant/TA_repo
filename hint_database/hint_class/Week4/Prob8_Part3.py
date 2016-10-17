@@ -20,8 +20,8 @@ class Prob8_Part3:
 		try:
                         
 			if '*' not in self.attempt:
-				hint = 'If the probability of event A is (1/2) is the probability of event B is (1/4), then what is the probability of A and B? Submit the following calculation with the blanks replaced with the appropriate numbers, and then apply this concept to the above problem: (__)*(__).'
-				return hint,'(1/2)*(1/3)'
+				hint = 'If the probability of event A is (1/2) is the probability of event B is (1/4), then what is the probability of A and B? (Note that in this problem, event A is the case that opponent 1 wins and B is the case where opponent 2 wins, given that opponent 1 did not.): (1/2)*(__).'
+				return hint,'1/4'
 
 			else:
 				return '',''
