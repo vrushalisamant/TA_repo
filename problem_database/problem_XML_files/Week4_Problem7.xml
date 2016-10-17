@@ -5,27 +5,15 @@
 # random variables (no need to import random library)
 
 
-n = random.choice(range(13,16,1))
-x = random.choice(range(2,9,1))
-y = random.choice(range(x+2,13,1))
-a1 = 1.0 * (n-x)*(n-x-1)/2/((n-1)*(n-2))
-a2 = (n-x)*(n-x-1)/2
-a3 = (n-1)*(n-2)
-a4 = (n-1)
-a5 = (n-2)
-
 # Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
-solution1 = "{0}".format(a4)
-solution2 = "{0}".format(a5)
-solution3 = "{0}".format(a3)
-solution4 = "{0} - {1} - 1".format(y, x)
-solution5 = "{0}".format(a2)
-solution6 = "{0}".format(a1)
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "C(32,5) - C(20,5)"
+solution2 = "C(52,5) - C(40,5)"
+solution3 = "(C(32,5) - C(20,5))/(C(52,5) - C(40,5))"
 
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
+solutions = [solution1, solution2, solution3]
 
 
 # hint text id
@@ -51,7 +39,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Three cards are drawn sequentially from a deck that contains \($n\) cards numbered 1 to \($n\) in an arbitrary order. Suppose the first card drawn is a \($x\), what is the probability that the three cards form an increasing sequence?</p><p>Note that unlike the previous question, we are considering a sequence instead of a set of cards, so the order matters. Define the event of interest, A, as the set of all increasing 3-card sequences, i.e. \[A = \{(x_1,x_2,x_3) | x_1 &lt; x_2 &lt; x_3\} \]</p><p>where \(\{x_1, x_2, x_3\}\) in \(\{1, \cdots, $n\}\). Define event \(B\) as the set of 3-card sequence that starts with \($x\), i.e. \[B = \{(x_1,x_2,x_3) | x_1=$x\} \] or simply  \(B = \{($x,x_2,x_3)\} \)</p><ul><li>How many cards can be selected as \(x_2\) in \(B\) :</li></ul>
+<ul><li><p>Find the probability that a poker hand of 5 cards from a standard deck will contain no card smaller than 7 (i.e. 2,3...6) (call this event \(A\)), given that it contains at least one face card (i.e. J, Q, K) (call this event \(B\))We define two events:</p></li><li><p>Event \(A\): The hand contains no card smaller than 7.</p></li><li><p>Event \(B\): The hand contains at least one face card.</p></li></ul><p>We first compute the size of the relevant events \(|A \cap B| = \)</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -59,7 +47,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>How many cards can be selected as \(x_3\) in \(B\) when \(x_2\) is already selected :</li></ul>
+<p>\(|B| = \)</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -67,33 +55,9 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>What is the size of \(B\) i.e. \(|B| = \) </li></ul>
+<p>We then use the ratio between the sizes of the events to find the conditional probability:</p><ul><li>The conditional probability \(P(A|B) = \)</li></ul>
 
     <customresponse cfn="check" expect="\[$solution3\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p>It follows that \[ A \cap B = \{($x,x_2,x_3) | $x &lt; x_2 &lt; x_3\} \]</p><p>This set can be partitioned into subsets according to \(x_3\), where in each subset \(x_3\) is a constant: \[ A \cap B = \cup_{x_3 = $x+2}^{$n}{($x,x_2,x_3)|$x &lt; x_2 &lt; x_3} \]</p><p>Let \(S_{x_3=t}\) represent the subset \[\{($x,x_2,t)|$x &lt; x_2 &lt; t\}\], </p><p>then \[|A \cap B| = \sum_{t = $x+2}^{$n} \left|S_{x_3=t}\right| \].</p><ul><li>To compute each \(\left|S_{x_3=t}\right|\), let's start with a specific case, say,  \(t=$y\),</li></ul><p>\(\left|S_{x_3=$y}\right| = \left| \{($x,x_2,$y)|$x &lt; x_2 &lt; $y\} \right| = \) </p>
-
-    <customresponse cfn="check" expect="\[$solution4\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<ul><li>Generalize this computation, it should be straightforward to compute \(|A \cap B|\) as the sum of \(S_{x_3=t}\) over all valid \(t\).\(|A \cap B| = \)</li></ul>
-
-    <customresponse cfn="check" expect="\[$solution5\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<ul><li>Now we are ready to compute the conditional probability </li></ul><p>\(P(A|B) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution6\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>
