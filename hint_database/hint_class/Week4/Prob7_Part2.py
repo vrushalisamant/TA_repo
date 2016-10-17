@@ -1,7 +1,7 @@
 # Make sure you name your file with className.py
 from hint_class_helpers.find_matches import find_matches
 
-class Prob4_Part2:
+class Prob7_Part2:
     """
     Author: Shen Ting Ang
     Date: 10/13/2016
