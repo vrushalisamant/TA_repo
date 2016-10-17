@@ -28,13 +28,13 @@ class Prob9_Part2:
 				
 				if 'R.1' in matching_node:
 					hint = "The denominator is correct."
-					return hint 
+				
 				elif 'R.0' in matching_node:
 					hint = "The numerator is correct."
-					return hint 
+	
 
 			if len(hint)>0:
-                                return hint + ' Recall the \"Stars and Bars\" problem of choosing 3 candies when there are 2 types of candies to choose from. As we have 2 types of candies, we need only one bar to separate two types. So we have 3 stars(3 candies) and one bar. How many different strings can be generated using 3 stars and One bar.','4!/(1!*3!)' 
+                                return hint + ' Recall the \"Stars and Bars\" problem of choosing 3 candies when there are 2 types of candies to choose from. As we have 2 types of candies, we need only one bar to separate two types. So we have 3 stars(3 candies) and one bar. How many different strings can be generated using 3 stars and One bar? C(4,3) i.e. C(3+_-1,3)','2' 
 			else:
 				return '',''
                         

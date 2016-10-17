@@ -6,12 +6,13 @@
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "4*8"
-solution2 = "(4 * 8) / C(52-5, 2)"
+solution1 = "3"
+solution2 = "1-3/C(52-7,2)"
+solution3 = "(1-3/C(52-7,2))*(1-3/C(52-9,2))"
 
 
 # Group all solutions into a list
-solutions = [solution1, solution2]
+solutions = [solution1, solution2, solution3]
 
 
 # hint text id
@@ -37,7 +38,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Suppose you have been dealt 4\(\heartsuit\) and 5 \(\heartsuit\). What is the conditional probability that you will get a straight (five cards in sequence, but not all from the same suit) given that you have been dealt these two cards, and that the flop is "2\(\clubsuit\), Q\(\clubsuit\), K\(\diamondsuit\)"</p><p>Consider following events,</p><p>Event A: You will get a straight.</p><p>Event B:  You have been dealt with 5 cards i.e. 4\(\heartsuit\), 5 \(\heartsuit\), 2\(\clubsuit\), Q\(\clubsuit\), K\(\diamondsuit\).</p><p>In this case you need a 3 and either a 6 or A(ace) on the turn and river in order to get straight.</p><ul><li>The number of such card pairs, ignoring order, is the size of  \(|A \cap B| = \)</li></ul>
+<p>Like the previous question, suppose you have been dealt "4\(\heartsuit\), 5\(\heartsuit\)".</p><ol><li><p>Suppose you have one opponent. What is the conditional probability that you will win, given these two cards in hand, and that the board is "3\(\diamondsuit\), 4\(\diamondsuit\), 4\(\clubsuit\), 4\(\spadesuit\), 5\(\diamondsuit\)"?</p><ul><li>With this board, we have four of a kind. The only way the opponent will beat it is with a straight flush. How many possible two cards does the opponent have that can make a straight flush, regardless of order.?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -45,7 +46,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>The conditional probability \(P(A|B) =\)</li></ul>
+<ul><li>The conditional probability that you will win is</li></ul>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -53,7 +54,15 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
+</li><li><p>What if you have two opponents? What is the conditional probability that you will win?</p><ul><li>The conditional probability that you will win is</li></ul>
 
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+</li></ol>
     
     
 

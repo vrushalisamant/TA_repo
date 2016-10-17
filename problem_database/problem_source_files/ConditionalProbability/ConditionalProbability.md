@@ -1,15 +1,34 @@
 ```python
 
-solution1 = "0.35"
+solution1 = "0.5-0.15"
 solution2 = "1"
 
 solutions = [solution1, solution2]
 ```
 ## Conditional Probability ##
 
-You meet a stranger, a random citizen of the United States. What's the chance that he (or, equally likely, she) votes for the Democratic party? Who knows, but it's probably close to \\\(50%\\\). \\\( \Omega = \{\mbox{citizens of the US}\}, \ \ E = \{\omega \in \Omega: \mbox{votes Dem}\}.\\\) Now what if you find out a little bit more information: this stranger likes spicy food. \\\( F = \{\omega \in \Omega: \mbox{likes spicy food}\}.\\\) How does change the odds? What is \\\(P(E|F)\\\) (probability of \\\(E\\\) given \\\(F\\\))? Again, it's hard to say, but for illustrative purposes here is a (definitely incorrect) set of probabilities: \\\( P(E) = 0.5, P(F) = 0.2, P(E \cap F) = 0.15.\\\)
+You meet a stranger, a random citizen of the United States. What's the
+chance that he (or, equally likely, she) votes for the Democratic
+party? 
 
-(1) What is \\\(P(E \setminus F)?\\\)
+Who knows, but it's probably close to \\\(50%\\\). 
+
+\\\[ \Omega = \{\mbox{citizens of the US}\}, \ \ E = \{\omega \in \Omega:
+\omega \mbox{votes Dem}\}.\\\]
+
+suppose that you find out some additional information: this stranger
+likes spicy food. 
+
+\\\[ F = \{\omega \in \Omega: \omega \mbox{likes spicy food}\}.\\\]
+
+How does change the odds? What is \\\(P(E|F)\\\) (probability of
+\\\(E\\\) given \\\(F\\\))? Again, it's hard to say, but for
+illustrative purposes here is a (definitely incorrect) set of
+probabilities: 
+
+\\\[ P(E) = 0.5, P(F) = 0.2, P(E \cap F) = 0.15.\\\]
+
+(1) What is \\\]P(E \cap F^c)?\\\]
 
 [_]
 
