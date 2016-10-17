@@ -1,7 +1,7 @@
 # Make sure you name your file with className.py
 from hint_class_helpers.find_matches import find_matches
 
-class Prob4_Part3:
+class Prob7_Part1:
     """
     Author: Shen Ting Ang
     Date: 10/13/2016
@@ -37,5 +37,5 @@ class Prob4_Part3:
         except Exception:
             return '',''
     def get_problems(self):
-        self.problem_list = ["PokerConditional/poker_cond5_1/part3"]
+        self.problem_list = ["PokerConditional/poker_cond5_1/part1"]
         return self.problem_list
