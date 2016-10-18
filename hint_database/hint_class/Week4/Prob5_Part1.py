@@ -16,26 +16,31 @@ class Prob5_Part1:
 		try:
 			if not '^' in self.attempt:
 				hint = 'You have 2 ranks, and each rank has 4 suits.'
+				return hint + ' if you choose rank 3 and 4, and each rank has five suits, how many combinations are there?', '5^2'
 
-			elif 'C' in self.attempt:
+			elif 'C(' in self.attempt:
 
 				hint = 'We do not need combinations for this part.'
+				return hint + ' if you choose rank 3 and 4, and each rank has five suits, how many combinations are there?', '5^2'
 
 			elif '+' in self.attempt:
 				
 				hint = 'Should you add different parts of your expression?'
+				return hint + ' if you choose rank 3 and 4, and each rank has five suits, how many combinations are there?', '5^2'
 
 			elif '-' in self.attempt:
 
 				hint = 'Should you do subtraction?'
+				return hint + ' if you choose rank 3 and 4, and each rank has five suits, how many combinations are there?', '5^2'
 
 			elif '!' in self.attempt:
 
 				hint = 'Should you do factorial?'
+				return hint + ' if you choose rank 3 and 4, and each rank has five suits, how many combinations are there?', '5^2'
 
 			if len(hint) > 0:
 
-				return hint +' 2, 4, 5, 6 are already shown, so what else do you need to form a straight? Also remember order does not matter.'
+				return hint +' 2, 4, 5, 6 are already shown, so what else do you need to form a straight? Also remember order does not matter.', '3, 7, or 8'
 			else:
 
 				return '',''
