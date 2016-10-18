@@ -1,7 +1,7 @@
-class Prob4_Part1:
+class Prob4_Part2:
 	"""
 	Author: Sunil Raiyani
-	Date: 10/13/2016
+	Date: 10/17/2016
 	"""
 
         def check_attempt(self, params):
@@ -18,12 +18,12 @@ class Prob4_Part1:
 			hint='Assume that there are 100 male and 100 female members in the population(since they are equal). Now, using these figures, calculate the number of colorblind males and colorblind females based on the percentages and use them to find the probabilities used in the equation.'
 			
 			if len(hint)>0:
-                                return hint+' If there are 2% colorblind males, then what is the probability that a person chosen at random is colorblind if we know that the person is male i.e. P(colorblind|male) ?','2/100'
+                                return hint+' If there are 2% colorblind males and 5% colorblind females, then what is the probability that a person chosen at random is colorblind i.e. P(colorblind)?','(2/100)*(100/200) + (5/100)*(100/200)'
                         else:
                                 return '',''
 		except Exception:
 		        return '',''
 
 	def get_problems(self):
-		self.problem_list = ["BayesConditional/BayesColorBlindness/part1"]
+		self.problem_list = ["BayesConditional/BayesColorBlindness/part2"]
 		return self.problem_list
