@@ -21,7 +21,8 @@ class Prob8_Part2:
  
  		try:
 			if '/' not in self.attempt:
-				hint = 'To calculate the probability that an event occurs, divide the size of the event by the size of the outcome space. What is the size of the event in this case?','3'
+				hint = 'To calculate the probability that an event occurs, divide the size of the event by the size of the outcome space. What is the size of the event in this case?'
+				return hint,'3'
                          
  			elif '1-' not in self.attempt:
  				hint = 'The conditional probability that you win a coin toss given that you bet on heads, is 1-probability(opponent wins) = 1-(___).'
