@@ -1,6 +1,6 @@
 ## Part 1
 
-### (4) Mistake Group ['R.0'] of size 4
+### (6) Mistake Group ['R.0'] of size 6
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -15,7 +15,26 @@
 
 
 
-### (10) No Match Group 
+### (1) Mistake Group Digits of size 1
+
+
+
+
+### (1) Mistake Group ['R.1'] of size 1
+""" Please write hint here """
+
+|ID	|Author	|Condition	|Hint Text|
+|---|---|---|---|
+|0|	|['R.1']	|"hint"	|
+
+|	|Answer	|Attempt	|Matching sub-exp|
+|---|---|---|---|
+|0	|1/10000	|(92/100) / 10000	|[('R.1', 10000.0, '10000', u'10000')]	|
+
+
+
+
+### (12) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -38,7 +57,7 @@
 	part1_incorrect_attempt
 					('0:00:00', u'92/100')
 	part1_correct_attempt
-					['0:38:04', u'1/10000']
+					['1 day, 17:17:25', u'1/1000']
 
 2 Student ID:christhoperbernard
 
@@ -94,7 +113,7 @@
 					('0:00:56', u'.94*.04')
 					('11:04:10', u'.99*.92')
 	part1_correct_attempt
-					['11:04:10', u'.99*.92']
+					['1 day, 10:27:44', u'1/10000']
 
 8 Student ID:woguan
 
@@ -115,6 +134,22 @@
 	part1_correct_attempt
 					['0:15:43', u'(1/10000)']
 
+10 Student ID:alvinyho
+
+	first_attempt
+					2016-10-19 01:47:53
+	part1_incorrect_attempt
+					('0:00:00', u'10^-5')
+	part1_correct_attempt
+					['0:02:04', u'(10^-4)']
+
+11 Student ID:wesokuhara
+
+	first_attempt
+					2016-10-19 19:05:33
+	part1_incorrect_attempt
+					('0:00:00', u'(1/10000)*(0.93)')
+
 
 
 
@@ -128,7 +163,7 @@
 
 ## Part 2
 
-### (165) Mistake Group Fraction of size 165
+### (202) Mistake Group Fraction of size 202
 
 
 
@@ -169,7 +204,7 @@
 
 ## Part 3
 
-### (153) Mistake Group Fraction of size 153
+### (196) Mistake Group Fraction of size 196
 
 
 

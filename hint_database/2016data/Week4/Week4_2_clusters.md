@@ -1,26 +1,11 @@
 ## Part 1
 
-### (8) Mistake Group Digits of size 8
+### (12) Mistake Group Digits of size 12
 
 
 
 
-### (4) Mistake Group Wrong_Sign of size 4
-
-
-
-
-### (3) Mistake Group ['R.0.0', 'R.0.1'] of size 3
-""" Please write hint here """
-
-|ID	|Author	|Condition	|Hint Text|
-|---|---|---|---|
-|0|	|['R.0.0', 'R.0.1']	|"hint"	|
-
-|	|Answer	|Attempt	|Matching sub-exp|
-|---|---|---|---|
-|0	|0.35+0.3-0.45	|(.35*.3)/.55	|[('R.0.0', 0.35, '0.35', u'.35*'), ('R.0.1', 0.3, '0.3', u'.3)')]	|
-|1	|0.35+0.3-0.45	|0.35 * 0.3 - (0.35 * 0.3 * 0.3)	|[('R.0.0', 0.35, '0.35', u'0.35'), ('R.0.1', 0.3, '0.3', u'0.3')]	|
+### (5) Mistake Group Wrong_Sign of size 5
 
 
 
@@ -54,7 +39,21 @@
 
 
 
-### (27) No Match Group 
+### (1) Mistake Group ['R.0.0', 'R.0.1'] of size 1
+""" Please write hint here """
+
+|ID	|Author	|Condition	|Hint Text|
+|---|---|---|---|
+|0|	|['R.0.0', 'R.0.1']	|"hint"	|
+
+|	|Answer	|Attempt	|Matching sub-exp|
+|---|---|---|---|
+|0	|0.35+0.3-0.45	|(.35*.3)/.55	|[('R.0.0', 0.35, '0.35', u'.35*'), ('R.0.1', 0.3, '0.3', u'.3)')]	|
+
+
+
+
+### (37) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -96,7 +95,19 @@
 	part1_correct_attempt
 					['1:57:54', u'0.2']
 
-3 Student ID:dillonliu
+3 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:43:17
+	part1_incorrect_attempt
+					('0:00:00', u'0.35*0.35')
+					('0:01:38', u'0.3*0.25')
+					('0:02:46', u'(0.45/0.3)*0.3')
+					('0:05:53', u'0.05')
+	part1_correct_attempt
+					['0:06:18', u'0.2']
+
+4 Student ID:dillonliu
 
 	first_attempt
 					2016-10-18 03:13:21
@@ -105,14 +116,24 @@
 	part1_correct_attempt
 					['0:07:53', u'0.15']
 
-4 Student ID:HansGamboa
+5 Student ID:rrivasfe
+
+	first_attempt
+					2016-10-19 15:31:46
+	part1_incorrect_attempt
+					('0:00:00', u'0.3*0.3')
+					('0:03:41', u'0.16')
+	part1_correct_attempt
+					['0:22:53', u'0.1']
+
+6 Student ID:HansGamboa
 
 	first_attempt
 					2016-10-17 00:08:15
 	part1_incorrect_attempt
 					('0:00:00', u'(0.25)*(0.25)')
 
-5 Student ID:AndrewYang24
+7 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 03:26:02
@@ -123,16 +144,23 @@
 	part1_correct_attempt
 					['0:35:11', u'0.35+0.25-0.4']
 
-6 Student ID:aspindle
+8 Student ID:rsamuail
 
 	first_attempt
-					2016-10-17 02:15:56
+					2016-10-19 01:47:34
 	part1_incorrect_attempt
-					('0:00:00', u'-.35+.3+.35')
+					('0:00:00', u'.075')
+					('0:07:16', u'(.35)*(.35)')
+					('0:08:22', u'0.1225')
+					('0:09:16', u'(0.3)(0.35)')
+					('0:11:08', u'.09')
+					('0:12:19', u'(0.35)*(0.35)')
+					('0:13:57', u'.3*.25')
+					('0:14:53', u'.0625')
 	part1_correct_attempt
-					['0:09:31', u'-.5+.4+.3']
+					['17:18:06', u'.3+.3-.45']
 
-7 Student ID:alvinyho
+9 Student ID:alvinyho
 
 	first_attempt
 					2016-10-17 19:49:15
@@ -141,17 +169,34 @@
 	part1_correct_attempt
 					['1:44:31', u'.25+.3-(.45)']
 
-8 Student ID:MattBowen96
+10 Student ID:aspindle
 
 	first_attempt
-					2016-10-16 07:16:31
+					2016-10-17 02:15:56
 	part1_incorrect_attempt
-					('0:00:00', u'.0875')
-					('1:10:45', u'.105')
-					('1:11:17', u'.25*.3')
-					('17:31:26', u'(.35) * (.35) / (.35)')
+					('0:00:00', u'-.35+.3+.35')
+	part1_correct_attempt
+					['0:09:31', u'-.5+.4+.3']
 
-9 Student ID:jih089
+11 Student ID:Ken
+
+	first_attempt
+					2016-10-19 05:55:03
+	part1_incorrect_attempt
+					('0:00:00', u'0.0625')
+	part1_correct_attempt
+					['0:00:00', u'0.0625']
+
+12 Student ID:aliqbal
+
+	first_attempt
+					2016-10-17 07:36:23
+	part1_incorrect_attempt
+					('0:00:00', u'0.25*0.2')
+	part1_correct_attempt
+					['1:02:23', u'0.3 + 0.3 - 0.45']
+
+13 Student ID:jih089
 
 	first_attempt
 					2016-10-16 02:43:08
@@ -167,7 +212,7 @@
 	part1_correct_attempt
 					['2:26:30', u'0.1']
 
-10 Student ID:njcrow
+14 Student ID:njcrow
 
 	first_attempt
 					2016-10-17 23:23:57
@@ -176,7 +221,7 @@
 	part1_correct_attempt
 					['16:06:42', u'.35+.3-.5']
 
-11 Student ID:srrozen
+15 Student ID:srrozen
 
 	first_attempt
 					2016-10-17 01:05:06
@@ -185,14 +230,35 @@
 	part1_correct_attempt
 					['1 day, 19:26:49', u'0.3+0.25-0.4']
 
-12 Student ID:NicoleStone
+16 Student ID:thartopu
+
+	first_attempt
+					2016-10-19 11:22:56
+	part1_incorrect_attempt
+					('0:00:00', u'0.05')
+	part1_correct_attempt
+					['0:08:54', u'0.55-0.4']
+
+17 Student ID:NicoleStone
 
 	first_attempt
 					2016-10-16 04:04:13
 	part1_incorrect_attempt
 					('0:00:00', u'.05')
 
-13 Student ID:nolin
+18 Student ID:ThucPhan
+
+	first_attempt
+					2016-10-19 03:14:17
+	part1_incorrect_attempt
+					('0:00:00', u'0.5')
+					('0:00:26', u'0.3+0.35')
+					('0:01:24', u'0.25-0.25')
+					('2:13:16', u'0.25')
+	part1_correct_attempt
+					['2:44:36', u'0.35+0.35-0.5']
+
+19 Student ID:nolin
 
 	first_attempt
 					2016-10-17 22:30:33
@@ -201,7 +267,7 @@
 	part1_correct_attempt
 					['0:33:18', u'.2+.2-.3']
 
-14 Student ID:ccaine
+20 Student ID:ccaine
 
 	first_attempt
 					2016-10-17 01:05:01
@@ -213,7 +279,7 @@
 	part1_correct_attempt
 					['0:04:49', u'0.3*0.25']
 
-15 Student ID:JonahCruz
+21 Student ID:JonahCruz
 
 	first_attempt
 					2016-10-18 06:37:36
@@ -222,7 +288,16 @@
 	part1_correct_attempt
 					['0:00:00', u'.4*.3']
 
-16 Student ID:maddymanu
+22 Student ID:a9zhao
+
+	first_attempt
+					2016-10-19 08:33:57
+	part1_incorrect_attempt
+					('0:00:00', u'.35*.3')
+	part1_correct_attempt
+					['0:05:17', u'.15']
+
+23 Student ID:maddymanu
 
 	first_attempt
 					2016-10-16 19:25:43
@@ -232,7 +307,14 @@
 	part1_correct_attempt
 					['20:48:11', u'0.2+0.25-0.35']
 
-17 Student ID:URajkumar
+24 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part1_incorrect_attempt
+					('0:00:00', u'0.075')
+
+25 Student ID:URajkumar
 
 	first_attempt
 					2016-10-18 20:28:04
@@ -241,7 +323,7 @@
 	part1_correct_attempt
 					['0:09:11', u'0.15']
 
-18 Student ID:KimberlyLy
+26 Student ID:KimberlyLy
 
 	first_attempt
 					2016-10-16 20:08:21
@@ -252,14 +334,21 @@
 	part1_correct_attempt
 					['2 days, 0:25:50', u'0.1']
 
-19 Student ID:anMihaly
+27 Student ID:v2chang
+
+	first_attempt
+					2016-10-19 07:38:23
+	part1_incorrect_attempt
+					('0:00:00', u'.3*.2')
+
+28 Student ID:anMihaly
 
 	first_attempt
 					2016-10-18 20:37:50
 	part1_incorrect_attempt
 					('0:00:00', u'0.1')
 
-20 Student ID:k1siu
+29 Student ID:k1siu
 
 	first_attempt
 					2016-10-16 03:41:29
@@ -268,23 +357,26 @@
 	part1_correct_attempt
 					['0:00:00', u'0.3+0.3-0.45']
 
-21 Student ID:aliqbal
+30 Student ID:MattBowen96
 
 	first_attempt
-					2016-10-17 07:36:23
+					2016-10-16 07:16:31
 	part1_incorrect_attempt
-					('0:00:00', u'0.25*0.2')
-	part1_correct_attempt
-					['1:02:23', u'0.3 + 0.3 - 0.45']
+					('0:00:00', u'.0875')
+					('1:10:45', u'.105')
+					('1:11:17', u'.25*.3')
+					('17:31:26', u'(.35) * (.35) / (.35)')
 
-22 Student ID:adejesus
+31 Student ID:adejesus
 
 	first_attempt
 					2016-10-17 04:35:31
 	part1_incorrect_attempt
 					('0:00:00', u'(0.25 * 0.35)')
+	part1_correct_attempt
+					['2 days, 0:40:20', u'0.2 + 0.25 - 0.35']
 
-23 Student ID:abtom
+32 Student ID:abtom
 
 	first_attempt
 					2016-10-17 20:16:43
@@ -294,7 +386,7 @@
 	part1_correct_attempt
 					['0:15:45', u'.075']
 
-24 Student ID:PizzaPolice
+33 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-16 23:45:30
@@ -303,19 +395,28 @@
 	part1_correct_attempt
 					['7:55:05', u'.3 + .25 - .4']
 
-25 Student ID:Guillermo
+34 Student ID:Guillermo
 
 	first_attempt
-					2016-10-16 02:25:19
+					2016-10-16 02:45:42
 	part1_incorrect_attempt
 					('0:00:00', u'.05')
-					('0:00:00', u'.05')
-					('0:00:00', u'.05')
-					('0:20:23', u'.05')
 	part1_correct_attempt
-					['15:03:50', u'.35+.4-.55']
+					['14:43:27', u'.35+.4-.55']
 
-26 Student ID:PaulWall43
+35 Student ID:jar045
+
+	first_attempt
+					2016-10-19 00:46:13
+	part1_incorrect_attempt
+					('0:00:00', u'(0.3) * (0.35)')
+					('0:01:47', u'0.25 * 0.35')
+					('0:27:13', u'0.2 + 0.2')
+					('0:47:16', u'0.3 * 0.3')
+	part1_correct_attempt
+					['1:48:28', u'0.25 + 0.25 - 0.35']
+
+36 Student ID:PaulWall43
 
 	first_attempt
 					2016-10-16 05:08:00
@@ -384,7 +485,7 @@
 
 
 
-### (24) No Match Group 
+### (32) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -418,7 +519,14 @@
 	part2_correct_attempt
 					['0:00:00', u'0.2']
 
-3 Student ID:dillonliu
+3 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:49:35
+	part2_incorrect_attempt
+					('-1 day, 23:53:42', u'0.35*0.25')
+
+4 Student ID:dillonliu
 
 	first_attempt
 					2016-10-18 03:21:14
@@ -427,14 +535,23 @@
 	part2_correct_attempt
 					['0:00:00', u'0.15']
 
-4 Student ID:HansGamboa
+5 Student ID:rrivasfe
+
+	first_attempt
+					2016-10-19 15:54:39
+	part2_incorrect_attempt
+					('-1 day, 23:37:07', u'0.3*0.35')
+	part2_correct_attempt
+					['0:00:00', u'0.1']
+
+6 Student ID:HansGamboa
 
 	first_attempt
 					2016-10-17 00:08:15
 	part2_incorrect_attempt
 					('0:00:00', u'(0.25)*(0.25)')
 
-5 Student ID:AndrewYang24
+7 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 04:01:13
@@ -447,7 +564,17 @@
 	part2_correct_attempt
 					['0:00:00', u'0.25+0.2-0.25']
 
-6 Student ID:alvinyho
+8 Student ID:rsamuail
+
+	first_attempt
+					2016-10-19 19:05:40
+	part2_incorrect_attempt
+					('-1 day, 6:41:54', u'.0625')
+					('-1 day, 6:49:10', u'(.35)*(.3)')
+	part2_correct_attempt
+					['0:00:00', u'.3+.2-.4']
+
+9 Student ID:alvinyho
 
 	first_attempt
 					2016-10-17 21:33:46
@@ -456,7 +583,16 @@
 	part2_correct_attempt
 					['0:00:00', u'.3+.35-(.5)']
 
-7 Student ID:jih089
+10 Student ID:Ken
+
+	first_attempt
+					2016-10-19 05:55:03
+	part2_incorrect_attempt
+					('0:00:00', u'0.0625')
+	part2_correct_attempt
+					['0:00:00', u'0.0625']
+
+11 Student ID:jih089
 
 	first_attempt
 					2016-10-16 05:09:38
@@ -473,7 +609,7 @@
 	part2_correct_attempt
 					['0:00:00', u'0.1']
 
-8 Student ID:srrozen
+12 Student ID:srrozen
 
 	first_attempt
 					2016-10-18 20:31:55
@@ -482,23 +618,33 @@
 	part2_correct_attempt
 					['0:00:00', u'0.25+0.25-0.35']
 
-9 Student ID:thartopu
+13 Student ID:thartopu
 
 	first_attempt
-					2016-10-16 02:55:46
+					2016-10-19 11:31:50
 	part2_incorrect_attempt
-					('0:00:00', u'0.05')
+					('-4 days, 15:23:56', u'0.05')
+					('-1 day, 23:49:35', u'0.05')
 	part2_correct_attempt
-					['0:00:00', u'0.05']
+					['0:00:00', u'0.65-0.5']
 
-10 Student ID:NicoleStone
+14 Student ID:NicoleStone
 
 	first_attempt
 					2016-10-16 04:04:13
 	part2_incorrect_attempt
 					('0:00:00', u'.15')
 
-11 Student ID:nolin
+15 Student ID:ThucPhan
+
+	first_attempt
+					2016-10-19 05:58:53
+	part2_incorrect_attempt
+					('-1 day, 23:28:40', u'0.5')
+	part2_correct_attempt
+					['0:00:00', u'0.35+0.35-0.55']
+
+16 Student ID:nolin
 
 	first_attempt
 					2016-10-17 23:03:51
@@ -507,14 +653,21 @@
 	part2_correct_attempt
 					['0:00:00', u'.2+.25-.35']
 
-12 Student ID:ccaine
+17 Student ID:ccaine
 
 	first_attempt
 					2016-10-17 01:09:50
 	part2_incorrect_attempt
 					('-1 day, 23:55:11', u'0.25*0.2')
 
-13 Student ID:maddymanu
+18 Student ID:a9zhao
+
+	first_attempt
+					2016-10-19 08:39:14
+	part2_incorrect_attempt
+					('-1 day, 23:54:43', u'.3*.3')
+
+19 Student ID:maddymanu
 
 	first_attempt
 					2016-10-17 16:13:54
@@ -523,18 +676,23 @@
 	part2_correct_attempt
 					['0:00:00', u'0.25+0.3-0.45']
 
-14 Student ID:KimberlyLy
+20 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part2_incorrect_attempt
+					('0:00:00', u'.06')
+
+21 Student ID:KimberlyLy
 
 	first_attempt
 					2016-10-18 20:34:11
 	part2_incorrect_attempt
 					('-3 days, 23:34:10', u'0.3 * 0.25')
-					('-2 days, 0:40:18', u'0.3 * 0.3 - (0.35 * 0.3 * 0.3)')
-					('-2 days, 0:40:18', u'0.3 * 0.3 - (0.35 * 0.3 * 0.3)')
 	part2_correct_attempt
 					['0:00:00', u'0.1']
 
-15 Student ID:christhoperbernard
+22 Student ID:christhoperbernard
 
 	first_attempt
 					2016-10-16 05:09:09
@@ -543,14 +701,21 @@
 	part2_correct_attempt
 					['0:00:00', u'0.2+0.3-0.35']
 
-16 Student ID:anMihaly
+23 Student ID:v2chang
+
+	first_attempt
+					2016-10-19 07:38:23
+	part2_incorrect_attempt
+					('0:00:00', u'.2*.25')
+
+24 Student ID:anMihaly
 
 	first_attempt
 					2016-10-18 20:37:50
 	part2_incorrect_attempt
 					('0:00:00', u'0.05')
 
-17 Student ID:k1siu
+25 Student ID:k1siu
 
 	first_attempt
 					2016-10-16 03:41:29
@@ -559,7 +724,7 @@
 	part2_correct_attempt
 					['0:00:00', u'0.3+0.3-0.5']
 
-18 Student ID:aliqbal
+26 Student ID:aliqbal
 
 	first_attempt
 					2016-10-17 08:38:46
@@ -568,21 +733,21 @@
 	part2_correct_attempt
 					['0:00:00', u'0.3 + 0.3 - 0.4']
 
-19 Student ID:adejesus
+27 Student ID:adejesus
 
 	first_attempt
-					2016-10-17 04:35:31
+					2016-10-19 05:15:51
 	part2_incorrect_attempt
-					('0:00:00', u'(0.35 * 0.3)')
+					('-3 days, 23:19:40', u'(0.35 * 0.3)')
 
-20 Student ID:abtom
+28 Student ID:abtom
 
 	first_attempt
 					2016-10-17 20:32:28
 	part2_incorrect_attempt
 					('-1 day, 23:44:15', u'.0625')
 
-21 Student ID:PizzaPolice
+29 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-17 07:40:35
@@ -591,19 +756,16 @@
 	part2_correct_attempt
 					['0:00:00', u'.25 + .2 - .35']
 
-22 Student ID:Guillermo
+30 Student ID:Guillermo
 
 	first_attempt
 					2016-10-16 17:29:09
 	part2_incorrect_attempt
-					('-1 day, 8:56:10', u'.05')
-					('-1 day, 8:56:10', u'.05')
-					('-1 day, 8:56:10', u'.05')
 					('-1 day, 9:16:33', u'.05')
 	part2_correct_attempt
 					['0:00:00', u'.4+.3-.55']
 
-23 Student ID:PaulWall43
+31 Student ID:PaulWall43
 
 	first_attempt
 					2016-10-16 05:41:54
@@ -626,20 +788,6 @@
 ## Part 3
 
 ### (5) Mistake Group Wrong_Sign of size 5
-
-
-
-
-### (2) Mistake Group ['R.0.0', 'R.0.1'] of size 2
-""" Please write hint here """
-
-|ID	|Author	|Condition	|Hint Text|
-|---|---|---|---|
-|0|	|['R.0.0', 'R.0.1']	|"hint"	|
-
-|	|Answer	|Attempt	|Matching sub-exp|
-|---|---|---|---|
-|0	|0.35+0.3-0.5	|0.35 * 0.3 - (0.35 * 0.3 * 0.3)	|[('R.0.0', 0.35, '0.35', u'0.35'), ('R.0.1', 0.3, '0.3', u'0.3')]	|
 
 
 
@@ -672,7 +820,7 @@
 
 
 
-### (23) No Match Group 
+### (30) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -706,7 +854,14 @@
 	part3_correct_attempt
 					['0:00:00', u'0.2']
 
-3 Student ID:dillonliu
+3 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:49:35
+	part3_incorrect_attempt
+					('-1 day, 23:53:42', u'0.35*0.25')
+
+4 Student ID:dillonliu
 
 	first_attempt
 					2016-10-18 03:21:14
@@ -715,14 +870,23 @@
 	part3_correct_attempt
 					['0:00:00', u'0.15']
 
-4 Student ID:HansGamboa
+5 Student ID:rrivasfe
+
+	first_attempt
+					2016-10-19 15:54:39
+	part3_incorrect_attempt
+					('-1 day, 23:37:07', u'0.3*0.35')
+	part3_correct_attempt
+					['0:00:00', u'0.1']
+
+6 Student ID:HansGamboa
 
 	first_attempt
 					2016-10-17 00:08:15
 	part3_incorrect_attempt
 					('0:00:00', u'(0.25)*(0.25)')
 
-5 Student ID:AndrewYang24
+7 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 04:01:13
@@ -735,7 +899,26 @@
 	part3_correct_attempt
 					['0:00:00', u'0.35+0.2-0.25']
 
-6 Student ID:jih089
+8 Student ID:rsamuail
+
+	first_attempt
+					2016-10-19 19:05:40
+	part3_incorrect_attempt
+					('-1 day, 6:41:54', u'.075')
+					('-1 day, 6:49:10', u'(.35)*(.3)')
+	part3_correct_attempt
+					['0:00:00', u'.3+.2-.4']
+
+9 Student ID:Ken
+
+	first_attempt
+					2016-10-19 05:55:03
+	part3_incorrect_attempt
+					('0:00:00', u'0.0625')
+	part3_correct_attempt
+					['0:00:00', u'0.0625']
+
+10 Student ID:jih089
 
 	first_attempt
 					2016-10-16 05:09:38
@@ -752,7 +935,7 @@
 	part3_correct_attempt
 					['0:00:00', u'0.1']
 
-7 Student ID:srrozen
+11 Student ID:srrozen
 
 	first_attempt
 					2016-10-18 20:31:55
@@ -761,23 +944,24 @@
 	part3_correct_attempt
 					['0:00:00', u'0.3+0.25-0.4']
 
-8 Student ID:thartopu
+12 Student ID:thartopu
 
 	first_attempt
-					2016-10-16 02:55:46
+					2016-10-19 11:31:50
 	part3_incorrect_attempt
-					('0:00:00', u'0.05')
+					('-4 days, 15:23:56', u'0.05')
+					('-1 day, 23:49:35', u'0.05')
 	part3_correct_attempt
-					['0:00:00', u'0.05']
+					['0:00:00', u'0.6-0.45']
 
-9 Student ID:NicoleStone
+13 Student ID:NicoleStone
 
 	first_attempt
 					2016-10-16 04:04:13
 	part3_incorrect_attempt
 					('0:00:00', u'.15')
 
-10 Student ID:mvkrishn
+14 Student ID:mvkrishn
 
 	first_attempt
 					2016-10-17 23:14:42
@@ -786,7 +970,7 @@
 	part3_correct_attempt
 					['0:00:00', u'.1']
 
-11 Student ID:nolin
+15 Student ID:nolin
 
 	first_attempt
 					2016-10-17 23:03:51
@@ -795,14 +979,28 @@
 	part3_correct_attempt
 					['0:00:00', u'.2+.25-.35']
 
-12 Student ID:ccaine
+16 Student ID:ccaine
 
 	first_attempt
 					2016-10-17 01:09:50
 	part3_incorrect_attempt
 					('-1 day, 23:55:11', u'0.3*0.2')
 
-13 Student ID:KimberlyLy
+17 Student ID:a9zhao
+
+	first_attempt
+					2016-10-19 08:39:14
+	part3_incorrect_attempt
+					('-1 day, 23:54:43', u'.35*.3')
+
+18 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part3_incorrect_attempt
+					('0:00:00', u'.05')
+
+19 Student ID:KimberlyLy
 
 	first_attempt
 					2016-10-18 20:34:11
@@ -811,7 +1009,7 @@
 	part3_correct_attempt
 					['0:00:00', u'0.1']
 
-14 Student ID:christhoperbernard
+20 Student ID:christhoperbernard
 
 	first_attempt
 					2016-10-16 05:09:09
@@ -820,14 +1018,21 @@
 	part3_correct_attempt
 					['0:00:00', u'0.3+0.3-0.45']
 
-15 Student ID:anMihaly
+21 Student ID:v2chang
+
+	first_attempt
+					2016-10-19 07:38:23
+	part3_incorrect_attempt
+					('0:00:00', u'.3*25')
+
+22 Student ID:anMihaly
 
 	first_attempt
 					2016-10-18 20:37:50
 	part3_incorrect_attempt
 					('0:00:00', u'0.05')
 
-16 Student ID:k1siu
+23 Student ID:k1siu
 
 	first_attempt
 					2016-10-16 03:41:29
@@ -836,7 +1041,7 @@
 	part3_correct_attempt
 					['0:00:00', u'0.3+0.3-0.5']
 
-17 Student ID:aliqbal
+24 Student ID:aliqbal
 
 	first_attempt
 					2016-10-17 08:38:46
@@ -845,21 +1050,21 @@
 	part3_correct_attempt
 					['0:00:00', u'0.3 + 0.3 - 0.4']
 
-18 Student ID:adejesus
+25 Student ID:adejesus
 
 	first_attempt
-					2016-10-17 04:35:31
+					2016-10-19 05:15:51
 	part3_incorrect_attempt
-					('0:00:00', u'(0.25 * 0.3)')
+					('-3 days, 23:19:40', u'(0.25 * 0.3)')
 
-19 Student ID:abtom
+26 Student ID:abtom
 
 	first_attempt
 					2016-10-17 20:32:28
 	part3_incorrect_attempt
 					('-1 day, 23:44:15', u'.0625')
 
-20 Student ID:PizzaPolice
+27 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-17 07:40:35
@@ -868,19 +1073,16 @@
 	part3_correct_attempt
 					['0:00:00', u'.3 + .2 - .4']
 
-21 Student ID:Guillermo
+28 Student ID:Guillermo
 
 	first_attempt
 					2016-10-16 17:29:09
 	part3_incorrect_attempt
-					('-1 day, 8:56:10', u'.05')
-					('-1 day, 8:56:10', u'.05')
-					('-1 day, 8:56:10', u'.05')
 					('-1 day, 9:16:33', u'.05')
 	part3_correct_attempt
 					['0:00:00', u'.35+.3-.5']
 
-22 Student ID:PaulWall43
+29 Student ID:PaulWall43
 
 	first_attempt
 					2016-10-16 05:41:54
@@ -902,7 +1104,7 @@
 
 ## Part 4
 
-### (9) Mistake Group ['R.0'] of size 9
+### (11) Mistake Group ['R.0'] of size 11
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -911,37 +1113,26 @@
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
-|0	|(0.35+0.4-0.55)/0.4	|(0.3+0.35-0.45)/0.35	|[('R.0', 0.19999999999999996, '0.35+0.4-0.55', u'0.3+0.35-0.45')]	|
-|1	|(0.25+0.25-0.4)/0.25	|0.1/0.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'0.1')]	|
-|2	|(0.3+0.3-0.45)/0.3	|(0.2+0.2-0.25)/0.2	|[('R.0', 0.14999999999999997, '0.3+0.3-0.45', u'0.2+0.2-0.25')]	|
-|3	|(0.4+0.3-0.5)/0.3	|(0.35+0.25-0.4)/0.25	|[('R.0', 0.19999999999999996, '0.4+0.3-0.5', u'0.35+0.25-0.4')]	|
-|4	|(0.35+0.3-0.5)/0.3	|0.15/0.3	|[('R.0', 0.1499999999999999, '0.35+0.3-0.5', u'0.15')]	|
-|5	|(0.25+0.25-0.4)/0.25	|.1/.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'.1/')]	|
-|6	|(0.3+0.25-0.45)/0.25	|0.1/0.15	|[('R.0', 0.10000000000000003, '0.3+0.25-0.45', u'0.1')]	|
+|0	|(0.25+0.3-0.4)/0.3	|0.15/0.25	|[('R.0', 0.15000000000000002, '0.25+0.3-0.4', u'0.15')]	|
+|1	|(0.35+0.4-0.55)/0.4	|(0.3+0.35-0.45)/0.35	|[('R.0', 0.19999999999999996, '0.35+0.4-0.55', u'0.3+0.35-0.45')]	|
+|2	|(0.25+0.25-0.4)/0.25	|0.1/0.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'0.1')]	|
+|3	|(0.3+0.3-0.45)/0.3	|(0.2+0.2-0.25)/0.2	|[('R.0', 0.14999999999999997, '0.3+0.3-0.45', u'0.2+0.2-0.25')]	|
+|4	|(0.4+0.3-0.5)/0.3	|(0.35+0.25-0.4)/0.25	|[('R.0', 0.19999999999999996, '0.4+0.3-0.5', u'0.35+0.25-0.4')]	|
+|5	|(0.35+0.3-0.5)/0.3	|0.15/0.3	|[('R.0', 0.1499999999999999, '0.35+0.3-0.5', u'0.15')]	|
+|6	|(0.25+0.25-0.4)/0.25	|.1/.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'.1/')]	|
+|7	|(0.3+0.25-0.45)/0.25	|0.1/0.15	|[('R.0', 0.10000000000000003, '0.3+0.25-0.45', u'0.1')]	|
+|8	|(0.25+0.2-0.35)/0.2	|(0.25+0.2-0.35)/0.25	|[('R.0', 0.10000000000000003, '0.25+0.2-0.35', u'0.25+0.2-0.35')]	|
+|9	|(0.2+0.25-0.35)/0.25	|0.1/0.2	|[('R.0', 0.10000000000000003, '0.2+0.25-0.35', u'0.1')]	|
 
 
 
 
-### (9) Mistake Group Wrong_Sign of size 9
+### (7) Mistake Group Wrong_Sign of size 7
 
 
 
 
-### (2) Mistake Group Digits of size 2
-
-
-
-
-### (2) Mistake Group ['R.0.0.0'] of size 2
-""" Please write hint here """
-
-|ID	|Author	|Condition	|Hint Text|
-|---|---|---|---|
-|0|	|['R.0.0.0']	|"hint"	|
-
-|	|Answer	|Attempt	|Matching sub-exp|
-|---|---|---|---|
-|0	|(0.35+0.3-0.45)/0.3	|(0.35 * 0.3 - (0.35 * 0.3 * 0.3)) / 0.3	|[('R.0.0.0', 0.35, '0.35', u'0.35')]	|
+### (3) Mistake Group Digits of size 3
 
 
 
@@ -974,7 +1165,21 @@
 
 
 
-### (28) No Match Group 
+### (1) Mistake Group ['R.0.1'] of size 1
+""" Please write hint here """
+
+|ID	|Author	|Condition	|Hint Text|
+|---|---|---|---|
+|0|	|['R.0.1']	|"hint"	|
+
+|	|Answer	|Attempt	|Matching sub-exp|
+|---|---|---|---|
+|0	|(0.25+0.25-0.35)/0.25	|(0.25+0.2-0.35)/0.25	|[('R.0.1', 0.35, '0.35', u'0.35')]	|
+
+
+
+
+### (37) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -1008,7 +1213,14 @@
 	part4_correct_attempt
 					['0:00:00', u'0.5']
 
-3 Student ID:Zhongting
+3 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:49:35
+	part4_incorrect_attempt
+					('-1 day, 23:53:42', u'0.35')
+
+4 Student ID:Zhongting
 
 	first_attempt
 					2016-10-16 05:26:42
@@ -1017,14 +1229,24 @@
 	part4_correct_attempt
 					['0:00:00', u'10/25']
 
-4 Student ID:HansGamboa
+5 Student ID:rrivasfe
+
+	first_attempt
+					2016-10-19 15:54:39
+	part4_incorrect_attempt
+					('-1 day, 23:37:07', u'0.3')
+					('0:00:00', u'0.4')
+	part4_correct_attempt
+					['0:00:00', u'0.4']
+
+6 Student ID:HansGamboa
 
 	first_attempt
 					2016-10-17 00:08:15
 	part4_incorrect_attempt
 					('0:00:00', u'(0.25)')
 
-5 Student ID:AndrewYang24
+7 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 04:01:13
@@ -1036,7 +1258,7 @@
 	part4_correct_attempt
 					['0:00:00', u'(0.35+0.25-0.4)/0.25']
 
-6 Student ID:woguan
+8 Student ID:woguan
 
 	first_attempt
 					2016-10-17 11:33:53
@@ -1045,7 +1267,17 @@
 	part4_correct_attempt
 					['0:00:00', u'0.5']
 
-7 Student ID:aspindle
+9 Student ID:rsamuail
+
+	first_attempt
+					2016-10-19 19:05:40
+	part4_incorrect_attempt
+					('-1 day, 6:41:54', u'.3')
+					('-1 day, 6:49:10', u'((.35)*(.35))/(.35)')
+	part4_correct_attempt
+					['0:00:00', u'(.3+.3-.45)/.3']
+
+10 Student ID:aspindle
 
 	first_attempt
 					2016-10-17 02:25:27
@@ -1054,7 +1286,25 @@
 	part4_correct_attempt
 					['0:00:00', u'.2/.3']
 
-8 Student ID:jih089
+11 Student ID:Ken
+
+	first_attempt
+					2016-10-19 05:55:03
+	part4_incorrect_attempt
+					('0:00:00', u'0.25')
+	part4_correct_attempt
+					['0:00:00', u'0.25']
+
+12 Student ID:nicoleyfq
+
+	first_attempt
+					2016-10-19 07:16:19
+	part4_incorrect_attempt
+					('-1 day, 23:57:41', u'0.15/0.35')
+	part4_correct_attempt
+					['0:00:00', u'0.15/0.25']
+
+13 Student ID:jih089
 
 	first_attempt
 					2016-10-16 05:09:38
@@ -1070,7 +1320,7 @@
 	part4_correct_attempt
 					['0:00:00', u'0.4']
 
-9 Student ID:hunguyen
+14 Student ID:hunguyen
 
 	first_attempt
 					2016-10-17 05:06:44
@@ -1079,7 +1329,7 @@
 	part4_correct_attempt
 					['0:00:00', u'(.25 + .3 - .45)/.3']
 
-10 Student ID:Safai
+15 Student ID:Safai
 
 	first_attempt
 					2016-10-18 23:59:15
@@ -1088,7 +1338,7 @@
 	part4_correct_attempt
 					['0:00:00', u'.2/.35']
 
-11 Student ID:srrozen
+16 Student ID:srrozen
 
 	first_attempt
 					2016-10-18 20:31:55
@@ -1097,14 +1347,23 @@
 	part4_correct_attempt
 					['0:00:00', u'(0.3+0.25-0.4)/0.25']
 
-12 Student ID:NicoleStone
+17 Student ID:NicoleStone
 
 	first_attempt
 					2016-10-16 04:04:13
 	part4_incorrect_attempt
 					('0:00:00', u'.05/.25')
 
-13 Student ID:Melvinw
+18 Student ID:ThucPhan
+
+	first_attempt
+					2016-10-19 05:58:53
+	part4_incorrect_attempt
+					('-1 day, 23:28:40', u'0.25/0.35')
+	part4_correct_attempt
+					['0:00:00', u'(0.35+0.35-0.5)/0.35']
+
+19 Student ID:Melvinw
 
 	first_attempt
 					2016-10-18 07:14:49
@@ -1114,7 +1373,7 @@
 	part4_correct_attempt
 					['0:00:00', u'(0.35+0.3-0.5)/0.3']
 
-14 Student ID:mvkrishn
+20 Student ID:mvkrishn
 
 	first_attempt
 					2016-10-17 23:14:42
@@ -1123,7 +1382,7 @@
 	part4_correct_attempt
 					['0:00:00', u'.15/.35']
 
-15 Student ID:nolin
+21 Student ID:nolin
 
 	first_attempt
 					2016-10-17 23:03:51
@@ -1132,14 +1391,21 @@
 	part4_correct_attempt
 					['0:00:00', u'.1/.2']
 
-16 Student ID:ccaine
+22 Student ID:ccaine
 
 	first_attempt
 					2016-10-17 01:09:50
 	part4_incorrect_attempt
 					('-1 day, 23:55:11', u'0.3')
 
-17 Student ID:ray003
+23 Student ID:a9zhao
+
+	first_attempt
+					2016-10-19 08:39:14
+	part4_incorrect_attempt
+					('-1 day, 23:54:43', u'(.35*.3)/.3')
+
+24 Student ID:ray003
 
 	first_attempt
 					2016-10-16 07:50:11
@@ -1148,7 +1414,7 @@
 	part4_correct_attempt
 					['0:00:00', u'0.15/0.3']
 
-18 Student ID:migil
+25 Student ID:migil
 
 	first_attempt
 					2016-10-16 06:15:22
@@ -1157,7 +1423,7 @@
 	part4_correct_attempt
 					['0:00:00', u'0.5']
 
-19 Student ID:KimberlyLy
+26 Student ID:KimberlyLy
 
 	first_attempt
 					2016-10-18 20:34:11
@@ -1166,14 +1432,23 @@
 	part4_correct_attempt
 					['0:00:00', u'0.1 / 0.2']
 
-20 Student ID:anMihaly
+27 Student ID:v2chang
+
+	first_attempt
+					2016-10-19 07:38:23
+	part4_incorrect_attempt
+					('0:00:00', u'(.3*.2)/.2')
+	part4_correct_attempt
+					['0:00:00', u'(.35 + .35 -.5)/.35']
+
+28 Student ID:anMihaly
 
 	first_attempt
 					2016-10-18 20:37:50
 	part4_incorrect_attempt
 					('0:00:00', u'0.1/0.25')
 
-21 Student ID:minhsuanyao
+29 Student ID:minhsuanyao
 
 	first_attempt
 					2016-10-18 23:22:37
@@ -1182,7 +1457,14 @@
 	part4_correct_attempt
 					['0:00:00', u'0.5']
 
-22 Student ID:aliqbal
+30 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part4_incorrect_attempt
+					('0:00:00', u'.25')
+
+31 Student ID:aliqbal
 
 	first_attempt
 					2016-10-17 08:38:46
@@ -1192,14 +1474,14 @@
 	part4_correct_attempt
 					['0:00:00', u'(0.3 + 0.3 - 0.45)/(0.3)']
 
-23 Student ID:adejesus
+32 Student ID:adejesus
 
 	first_attempt
-					2016-10-17 04:35:31
+					2016-10-19 05:15:51
 	part4_incorrect_attempt
-					('0:00:00', u'(0.25 * 0.35) / ( 0.35)')
+					('-3 days, 23:19:40', u'(0.25 * 0.35) / ( 0.35)')
 
-24 Student ID:PizzaPolice
+33 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-17 07:40:35
@@ -1209,19 +1491,16 @@
 	part4_correct_attempt
 					['0:00:00', u'(.3 + .25 - .4) / .25']
 
-25 Student ID:Guillermo
+34 Student ID:Guillermo
 
 	first_attempt
 					2016-10-16 17:29:09
 	part4_incorrect_attempt
-					('-1 day, 8:56:10', u'(.05)/.15')
-					('-1 day, 8:56:10', u'(.05)/.15')
-					('-1 day, 8:56:10', u'(.05)/.15')
 					('-1 day, 9:16:33', u'(.05)/.15')
 	part4_correct_attempt
 					['0:00:00', u'(.35+.4-.55)/(.4)']
 
-26 Student ID:PaulWall43
+35 Student ID:PaulWall43
 
 	first_attempt
 					2016-10-16 05:41:54
@@ -1230,7 +1509,7 @@
 	part4_correct_attempt
 					['0:00:00', u'.15/.25']
 
-27 Student ID:rjanowit
+36 Student ID:rjanowit
 
 	first_attempt
 					2016-10-18 22:07:30
@@ -1261,37 +1540,24 @@
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
-|0	|(0.35+0.4-0.55)/0.35	|(0.3+0.35-0.45)/0.3	|[('R.0', 0.19999999999999996, '0.35+0.4-0.55', u'0.3+0.35-0.45')]	|
-|1	|(0.25+0.25-0.4)/0.25	|0.1/0.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'0.1')]	|
-|2	|(0.3+0.3-0.45)/0.3	|(0.2+0.2-0.25)/0.2	|[('R.0', 0.14999999999999997, '0.3+0.3-0.45', u'0.2+0.2-0.25')]	|
-|3	|(0.25+0.25-0.4)/0.25	|.1/.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'.1/')]	|
-|4	|(0.4+0.3-0.5)/0.4	|.2/.4	|[('R.0', 0.19999999999999996, '0.4+0.3-0.5', u'.2/')]	|
-|5	|(0.25+0.35-0.45)/0.25	|0.15/0.25	|[('R.0', 0.14999999999999997, '0.25+0.35-0.45', u'0.15')]	|
-|6	|(0.3+0.35-0.5)/0.3	|.15/.3	|[('R.0', 0.1499999999999999, '0.3+0.35-0.5', u'.15/')]	|
+|0	|(0.25+0.3-0.4)/0.25	|0.15/0.3	|[('R.0', 0.15000000000000002, '0.25+0.3-0.4', u'0.15')]	|
+|1	|(0.35+0.4-0.55)/0.35	|(0.3+0.35-0.45)/0.3	|[('R.0', 0.19999999999999996, '0.35+0.4-0.55', u'0.3+0.35-0.45')]	|
+|2	|(0.25+0.25-0.4)/0.25	|0.1/0.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'0.1')]	|
+|3	|(0.3+0.3-0.45)/0.3	|(0.2+0.2-0.25)/0.2	|[('R.0', 0.14999999999999997, '0.3+0.3-0.45', u'0.2+0.2-0.25')]	|
+|4	|(0.25+0.25-0.4)/0.25	|.1/.25	|[('R.0', 0.09999999999999998, '0.25+0.25-0.4', u'.1/')]	|
+|5	|(0.4+0.3-0.5)/0.4	|.2/.4	|[('R.0', 0.19999999999999996, '0.4+0.3-0.5', u'.2/')]	|
+|6	|(0.25+0.35-0.45)/0.25	|0.15/0.25	|[('R.0', 0.14999999999999997, '0.25+0.35-0.45', u'0.15')]	|
+|7	|(0.3+0.35-0.5)/0.3	|.15/.3	|[('R.0', 0.1499999999999999, '0.3+0.35-0.5', u'.15/')]	|
 
 
 
 
-### (9) Mistake Group Wrong_Sign of size 9
+### (7) Mistake Group Wrong_Sign of size 7
 
 
 
 
-### (3) Mistake Group Digits of size 3
-
-
-
-
-### (2) Mistake Group ['R.0.0.1'] of size 2
-""" Please write hint here """
-
-|ID	|Author	|Condition	|Hint Text|
-|---|---|---|---|
-|0|	|['R.0.0.1']	|"hint"	|
-
-|	|Answer	|Attempt	|Matching sub-exp|
-|---|---|---|---|
-|0	|(0.35+0.3-0.45)/0.35	|(0.35 * 0.3 - (0.35 * 0.3 * 0.3)) / 0.35	|[('R.0.0.1', 0.3, '0.3', u'0.3')]	|
+### (4) Mistake Group Digits of size 4
 
 
 
@@ -1324,7 +1590,21 @@
 
 
 
-### (28) No Match Group 
+### (1) Mistake Group ['R.0.1'] of size 1
+""" Please write hint here """
+
+|ID	|Author	|Condition	|Hint Text|
+|---|---|---|---|
+|0|	|['R.0.1']	|"hint"	|
+
+|	|Answer	|Attempt	|Matching sub-exp|
+|---|---|---|---|
+|0	|(0.25+0.25-0.35)/0.25	|(0.25+0.2-0.35)/0.25	|[('R.0.1', 0.35, '0.35', u'0.35')]	|
+
+
+
+
+### (37) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -1358,7 +1638,14 @@
 	part5_correct_attempt
 					['0:00:00', u'0.2/0.35']
 
-3 Student ID:Zhongting
+3 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:49:35
+	part5_incorrect_attempt
+					('-1 day, 23:53:42', u'0.35')
+
+4 Student ID:Zhongting
 
 	first_attempt
 					2016-10-16 05:26:42
@@ -1367,7 +1654,7 @@
 	part5_correct_attempt
 					['0:00:00', u'1/2']
 
-4 Student ID:yuhan
+5 Student ID:yuhan
 
 	first_attempt
 					2016-10-18 03:21:07
@@ -1376,14 +1663,14 @@
 	part5_correct_attempt
 					['0:00:00', u'3/5']
 
-5 Student ID:HansGamboa
+6 Student ID:HansGamboa
 
 	first_attempt
 					2016-10-17 00:08:15
 	part5_incorrect_attempt
 					('0:00:00', u'(0.25)')
 
-6 Student ID:AndrewYang24
+7 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 04:01:13
@@ -1393,7 +1680,17 @@
 					('-1 day, 23:49:15', u'(0.25+0.25-0.45)/0.25')
 					('-1 day, 23:53:27', u'0.3/0.25')
 
-7 Student ID:aspindle
+8 Student ID:rsamuail
+
+	first_attempt
+					2016-10-19 19:05:40
+	part5_incorrect_attempt
+					('-1 day, 6:41:54', u'.25')
+					('-1 day, 6:49:10', u'((.35)*(.35))/(.35)')
+	part5_correct_attempt
+					['0:00:00', u'(.3+.3-.45)/.3']
+
+9 Student ID:aspindle
 
 	first_attempt
 					2016-10-17 02:25:27
@@ -1402,7 +1699,16 @@
 	part5_correct_attempt
 					['0:00:00', u'.2/.4']
 
-8 Student ID:shuang
+10 Student ID:Ken
+
+	first_attempt
+					2016-10-19 05:55:03
+	part5_incorrect_attempt
+					('0:00:00', u'0.25')
+	part5_correct_attempt
+					['0:00:00', u'0.25']
+
+11 Student ID:shuang
 
 	first_attempt
 					2016-10-16 06:40:52
@@ -1411,7 +1717,16 @@
 	part5_correct_attempt
 					['0:00:00', u'1/2']
 
-9 Student ID:jih089
+12 Student ID:nicoleyfq
+
+	first_attempt
+					2016-10-19 07:16:19
+	part5_incorrect_attempt
+					('-1 day, 23:57:41', u'0.15/0.35')
+	part5_correct_attempt
+					['0:00:00', u'0.15/0.3']
+
+13 Student ID:jih089
 
 	first_attempt
 					2016-10-16 05:09:38
@@ -1429,7 +1744,7 @@
 	part5_correct_attempt
 					['0:00:00', u'0.5']
 
-10 Student ID:hunguyen
+14 Student ID:hunguyen
 
 	first_attempt
 					2016-10-17 05:06:44
@@ -1438,7 +1753,7 @@
 	part5_correct_attempt
 					['0:00:00', u'(.25 + .3 - .45)/.25']
 
-11 Student ID:Safai
+15 Student ID:Safai
 
 	first_attempt
 					2016-10-18 23:59:15
@@ -1448,7 +1763,7 @@
 	part5_correct_attempt
 					['0:00:00', u'.2/.3']
 
-12 Student ID:srrozen
+16 Student ID:srrozen
 
 	first_attempt
 					2016-10-18 20:31:55
@@ -1457,14 +1772,23 @@
 	part5_correct_attempt
 					['0:00:00', u'(0.3+0.25-0.4)/0.3']
 
-13 Student ID:NicoleStone
+17 Student ID:NicoleStone
 
 	first_attempt
 					2016-10-16 04:04:13
 	part5_incorrect_attempt
 					('0:00:00', u'.05/.25')
 
-14 Student ID:Melvinw
+18 Student ID:ThucPhan
+
+	first_attempt
+					2016-10-19 05:58:53
+	part5_incorrect_attempt
+					('-1 day, 23:28:40', u'0.25/0.35')
+	part5_correct_attempt
+					['0:00:00', u'(0.35+0.35-0.5)/0.35']
+
+19 Student ID:Melvinw
 
 	first_attempt
 					2016-10-18 07:14:49
@@ -1473,7 +1797,7 @@
 	part5_correct_attempt
 					['0:00:00', u'(0.35+0.3-0.5)/0.35']
 
-15 Student ID:mvkrishn
+20 Student ID:mvkrishn
 
 	first_attempt
 					2016-10-17 23:14:42
@@ -1482,7 +1806,7 @@
 	part5_correct_attempt
 					['0:00:00', u'.5']
 
-16 Student ID:nolin
+21 Student ID:nolin
 
 	first_attempt
 					2016-10-17 23:03:51
@@ -1491,14 +1815,24 @@
 	part5_correct_attempt
 					['0:00:00', u'.1/.2']
 
-17 Student ID:ccaine
+22 Student ID:rrivasfe
 
 	first_attempt
-					2016-10-17 01:09:50
+					2016-10-19 15:54:39
 	part5_incorrect_attempt
-					('-1 day, 23:55:11', u'0.25')
+					('-1 day, 23:37:07', u'0.3')
+					('0:00:00', u'0.4')
+	part5_correct_attempt
+					['0:00:00', u'0.4']
 
-18 Student ID:ray003
+23 Student ID:a9zhao
+
+	first_attempt
+					2016-10-19 08:39:14
+	part5_incorrect_attempt
+					('-1 day, 23:54:43', u'(.35*.3)/.35')
+
+24 Student ID:ray003
 
 	first_attempt
 					2016-10-16 07:50:11
@@ -1507,7 +1841,7 @@
 	part5_correct_attempt
 					['0:00:00', u'0.15/0.3']
 
-19 Student ID:migil
+25 Student ID:migil
 
 	first_attempt
 					2016-10-16 06:15:22
@@ -1516,7 +1850,7 @@
 	part5_correct_attempt
 					['0:00:00', u'0.4']
 
-20 Student ID:KimberlyLy
+26 Student ID:KimberlyLy
 
 	first_attempt
 					2016-10-18 20:34:11
@@ -1525,14 +1859,28 @@
 	part5_correct_attempt
 					['0:00:00', u'0.1 / 0.2']
 
-21 Student ID:anMihaly
+27 Student ID:v2chang
+
+	first_attempt
+					2016-10-19 07:38:23
+	part5_incorrect_attempt
+					('0:00:00', u'(.2*.3)/.3')
+
+28 Student ID:anMihaly
 
 	first_attempt
 					2016-10-18 20:37:50
 	part5_incorrect_attempt
 					('0:00:00', u'0.1/0.25')
 
-22 Student ID:aliqbal
+29 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part5_incorrect_attempt
+					('0:00:00', u'.3')
+
+30 Student ID:aliqbal
 
 	first_attempt
 					2016-10-17 08:38:46
@@ -1542,14 +1890,14 @@
 	part5_correct_attempt
 					['0:00:00', u'(0.3 + 0.3 - 0.45)/0.3']
 
-23 Student ID:adejesus
+31 Student ID:adejesus
 
 	first_attempt
-					2016-10-17 04:35:31
+					2016-10-19 05:15:51
 	part5_incorrect_attempt
-					('0:00:00', u'(0.35 * 0.25) / (0.25)')
+					('-3 days, 23:19:40', u'(0.35 * 0.25) / (0.25)')
 
-24 Student ID:PizzaPolice
+32 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-17 07:40:35
@@ -1559,19 +1907,16 @@
 	part5_correct_attempt
 					['0:00:00', u'(.3 + .25 - .4) / .3']
 
-25 Student ID:Guillermo
+33 Student ID:Guillermo
 
 	first_attempt
 					2016-10-16 17:29:09
 	part5_incorrect_attempt
-					('-1 day, 8:56:10', u'(.05)/.1')
-					('-1 day, 8:56:10', u'(.05)/.1')
-					('-1 day, 8:56:10', u'(.05)/.1')
 					('-1 day, 9:16:33', u'(.05)/.1')
 	part5_correct_attempt
 					['0:00:00', u'(.35+.4-.55)/(.35)']
 
-26 Student ID:PaulWall43
+34 Student ID:PaulWall43
 
 	first_attempt
 					2016-10-16 05:41:54
@@ -1580,7 +1925,7 @@
 	part5_correct_attempt
 					['0:00:00', u'.15/.3']
 
-27 Student ID:rjanowit
+35 Student ID:rjanowit
 
 	first_attempt
 					2016-10-18 22:07:30
@@ -1588,6 +1933,13 @@
 					('0:00:00', u'0.35/0.2')
 	part5_correct_attempt
 					['0:00:00', u'0.35/0.2']
+
+36 Student ID:ccaine
+
+	first_attempt
+					2016-10-17 01:09:50
+	part5_incorrect_attempt
+					('-1 day, 23:55:11', u'0.25')
 
 
 
@@ -1602,12 +1954,12 @@
 
 ## Part 6
 
-### (10) Mistake Group Digits of size 10
+### (10) Mistake Group Wrong_Sign of size 10
 
 
 
 
-### (8) Mistake Group Wrong_Sign of size 8
+### (9) Mistake Group Digits of size 9
 
 
 
@@ -1685,7 +2037,7 @@
 
 
 
-### (61) No Match Group 
+### (74) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -1711,14 +2063,14 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-2 Student ID:zkvick
+2 Student ID:szh
 
 	first_attempt
-					2016-10-17 21:25:03
+					2016-10-19 03:57:23
 	part6_incorrect_attempt
-					('0:00:00', u'.1')
+					('0:00:00', u'0.15')
 	part6_correct_attempt
-					['0:00:00', u'.1']
+					['0:00:00', u'0.15']
 
 3 Student ID:yazin-yousif
 
@@ -1738,7 +2090,14 @@
 	part6_correct_attempt
 					['0:00:00', u'0.7 -0.35-0.4-0.3+0.15+.4']
 
-5 Student ID:VanessaC
+5 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:49:35
+	part6_incorrect_attempt
+					('-1 day, 23:53:42', u'0.35*0.35*0.25')
+
+6 Student ID:VanessaC
 
 	first_attempt
 					2016-10-17 07:16:55
@@ -1747,7 +2106,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-6 Student ID:Zhongting
+7 Student ID:Zhongting
 
 	first_attempt
 					2016-10-16 05:26:42
@@ -1757,7 +2116,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-7 Student ID:minhsuanyao
+8 Student ID:minhsuanyao
 
 	first_attempt
 					2016-10-18 23:22:37
@@ -1766,7 +2125,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-8 Student ID:dillonliu
+9 Student ID:dillonliu
 
 	first_attempt
 					2016-10-18 03:21:14
@@ -1775,7 +2134,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.65 - 0.35 - 0.3 - 0.3 + 0.15 + 0.15 + 0.15 ']
 
-9 Student ID:yuhan
+10 Student ID:yuhan
 
 	first_attempt
 					2016-10-18 03:21:07
@@ -1784,18 +2143,16 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-10 Student ID:kyle
+11 Student ID:kyle
 
 	first_attempt
 					2016-10-18 21:19:14
 	part6_incorrect_attempt
-					('-1 day, 23:50:59', u'0.6-0.3-0.3-0.2+0.15+0.1+0.1')
-					('-1 day, 23:50:59', u'0.6-0.3-0.3-0.2+0.15+0.1+0.1')
 					('0:00:00', u'0.6-0.3-0.3-0.2+0.15+0.1+0.1')
 	part6_correct_attempt
 					['0:00:00', u'0.6-0.3-0.3-0.2+0.15+0.1+0.1']
 
-11 Student ID:lmfink
+12 Student ID:lmfink
 
 	first_attempt
 					2016-10-17 01:31:20
@@ -1804,7 +2161,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.4+.35+.35-.55-.55-.5 + .7']
 
-12 Student ID:til005
+13 Student ID:til005
 
 	first_attempt
 					2016-10-18 03:10:02
@@ -1814,7 +2171,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-13 Student ID:NickWong
+14 Student ID:NickWong
 
 	first_attempt
 					2016-10-17 07:29:20
@@ -1823,7 +2180,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.55-.3-.3-.3+.15+.2+.2']
 
-14 Student ID:AndrewYang24
+15 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 04:01:13
@@ -1833,7 +2190,7 @@
 					('-1 day, 23:49:15', u'0.45-0.25-0.25-0.2+(0.25+0.25-0.45) + (0.25+0.2-0.35) + (0.25+0.2-0.35)')
 					('-1 day, 23:53:27', u'0.45-0.25-0.2-0.35+ (0.25+0.2-0.3) + (0.2+0.35-0.35) + (0.25+0.35-0.4)')
 
-15 Student ID:woguan
+16 Student ID:woguan
 
 	first_attempt
 					2016-10-17 11:33:53
@@ -1842,17 +2199,17 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-16 Student ID:aspindle
+17 Student ID:rsamuail
 
 	first_attempt
-					2016-10-17 02:25:27
+					2016-10-19 19:05:40
 	part6_incorrect_attempt
-					('-1 day, 23:50:29', u'.7-1+.58')
-					('0:00:00', u'.65-1.05+.6')
+					('-1 day, 6:41:54', u'.0375')
+					('0:00:00', u'.55-.3-.3-.2+(.3+.3-.45)+(.3+.2-.4)+(.3+.2-.4)')
 	part6_correct_attempt
-					['0:00:00', u'.65-1.05+.6']
+					['0:00:00', u'.55-.3-.3-.2+(.3+.3-.45)+(.3+.2-.4)+(.3+.2-.4)']
 
-17 Student ID:alvinyho
+18 Student ID:alvinyho
 
 	first_attempt
 					2016-10-17 21:33:46
@@ -1863,7 +2220,17 @@
 	part6_correct_attempt
 					['0:00:00', u'.6 - .25 - .3 -.35 + (.25+.3-(.45)) + (.3+.35-(.5)) + (.25+.35-(.45))']
 
-18 Student ID:ShannonWang
+19 Student ID:aspindle
+
+	first_attempt
+					2016-10-17 02:25:27
+	part6_incorrect_attempt
+					('-1 day, 23:50:29', u'.7-1+.58')
+					('0:00:00', u'.65-1.05+.6')
+	part6_correct_attempt
+					['0:00:00', u'.65-1.05+.6']
+
+20 Student ID:ShannonWang
 
 	first_attempt
 					2016-10-16 16:52:42
@@ -1872,7 +2239,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-19 Student ID:mbland
+21 Student ID:mbland
 
 	first_attempt
 					2016-10-17 20:27:40
@@ -1881,7 +2248,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-20 Student ID:aives
+22 Student ID:aives
 
 	first_attempt
 					2016-10-17 01:42:12
@@ -1890,16 +2257,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-21 Student ID:Melvinw
-
-	first_attempt
-					2016-10-18 07:14:49
-	part6_incorrect_attempt
-					('0:00:00', u'0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5')
-	part6_correct_attempt
-					['0:00:00', u'0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5']
-
-22 Student ID:shuang
+23 Student ID:shuang
 
 	first_attempt
 					2016-10-16 06:40:52
@@ -1908,7 +2266,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.2']
 
-23 Student ID:JasonHuang
+24 Student ID:JasonHuang
 
 	first_attempt
 					2016-10-18 23:22:41
@@ -1917,7 +2275,17 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-24 Student ID:jih089
+25 Student ID:nicoleyfq
+
+	first_attempt
+					2016-10-19 07:16:19
+	part6_incorrect_attempt
+					('-1 day, 23:40:23', u'0.3+0.25+0.2-0.5')
+					('-1 day, 23:54:11', u'0.1')
+	part6_correct_attempt
+					['0:00:00', u'0.15']
+
+26 Student ID:jih089
 
 	first_attempt
 					2016-10-16 05:09:38
@@ -1934,18 +2302,16 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-25 Student ID:njcrow
+27 Student ID:njcrow
 
 	first_attempt
 					2016-10-18 15:30:39
 	part6_incorrect_attempt
-					('-1 day, 7:53:49', u'.3+.3+.35 - .5-.5-.5+.7')
-					('-1 day, 7:53:49', u'.3+.3+.35 - .5-.5-.5+.7')
 					('-1 day, 8:08:04', u'.3+.3+.35 - .5-.5-.5+.7')
 	part6_correct_attempt
 					['0:00:00', u'(.35+.3+.25-.5-.45-.4+.65)']
 
-26 Student ID:zow006
+28 Student ID:zow006
 
 	first_attempt
 					2016-10-17 17:34:16
@@ -1954,7 +2320,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.7-0.35-0.35-0.4+0.2+0.2+0.2']
 
-27 Student ID:Safai
+29 Student ID:Safai
 
 	first_attempt
 					2016-10-18 23:59:15
@@ -1964,19 +2330,16 @@
 	part6_correct_attempt
 					['0:00:00', u'.15']
 
-28 Student ID:srrozen
+30 Student ID:srrozen
 
 	first_attempt
 					2016-10-18 20:31:55
 	part6_incorrect_attempt
-					('-2 days, 4:33:11', u'0.5-0.3-0.25-0.25+0.3+0.25-0.4+0.25+0.25-0.35+0.3+0.25-0.4')
-					('-2 days, 4:33:11', u'0.5-0.3-0.25-0.25+0.3+0.25-0.4+0.25+0.25-0.35+0.3+0.25-0.4')
-					('-2 days, 4:33:11', u'0.5-0.3-0.25-0.25+0.3+0.25-0.4+0.25+0.25-0.35+0.3+0.25-0.4')
 					('0:00:00', u'0.5-0.3-0.25-0.25+0.3+0.25-0.4+0.25+0.25-0.35+0.3+0.25-0.4')
 	part6_correct_attempt
 					['0:00:00', u'0.5-0.3-0.25-0.25+0.3+0.25-0.4+0.25+0.25-0.35+0.3+0.25-0.4']
 
-29 Student ID:yphilip
+31 Student ID:yphilip
 
 	first_attempt
 					2016-10-18 07:57:51
@@ -1986,7 +2349,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-30 Student ID:Jisu
+32 Student ID:Jisu
 
 	first_attempt
 					2016-10-16 05:24:13
@@ -1995,16 +2358,41 @@
 	part6_correct_attempt
 					['0:00:00', u'0.75-0.35-0.4-0.4+((0.35+0.4)-0.55)+((0.4+0.4)-0.6)+((0.35+0.4)-0.55)']
 
-31 Student ID:DarrenYang
+33 Student ID:a9zhao
 
 	first_attempt
-					2016-10-17 01:48:47
+					2016-10-19 08:39:14
 	part6_incorrect_attempt
-					('0:00:00', u'0.1')
-	part6_correct_attempt
-					['0:00:00', u'0.1']
+					('-1 day, 23:54:43', u'.35*.3*.3')
 
-32 Student ID:twsalim
+34 Student ID:Ken
+
+	first_attempt
+					2016-10-19 05:55:03
+	part6_incorrect_attempt
+					('0:00:00', u'0.25*0.25*0.25')
+	part6_correct_attempt
+					['0:00:00', u'0.25*0.25*0.25']
+
+35 Student ID:SidneyNguyen
+
+	first_attempt
+					2016-10-19 04:01:07
+	part6_incorrect_attempt
+					('0:00:00', u'0.65-0.35-0.35-0.3+0.35+0.35-0.5+0.35+0.3-0.5+0.35+0.3-0.5')
+	part6_correct_attempt
+					['0:00:00', u'0.65-0.35-0.35-0.3+0.35+0.35-0.5+0.35+0.3-0.5+0.35+0.3-0.5']
+
+36 Student ID:vicorhe
+
+	first_attempt
+					2016-10-19 17:53:00
+	part6_incorrect_attempt
+					('0:00:00', u'0.25+0.3+0.3-0.45-0.45-0.4+0.55')
+	part6_correct_attempt
+					['0:00:00', u'0.25+0.3+0.3-0.45-0.45-0.4+0.55']
+
+37 Student ID:twsalim
 
 	first_attempt
 					2016-10-17 19:23:54
@@ -2013,7 +2401,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-33 Student ID:ThuanNguyen
+38 Student ID:ThuanNguyen
 
 	first_attempt
 					2016-10-17 05:44:52
@@ -2023,7 +2411,16 @@
 	part6_correct_attempt
 					['0:00:00', u'0.2']
 
-34 Student ID:tommyt1109
+39 Student ID:zkvick
+
+	first_attempt
+					2016-10-17 21:25:03
+	part6_incorrect_attempt
+					('0:00:00', u'.1')
+	part6_correct_attempt
+					['0:00:00', u'.1']
+
+40 Student ID:tommyt1109
 
 	first_attempt
 					2016-10-16 22:27:40
@@ -2032,7 +2429,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.15']
 
-35 Student ID:PriyankaK
+41 Student ID:PriyankaK
 
 	first_attempt
 					2016-10-17 01:47:50
@@ -2041,32 +2438,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.6-0.25-0.3-0.3+(0.3+0.3-0.45)+(0.3+0.25-0.4)+(0.3+0.25-0.4)']
 
-36 Student ID:NicoleStone
-
-	first_attempt
-					2016-10-16 04:04:13
-	part6_incorrect_attempt
-					('0:00:00', u'.05')
-
-37 Student ID:kballew00
-
-	first_attempt
-					2016-10-18 16:43:15
-	part6_incorrect_attempt
-					('-1 day, 23:56:15', u'-0.2-0.25-0.3-0.5+(0.2+0.25-0.35)+(0.25+0.3-0.45)+(0.2+0.3-0.4)')
-	part6_correct_attempt
-					['0:00:00', u'0.65-0.3-0.3-0.3+(0.3+0.3-0.45)+(0.3+0.3-0.45)+(0.3+0.3-0.45)']
-
-38 Student ID:mvkrishn
-
-	first_attempt
-					2016-10-17 23:14:42
-	part6_incorrect_attempt
-					('-1 day, 23:55:36', u'.1')
-	part6_correct_attempt
-					['0:00:00', u'.05']
-
-39 Student ID:nolin
+42 Student ID:nolin
 
 	first_attempt
 					2016-10-17 23:03:51
@@ -2076,7 +2448,52 @@
 	part6_correct_attempt
 					['0:00:00', u'.45-.2-.2-.25+.1+.1+.1']
 
-40 Student ID:Ryan
+43 Student ID:NicoleStone
+
+	first_attempt
+					2016-10-16 04:04:13
+	part6_incorrect_attempt
+					('0:00:00', u'.05')
+
+44 Student ID:ThucPhan
+
+	first_attempt
+					2016-10-19 05:58:53
+	part6_incorrect_attempt
+					('-1 day, 23:03:54', u'0.3*0.5*(0.15/0.3)')
+					('-1 day, 23:09:43', u'0.25*0.25*0.2')
+					('-1 day, 23:56:04', u'0.15+0.1+0.1+0.5-0.25-0.25-0.25')
+	part6_correct_attempt
+					['0:00:00', u'0.2+0.15+0.15+0.65-0.35-0.35-0.35']
+
+45 Student ID:Melvinw
+
+	first_attempt
+					2016-10-18 07:14:49
+	part6_incorrect_attempt
+					('0:00:00', u'0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5')
+	part6_correct_attempt
+					['0:00:00', u'0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5']
+
+46 Student ID:mvkrishn
+
+	first_attempt
+					2016-10-17 23:14:42
+	part6_incorrect_attempt
+					('-1 day, 23:55:36', u'.1')
+	part6_correct_attempt
+					['0:00:00', u'.05']
+
+47 Student ID:mhatch
+
+	first_attempt
+					2016-10-19 04:02:06
+	part6_incorrect_attempt
+					('0:00:00', u'-1 * (.4+.4+.35 - 3*.2 - .75)')
+	part6_correct_attempt
+					['0:00:00', u'-1 * (.4+.4+.35 - 3*.2 - .75)']
+
+48 Student ID:Ryan
 
 	first_attempt
 					2016-10-18 16:51:43
@@ -2085,7 +2502,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.6 - 0.3 - 0.3 - 0.2 + 0.3 + 0.3 - 0.45 + 0.3 + 0.2 - 0.4 + 0.2 + 0.3 - 0.4']
 
-41 Student ID:Joonhan
+49 Student ID:Joonhan
 
 	first_attempt
 					2016-10-17 20:16:58
@@ -2094,7 +2511,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-42 Student ID:KevinChrisayrton
+50 Student ID:KevinChrisayrton
 
 	first_attempt
 					2016-10-16 06:43:39
@@ -2103,32 +2520,14 @@
 	part6_correct_attempt
 					['0:00:00', u'0.25+0.25+0.3-(0.25+0.25-0.4)-(0.25+0.3-0.4)-(0.25+0.3-0.4)+((0.25+0.25-0.4)/0.25)']
 
-43 Student ID:ccaine
+51 Student ID:ccaine
 
 	first_attempt
 					2016-10-17 01:09:50
 	part6_incorrect_attempt
 					('-1 day, 23:55:11', u'0.5-0.3-0.25-0.2+0.4+0.4+0.35')
 
-44 Student ID:wesokuhara
-
-	first_attempt
-					2016-10-17 19:23:21
-	part6_incorrect_attempt
-					('0:00:00', u'0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15')
-	part6_correct_attempt
-					['0:00:00', u'0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15']
-
-45 Student ID:maddymanu
-
-	first_attempt
-					2016-10-17 16:13:54
-	part6_incorrect_attempt
-					('-1 day, 23:56:13', u'0.4+0.4+0.4-0.25-0.25-0.25+0.55')
-	part6_correct_attempt
-					['0:00:00', u'0.5-0.2-0.25-0.3+(0.2+0.25-0.35)+(0.25+0.3-0.45)+(0.2+0.3-0.4)']
-
-46 Student ID:ray003
+52 Student ID:ray003
 
 	first_attempt
 					2016-10-16 07:50:11
@@ -2137,7 +2536,44 @@
 	part6_correct_attempt
 					['0:00:00', u'0.15']
 
-47 Student ID:URajkumar
+53 Student ID:kballew00
+
+	first_attempt
+					2016-10-18 16:43:15
+	part6_incorrect_attempt
+					('-1 day, 23:56:15', u'-0.2-0.25-0.3-0.5+(0.2+0.25-0.35)+(0.25+0.3-0.45)+(0.2+0.3-0.4)')
+	part6_correct_attempt
+					['0:00:00', u'0.65-0.3-0.3-0.3+(0.3+0.3-0.45)+(0.3+0.3-0.45)+(0.3+0.3-0.45)']
+
+54 Student ID:wesokuhara
+
+	first_attempt
+					2016-10-17 19:23:21
+	part6_incorrect_attempt
+					('0:00:00', u'0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15')
+	part6_correct_attempt
+					['0:00:00', u'0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15']
+
+55 Student ID:maddymanu
+
+	first_attempt
+					2016-10-17 16:13:54
+	part6_incorrect_attempt
+					('-1 day, 23:56:13', u'0.4+0.4+0.4-0.25-0.25-0.25+0.55')
+	part6_correct_attempt
+					['0:00:00', u'0.5-0.2-0.25-0.3+(0.2+0.25-0.35)+(0.25+0.3-0.45)+(0.2+0.3-0.4)']
+
+56 Student ID:wtchiu
+
+	first_attempt
+					2016-10-19 06:47:17
+	part6_incorrect_attempt
+					('-1 day, 23:56:21', u'0.7+0.35+0.3-0.5+0.3+0.35-0.5+0.35+0.35-0.55-0.3-0.35-0.35')
+					('0:00:00', u'0.6+0.3+0.3-0.4+0.3+0.3-0.45+0.3+0.3-0.45-0.3-0.3-0.3')
+	part6_correct_attempt
+					['0:00:00', u'0.6+0.3+0.3-0.4+0.3+0.3-0.45+0.3+0.3-0.45-0.3-0.3-0.3']
+
+57 Student ID:URajkumar
 
 	first_attempt
 					2016-10-18 20:37:15
@@ -2146,7 +2582,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-48 Student ID:KimberlyLy
+58 Student ID:KimberlyLy
 
 	first_attempt
 					2016-10-18 20:34:11
@@ -2157,7 +2593,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.1']
 
-49 Student ID:christhoperbernard
+59 Student ID:christhoperbernard
 
 	first_attempt
 					2016-10-16 05:09:09
@@ -2166,7 +2602,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.55-0.3-0.2-0.3+(0.3+0.2-0.4)+(0.2+0.3-0.35)+(0.3+0.3-0.45)']
 
-50 Student ID:amt040
+60 Student ID:amt040
 
 	first_attempt
 					2016-10-16 23:20:16
@@ -2175,7 +2611,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.2']
 
-51 Student ID:Ken_Truong
+61 Student ID:Ken_Truong
 
 	first_attempt
 					2016-10-16 08:34:16
@@ -2184,14 +2620,14 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-52 Student ID:anMihaly
+62 Student ID:anMihaly
 
 	first_attempt
 					2016-10-18 20:37:50
 	part6_incorrect_attempt
 					('0:00:00', u'0.05')
 
-53 Student ID:YuqinWu
+63 Student ID:YuqinWu
 
 	first_attempt
 					2016-10-16 20:58:10
@@ -2200,7 +2636,7 @@
 	part6_correct_attempt
 					['0:00:00', u'0.1']
 
-54 Student ID:hunguyen
+64 Student ID:hunguyen
 
 	first_attempt
 					2016-10-17 05:06:44
@@ -2209,7 +2645,14 @@
 	part6_correct_attempt
 					['0:00:00', u'.55 - .25 - .3 -.25 + .25 + .3 - .45 + .25 + .25 - .4 + .3 + .25 - .45']
 
-55 Student ID:k1siu
+65 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part6_incorrect_attempt
+					('0:00:00', u'.15')
+
+66 Student ID:k1siu
 
 	first_attempt
 					2016-10-16 03:41:29
@@ -2218,7 +2661,14 @@
 	part6_correct_attempt
 					['0:00:00', u'0.55-(0.3+0.3-0.45)-(0.3+0.3-0.5)-(0.3+0.3-0.5)+(3*0.3)']
 
-56 Student ID:ankannan
+67 Student ID:v2chang
+
+	first_attempt
+					2016-10-19 07:38:23
+	part6_incorrect_attempt
+					('0:00:00', u'.3*.2*.25')
+
+68 Student ID:ankannan
 
 	first_attempt
 					2016-10-17 06:25:49
@@ -2227,7 +2677,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.2']
 
-57 Student ID:Khang_Vinh
+69 Student ID:Khang_Vinh
 
 	first_attempt
 					2016-10-18 02:06:22
@@ -2237,7 +2687,16 @@
 	part6_correct_attempt
 					['0:00:00', u'0.45-0.25-0.2-0.25+(0.25+0.2-0.35)+(0.25+0.25-0.35)+(0.2+0.25-0.3)']
 
-58 Student ID:PizzaPolice
+70 Student ID:DarrenYang
+
+	first_attempt
+					2016-10-17 01:48:47
+	part6_incorrect_attempt
+					('0:00:00', u'0.1')
+	part6_correct_attempt
+					['0:00:00', u'0.1']
+
+71 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-17 07:40:35
@@ -2247,7 +2706,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.5 -.3 - .25 - .2 + (.3 + .2 - .4) + (.25 + .2 - .35) + (.3 + .25 - .4)']
 
-59 Student ID:PaulWall43
+72 Student ID:PaulWall43
 
 	first_attempt
 					2016-10-16 05:41:54
@@ -2257,7 +2716,7 @@
 	part6_correct_attempt
 					['0:00:00', u'.15']
 
-60 Student ID:rjanowit
+73 Student ID:rjanowit
 
 	first_attempt
 					2016-10-18 22:07:30
@@ -2279,22 +2738,22 @@
 
 ## Part 7
 
-### (21) Mistake Group Digits of size 21
+### (27) Mistake Group Digits of size 27
 
 
 
 
-### (16) Mistake Group Wrong_Sign of size 16
+### (17) Mistake Group Fraction of size 17
 
 
 
 
-### (14) Mistake Group Fraction of size 14
+### (14) Mistake Group Wrong_Sign of size 14
 
 
 
 
-### (4) Mistake Group ['R.0'] of size 4
+### (5) Mistake Group ['R.0'] of size 5
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -2303,10 +2762,11 @@
 
 |	|Answer	|Attempt	|Matching sub-exp|
 |---|---|---|---|
-|0	|(0.75+(0.4+0.4-0.6)+(0.4+0.4-0.6)+(0.4+0.4-0.6)-(0.4+0.4+0.4))/(0.4+0.4-0.6)	|0.15/0.4	|[('R.0', 0.1499999999999999, '0.75+(0.4+0.4-0.6)+(0.4+0.4-0.6)+(0.4+0.4-0.6)-(0.4+0.4+0.4)', u'0.15')]	|
-|1	|(0.55+(0.25+0.3-0.45)+(0.3+0.25-0.45)+(0.25+0.25-0.4)-(0.25+0.3+0.25))/(0.3+0.25-0.45)	|(.55 - .25 - .3 -.25 + .25 + .3 - .45 + .25 + .25 - .4 + .3 + .25 - .45)/(.3 + .25 - .45)	|[('R.0', 0.050000000000000155, '0.55+(0.25+0.3-0.45)+(0.3+0.25-0.45)+(0.25+0.25-0.4)-(0.25+0.3+0.25)', u'.55 - .25 - .3 -.25 + .25 + .3 - .45 + .25 + .25 - .4 + .3 + .25 - .45)')]	|
-|2	|(0.6+(0.25+0.3-0.45)+(0.3+0.3-0.5)+(0.25+0.3-0.45)-(0.25+0.3+0.3))/(0.3+0.3-0.5)	|(0.25 + 0.3 + 0.3 - 0.45 - 0.45 - 0.5 + 0.6) / (0.3 + 0.3 - 0.5)	|[('R.0', 0.04999999999999982, '0.6+(0.25+0.3-0.45)+(0.3+0.3-0.5)+(0.25+0.3-0.45)-(0.25+0.3+0.3)', u'0.25 + 0.3 + 0.3 - 0.45 - 0.45 - 0.5 + 0.6')]	|
-|3	|(0.55+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4)-(0.25+0.35+0.25))/(0.35+0.25-0.5)	|(0.55-0.25-0.35-0.25+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4))/(0.35+0.25-0.5)	|[('R.0', 0.04999999999999993, '0.55+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4)-(0.25+0.35+0.25)', u'0.55-0.25-0.35-0.25+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4)')]	|
+|0	|(0.6+(0.3+0.3-0.45)+(0.3+0.3-0.45)+(0.3+0.3-0.45)-(0.3+0.3+0.3))/(0.3+0.3-0.45)	|(0.6 - 0.3 - 0.3 - 0.3 + (0.3 + 0.3 - 0.45) + (0.3 + 0.3 - 0.45) + (0.3 + 0.3 - 0.45)) / 0.3	|[('R.0', 0.1499999999999999, '0.6+(0.3+0.3-0.45)+(0.3+0.3-0.45)+(0.3+0.3-0.45)-(0.3+0.3+0.3)', u'0.6 - 0.3 - 0.3 - 0.3 + (0.3 + 0.3 - 0.45) + (0.3 + 0.3 - 0.45) + (0.3 + 0.3 - 0.45)')]	|
+|1	|(0.75+(0.4+0.4-0.6)+(0.4+0.4-0.6)+(0.4+0.4-0.6)-(0.4+0.4+0.4))/(0.4+0.4-0.6)	|0.15/0.4	|[('R.0', 0.1499999999999999, '0.75+(0.4+0.4-0.6)+(0.4+0.4-0.6)+(0.4+0.4-0.6)-(0.4+0.4+0.4)', u'0.15')]	|
+|2	|(0.55+(0.25+0.3-0.45)+(0.3+0.25-0.45)+(0.25+0.25-0.4)-(0.25+0.3+0.25))/(0.3+0.25-0.45)	|(.55 - .25 - .3 -.25 + .25 + .3 - .45 + .25 + .25 - .4 + .3 + .25 - .45)/(.3 + .25 - .45)	|[('R.0', 0.050000000000000155, '0.55+(0.25+0.3-0.45)+(0.3+0.25-0.45)+(0.25+0.25-0.4)-(0.25+0.3+0.25)', u'.55 - .25 - .3 -.25 + .25 + .3 - .45 + .25 + .25 - .4 + .3 + .25 - .45)')]	|
+|3	|(0.6+(0.25+0.3-0.45)+(0.3+0.3-0.5)+(0.25+0.3-0.45)-(0.25+0.3+0.3))/(0.3+0.3-0.5)	|(0.25 + 0.3 + 0.3 - 0.45 - 0.45 - 0.5 + 0.6) / (0.3 + 0.3 - 0.5)	|[('R.0', 0.04999999999999982, '0.6+(0.25+0.3-0.45)+(0.3+0.3-0.5)+(0.25+0.3-0.45)-(0.25+0.3+0.3)', u'0.25 + 0.3 + 0.3 - 0.45 - 0.45 - 0.5 + 0.6')]	|
+|4	|(0.55+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4)-(0.25+0.35+0.25))/(0.35+0.25-0.5)	|(0.55-0.25-0.35-0.25+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4))/(0.35+0.25-0.5)	|[('R.0', 0.04999999999999993, '0.55+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4)-(0.25+0.35+0.25)', u'0.55-0.25-0.35-0.25+(0.25+0.35-0.45)+(0.35+0.25-0.5)+(0.25+0.25-0.4)')]	|
 
 
 
@@ -2325,7 +2785,7 @@
 
 
 
-### (27) No Match Group 
+### (37) No Match Group 
 """ Please write hint here """
 
 |ID	|Author	|Condition	|Hint Text|
@@ -2341,7 +2801,14 @@
 	part7_correct_attempt
 					['0:00:00', u'0.2/0.15']
 
-1 Student ID:dillonliu
+1 Student ID:vincebai
+
+	first_attempt
+					2016-10-19 19:49:35
+	part7_incorrect_attempt
+					('-1 day, 23:53:42', u'0.35')
+
+2 Student ID:dillonliu
 
 	first_attempt
 					2016-10-18 03:21:14
@@ -2350,7 +2817,16 @@
 	part7_correct_attempt
 					['0:00:00', u'(0.65-0.35-0.3-0.3+0.15+0.15+0.15)/(0.15)']
 
-2 Student ID:AndrewYang24
+3 Student ID:rrivasfe
+
+	first_attempt
+					2016-10-19 15:54:39
+	part7_incorrect_attempt
+					('0:00:00', u'0.5')
+	part7_correct_attempt
+					['0:00:00', u'0.5']
+
+4 Student ID:AndrewYang24
 
 	first_attempt
 					2016-10-16 04:01:13
@@ -2361,7 +2837,7 @@
 	part7_correct_attempt
 					['0:00:00', u'(0.35+0.25-0.4)/0.25*0.2']
 
-3 Student ID:aspindle
+5 Student ID:aspindle
 
 	first_attempt
 					2016-10-17 02:25:27
@@ -2371,7 +2847,7 @@
 	part7_correct_attempt
 					['0:00:00', u'.2/.2']
 
-4 Student ID:alvinyho
+6 Student ID:alvinyho
 
 	first_attempt
 					2016-10-17 21:33:46
@@ -2381,7 +2857,17 @@
 	part7_correct_attempt
 					['0:00:00', u'(.25 + (.3+.35-(.5)) - (.25  + (.3+.35-(.5)) - (.6 - .25 - .3 -.35 + (.25+.3-(.45)) + (.3+.35-(.5)) + (.25+.35-(.45))))  )/(.3+.35-(.5))']
 
-5 Student ID:kballew00
+7 Student ID:rsamuail
+
+	first_attempt
+					2016-10-19 19:05:40
+	part7_incorrect_attempt
+					('-1 day, 6:41:54', u'.3')
+					('-1 day, 6:49:10', u'((.35)*((.35)*(.3)))/((.35)*(.3))')
+	part7_correct_attempt
+					['0:00:00', u'(.55-.3-.3-.2+(.3+.3-.45)+(.3+.2-.4)+(.3+.2-.4))/(.3+.2-.4)']
+
+8 Student ID:kballew00
 
 	first_attempt
 					2016-10-18 16:43:15
@@ -2390,7 +2876,17 @@
 	part7_correct_attempt
 					['0:00:00', u'(0.65-0.3-0.3-0.3+(0.3+0.3-0.45)+(0.3+0.3-0.45)+(0.3+0.3-0.45))/(0.3+0.3-0.45)']
 
-6 Student ID:JasonHuang
+9 Student ID:ryanguyen
+
+	first_attempt
+					2016-10-19 02:00:00
+	part7_incorrect_attempt
+					('-1 day, 23:53:55', u'3/2')
+					('0:00:00', u'.75')
+	part7_correct_attempt
+					['0:00:00', u'.75']
+
+10 Student ID:JasonHuang
 
 	first_attempt
 					2016-10-18 23:22:41
@@ -2399,7 +2895,7 @@
 	part7_correct_attempt
 					['0:00:00', u'1']
 
-7 Student ID:jih089
+11 Student ID:jih089
 
 	first_attempt
 					2016-10-16 05:09:38
@@ -2409,7 +2905,7 @@
 	part7_correct_attempt
 					['0:00:00', u'1']
 
-8 Student ID:Benaisha
+12 Student ID:Benaisha
 
 	first_attempt
 					2016-10-18 17:51:10
@@ -2417,7 +2913,7 @@
 					('-1 day, 23:54:54', u'1.5')
 					('0:00:00', u'.05')
 
-9 Student ID:yphilip
+13 Student ID:yphilip
 
 	first_attempt
 					2016-10-18 07:57:51
@@ -2426,84 +2922,23 @@
 	part7_correct_attempt
 					['0:00:00', u'1']
 
-10 Student ID:ThuanNguyen
+14 Student ID:a9zhao
 
 	first_attempt
-					2016-10-17 05:44:52
+					2016-10-19 08:39:14
 	part7_incorrect_attempt
-					('-1 day, 23:51:46', u'47/70')
+					('-1 day, 23:54:43', u'.35')
+
+15 Student ID:SidneyNguyen
+
+	first_attempt
+					2016-10-19 04:01:07
+	part7_incorrect_attempt
+					('0:00:00', u'(0.65-0.35-0.35-0.3+0.35+0.35-0.5+0.35+0.3-0.5+0.35+0.3-0.5)/(0.35+0.3-0.5)')
 	part7_correct_attempt
-					['0:00:00', u'0.2/0.2']
+					['0:00:00', u'(0.65-0.35-0.35-0.3+0.35+0.35-0.5+0.35+0.3-0.5+0.35+0.3-0.5)/(0.35+0.3-0.5)']
 
-11 Student ID:PriyankaK
-
-	first_attempt
-					2016-10-17 01:47:50
-	part7_incorrect_attempt
-					('-1 day, 23:56:00', u'(0.65-0.35-0.3-0.4+(0.35+0.3-0.5)+(0.4+0.3-0.5)+(0.3+0.4-0.55))/((0.4+0.3-0.5))')
-	part7_correct_attempt
-					['0:00:00', u'(0.6-0.25-0.3-0.3+(0.3+0.3-0.45)+(0.3+0.25-0.4)+(0.3+0.25-0.4))/(0.3+0.25-0.4)']
-
-12 Student ID:NicoleStone
-
-	first_attempt
-					2016-10-16 04:04:13
-	part7_incorrect_attempt
-					('0:00:00', u'.05/.25+.05')
-
-13 Student ID:Melvinw
-
-	first_attempt
-					2016-10-18 07:14:49
-	part7_incorrect_attempt
-					('0:00:00', u'(0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5)/(0.3+0.35-0.45)')
-	part7_correct_attempt
-					['0:00:00', u'(0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5)/(0.3+0.35-0.45)']
-
-14 Student ID:mvkrishn
-
-	first_attempt
-					2016-10-17 23:14:42
-	part7_incorrect_attempt
-					('0:00:00', u'.5')
-	part7_correct_attempt
-					['0:00:00', u'.5']
-
-15 Student ID:nolin
-
-	first_attempt
-					2016-10-17 23:03:51
-	part7_incorrect_attempt
-					('-1 day, 23:26:42', u'.35')
-	part7_correct_attempt
-					['0:00:00', u'(.45-.2-.2-.25+.1+.1+.1)/.1']
-
-16 Student ID:Ryan
-
-	first_attempt
-					2016-10-18 16:51:43
-	part7_incorrect_attempt
-					('-1 day, 23:51:24', u'(0.6 - 0.3 - 0.3 - 0.2 + 0.45 + 0.4 + 0.4)/(0.3 + 0.2 - 0.4)')
-	part7_correct_attempt
-					['0:00:00', u'(0.6 - 0.3 - 0.3 - 0.2 + 0.3 + 0.3 - 0.45 + 0.3 + 0.2 - 0.4 + 0.2 + 0.3 - 0.4)/(0.3 + 0.2 - 0.4)']
-
-17 Student ID:ccaine
-
-	first_attempt
-					2016-10-17 01:09:50
-	part7_incorrect_attempt
-					('-1 day, 23:55:11', u'(0.5-0.3-0.25-0.2+0.4+0.4+0.35)/(0.25*0.2)')
-
-18 Student ID:wesokuhara
-
-	first_attempt
-					2016-10-17 19:23:21
-	part7_incorrect_attempt
-					('0:00:00', u'(0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15)/0.15')
-	part7_correct_attempt
-					['0:00:00', u'(0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15)/0.15']
-
-19 Student ID:ray003
+16 Student ID:ray003
 
 	first_attempt
 					2016-10-16 07:50:11
@@ -2512,7 +2947,119 @@
 	part7_correct_attempt
 					['0:00:00', u'0.15/0.1']
 
-20 Student ID:sunilraiyani
+17 Student ID:ThuanNguyen
+
+	first_attempt
+					2016-10-17 05:44:52
+	part7_incorrect_attempt
+					('-1 day, 23:51:46', u'47/70')
+	part7_correct_attempt
+					['0:00:00', u'0.2/0.2']
+
+18 Student ID:PriyankaK
+
+	first_attempt
+					2016-10-17 01:47:50
+	part7_incorrect_attempt
+					('-1 day, 23:56:00', u'(0.65-0.35-0.3-0.4+(0.35+0.3-0.5)+(0.4+0.3-0.5)+(0.3+0.4-0.55))/((0.4+0.3-0.5))')
+	part7_correct_attempt
+					['0:00:00', u'(0.6-0.25-0.3-0.3+(0.3+0.3-0.45)+(0.3+0.25-0.4)+(0.3+0.25-0.4))/(0.3+0.25-0.4)']
+
+19 Student ID:NicoleStone
+
+	first_attempt
+					2016-10-16 04:04:13
+	part7_incorrect_attempt
+					('0:00:00', u'.05/.25+.05')
+
+20 Student ID:ThucPhan
+
+	first_attempt
+					2016-10-19 05:58:53
+	part7_incorrect_attempt
+					('-1 day, 23:03:54', u'(0.15)/0.3')
+					('-1 day, 23:56:04', u'(0.15+0.1+0.1+0.5-0.25-0.25-0.25)/0.1')
+	part7_correct_attempt
+					['0:00:00', u'(0.2+0.15+0.15+0.65-0.35-0.35-0.35)/0.15']
+
+21 Student ID:Melvinw
+
+	first_attempt
+					2016-10-18 07:14:49
+	part7_incorrect_attempt
+					('0:00:00', u'(0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5)/(0.3+0.35-0.45)')
+	part7_correct_attempt
+					['0:00:00', u'(0.65-0.35-0.3-0.35+0.35+0.3-0.5+0.3+0.35-0.45+0.35+0.35-0.5)/(0.3+0.35-0.45)']
+
+22 Student ID:mvkrishn
+
+	first_attempt
+					2016-10-17 23:14:42
+	part7_incorrect_attempt
+					('0:00:00', u'.5')
+	part7_correct_attempt
+					['0:00:00', u'.5']
+
+23 Student ID:nolin
+
+	first_attempt
+					2016-10-17 23:03:51
+	part7_incorrect_attempt
+					('-1 day, 23:26:42', u'.35')
+	part7_correct_attempt
+					['0:00:00', u'(.45-.2-.2-.25+.1+.1+.1)/.1']
+
+24 Student ID:Ryan
+
+	first_attempt
+					2016-10-18 16:51:43
+	part7_incorrect_attempt
+					('-1 day, 23:51:24', u'(0.6 - 0.3 - 0.3 - 0.2 + 0.45 + 0.4 + 0.4)/(0.3 + 0.2 - 0.4)')
+	part7_correct_attempt
+					['0:00:00', u'(0.6 - 0.3 - 0.3 - 0.2 + 0.3 + 0.3 - 0.45 + 0.3 + 0.2 - 0.4 + 0.2 + 0.3 - 0.4)/(0.3 + 0.2 - 0.4)']
+
+25 Student ID:wtchiu
+
+	first_attempt
+					2016-10-19 06:47:17
+	part7_incorrect_attempt
+					('-1 day, 23:56:21', u'(0.7+0.35+0.3-0.5+0.3+0.35-0.5+0.35+0.35-0.55-0.3-0.35-0.35)/0.3+0.35-0.5')
+	part7_correct_attempt
+					['0:00:00', u'(0.6+0.3+0.3-0.4+0.3+0.3-0.45+0.3+0.3-0.45-0.3-0.3-0.3)/(0.3+0.3-0.45)']
+
+26 Student ID:ccaine
+
+	first_attempt
+					2016-10-17 01:09:50
+	part7_incorrect_attempt
+					('-1 day, 23:55:11', u'(0.5-0.3-0.25-0.2+0.4+0.4+0.35)/(0.25*0.2)')
+
+27 Student ID:wesokuhara
+
+	first_attempt
+					2016-10-17 19:23:21
+	part7_incorrect_attempt
+					('0:00:00', u'(0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15)/0.15')
+	part7_correct_attempt
+					['0:00:00', u'(0.6 - 0.3 - 0.25 - 0.3 + 0.1 + 0.15 + 0.15)/0.15']
+
+28 Student ID:EricO
+
+	first_attempt
+					2016-10-19 05:28:33
+	part7_incorrect_attempt
+					('0:00:00', u'.1')
+
+29 Student ID:zhc047
+
+	first_attempt
+					2016-10-19 04:05:10
+	part7_incorrect_attempt
+					('-1 day, 23:56:51', u'0.25')
+	part7_correct_attempt
+					['0:00:00', u'0.2/0.2']
+
+30 Student ID:sunilraiyani
 
 	first_attempt
 					2016-10-16 20:04:42
@@ -2521,7 +3068,7 @@
 	part7_correct_attempt
 					['0:00:00', u'0.2/0.2']
 
-21 Student ID:yazin-yousif
+31 Student ID:yazin-yousif
 
 	first_attempt
 					2016-10-17 05:22:46
@@ -2530,7 +3077,7 @@
 	part7_correct_attempt
 					['0:00:00', u'0.75']
 
-22 Student ID:minhsuanyao
+32 Student ID:minhsuanyao
 
 	first_attempt
 					2016-10-18 23:22:37
@@ -2539,7 +3086,7 @@
 	part7_correct_attempt
 					['0:00:00', u'0.15/0.15']
 
-23 Student ID:k1siu
+33 Student ID:k1siu
 
 	first_attempt
 					2016-10-16 03:41:29
@@ -2548,7 +3095,7 @@
 	part7_correct_attempt
 					['0:00:00', u'(0.55-(0.3+0.3-0.45)-(0.3+0.3-0.5)-(0.3+0.3-0.5)+(3*0.3))/(0.3+0.3-0.5)']
 
-24 Student ID:aliqbal
+34 Student ID:aliqbal
 
 	first_attempt
 					2016-10-17 08:38:46
@@ -2560,7 +3107,7 @@
 	part7_correct_attempt
 					['0:00:00', u'(0.3 + 0.3 + 0.3 - 0.45 - 0.4 - 0.4 + 0.6)/(0.3 + 0.3 - 0.4)']
 
-25 Student ID:PizzaPolice
+35 Student ID:PizzaPolice
 
 	first_attempt
 					2016-10-17 07:40:35
@@ -2570,7 +3117,7 @@
 	part7_correct_attempt
 					['0:00:00', u'(.5 -.3 - .25 - .2 + (.3 + .2 - .4) + (.25 + .2 - .35) + (.3 + .25 - .4)) / (.25 + .2 - .35)']
 
-26 Student ID:rjanowit
+36 Student ID:rjanowit
 
 	first_attempt
 					2016-10-18 22:07:30
