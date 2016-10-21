@@ -2,21 +2,26 @@
   <text>
     <script type="loncapa/python">
 
-# variable names and values
-# if multiple variables, the number of values to test should be the same
-variable_values = {'p':[0.1, 0.2, 0.3]}
+# random variables (no need to import random library)
 
-# value index used to extract hint
-index_of_test_value = 2
+n = 2*random.randrange(40,50,1)
 
-solution1 = "p(1-p)"
-solution2 = "(1 + 2 + 3 + 4)/4"
-solution3 = "(1+4+9+16)/4"
-solution4 = "1.25"
-solution5 = "(2.25 + 0.25 + 0.25 + 2.25)/4"
 
-solutions = [solution1, solution2, solution3, solution4, solution5]
-# hint id
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "1/2"
+solution2 = "1/4"
+solution3 = "0"
+solution4 = "1/2"
+solution5 = "0"
+solution6 = "6/4"
+solution7 = "0"
+solution8 = "{0}/4".format(n)
+
+# Group all solutions into a list
+solutions = [solution1,solution2,solution3,solution4,solution5,solution6,solution7,solution8]
+
+# hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
@@ -39,7 +44,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h3>Examples of Variances</h3><ul><li>Suppose you toss a coin with bias \(p\), and let \(X\) be \(1\) if the outcome is heads, or\(0\) if the outcome is tails.</li></ul><p>Let's look at the distribution of \(X\) and of \(X^2\).</p><table border="1">  <tr>    <th>Prob</th>    <th>\(X\)</th>    <th>\(X^2\)</th>  </tr>  <tr>    <td>\(p\)</td>    <td>1</td>    <td>1</td>  </tr>  <tr>    <td>1-\(p\)</td>    <td>0</td>    <td>0</td>  </tr></table><p>From this table, \(\mathbb{E}(X) = p\) and \(\mathbb{E}(X^2) = p\). Thus the variance is\(\mbox{var}(X) = \mathbb{E}(X^2) - (\mathbb{E}(X))^2 = \)</p>
+<p>Let \(X_1, X_2, \ldots, X_{100}\) be the outcomes of \(100\) independent rolls of a fair coin.</p><p>\[P(X_i=0)=P(X_i=1)=0.5\]</p><p>1.\(\mathbb{E}(X_1) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -47,7 +52,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>Roll a 4-sided die (a tetrahedron) in which each face is equally likely to come up, and let the outcome be \(X \in \{1,2,3,4\}\).</li></ul><p>We have two formulas for the variance:\[ \mbox{var}(X) = \mathbb{E} \left( (X - \mu)^2 \right) \]\[ \mbox{var}(X) = \mathbb{E}(X^2) - \mu^2 \]where \(\mu = \mathbb{E}(X)\).</p><p>Let's try both and make sure we get the same answer.</p><p>First of all, \(\mu = \mathbb{E}(X) =\)</p>
+<p>2.\(var(X_1) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -55,7 +60,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Now, let's tabulate the distribution of \(X^2\) and \((X-\mu)^2\).</p><table border="1">  <colgroup align="center"/>  <colgroup align="left"/>  <tr>    <th>Prob</th>    <th>\(X\)</th>    <th>\(X^2\)</th>    <th>\((X-\mu)^2\)</th>  </tr>  <tr>    <td>\(\frac{1}{4}\) </td>    <td>1</td>    <td>1</td>    <td>2.25</td>  </tr>  <tr>    <td>\(\frac{1}{4}\)</td>    <td>2</td>    <td>4</td>    <td>0.25</td>  </tr>  <tr>    <td>\(\frac{1}{4}\)</td>    <td>3</td>    <td>9</td>    <td>0.25</td>  </tr>  <tr>    <td>\(\frac{1}{4}\)</td>    <td>4</td>    <td>16</td>    <td>2.25</td>  </tr></table><p>Reading from this table, \(\mathbb{E}(X^2) = \)</p>
+<p>Define the random variable \(X\) to be \(X_1 - X_2\).</p><p>3.\(\mathbb{E}(X) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -63,7 +68,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Using the second formula for variance we have</p><p>\(\mbox{var}(X) = \mathbb{E}(X^2) - \mu^2 = \)</p>
+<p>4.\(var(X) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution4\]">
       <textline/>
@@ -71,7 +76,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>\(\mathbb{E}\left((X-\mu)^2\right) = \)</p>
+<p><em>Hint:</em> if \(X,Y\) are independent random variables then \(var(X+Y)=var(X)+var(Y)\)</p><p>Define the random variable \(Y = X_1 - 2X_2 + X_3\).</p><p>5.\(\mathbb{E}(Y) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution5\]">
       <textline/>
@@ -79,7 +84,31 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Using the first formula for variance we have \(\mbox{var}(X) = \mathbb{E}\left((X-\mu)^2\right)\). Notice that both formulae give the same answer.</p>
+<p>6.\(var(Y) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution6\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p><em>Hint:</em> if \(a\) is a constant and \(X\) a random variable, then \(var(aX)=a^2 var(X)\).</p><p>Define the random variable \(Z = X_1 - X_2 + X_3 - X_4 + ... + X_{$n-1} - X_{$n}\).</p><p>7.\(\mathbb{E}(Z) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution7\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>8.\(var(Z) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution8\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
     
     
 
@@ -87,11 +116,11 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
     <script type="loncapa/python">
 from hint import evaluate
-from hint.get_hint import get_hint_w_variables
+from hint.get_hint import get_hint
 
 # grader of the problem
 def check(expect, ans):
-  return evaluate.evaluate_w_variables(expect, ans, variable_values)
+  return evaluate.evaluate(expect, ans)
 
 # hint function
 def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
@@ -105,7 +134,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
   if new_cmap[key]['correctness'] == "correct":
     return
 
-  hint = get_hint_w_variables(solutions[i], ans, hint_text_id, i, variable_values)
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 

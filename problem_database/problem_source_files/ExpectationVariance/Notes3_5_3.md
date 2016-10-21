@@ -9,6 +9,8 @@ solutions = [solution1, solution2]
 Here's a cartoon picture of a well-behaved distribution with mean \\\(\mu\\\) and
 standard deviation \\\(\sigma\\\) (that is, \\\(\mu = \mathbb{E}(X)\\\) and \\\(\sigma^2 = \mbox{var}(X)\\\)).
 
+<img src='/static/MeanStdFigure_pptx.jpg' width="80%" height="80%"/>
+
 The standard deviation quantifies the *spread* of the distribution
 whereas the mean specifies its *location*. If you increase all values of
 \\\(X\\\) by 10, then the distribution will shift to the right and the mean will

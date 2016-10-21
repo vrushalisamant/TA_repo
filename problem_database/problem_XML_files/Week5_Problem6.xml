@@ -2,9 +2,20 @@
   <text>
     <script type="loncapa/python">
 
-solution1 = "3*1+4*3+2"
-solution2 = "3^2*2+4^2*2"
-solutions = [solution1, solution2]
+# variable names and values
+# if multiple variables, the number of values to test should be the same
+variable_values = {'p':[0.1, 0.2, 0.3]}
+
+# value index used to extract hint
+index_of_test_value = 2
+
+solution1 = "p(1-p)"
+solution2 = "(1 + 2 + 3 + 4)/4"
+solution3 = "(1+4+9+16)/4"
+solution4 = "1.25"
+solution5 = "(2.25 + 0.25 + 0.25 + 2.25)/4"
+
+solutions = [solution1, solution2, solution3, solution4, solution5]
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -28,7 +39,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h2>Another property of the variance</h2><p>Here's a cartoon picture of a well-behaved distribution with mean \(\mu\) andstandard deviation \(\sigma\) (that is, \(\mu = \mathbb{E}(X)\) and \(\sigma^2 = \mbox{var}(X)\)).</p><p>The standard deviation quantifies the <em>spread</em> of the distributionwhereas the mean specifies its <em>location</em>. If you increase all values of\(X\) by 10, then the distribution will shift to the right and the mean willincrease by 10. But the spread of the distribution -- and thus the standarddeviation -- will remain unchanged.</p><p>On the other hand, if you double all values of \(X\), then its distributionbecomes twice as wide, and thus its standard deviation \(\sigma\) is doubled.Which means that its variance, which is the square of the standard deviation,gets multiplied by 4.</p><p>In summary, for any constants \(a,b\):</p><p>\[ \mbox{var}(aX+b) = a^2 \mbox{var}(X) \]</p><p>Contrast this with the mean: \(\mathbb{E}(aX + b) = a \mathbb{E}(X) + b\).</p><hr /><h2>Linearity of variance</h2><p>If \(X\) and \(Y\) are independent random variables, then \(\mbox{var}(X+Y) = \mbox{var}(X) + \mbox{var}(Y)\).More generally, if \(X_1, \ldots, X_n\) are independent, then</p><p>\[ \mbox{var}(X_1 + \cdots + X_n) = \mbox{var}(X_1) + \cdots + \mbox{var}(X_n)\]</p><p>In contrast, linearity of expectation \(\mathbb{E}(X+Y) = \mathbb{E}(X) + \mathbb{E}(Y)\) holdseven if the random variables are <em>not</em> independent.</p><p>Suppose \(X\) and \(Y\) are independent random variables. \(X\) has mean of 1 and variance of 2, \(Y\) has mean of 3 and variance of 2, then for the r.v. \(Z = 3X+4Y+2\), the mean is</p>
+<h3>Examples of Variances</h3><ul><li>Suppose you toss a coin with bias \(p\), and let \(X\) be \(1\) if the outcome is heads, or\(0\) if the outcome is tails.</li></ul><p>Let's look at the distribution of \(X\) and of \(X^2\).</p><table border="1">  <tr>    <th>Prob</th>    <th>\(X\)</th>    <th>\(X^2\)</th>  </tr>  <tr>    <td>\(p\)</td>    <td>1</td>    <td>1</td>  </tr>  <tr>    <td>1-\(p\)</td>    <td>0</td>    <td>0</td>  </tr></table><p>From this table, \(\mathbb{E}(X) = p\) and \(\mathbb{E}(X^2) = p\). Thus the variance is\(\mbox{var}(X) = \mathbb{E}(X^2) - (\mathbb{E}(X))^2 = \)</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -36,7 +47,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>and the variance is</p>
+<ul><li>Roll a 4-sided die (a tetrahedron) in which each face is equally likely to come up, and let the outcome be \(X \in \{1,2,3,4\}\).</li></ul><p>We have two formulas for the variance:\[ \mbox{var}(X) = \mathbb{E} \left( (X - \mu)^2 \right) \]\[ \mbox{var}(X) = \mathbb{E}(X^2) - \mu^2 \]where \(\mu = \mathbb{E}(X)\).</p><p>Let's try both and make sure we get the same answer.</p><p>First of all, \(\mu = \mathbb{E}(X) =\)</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -44,7 +55,31 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
+<p>Now, let's tabulate the distribution of \(X^2\) and \((X-\mu)^2\).</p><table border="1">  <colgroup align="center"/>  <colgroup align="left"/>  <tr>    <th>Prob</th>    <th>\(X\)</th>    <th>\(X^2\)</th>    <th>\((X-\mu)^2\)</th>  </tr>  <tr>    <td>\(\frac{1}{4}\) </td>    <td>1</td>    <td>1</td>    <td>2.25</td>  </tr>  <tr>    <td>\(\frac{1}{4}\)</td>    <td>2</td>    <td>4</td>    <td>0.25</td>  </tr>  <tr>    <td>\(\frac{1}{4}\)</td>    <td>3</td>    <td>9</td>    <td>0.25</td>  </tr>  <tr>    <td>\(\frac{1}{4}\)</td>    <td>4</td>    <td>16</td>    <td>2.25</td>  </tr></table><p>Reading from this table, \(\mathbb{E}(X^2) = \)</p>
 
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Using the second formula for variance we have</p><p>\(\mbox{var}(X) = \mathbb{E}(X^2) - \mu^2 = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>\(\mathbb{E}\left((X-\mu)^2\right) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution5\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Using the first formula for variance we have \(\mbox{var}(X) = \mathbb{E}\left((X-\mu)^2\right)\). Notice that both formulae give the same answer.</p>
     
     
 

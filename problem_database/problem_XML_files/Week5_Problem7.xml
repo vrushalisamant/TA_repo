@@ -2,25 +2,9 @@
   <text>
     <script type="loncapa/python">
 
-# random variables (no need to import random library)
-
-n = 2*random.randrange(40,50,1)
-
-
-# Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "1/2"
-solution2 = "1/4"
-solution3 = "0"
-solution4 = "1/2"
-solution5 = "0"
-solution6 = "6/4"
-solution7 = "0"
-solution8 = "{0}/4".format(n)
-
-# Group all solutions into a list
-solutions = [solution1,solution2,solution3,solution4,solution5,solution6,solution7,solution8]
-
+solution1 = "3*1+4*3+2"
+solution2 = "3^2*2+4^2*2"
+solutions = [solution1, solution2]
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -44,7 +28,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Let \(X_1, X_2, \ldots, X_{100}\) be the outcomes of \(100\) independent rolls of a fair coin.</p><p>\[P(X_i=0)=P(X_i=1)=0.5\]</p><p>1.\(\mathbb{E}(X_1) = \)</p>
+<h2>Another property of the variance</h2><p>Here's a cartoon picture of a well-behaved distribution with mean \(\mu\) andstandard deviation \(\sigma\) (that is, \(\mu = \mathbb{E}(X)\) and \(\sigma^2 = \mbox{var}(X)\)).</p><p><img src='/static/MeanStdFigure_pptx.jpg' width="80%" height="80%"/></p><p>The standard deviation quantifies the <em>spread</em> of the distributionwhereas the mean specifies its <em>location</em>. If you increase all values of\(X\) by 10, then the distribution will shift to the right and the mean willincrease by 10. But the spread of the distribution -- and thus the standarddeviation -- will remain unchanged.</p><p>On the other hand, if you double all values of \(X\), then its distributionbecomes twice as wide, and thus its standard deviation \(\sigma\) is doubled.Which means that its variance, which is the square of the standard deviation,gets multiplied by 4.</p><p>In summary, for any constants \(a,b\):</p><p>\[ \mbox{var}(aX+b) = a^2 \mbox{var}(X) \]</p><p>Contrast this with the mean: \(\mathbb{E}(aX + b) = a \mathbb{E}(X) + b\).</p><h2>Linearity of variance</h2><p>If \(X\) and \(Y\) are independent random variables, then \(\mbox{var}(X+Y) = \mbox{var}(X) + \mbox{var}(Y)\).More generally, if \(X_1, \ldots, X_n\) are independent, then</p><p>\[ \mbox{var}(X_1 + \cdots + X_n) = \mbox{var}(X_1) + \cdots + \mbox{var}(X_n)\]</p><p>In contrast, linearity of expectation \(\mathbb{E}(X+Y) = \mathbb{E}(X) + \mathbb{E}(Y)\) holdseven if the random variables are <em>not</em> independent.</p><p>Suppose \(X\) and \(Y\) are independent random variables. \(X\) has mean of 1 and variance of 2, \(Y\) has mean of 3 and variance of 2, then for the r.v. \(Z = 3X+4Y+2\), the mean is</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -52,57 +36,9 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>2.\(var(X_1) = \)</p>
+<p>and the variance is</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p>Define the random variable \(X\) to be \(X_1 - X_2\).</p><p>3.\(\mathbb{E}(X) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution3\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p>4.\(var(X) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution4\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p><em>Hint:</em> if \(X,Y\) are independent random variables then \(var(X+Y)=var(X)+var(Y)\)</p><p>Define the random variable \(Y = X_1 - 2X_2 + X_3\).</p><p>5.\(\mathbb{E}(Y) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution5\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p>6.\(var(Y) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution6\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p><em>Hint:</em> if \(a\) is a constant and \(X\) a random variable, then \(var(aX)=a^2 var(X)\).</p><p>Define the random variable \(Z = X_1 - X_2 + X_3 - X_4 + ... + X_{$n-1} - X_{$n}\).</p><p>7.\(\mathbb{E}(Z) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution7\]">
-      <textline/>
-      <hintgroup hintfn="hint_fn"/>
-    </customresponse>
-
-
-<p>8.\(var(Z) = \)</p>
-
-    <customresponse cfn="check" expect="\[$solution8\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>
