@@ -2,21 +2,15 @@
   <text>
     <script type="loncapa/python">
 
-# random variables (no need to import random library)
-n = random.randrange(0,4,1)
+k = random.randrange(6,10,1);
+t1 = random.randrange(2,5,1);
+t2 = random.randrange(2,5,1);
+r = random.randrange(1,6,1)/10; #random(0.1,0.6,0.1);
 
-# Solutions with variables converted to string
-# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-problem = [["mixture_cdf_3.png","0.5", "0.25", "-2.5", "0.75"]]
-problem += [["mixture_cdf_5.png","0.5", "0.45", "2.5", "0.55"]]
-problem += [["mixture_cdf_10.png","1.0", "0.3", "2.0", "0.7"]]
-problem += [["mixture_cdf_15.png","0.5", "0.3", "-0.5", "0.7"]]
-img_file, lam, solution1, solution2, solution3 = problem[n]
-
-# Group all solutions into a list
-solutions = [solution1, solution2, solution3]
-
-
+solution1 = "{0}*({0}+1)/(2*{0})".format(k);
+solution2 = "2*{0}/({0}+1) + ({0}*({0}-1))/(2*({0}+1))".format(k);
+solution3 = "{0}*{2} + {1}*({3})".format(t1,t2,solution1,solution2);
+solution4 = "({0})/{1}".format(solution3,r);
 # hint text id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
@@ -40,7 +34,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<ul><li>Below is the CDF of a mixture distribution with <em>two</em> components.</li></ul><p>One of the components is an exponential distribution; the other is a point mass.</p><p>All parameters of component distributions are small multiples of 0.5.</p><p>\(\lambda\) of exponential components take on value 0.5, 1 or 1.5.</p><p>Component weights take on multiples of 0.05 and they need to sum to one.</p><p><img src="/static/$img_file"/></p><p>Identify the component distributions:</p><ul><li>The exponential component has \(\lambda\) of $lam. Its component weight is?</li></ul>
+<h3>Rigged dice</h3><p>We have 2 $k-sided dice. The first die is a normal fair die where each face has a probability of showing of \(1/$k\). However, the second die is rigged so that the probability of showing the largest face $k is twice as high as of the other faces and all of the other faces have equal probabilities.</p><p>(1) What is the expected value of the outcome from tossing the fair die?</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -48,7 +42,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<ul><li>Point mass on</li></ul>
+<p>(2) What is the expected value of the outcome from tossing the rigged die?</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -56,9 +50,17 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Its component weight is</p>
+<p>We throw the fair die $t1 times, then the rigged die $t2 times consecutively and sum up all the outcomes:</p><p>(3) What is the expected value of the sum?</p>
 
     <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Let \(Y\) denote the sum from the previous part. If we know that</p><p>\[P(Y &gt; k) \le $r\]</p><p>(4) According to Markov's inequality, what is \(k\)?</p>
+
+    <customresponse cfn="check" expect="\[$solution4\]">
       <textline/>
       <hintgroup hintfn="hint_fn"/>
     </customresponse>
