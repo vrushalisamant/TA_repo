@@ -37,7 +37,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
     <script type="loncapa/python">
 from hint import evaluate
-from hint import get_hint_w_variables
+from hint.get_hint import get_hint_w_variables
 
 # grader of the problem
 def check(expect, ans):
