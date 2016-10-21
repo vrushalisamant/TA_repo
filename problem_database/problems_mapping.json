@@ -32,9 +32,13 @@
 	"Week4_Problem8": "PokerConditional/poker_cond3",
 	"Week4_Problem9": "PokerConditional/poker_cond6_2",
 
-	"Week5_Problem3": "MarkovChebyshev/MarkovInequality",
-	"Week5_Problem4": "MarkovChebyshev/chebyshev",
+	"Week5_Problem1": "CumulativeDistributionFunctions/cdf_exp_uni",
+	"Week5_Problem2": "CumulativeDistributionFunctions/cdf_norm_point",
+	"Week5_Problem3": "CumulativeDistributionFunctions/cdf_norm_uni",
+	"Week5_Problem4": "CumulativeDistributionFunctions/cdf_exp_point",
 	"Week5_Problem5": "MarkovChebyshev/RiggedDice",
+	"Week5_Problem6": "MarkovChebyshev/chebyshev",
+	"Week5_Problem7": "MarkovChebyshev/MarkovInequality",
 	"Week5_Problem8": "Covariance/ContingencyTables1",
 	"Week5_Problem9": "Covariance/ContingencyTables5",
 
