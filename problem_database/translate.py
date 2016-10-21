@@ -14,6 +14,40 @@ def read_md(contents):
 	f.close()
 	return python_code, html_code
 
+def read_md_new(contents):
+	start_index = contents.index("```python\n")
+	end_index = contents.index("```\n")
+	python_code = contents[start_index+1:end_index]
+	python_code = "".join(python_code)
+
+	md_code = contents[end_index+1:]
+	inline = 0
+	double = 0
+	inlineSub = ['\\\\\\(', '\\\\\\)']
+	doubleSub = ['\\\\\\[', '\\\\\\]']
+	for j in xrange(len(md_code)):
+		line = md_code[j]
+		line = line.replace('\\$','\001')
+		i=0
+		while i < len(line):
+			if line[i:i+2] == '$$':
+				line = line[:i]+doubleSub[double]+line[i+2:]
+				double = 1-double
+				i += 4
+				continue
+			if line[i] == '$':
+				line = line[:i]+inlineSub[inline]+line[i+1:]
+				inline = 1-inline
+				i += 4
+				continue
+			i += 1
+		line = line.replace('\001','$')
+		md_code[j] = line
+	html_code = markdown.markdown("".join(md_code))
+
+	f.close()
+	return python_code, html_code
+
 def convert_html(html_code, template):
 	html_code = html_code.splitlines()
 	start_index = template.index('    <customresponse cfn="check" expect="\\[$solution1\\]">\n')
@@ -62,6 +96,8 @@ if __name__ == "__main__":
 	template = f.readlines()
 	f.close()
 
+	# input_file_name = 'test.md'
+	# output_file_name = "{0}.xml".format(mapping_key)
 	f = open(input_file_name, "r")
 	contents = f.readlines()
 	f.close()
