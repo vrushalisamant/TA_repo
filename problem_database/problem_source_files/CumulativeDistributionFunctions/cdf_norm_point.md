@@ -20,13 +20,13 @@ solutions = [solution1, solution2, solution3, solution4]
 
 
 
-* Below is the CDF of a mixture distribution with *two* components.
+* Below is the cumulative density function (CDF) of a mixture distribution with *two* components.
 
 One of the components is a normal distribution; the other is a point mass distribution.
 
 All parameters of component distributions are small multiples of 0.5.
 
-Std of normal components take on value 0.5, 1 or 1.5.
+Standard deviation (std) of normal components take on value 0.5, 1 or 1.5.
 
 Component weights take on multiples of 0.05 and they need to sum to one.
 
