@@ -6,8 +6,7 @@ solutions = [solution1, solution2]
 
 ## Another property of the variance ##
 
-Here's a cartoon picture of a well-behaved distribution with mean \\\(\mu\\\) and
-standard deviation \\\(\sigma\\\) (that is, \\\(\mu = \mathbb{E}(X)\\\) and \\\(\sigma^2 = \mbox{var}(X)\\\)).
+Here's a cartoon picture of a well-behaved distribution with mean \\\(\mu\\\) and standard deviation \\\(\sigma\\\) (that is, \\\(\mu = \mathbb{E}(X)\\\) and \\\(\sigma^2 = \mbox{var}(X)\\\)).
 
 <img src='/static/MeanStdFigure_pptx.jpg' width="80%" height="80%"/>
 
@@ -19,7 +18,7 @@ In summary, for any constants \\\(a,b\\\), the relation between updated variance
 
 \\\[ \mbox{var}(aX+b) = a^2 \mbox{var}(X) \\\]
 
-In contrast, the updated mean will be: 
+In contrast, the updated mean will be:
 
 \\\[ \mathbb{E}(aX + b) = a \mathbb{E}(X) + b \\\].
 

@@ -25,21 +25,21 @@ Let \\\(X_1, X_2, \ldots, X_{100}\\\) be the outcomes of \\\(100\\\) independent
 
 \\\[P(X_i=0)=P(X_i=1)=0.5\\\]
 
-1.) \\\(\mathbb{E}(X_1) = \\\)
+1) \\\(\mathbb{E}(X_1) = \\\)
 
 [_]
 
-2.) \\\(var(X_1) = \\\)
+2) \\\(var(X_1) = \\\)
 
 [_]
 
 Define the random variable \\\(X = X_1 - X_2\\\).
 
-3.) \\\(\mathbb{E}(X) = \\\)
+3) \\\(\mathbb{E}(X) = \\\)
 
 [_]
 
-4.) \\\(var(X) = \\\)
+4) \\\(var(X) = \\\)
 
 [_]
 
@@ -47,11 +47,11 @@ Define the random variable \\\(X = X_1 - X_2\\\).
 
 Define the random variable \\\(Y = X_1 - 2X_2 + X_3\\\).
 
-5.) \\\(\mathbb{E}(Y) = \\\)
+5) \\\(\mathbb{E}(Y) = \\\)
 
 [_]
 
-6.) \\\(var(Y) = \\\)
+6) \\\(var(Y) = \\\)
 
 [_]
 
@@ -59,10 +59,10 @@ Define the random variable \\\(Y = X_1 - 2X_2 + X_3\\\).
 
 Define the random variable \\\(Z = X_1 - X_2 + X_3 - X_4 + ... + X_{$m} - X_{$n}\\\).
 
-7.) \\\(\mathbb{E}(Z) = \\\)
+7) \\\(\mathbb{E}(Z) = \\\)
 
 [_]
 
-8.) \\\(var(Z) = \\\)
+8) \\\(var(Z) = \\\)
 
 [_]
