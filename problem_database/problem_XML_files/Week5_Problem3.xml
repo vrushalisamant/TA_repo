@@ -40,7 +40,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<ul><li>Below is the CDF of a mixture distribution with <em>two</em> components.</li></ul><p>One of the components is a normal distribution; the other is a uniform distribution.</p><p>All parameters of component distributions are small multiples of 0.5.</p><p>Std of normal components take on value 0.5, 1 or 1.5.</p><p>Component weights take on multiples of 0.05 and they need to sum to one.</p><p><img src="/static/$img_file"/></p><p>Identify the component distributions:</p><ul><li>The normal component has mean of $mean. What is the std?</li></ul>
+<ul><li>Below is the cumulative distribution function (CDF) of a mixture distribution with <em>two</em> components.</li></ul><p>One of the components is a normal distribution; the other is a uniform distribution.</p><p>All parameters of component distributions are small multiples of 0.5.</p><p>Standard deviation (std) of normal components take on value 0.5, 1 or 1.5.</p><p>Component weights take on multiples of 0.05 and they need to sum to 1.</p><p><img src="/static/$img_file"/></p><p>Identify the component distributions:</p><ul><li>The normal component has mean of $mean. What is the std?</li></ul>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
