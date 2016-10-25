@@ -14,11 +14,10 @@ class Prob1_Part2:
         hint = ''
 
         try:
-            hint = 'For uniform component interval, look at the image to find where the graph is not ' \
-                   'curved and that is where the interval is.'
+            hint = 'What is the characteristic of the CDF to the uniform distribution?'
 
             if len(hint) > 0:
-                return hint
+                return hint + 'Is the distribution function line curved or non-curved?', 'non-curved'
             else:
                 return '', ''
         except Exception:

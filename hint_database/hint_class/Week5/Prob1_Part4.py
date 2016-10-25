@@ -14,12 +14,12 @@ class Prob1_Part4:
         hint = ''
 
         try:
-            hint = 'The component weights of two distribution should be summed to 1.' \
-                   'For example:F = 0.4X + 0.6*Y where X and Y are two random variable with certain ' \
-                   'distribution. Then, the weight component for X is 0.4 and 0.6 for Y.'
+            hint = 'The component weights of two distribution should be summed to 1.'
 
             if len(hint) > 0:
-                return hint
+                return hint + 'If F = 0.4X + kY where X and Y are two random variable with certain distribution,' \
+                              'and you know that the component weight of X is 0.4, then what is the component weight' \
+                              'of Y?', '0.6'
             else:
                 return '', ''
         except Exception:

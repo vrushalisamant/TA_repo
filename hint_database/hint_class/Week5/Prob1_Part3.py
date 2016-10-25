@@ -14,11 +14,12 @@ class Prob1_Part3:
         hint = ''
 
         try:
-            hint = 'For uniform component interval, look at the image to find where the graph is not ' \
-                   'curved and that is where the interval is.'
+            hint = 'Take a look at the previous blank; How can you figure out the ending point of the uniform distribution' \
+                   'based on the starting point of it?'
 
             if len(hint) > 0:
-                return hint
+                return hint + 'Should the slope of uniform distribution function between the interval [a,b] ' \
+                              'always be the same? Yes/No', 'Yes'
             else:
                 return '', ''
         except Exception:
