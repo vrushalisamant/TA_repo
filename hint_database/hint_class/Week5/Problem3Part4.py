@@ -12,7 +12,7 @@ class Problem3Part4:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-		return "At what x-value does the uniform component end on this graph?", "b is that x-value."
+		return "If the uniform, non-curved component extends from [1,4], what is its b-value?", "4"
 
 	def get_problems(self):
 		self.problem_list = ["CumulativeDistributionFunctions/cdf_norm_uni"]

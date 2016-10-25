@@ -12,7 +12,8 @@ class Problem3Part5:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-		return "What is a component weight?", "It is the probability density of a component in a mixture distribution."
+		return "If the component weight of the normal distribution is .55, what is the weight then of the uniform distrbution?",".45"
+
 
 	def get_problems(self):
 		self.problem_list = ["CumulativeDistributionFunctions/cdf_norm_uni"]

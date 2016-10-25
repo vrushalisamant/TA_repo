@@ -12,7 +12,7 @@ class Problem3Part1:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-		return "What is the spread of the normal distribution?", "The wider the spread, the larger the std."
+		return "Is the spread of the normal component 1. narrow; 2. average; 3. wide? (Enter the number corresponding to the correct answer).", "1."
 
 	def get_problems(self):
 		self.problem_list = ["CumulativeDistributionFunctions/cdf_norm_uni"]
