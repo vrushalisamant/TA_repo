@@ -15,7 +15,7 @@ class Prob6_Part2:
         matching_node = [m[0] for m in matches]
 
         try:
-            return "What is the sum of the X values? Divide this by the number of possibilities","10"
+            return "What is the sum of the X values?","10"
 
         except Exception:
             return '',''

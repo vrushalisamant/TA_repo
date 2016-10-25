@@ -15,7 +15,7 @@ class Prob6_Part3:
         matching_node = [m[0] for m in matches]
 
         try:
-            return "What is the sum of the X^2 values? Divide this by the number of possibilities","30"
+            return "What is the sum of the X^2 values?","30"
 
         except Exception:
             return '',''
