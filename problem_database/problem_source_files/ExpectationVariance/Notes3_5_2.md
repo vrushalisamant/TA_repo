@@ -6,7 +6,7 @@ variable_values = {'p':[0.1, 0.2, 0.3]}
 # value index used to extract hint
 index_of_test_value = 2
 
-solution1 = "p(1-p)"
+solution1 = "0.3*(1-0.3)"
 solution2 = "(1 + 2 + 3 + 4)/4"
 solution3 = "(1+4+9+16)/4"
 solution4 = "1.25"
@@ -40,7 +40,7 @@ Let's look at the distribution of \\\(X\\\) and of \\\(X^2\\\).
 </table>
 
 
-From this table, \\\(\mathbb{E}(X) = p\\\) and \\\(\mathbb{E}(X^2) = p\\\). Thus the variance is \\\(\mbox{var}(X) = \mathbb{E}(X^2) - (\mathbb{E}(X))^2 = \\\)
+From this table, \\\(\mathbb{E}(X) = p\\\) and \\\(\mathbb{E}(X^2) = p\\\). Let \(p=0.3\). Thus the variance is \\\(\mbox{var}(X) = \mathbb{E}(X^2) - (\mathbb{E}(X))^2 = \\\)
 
 [_]
 
