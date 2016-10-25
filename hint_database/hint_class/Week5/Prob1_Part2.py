@@ -17,7 +17,8 @@ class Prob1_Part2:
             hint = 'What is the characteristic of the CDF to the uniform distribution?'
 
             if len(hint) > 0:
-                return hint + 'Is the distribution function line curved or non-curved?', 'non-curved'
+                return hint + 'Is the distribution function line curved or non-curved? ' \
+                              'Fill the blank with a number for your answer: 0 for curved; 1 for non-curved', '1'
             else:
                 return '', ''
         except Exception:

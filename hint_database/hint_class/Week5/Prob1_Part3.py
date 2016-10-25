@@ -19,7 +19,7 @@ class Prob1_Part3:
 
             if len(hint) > 0:
                 return hint + 'Should the slope of uniform distribution function between the interval [a,b] ' \
-                              'always be the same? Yes/No', 'Yes'
+                              'always be the same? Fill the blank with a number for your answer: 1 for yes, 0 for no', '1'
             else:
                 return '', ''
         except Exception:
