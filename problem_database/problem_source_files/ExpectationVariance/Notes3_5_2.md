@@ -6,13 +6,10 @@ variable_values = {'p':[0.1, 0.2, 0.3]}
 # value index used to extract hint
 index_of_test_value = 2
 
-var x_squared = (1 + 4 + 9 + 16)/4
-var mu = (1 + 2 + 3 + 4)/4
-
 solution1 = "p(1-p)"
-solution2 = "{0}".format(mu)
-solution3 = "{0}".format(x_squared)
-solution4 = "{0}-{1}^2".format(x_squared,mu)
+solution2 = "(1 + 2 + 3 + 4)/4"
+solution3 = "(1+4+9+16)/4"
+solution4 = "1.25"
 solution5 = "(2.25 + 0.25 + 0.25 + 2.25)/4"
 
 solutions = [solution1, solution2, solution3, solution4, solution5]
