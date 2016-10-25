@@ -13964,1906 +13964,1923 @@ p8024
 ag3446
 aS'Please write an expression, not the final numerical result.'
 p8025
-aass(g3
+aass(g2
+g2
 g31
-g20
 tp8026
 (dp8027
-(g2371
-S'ssolanki'
+(g767
+S'evahuynh'
 p8028
 tp8029
 (lp8030
 (lp8031
-S'2016-10-14 18:04:52'
+S'2016-10-24 17:55:12'
 p8032
-aS'2/10'
+aS'no attempt'
 p8033
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'Please write an expression, not the final numerical result.'
 p8034
-aa(lp8035
-S'2016-10-14 18:04:55'
-p8036
-aS'2/10'
+aass(g3
+g31
+g20
+tp8035
+(dp8036
+(g2371
+S'ssolanki'
 p8037
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8038
-aa(lp8039
-S'2016-10-14 18:07:45'
-p8040
-aS'2/10'
+tp8038
+(lp8039
+(lp8040
+S'2016-10-14 18:04:52'
 p8041
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'2/10'
 p8042
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8043
+aa(lp8044
+S'2016-10-14 18:04:55'
+p8045
+aS'2/10'
+p8046
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8047
+aa(lp8048
+S'2016-10-14 18:07:45'
+p8049
+aS'2/10'
+p8050
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8051
 aas(g1557
 S'JonahCruz'
-p8043
-tp8044
-(lp8045
-(lp8046
-S'2016-10-14 20:34:10'
-p8047
-aS'1/2^10'
-p8048
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8049
-aa(lp8050
-S'2016-10-14 20:34:13'
-p8051
-aS'1/2^10'
 p8052
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8053
-aa(lp8054
-S'2016-10-14 20:34:14'
-p8055
-aS'1/2^10'
+tp8053
+(lp8054
+(lp8055
+S'2016-10-14 20:34:10'
 p8056
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'1/2^10'
 p8057
-aa(lp8058
-S'2016-10-14 20:34:15'
-p8059
-aS'1/2^10'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8058
+aa(lp8059
+S'2016-10-14 20:34:13'
 p8060
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8061
-aa(lp8062
-S'2016-10-14 20:34:17'
-p8063
 aS'1/2^10'
-p8064
+p8061
 aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8062
+aa(lp8063
+S'2016-10-14 20:34:14'
+p8064
+aS'1/2^10'
 p8065
-aa(lp8066
-S'2016-10-14 20:35:34'
-p8067
-aS'10!/(10-2)!2!'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8066
+aa(lp8067
+S'2016-10-14 20:34:15'
 p8068
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/2^10'
 p8069
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8070
+aa(lp8071
+S'2016-10-14 20:34:17'
+p8072
+aS'1/2^10'
+p8073
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8074
+aa(lp8075
+S'2016-10-14 20:35:34'
+p8076
+aS'10!/(10-2)!2!'
+p8077
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8078
 aas(g1097
 S'PhillipJo'
-p8070
-tp8071
-(lp8072
-(lp8073
-S'2016-10-14 19:10:18'
-p8074
-aS'0.233474441'
-p8075
-aS'Please write an expression, not the final numerical result.'
-p8076
-aa(lp8077
-S'2016-10-14 19:11:47'
-p8078
-aS'(0.7)^8 * (0.3)^2 * 45'
 p8079
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8080
-aa(lp8081
-S'2016-10-14 19:11:51'
-p8082
-aS'(0.7)^8 * (0.3)^2 * 45'
+tp8080
+(lp8081
+(lp8082
+S'2016-10-14 19:10:18'
 p8083
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'0.233474441'
 p8084
-aa(lp8085
-S'2016-10-14 19:12:16'
-p8086
-aS'(0.7)^8 * (0.3)^2 * 45'
+aS'Please write an expression, not the final numerical result.'
+p8085
+aa(lp8086
+S'2016-10-14 19:11:47'
 p8087
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'(0.7)^8 * (0.3)^2 * 45'
 p8088
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8089
+aa(lp8090
+S'2016-10-14 19:11:51'
+p8091
+aS'(0.7)^8 * (0.3)^2 * 45'
+p8092
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8093
+aa(lp8094
+S'2016-10-14 19:12:16'
+p8095
+aS'(0.7)^8 * (0.3)^2 * 45'
+p8096
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8097
 aas(g1167
 S'aahmadi'
-p8089
-tp8090
-(lp8091
-(lp8092
-S'2016-10-15 00:18:58'
-p8093
-aS'10!/((8!)*(2!)*(10!))'
-p8094
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8095
-aa(lp8096
-S'2016-10-15 00:19:00'
-p8097
-aS'10!/((8!)*(2!)*(10!))'
 p8098
+tp8099
+(lp8100
+(lp8101
+S'2016-10-15 00:18:58'
+p8102
+aS'10!/((8!)*(2!)*(10!))'
+p8103
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8099
+p8104
+aa(lp8105
+S'2016-10-15 00:19:00'
+p8106
+aS'10!/((8!)*(2!)*(10!))'
+p8107
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8108
 aas(g1729
 S'j2chang'
-p8100
-tp8101
-(lp8102
-(lp8103
-S'2016-10-14 19:03:17'
-p8104
-aS'0.0439'
-p8105
-aS'Please write an expression, not the final numerical result.'
-p8106
-aas(S'258'
-p8107
-S'vicorhe'
-p8108
-tp8109
-(lp8110
+p8109
+tp8110
 (lp8111
-S'2016-10-14 18:05:20'
-p8112
-aS'45/1024'
+(lp8112
+S'2016-10-14 19:03:17'
 p8113
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'0.0439'
 p8114
-aa(lp8115
-S'2016-10-14 18:05:27'
+aS'Please write an expression, not the final numerical result.'
+p8115
+aas(S'258'
 p8116
-aS'45/1024'
+S'vicorhe'
 p8117
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8118
-aa(lp8119
-S'2016-10-14 18:10:36'
-p8120
-aS'45/1024'
+tp8118
+(lp8119
+(lp8120
+S'2016-10-14 18:05:20'
 p8121
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'45/1024'
 p8122
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8123
+aa(lp8124
+S'2016-10-14 18:05:27'
+p8125
+aS'45/1024'
+p8126
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8127
+aa(lp8128
+S'2016-10-14 18:10:36'
+p8129
+aS'45/1024'
+p8130
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8131
 aas(g104
 S'nesengup'
-p8123
-tp8124
-(lp8125
-(lp8126
-S'2016-10-14 20:48:54'
-p8127
-aS'2/10'
-p8128
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8129
-aa(lp8130
-S'2016-10-14 20:48:58'
-p8131
-aS'2/10'
 p8132
+tp8133
+(lp8134
+(lp8135
+S'2016-10-14 20:48:54'
+p8136
+aS'2/10'
+p8137
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8133
+p8138
+aa(lp8139
+S'2016-10-14 20:48:58'
+p8140
+aS'2/10'
+p8141
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8142
 aas(g6086
 S'rshroyer'
-p8134
-tp8135
-(lp8136
-(lp8137
-S'2016-10-14 22:07:38'
-p8138
-aS'1/91392'
-p8139
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8140
-aa(lp8141
-S'2016-10-14 22:07:44'
-p8142
-aS'1/91392'
 p8143
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8144
-aa(lp8145
-S'2016-10-14 22:44:39'
-p8146
-aS'1/91392'
+tp8144
+(lp8145
+(lp8146
+S'2016-10-14 22:07:38'
 p8147
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/91392'
 p8148
-aa(lp8149
-S'2016-10-14 22:44:41'
-p8150
-aS'1/91392'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8149
+aa(lp8150
+S'2016-10-14 22:07:44'
 p8151
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/91392'
 p8152
-aa(lp8153
-S'2016-10-14 22:44:41'
-p8154
-aS'1/91392'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8153
+aa(lp8154
+S'2016-10-14 22:44:39'
 p8155
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/91392'
 p8156
-aa(lp8157
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8157
+aa(lp8158
 S'2016-10-14 22:44:41'
-p8158
-aS'1/91392'
 p8159
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/91392'
 p8160
-aa(lp8161
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8161
+aa(lp8162
 S'2016-10-14 22:44:41'
-p8162
-aS'1/91392'
 p8163
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/91392'
 p8164
-aa(lp8165
-S'2016-10-14 22:44:42'
-p8166
-aS'1/91392'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8165
+aa(lp8166
+S'2016-10-14 22:44:41'
 p8167
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8168
-aa(lp8169
-S'2016-10-14 22:44:42'
-p8170
 aS'1/91392'
-p8171
+p8168
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8169
+aa(lp8170
+S'2016-10-14 22:44:41'
+p8171
+aS'1/91392'
 p8172
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8173
+aa(lp8174
+S'2016-10-14 22:44:42'
+p8175
+aS'1/91392'
+p8176
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8177
+aa(lp8178
+S'2016-10-14 22:44:42'
+p8179
+aS'1/91392'
+p8180
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8181
 aas(g1715
 S'djmoreno'
-p8173
-tp8174
-(lp8175
-(lp8176
-S'2016-10-14 22:13:45'
-p8177
-aS'320 * (8/10)'
-p8178
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8179
-aa(lp8180
-S'2016-10-14 22:13:48'
-p8181
-aS'320 * (8/10)'
 p8182
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8183
-aa(lp8184
-S'2016-10-14 22:13:49'
-p8185
-aS'320 * (8/10)'
+tp8183
+(lp8184
+(lp8185
+S'2016-10-14 22:13:45'
 p8186
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'320 * (8/10)'
 p8187
-aa(lp8188
-S'2016-10-14 22:13:51'
-p8189
-aS'320 * (8/10)'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8188
+aa(lp8189
+S'2016-10-14 22:13:48'
 p8190
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8191
-aa(lp8192
-S'2016-10-14 22:17:12'
-p8193
 aS'320 * (8/10)'
+p8191
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8192
+aa(lp8193
+S'2016-10-14 22:13:49'
 p8194
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'320 * (8/10)'
 p8195
-aa(lp8196
-S'2016-10-14 22:22:27'
-p8197
-aS'320*(1-(8/10))'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8196
+aa(lp8197
+S'2016-10-14 22:13:51'
 p8198
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'320 * (8/10)'
 p8199
-aa(lp8200
-S'2016-10-14 22:24:18'
-p8201
-aS'(1/5)^321'
-p8202
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8203
-aa(lp8204
-S'2016-10-14 22:29:27'
-p8205
-aS'301*(2/10)'
-p8206
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8200
+aa(lp8201
+S'2016-10-14 22:17:12'
+p8202
+aS'320 * (8/10)'
+p8203
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8204
+aa(lp8205
+S'2016-10-14 22:22:27'
+p8206
+aS'320*(1-(8/10))'
 p8207
-aa(lp8208
-S'2016-10-14 22:36:08'
-p8209
-aS'377*(1/2)^8'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8208
+aa(lp8209
+S'2016-10-14 22:24:18'
 p8210
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'(1/5)^321'
 p8211
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8212
+aa(lp8213
+S'2016-10-14 22:29:27'
+p8214
+aS'301*(2/10)'
+p8215
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8216
+aa(lp8217
+S'2016-10-14 22:36:08'
+p8218
+aS'377*(1/2)^8'
+p8219
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8220
 aas(g3168
 S'nicoleyfq'
-p8212
-tp8213
-(lp8214
-(lp8215
+p8221
+tp8222
+(lp8223
+(lp8224
 S'2016-10-14 18:40:22'
-p8216
+p8225
 aS'0.5^10'
-p8217
+p8226
 aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8218
+p8227
 aas(g6105
 S'Austin_Han'
-p8219
-tp8220
-(lp8221
-(lp8222
-S'2016-10-14 23:55:21'
-p8223
-aS'C(8,2)'
-p8224
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8225
-aa(lp8226
-S'2016-10-14 23:55:27'
-p8227
-aS'C(8,2)'
 p8228
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8229
-aa(lp8230
-S'2016-10-14 23:55:27'
-p8231
-aS'C(8,2)'
+tp8229
+(lp8230
+(lp8231
+S'2016-10-14 23:55:21'
 p8232
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8233
-aa(lp8234
-S'2016-10-14 23:55:27'
-p8235
 aS'C(8,2)'
+p8233
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8234
+aa(lp8235
+S'2016-10-14 23:55:27'
 p8236
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'C(8,2)'
 p8237
-aa(lp8238
-S'2016-10-14 23:56:18'
-p8239
-aS'C(8,2)(1/2)^3'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8238
+aa(lp8239
+S'2016-10-14 23:55:27'
 p8240
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'C(8,2)'
 p8241
-aa(lp8242
-S'2016-10-14 23:56:22'
-p8243
-aS'C(8,2)(1/2)^3'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8242
+aa(lp8243
+S'2016-10-14 23:55:27'
 p8244
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'C(8,2)'
 p8245
-aa(lp8246
-S'2016-10-14 23:56:24'
-p8247
-aS'C(8,2)(1/2)^3'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8246
+aa(lp8247
+S'2016-10-14 23:56:18'
 p8248
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'C(8,2)(1/2)^3'
 p8249
-aa(lp8250
-S'2016-10-14 23:56:24'
-p8251
-aS'C(8,2)(1/2)^3'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8250
+aa(lp8251
+S'2016-10-14 23:56:22'
 p8252
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'C(8,2)(1/2)^3'
 p8253
-aa(lp8254
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8254
+aa(lp8255
 S'2016-10-14 23:56:24'
-p8255
-aS'C(8,2)(1/2)^3'
 p8256
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'C(8,2)(1/2)^3'
 p8257
-aa(lp8258
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8258
+aa(lp8259
 S'2016-10-14 23:56:24'
-p8259
-aS'C(8,2)(1/2)^3'
 p8260
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8261
-aa(lp8262
-S'2016-10-14 23:56:25'
-p8263
 aS'C(8,2)(1/2)^3'
-p8264
+p8261
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8262
+aa(lp8263
+S'2016-10-14 23:56:24'
+p8264
+aS'C(8,2)(1/2)^3'
 p8265
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8266
+aa(lp8267
+S'2016-10-14 23:56:24'
+p8268
+aS'C(8,2)(1/2)^3'
+p8269
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8270
+aa(lp8271
+S'2016-10-14 23:56:25'
+p8272
+aS'C(8,2)(1/2)^3'
+p8273
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8274
 aas(g136
 S'nguyenbui'
-p8266
-tp8267
-(lp8268
-(lp8269
-S'2016-10-14 21:50:45'
-p8270
-aS'P(10,2)/2^10'
-p8271
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8272
-aa(lp8273
-S'2016-10-14 21:50:47'
-p8274
-aS'P(10,2)/2^10'
 p8275
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8276
-aa(lp8277
-S'2016-10-14 21:50:48'
-p8278
-aS'P(10,2)/2^10'
+tp8276
+(lp8277
+(lp8278
+S'2016-10-14 21:50:45'
 p8279
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8280
-aa(lp8281
-S'2016-10-14 21:53:53'
-p8282
 aS'P(10,2)/2^10'
+p8280
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8281
+aa(lp8282
+S'2016-10-14 21:50:47'
 p8283
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'P(10,2)/2^10'
 p8284
-aa(lp8285
-S'2016-10-14 22:26:23'
-p8286
-aS'P(10,2)/(2^10)'
-p8287
 aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8285
+aa(lp8286
+S'2016-10-14 21:50:48'
+p8287
+aS'P(10,2)/2^10'
 p8288
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8289
+aa(lp8290
+S'2016-10-14 21:53:53'
+p8291
+aS'P(10,2)/2^10'
+p8292
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8293
+aa(lp8294
+S'2016-10-14 22:26:23'
+p8295
+aS'P(10,2)/(2^10)'
+p8296
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8297
 aas(g152
 S'danFlorencio'
-p8289
-tp8290
-(lp8291
-(lp8292
-S'2016-10-14 21:31:17'
-p8293
-aS'(1/2)^10'
-p8294
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8295
-aa(lp8296
-S'2016-10-14 21:31:20'
-p8297
-aS'(1/2)^10'
 p8298
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8299
-aa(lp8300
-S'2016-10-14 21:31:21'
-p8301
-aS'(1/2)^10'
+tp8299
+(lp8300
+(lp8301
+S'2016-10-14 21:31:17'
 p8302
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'(1/2)^10'
 p8303
-aa(lp8304
-S'2016-10-14 21:31:21'
-p8305
-aS'(1/2)^10'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8304
+aa(lp8305
+S'2016-10-14 21:31:20'
 p8306
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8307
-aa(lp8308
-S'2016-10-14 21:31:21'
-p8309
 aS'(1/2)^10'
+p8307
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8308
+aa(lp8309
+S'2016-10-14 21:31:21'
 p8310
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'(1/2)^10'
 p8311
-aa(lp8312
-S'2016-10-14 21:37:08'
-p8313
-aS'1 - (1/2)^8'
-p8314
 aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8312
+aa(lp8313
+S'2016-10-14 21:31:21'
+p8314
+aS'(1/2)^10'
 p8315
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8316
+aa(lp8317
+S'2016-10-14 21:31:21'
+p8318
+aS'(1/2)^10'
+p8319
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8320
+aa(lp8321
+S'2016-10-14 21:37:08'
+p8322
+aS'1 - (1/2)^8'
+p8323
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8324
 aas(g2881
 S'yiw392'
-p8316
-tp8317
-(lp8318
-(lp8319
-S'2016-10-14 22:16:47'
-p8320
-aS'1/256'
-p8321
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8322
-aa(lp8323
-S'2016-10-14 22:16:49'
-p8324
-aS'1/256'
 p8325
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8326
-aa(lp8327
-S'2016-10-14 22:16:50'
-p8328
-aS'1/256'
+tp8326
+(lp8327
+(lp8328
+S'2016-10-14 22:16:47'
 p8329
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/256'
 p8330
-aa(lp8331
-S'2016-10-14 22:16:52'
-p8332
-aS'1/256'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8331
+aa(lp8332
+S'2016-10-14 22:16:49'
 p8333
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/256'
 p8334
-aa(lp8335
-S'2016-10-14 22:16:53'
-p8336
-aS'1/256'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8335
+aa(lp8336
+S'2016-10-14 22:16:50'
 p8337
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8338
-aa(lp8339
-S'2016-10-14 22:16:53'
-p8340
 aS'1/256'
-p8341
+p8338
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8339
+aa(lp8340
+S'2016-10-14 22:16:52'
+p8341
+aS'1/256'
 p8342
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8343
+aa(lp8344
+S'2016-10-14 22:16:53'
+p8345
+aS'1/256'
+p8346
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8347
+aa(lp8348
+S'2016-10-14 22:16:53'
+p8349
+aS'1/256'
+p8350
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8351
 aas(g3117
 S'zpreeces'
-p8343
-tp8344
-(lp8345
-(lp8346
-S'2016-10-14 23:21:37'
-p8347
-aS'.5^8*.5^2'
-p8348
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8349
-aa(lp8350
-S'2016-10-14 23:21:39'
-p8351
-aS'.5^8*.5^2'
 p8352
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8353
-aa(lp8354
-S'2016-10-14 23:21:42'
-p8355
-aS'.5^8*.5^2'
+tp8353
+(lp8354
+(lp8355
+S'2016-10-14 23:21:37'
 p8356
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'.5^8*.5^2'
 p8357
-aa(lp8358
-S'2016-10-14 23:21:43'
-p8359
-aS'.5^8*.5^2'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8358
+aa(lp8359
+S'2016-10-14 23:21:39'
 p8360
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'.5^8*.5^2'
 p8361
-aa(lp8362
-S'2016-10-14 23:21:43'
-p8363
-aS'.5^8*.5^2'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8362
+aa(lp8363
+S'2016-10-14 23:21:42'
 p8364
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'.5^8*.5^2'
 p8365
-aa(lp8366
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8366
+aa(lp8367
 S'2016-10-14 23:21:43'
-p8367
-aS'.5^8*.5^2'
 p8368
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'.5^8*.5^2'
 p8369
-aa(lp8370
-S'2016-10-14 23:21:45'
-p8371
-aS'.5^8*.5^2'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8370
+aa(lp8371
+S'2016-10-14 23:21:43'
 p8372
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+aS'.5^8*.5^2'
 p8373
-aa(lp8374
-S'2016-10-14 23:21:45'
-p8375
-aS'.5^8*.5^2'
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8374
+aa(lp8375
+S'2016-10-14 23:21:43'
 p8376
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8377
-aa(lp8378
-S'2016-10-14 23:21:45'
-p8379
 aS'.5^8*.5^2'
-p8380
+p8377
 aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8378
+aa(lp8379
+S'2016-10-14 23:21:45'
+p8380
+aS'.5^8*.5^2'
 p8381
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8382
+aa(lp8383
+S'2016-10-14 23:21:45'
+p8384
+aS'.5^8*.5^2'
+p8385
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8386
+aa(lp8387
+S'2016-10-14 23:21:45'
+p8388
+aS'.5^8*.5^2'
+p8389
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8390
 aas(g969
 S'gurkiratsingh'
-p8382
-tp8383
-(lp8384
-(lp8385
-S'2016-10-14 20:56:39'
-p8386
-aS'2/10'
-p8387
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8388
-aa(lp8389
-S'2016-10-14 20:56:40'
-p8390
-aS'2/10'
 p8391
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8392
-aa(lp8393
-S'2016-10-14 20:59:48'
-p8394
-aS'2/10'
+tp8392
+(lp8393
+(lp8394
+S'2016-10-14 20:56:39'
 p8395
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'2/10'
 p8396
-aa(lp8397
-S'2016-10-14 21:03:55'
-p8398
-aS'(2^2)/(2^10)'
-p8399
-aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8400
-aa(lp8401
-S'2016-10-14 21:10:25'
-p8402
-aS'C(10,2)/P(10,2)'
-p8403
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8397
+aa(lp8398
+S'2016-10-14 20:56:40'
+p8399
+aS'2/10'
+p8400
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8401
+aa(lp8402
+S'2016-10-14 20:59:48'
+p8403
+aS'2/10'
 p8404
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8405
+aa(lp8406
+S'2016-10-14 21:03:55'
+p8407
+aS'(2^2)/(2^10)'
+p8408
+aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
+p8409
+aa(lp8410
+S'2016-10-14 21:10:25'
+p8411
+aS'C(10,2)/P(10,2)'
+p8412
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8413
 aass(g1
 g31
 g3
-tp8405
-(dp8406
-(g152
-S'danFlorencio'
-p8407
-tp8408
-(lp8409
-(lp8410
-S'2016-10-21 05:12:09'
-p8411
-aS'.12'
-p8412
-aS'Please write an expression, not the final numerical result.'
-p8413
-aass(g1
-g3
-g3
 tp8414
 (dp8415
-(g1097
-S'PhillipJo'
+(g152
+S'danFlorencio'
 p8416
 tp8417
 (lp8418
 (lp8419
-S'2016-10-21 06:16:28'
+S'2016-10-21 05:12:09'
 p8420
-aS'0.000002009'
+aS'.12'
 p8421
 aS'Please write an expression, not the final numerical result.'
 p8422
-aass(g3
-g30
+aass(g1
+g3
 g3
 tp8423
 (dp8424
-(g152
-S'danFlorencio'
+(g1097
+S'PhillipJo'
 p8425
 tp8426
 (lp8427
 (lp8428
-S'2016-10-14 11:56:07'
+S'2016-10-21 06:16:28'
 p8429
-aS'56'
+aS'0.000002009'
 p8430
 aS'Please write an expression, not the final numerical result.'
 p8431
-aa(lp8432
-S'2016-10-14 11:58:23'
-p8433
-aS'36'
+aass(g3
+g30
+g3
+tp8432
+(dp8433
+(g152
+S'danFlorencio'
 p8434
-aS'Please write an expression, not the final numerical result.'
-p8435
-aa(lp8436
-S'2016-10-14 11:59:51'
-p8437
-ag3
-aS'Please write an expression, not the final numerical result.'
+tp8435
+(lp8436
+(lp8437
+S'2016-10-14 11:56:07'
 p8438
-aa(lp8439
-S'2016-10-14 12:00:53'
+aS'56'
+p8439
+aS'Please write an expression, not the final numerical result.'
 p8440
+aa(lp8441
+S'2016-10-14 11:58:23'
+p8442
+aS'36'
+p8443
+aS'Please write an expression, not the final numerical result.'
+p8444
+aa(lp8445
+S'2016-10-14 11:59:51'
+p8446
 ag3
 aS'Please write an expression, not the final numerical result.'
-p8441
-aa(lp8442
-S'2016-10-14 12:01:25'
-p8443
-aS'1001'
-p8444
+p8447
+aa(lp8448
+S'2016-10-14 12:00:53'
+p8449
+ag3
 aS'Please write an expression, not the final numerical result.'
-p8445
+p8450
+aa(lp8451
+S'2016-10-14 12:01:25'
+p8452
+aS'1001'
+p8453
+aS'Please write an expression, not the final numerical result.'
+p8454
 aas(g1787
 S'gstamp'
-p8446
-tp8447
-(lp8448
-(lp8449
+p8455
+tp8456
+(lp8457
+(lp8458
 S'2016-10-14 23:19:25'
-p8450
+p8459
 aS'C(5,3)'
-p8451
+p8460
 aS'Please write an expression, not the final numerical result.'
-p8452
+p8461
 aas(g3946
 S'cwasley'
-p8453
-tp8454
-(lp8455
-(lp8456
-S'2016-10-14 23:53:42'
-p8457
-aS'35'
-p8458
-aS'Please write an expression, not the final numerical result.'
-p8459
-aa(lp8460
-S'2016-10-14 23:54:46'
-p8461
-aS'3024'
 p8462
+tp8463
+(lp8464
+(lp8465
+S'2016-10-14 23:53:42'
+p8466
+aS'35'
+p8467
 aS'Please write an expression, not the final numerical result.'
-p8463
+p8468
+aa(lp8469
+S'2016-10-14 23:54:46'
+p8470
+aS'3024'
+p8471
+aS'Please write an expression, not the final numerical result.'
+p8472
 aas(g3659
 S'HansGamboa'
-p8464
-tp8465
-(lp8466
-(lp8467
-S'2016-10-14 19:51:16'
-p8468
-aS'1001'
-p8469
-aS'Please write an expression, not the final numerical result.'
-p8470
-aa(lp8471
-S'2016-10-14 20:04:07'
-p8472
-aS'28'
 p8473
+tp8474
+(lp8475
+(lp8476
+S'2016-10-14 19:51:16'
+p8477
+aS'1001'
+p8478
 aS'Please write an expression, not the final numerical result.'
-p8474
+p8479
+aa(lp8480
+S'2016-10-14 20:04:07'
+p8481
+aS'28'
+p8482
+aS'Please write an expression, not the final numerical result.'
+p8483
 aas(g3156
 S'arman'
-p8475
-tp8476
-(lp8477
-(lp8478
-S'2016-10-14 22:53:45'
-p8479
-aS'28'
-p8480
-aS'Please write an expression, not the final numerical result.'
-p8481
-aass(g1
-g3
-g31
-tp8482
-(dp8483
-(g1097
-S'PhillipJo'
 p8484
 tp8485
 (lp8486
 (lp8487
-S'2016-10-21 09:50:37'
+S'2016-10-14 22:53:45'
 p8488
-aS'0.020092'
+aS'28'
 p8489
 aS'Please write an expression, not the final numerical result.'
 p8490
-aass(g3
-g31
+aass(g1
 g3
+g31
 tp8491
 (dp8492
-(g3156
-S'arman'
+(g1097
+S'PhillipJo'
 p8493
 tp8494
 (lp8495
 (lp8496
-S'2016-10-14 21:04:38'
+S'2016-10-21 09:50:37'
 p8497
-aS'1-10/1024'
+aS'0.020092'
 p8498
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'Please write an expression, not the final numerical result.'
 p8499
-aa(lp8500
-S'2016-10-14 21:04:44'
-p8501
-aS'1-10/1024'
+aass(g3
+g31
+g3
+tp8500
+(dp8501
+(g3156
+S'arman'
 p8502
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8503
-aa(lp8504
-S'2016-10-14 21:04:47'
-p8505
-aS'1-10/1024'
+tp8503
+(lp8504
+(lp8505
+S'2016-10-14 21:04:38'
 p8506
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1-10/1024'
 p8507
-aa(lp8508
-S'2016-10-14 21:04:47'
-p8509
-aS'1-10/1024'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8508
+aa(lp8509
+S'2016-10-14 21:04:44'
 p8510
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8511
-aa(lp8512
-S'2016-10-14 21:04:47'
-p8513
 aS'1-10/1024'
-p8514
+p8511
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8512
+aa(lp8513
+S'2016-10-14 21:04:47'
+p8514
+aS'1-10/1024'
 p8515
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8516
+aa(lp8517
+S'2016-10-14 21:04:47'
+p8518
+aS'1-10/1024'
+p8519
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8520
+aa(lp8521
+S'2016-10-14 21:04:47'
+p8522
+aS'1-10/1024'
+p8523
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8524
 aas(g6086
 S'rshroyer'
-p8516
-tp8517
-(lp8518
-(lp8519
+p8525
+tp8526
+(lp8527
+(lp8528
 S'2016-10-14 22:44:43'
-p8520
+p8529
 aS'1/365568'
-p8521
+p8530
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8522
+p8531
 aas(g969
 S'gurkiratsingh'
-p8523
-tp8524
-(lp8525
-(lp8526
+p8532
+tp8533
+(lp8534
+(lp8535
 S'2016-10-14 20:56:41'
-p8527
+p8536
 ag50
 aS'Please write an expression, not the final numerical result.'
-p8528
+p8537
 aas(g22
 S'gtran'
-p8529
-tp8530
-(lp8531
-(lp8532
-S'2016-10-14 17:43:55'
-p8533
-aS'1/4'
-p8534
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8535
-aass(g1
-g31
-g3446
-tp8536
-(dp8537
-(g2560
-S'ETDuong'
 p8538
 tp8539
 (lp8540
 (lp8541
-S'2016-10-21 03:31:33'
+S'2016-10-14 17:43:55'
 p8542
-aS'(.55-.4)+.3-.6'
+aS'1/4'
 p8543
-aS'Can the answer be negative?'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
 p8544
-aas(g696
-S'Derrick'
-p8545
-tp8546
-(lp8547
-(lp8548
-S'2016-10-21 08:38:21'
-p8549
-aS'0.55-0.25-0.25-0.3+(0.25*0.25)+(0.25*0.3)+(0.25*0.3)'
-p8550
-aS'Can the answer be negative?'
-p8551
-aas(g64
-S'MarianCrofts'
-p8552
-tp8553
-(lp8554
-(lp8555
-S'2016-10-21 04:11:52'
-p8556
-ag20
-aS'Please write an expression, not the final numerical result.'
-p8557
-aas(S'221'
-p8558
-S'AmirAssad'
-p8559
-tp8560
-(lp8561
-(lp8562
-S'2016-10-21 05:40:23'
-p8563
-aS'0.12'
-p8564
-aS'Please write an expression, not the final numerical result.'
-p8565
-aa(lp8566
-S'2016-10-21 05:40:32'
-p8567
-aS'0.12'
-p8568
-aS'Please write an expression, not the final numerical result.'
-p8569
-aa(lp8570
-S'2016-10-21 05:45:01'
-p8571
-aS'0.3+0.2+0.3-0.1-0.15-0.15-0.55'
-p8572
-aS'Can the answer be negative?'
-p8573
-aas(g1823
-S'tdea'
-p8574
-tp8575
-(lp8576
-(lp8577
-S'2016-10-21 07:02:51'
-p8578
-ag20
-aS'Please write an expression, not the final numerical result.'
-p8579
-aas(g2921
-S'rdrabik'
-p8580
-tp8581
-(lp8582
-(lp8583
-S'2016-10-20 19:58:07'
-p8584
-aS'.5'
-p8585
-aS'Please write an expression, not the final numerical result.'
-p8586
-aa(lp8587
-S'2016-10-20 19:58:10'
-p8588
-ag2119
-aS'Please write an expression, not the final numerical result.'
-p8589
-aas(S'190'
-p8590
-S'DChour'
-p8591
-tp8592
-(lp8593
-(lp8594
-S'2016-10-20 23:40:12'
-p8595
-aS'.3'
-p8596
-aS'Please write an expression, not the final numerical result.'
-p8597
-aa(lp8598
-S'2016-10-21 16:47:12'
-p8599
-aS'.2'
-p8600
-aS'Please write an expression, not the final numerical result.'
-p8601
-aas(S'254'
-p8602
-S'BrianIsAHoe'
-p8603
-tp8604
-(lp8605
-(lp8606
-S'2016-10-20 22:54:08'
-p8607
-aS'.55'
-p8608
-aS'Please write an expression, not the final numerical result.'
-p8609
 aass(g1
 g31
-g20
-tp8610
-(dp8611
-(g2552
-S'denniskim'
+g3446
+tp8545
+(dp8546
+(g2560
+S'ETDuong'
+p8547
+tp8548
+(lp8549
+(lp8550
+S'2016-10-21 03:31:33'
+p8551
+aS'(.55-.4)+.3-.6'
+p8552
+aS'Can the answer be negative?'
+p8553
+aas(g696
+S'Derrick'
+p8554
+tp8555
+(lp8556
+(lp8557
+S'2016-10-21 08:38:21'
+p8558
+aS'0.55-0.25-0.25-0.3+(0.25*0.25)+(0.25*0.3)+(0.25*0.3)'
+p8559
+aS'Can the answer be negative?'
+p8560
+aas(g64
+S'MarianCrofts'
+p8561
+tp8562
+(lp8563
+(lp8564
+S'2016-10-21 04:11:52'
+p8565
+ag20
+aS'Please write an expression, not the final numerical result.'
+p8566
+aas(S'221'
+p8567
+S'AmirAssad'
+p8568
+tp8569
+(lp8570
+(lp8571
+S'2016-10-21 05:40:23'
+p8572
+aS'0.12'
+p8573
+aS'Please write an expression, not the final numerical result.'
+p8574
+aa(lp8575
+S'2016-10-21 05:40:32'
+p8576
+aS'0.12'
+p8577
+aS'Please write an expression, not the final numerical result.'
+p8578
+aa(lp8579
+S'2016-10-21 05:45:01'
+p8580
+aS'0.3+0.2+0.3-0.1-0.15-0.15-0.55'
+p8581
+aS'Can the answer be negative?'
+p8582
+aas(g1823
+S'tdea'
+p8583
+tp8584
+(lp8585
+(lp8586
+S'2016-10-21 07:02:51'
+p8587
+ag20
+aS'Please write an expression, not the final numerical result.'
+p8588
+aas(g2921
+S'rdrabik'
+p8589
+tp8590
+(lp8591
+(lp8592
+S'2016-10-20 19:58:07'
+p8593
+aS'.5'
+p8594
+aS'Please write an expression, not the final numerical result.'
+p8595
+aa(lp8596
+S'2016-10-20 19:58:10'
+p8597
+ag2119
+aS'Please write an expression, not the final numerical result.'
+p8598
+aas(S'190'
+p8599
+S'DChour'
+p8600
+tp8601
+(lp8602
+(lp8603
+S'2016-10-20 23:40:12'
+p8604
+aS'.3'
+p8605
+aS'Please write an expression, not the final numerical result.'
+p8606
+aa(lp8607
+S'2016-10-21 16:47:12'
+p8608
+aS'.2'
+p8609
+aS'Please write an expression, not the final numerical result.'
+p8610
+aas(S'254'
+p8611
+S'BrianIsAHoe'
 p8612
 tp8613
 (lp8614
 (lp8615
-S'2016-10-21 08:45:58'
+S'2016-10-20 22:54:08'
 p8616
-aS'.25*.3'
+aS'.55'
 p8617
-aS' Please find hint at the bottom of the page.'
+aS'Please write an expression, not the final numerical result.'
 p8618
-aa(lp8619
-S'2016-10-21 08:45:59'
-p8620
-aS'.25*.3'
+aass(g1
+g31
+g20
+tp8619
+(dp8620
+(g2552
+S'denniskim'
 p8621
-aS' Please find hint at the bottom of the page.'
-p8622
-aa(lp8623
-S'2016-10-21 08:51:19'
-p8624
-aS'0.3*0.3'
+tp8622
+(lp8623
+(lp8624
+S'2016-10-21 08:45:58'
 p8625
-aS' Please find hint at the bottom of the page.'
+aS'.25*.3'
 p8626
-aa(lp8627
-S'2016-10-21 09:05:38'
-p8628
-aS'0.4*0.35'
-p8629
 aS' Please find hint at the bottom of the page.'
+p8627
+aa(lp8628
+S'2016-10-21 08:45:59'
+p8629
+aS'.25*.3'
 p8630
+aS' Please find hint at the bottom of the page.'
+p8631
+aa(lp8632
+S'2016-10-21 08:51:19'
+p8633
+aS'0.3*0.3'
+p8634
+aS' Please find hint at the bottom of the page.'
+p8635
+aa(lp8636
+S'2016-10-21 09:05:38'
+p8637
+aS'0.4*0.35'
+p8638
+aS' Please find hint at the bottom of the page.'
+p8639
 aas(g2475
 S'john_wishon'
-p8631
-tp8632
-(lp8633
-(lp8634
+p8640
+tp8641
+(lp8642
+(lp8643
 S'2016-10-21 05:32:53'
-p8635
+p8644
 aS'(.25+.25-.25)'
-p8636
+p8645
 aS' Please find hint at the bottom of the page.'
-p8637
-aa(lp8638
+p8646
+aa(lp8647
 S'2016-10-21 05:40:30'
-p8639
+p8648
 ag2119
 aS' Please find hint at the bottom of the page.'
-p8640
+p8649
 aas(g206
 S'Brnkvu'
-p8641
-tp8642
-(lp8643
-(lp8644
-S'2016-10-20 20:37:19'
-p8645
-aS'.25*.35'
-p8646
-aS' Please find hint at the bottom of the page.'
-p8647
-aa(lp8648
-S'2016-10-20 20:39:38'
-p8649
-aS'.45-.6'
 p8650
+tp8651
+(lp8652
+(lp8653
+S'2016-10-20 20:37:19'
+p8654
+aS'.25*.35'
+p8655
+aS' Please find hint at the bottom of the page.'
+p8656
+aa(lp8657
+S'2016-10-20 20:39:38'
+p8658
+aS'.45-.6'
+p8659
 aS'Can the answer be negative?'
-p8651
+p8660
 aas(g1441
 S'JunnelReboquio'
-p8652
-tp8653
-(lp8654
-(lp8655
+p8661
+tp8662
+(lp8663
+(lp8664
 S'2016-10-20 16:54:29'
-p8656
+p8665
 aS'(0.4*0.35)-(0.4*0.35*0.3)'
-p8657
+p8666
 aS' Please find hint at the bottom of the page.'
-p8658
+p8667
 aas(g3692
 S'JaceChan'
-p8659
-tp8660
-(lp8661
-(lp8662
+p8668
+tp8669
+(lp8670
+(lp8671
 S'2016-10-21 05:49:00'
-p8663
+p8672
 aS'0.25*0.25'
-p8664
+p8673
 aS' Please find hint at the bottom of the page.'
-p8665
+p8674
 aas(g3502
 S'zhenzhai'
-p8666
-tp8667
-(lp8668
-(lp8669
-S'2016-10-19 09:28:10'
-p8670
-aS'no attempt'
-p8671
-aS'Please write an expression, not the final numerical result.'
-p8672
-aa(lp8673
-S'2016-10-19 09:28:12'
-p8674
-aS'no attempt'
 p8675
+tp8676
+(lp8677
+(lp8678
+S'2016-10-19 09:28:10'
+p8679
+aS'no attempt'
+p8680
 aS'Please write an expression, not the final numerical result.'
-p8676
+p8681
+aa(lp8682
+S'2016-10-19 09:28:12'
+p8683
+aS'no attempt'
+p8684
+aS'Please write an expression, not the final numerical result.'
+p8685
 aas(g5123
 S'rrivasfe'
-p8677
-tp8678
-(lp8679
-(lp8680
+p8686
+tp8687
+(lp8688
+(lp8689
 S'2016-10-19 15:35:29'
-p8681
+p8690
 aS'no attempt'
-p8682
+p8691
 aS'Please write an expression, not the final numerical result.'
-p8683
+p8692
 aas(g2609
 S'thartopu'
-p8684
-tp8685
-(lp8686
-(lp8687
+p8693
+tp8694
+(lp8695
+(lp8696
 S'2016-10-19 11:21:36'
-p8688
+p8697
 aS'no attempt'
-p8689
+p8698
 aS'Please write an expression, not the final numerical result.'
-p8690
+p8699
 aas(g3510
 S'kel116'
-p8691
-tp8692
-(lp8693
-(lp8694
-S'2016-10-21 12:57:16'
-p8695
-aS'0.3+0.3-0.15'
-p8696
-aS' Please find hint at the bottom of the page.'
-p8697
-aa(lp8698
-S'2016-10-21 13:01:29'
-p8699
-aS'0.5-0.35'
 p8700
+tp8701
+(lp8702
+(lp8703
+S'2016-10-21 12:57:16'
+p8704
+aS'0.3+0.3-0.15'
+p8705
 aS' Please find hint at the bottom of the page.'
-p8701
+p8706
+aa(lp8707
+S'2016-10-21 13:01:29'
+p8708
+aS'0.5-0.35'
+p8709
+aS' Please find hint at the bottom of the page.'
+p8710
 aas(g605
 S'abelmont'
-p8702
-tp8703
-(lp8704
-(lp8705
-S'2016-10-21 03:43:57'
-p8706
-aS'.35*.3'
-p8707
-aS' Please find hint at the bottom of the page.'
-p8708
-aa(lp8709
-S'2016-10-21 03:47:17'
-p8710
-aS'.3*.25'
 p8711
+tp8712
+(lp8713
+(lp8714
+S'2016-10-21 03:43:57'
+p8715
+aS'.35*.3'
+p8716
 aS' Please find hint at the bottom of the page.'
-p8712
+p8717
+aa(lp8718
+S'2016-10-21 03:47:17'
+p8719
+aS'.3*.25'
+p8720
+aS' Please find hint at the bottom of the page.'
+p8721
 aas(g96
 S'tqh003'
-p8713
-tp8714
-(lp8715
-(lp8716
+p8722
+tp8723
+(lp8724
+(lp8725
 S'2016-10-21 05:14:57'
-p8717
+p8726
 aS'0.2 * 0.3'
-p8718
+p8727
 aS' Please find hint at the bottom of the page.'
-p8719
+p8728
 aas(g7410
 S'isabella'
-p8720
-tp8721
-(lp8722
-(lp8723
+p8729
+tp8730
+(lp8731
+(lp8732
 S'2016-10-21 15:27:20'
-p8724
+p8733
 aS'0.05'
-p8725
+p8734
 aS'Please write an expression, not the final numerical result.'
-p8726
+p8735
 aas(g3965
 S'mtashman'
-p8727
-tp8728
-(lp8729
-(lp8730
+p8736
+tp8737
+(lp8738
+(lp8739
 S'2016-10-20 07:49:21'
-p8731
+p8740
 aS'.0625'
-p8732
+p8741
 aS'Please write an expression, not the final numerical result.'
-p8733
+p8742
 aas(g2921
 S'rdrabik'
-p8734
-tp8735
-(lp8736
-(lp8737
+p8743
+tp8744
+(lp8745
+(lp8746
 S'2016-10-20 19:53:59'
-p8738
+p8747
 aS'.35 * .3'
-p8739
+p8748
 aS' Please find hint at the bottom of the page.'
-p8740
+p8749
 aas(g732
 S'FrankHuang'
-p8741
-tp8742
-(lp8743
-(lp8744
-S'2016-10-21 05:21:50'
-p8745
-aS'0.4*0.35'
-p8746
-aS' Please find hint at the bottom of the page.'
-p8747
-aa(lp8748
-S'2016-10-21 05:32:36'
-p8749
-aS'0.3*0.3'
 p8750
+tp8751
+(lp8752
+(lp8753
+S'2016-10-21 05:21:50'
+p8754
+aS'0.4*0.35'
+p8755
 aS' Please find hint at the bottom of the page.'
-p8751
+p8756
+aa(lp8757
+S'2016-10-21 05:32:36'
+p8758
+aS'0.3*0.3'
+p8759
+aS' Please find hint at the bottom of the page.'
+p8760
 aas(g7983
 S'vincebai'
-p8752
-tp8753
-(lp8754
-(lp8755
+p8761
+tp8762
+(lp8763
+(lp8764
 S'2016-10-19 19:49:11'
-p8756
+p8765
 aS'no attempt'
-p8757
+p8766
 aS'Please write an expression, not the final numerical result.'
-p8758
+p8767
 aas(g152
 S'danFlorencio'
-p8759
-tp8760
-(lp8761
-(lp8762
+p8768
+tp8769
+(lp8770
+(lp8771
 S'2016-10-21 05:12:06'
-p8763
+p8772
 aS'.09'
-p8764
+p8773
 aS'Please write an expression, not the final numerical result.'
-p8765
+p8774
 aas(g696
 S'Derrick'
-p8766
-tp8767
-(lp8768
-(lp8769
+p8775
+tp8776
+(lp8777
+(lp8778
 S'2016-10-21 08:34:44'
-p8770
+p8779
 aS'0.25*0.25'
-p8771
+p8780
 aS' Please find hint at the bottom of the page.'
-p8772
+p8781
 aas(g969
 S'gurkiratsingh'
-p8773
-tp8774
-(lp8775
-(lp8776
+p8782
+tp8783
+(lp8784
+(lp8785
 S'2016-10-20 09:21:37'
-p8777
+p8786
 aS'0.3*0.3'
-p8778
+p8787
 aS' Please find hint at the bottom of the page.'
-p8779
+p8788
 aas(g1705
 S'shadams'
-p8780
-tp8781
-(lp8782
-(lp8783
-S'2016-10-21 00:41:52'
-p8784
-aS'0.25*0.3'
-p8785
-aS' Please find hint at the bottom of the page.'
-p8786
-aa(lp8787
-S'2016-10-21 00:41:52'
-p8788
-aS'0.25*0.3'
 p8789
+tp8790
+(lp8791
+(lp8792
+S'2016-10-21 00:41:52'
+p8793
+aS'0.25*0.3'
+p8794
 aS' Please find hint at the bottom of the page.'
-p8790
+p8795
+aa(lp8796
+S'2016-10-21 00:41:52'
+p8797
+aS'0.25*0.3'
+p8798
+aS' Please find hint at the bottom of the page.'
+p8799
 aass(g31
 g1784
 g20
-tp8791
-(dp8792
+tp8800
+(dp8801
 (g206
 S'Brnkvu'
-p8793
-tp8794
-(lp8795
-(lp8796
+p8802
+tp8803
+(lp8804
+(lp8805
 S'2016-10-05 23:32:08'
-p8797
+p8806
 aS'20'
-p8798
+p8807
 aS'Please write an expression, not the final numerical result.'
-p8799
+p8808
 aas(g7975
 S'alidding'
-p8800
-tp8801
-(lp8802
-(lp8803
+p8809
+tp8810
+(lp8811
+(lp8812
 S'2016-10-06 06:25:40'
-p8804
+p8813
 aS'5 * 5 / 2'
-p8805
+p8814
 aS'Can the answer be fractional?'
-p8806
+p8815
 aas(g1815
 S'a1vinwu'
-p8807
-tp8808
-(lp8809
-(lp8810
+p8816
+tp8817
+(lp8818
+(lp8819
 S'2016-10-06 04:23:16'
-p8811
+p8820
 ag2119
 aS'Please write an expression, not the final numerical result.'
-p8812
+p8821
 aass(g3
 g31
 g31
-tp8813
-(dp8814
+tp8822
+(dp8823
 (g1715
 S'djmoreno'
-p8815
-tp8816
-(lp8817
-(lp8818
+p8824
+tp8825
+(lp8826
+(lp8827
 S'2016-10-14 22:40:08'
-p8819
+p8828
 aS'1/2^9'
-p8820
+p8829
 aS' Missing choose function in the answer. How many possible ways are there to get 2 questions correct out of 5 questions? C(5,_)'
-p8821
+p8830
 aas(g6086
 S'rshroyer'
-p8822
-tp8823
-(lp8824
-(lp8825
-S'2016-10-14 22:44:42'
-p8826
-aS'1/182784'
-p8827
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8828
-aa(lp8829
-S'2016-10-14 22:44:43'
-p8830
-aS'1/182784'
 p8831
+tp8832
+(lp8833
+(lp8834
+S'2016-10-14 22:44:42'
+p8835
+aS'1/182784'
+p8836
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8832
+p8837
+aa(lp8838
+S'2016-10-14 22:44:43'
+p8839
+aS'1/182784'
+p8840
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8841
 aas(g969
 S'gurkiratsingh'
-p8833
-tp8834
-(lp8835
-(lp8836
-S'2016-10-14 20:56:36'
-p8837
-aS'1/10'
-p8838
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8839
-aa(lp8840
-S'2016-10-14 20:56:38'
-p8841
-aS'1/10'
 p8842
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8843
-aa(lp8844
-S'2016-10-14 20:56:43'
-p8845
-aS'1/10'
+tp8843
+(lp8844
+(lp8845
+S'2016-10-14 20:56:36'
 p8846
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/10'
 p8847
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8848
+aa(lp8849
+S'2016-10-14 20:56:38'
+p8850
+aS'1/10'
+p8851
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8852
+aa(lp8853
+S'2016-10-14 20:56:43'
+p8854
+aS'1/10'
+p8855
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8856
 aas(g22
 S'gtran'
-p8848
-tp8849
-(lp8850
-(lp8851
-S'2016-10-14 17:43:46'
-p8852
-aS'1/2'
-p8853
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8854
-aa(lp8855
-S'2016-10-14 17:43:47'
-p8856
-aS'1/2'
 p8857
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8858
-aa(lp8859
-S'2016-10-14 17:43:48'
-p8860
-aS'1/2'
+tp8858
+(lp8859
+(lp8860
+S'2016-10-14 17:43:46'
 p8861
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/2'
 p8862
-aa(lp8863
-S'2016-10-14 17:43:50'
-p8864
-aS'1/2'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8863
+aa(lp8864
+S'2016-10-14 17:43:47'
 p8865
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/2'
 p8866
-aa(lp8867
-S'2016-10-14 17:43:53'
-p8868
-aS'1/2'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8867
+aa(lp8868
+S'2016-10-14 17:43:48'
 p8869
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/2'
 p8870
-aa(lp8871
-S'2016-10-14 17:43:53'
-p8872
-aS'1/2'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8871
+aa(lp8872
+S'2016-10-14 17:43:50'
 p8873
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+aS'1/2'
 p8874
-aa(lp8875
-S'2016-10-14 17:43:55'
-p8876
-aS'1/2'
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8875
+aa(lp8876
+S'2016-10-14 17:43:53'
 p8877
-aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
-p8878
-aa(lp8879
-S'2016-10-14 17:44:03'
-p8880
 aS'1/2'
-p8881
+p8878
 aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8879
+aa(lp8880
+S'2016-10-14 17:43:53'
+p8881
+aS'1/2'
 p8882
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8883
+aa(lp8884
+S'2016-10-14 17:43:55'
+p8885
+aS'1/2'
+p8886
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8887
+aa(lp8888
+S'2016-10-14 17:44:03'
+p8889
+aS'1/2'
+p8890
+aS' Missing ^ in the answer. What is the probability of a specific combination of 3 coin flips?'
+p8891
 aass(g3
 g30
 g20
-tp8883
-(dp8884
+tp8892
+(dp8893
 (g3156
 S'arman'
-p8885
-tp8886
-(lp8887
-(lp8888
-S'2016-10-14 22:49:56'
-p8889
-aS'14'
-p8890
-aS'Please write an expression, not the final numerical result.'
-p8891
-aa(lp8892
-S'2016-10-14 22:53:40'
-p8893
-ag30
-aS'Please write an expression, not the final numerical result.'
 p8894
-aas(g206
-S'Brnkvu'
-p8895
-tp8896
+tp8895
+(lp8896
 (lp8897
-(lp8898
-S'2016-10-14 20:50:36'
+S'2016-10-14 22:49:56'
+p8898
+aS'14'
 p8899
-ag1784
 aS'Please write an expression, not the final numerical result.'
 p8900
+aa(lp8901
+S'2016-10-14 22:53:40'
+p8902
+ag30
+aS'Please write an expression, not the final numerical result.'
+p8903
+aas(g206
+S'Brnkvu'
+p8904
+tp8905
+(lp8906
+(lp8907
+S'2016-10-14 20:50:36'
+p8908
+ag1784
+aS'Please write an expression, not the final numerical result.'
+p8909
 aas(g6414
 S'Arash'
-p8901
-tp8902
-(lp8903
-(lp8904
+p8910
+tp8911
+(lp8912
+(lp8913
 S'2016-10-15 00:41:37'
-p8905
+p8914
 ag30
 aS'Please write an expression, not the final numerical result.'
-p8906
+p8915
 aas(g3692
 S'JaceChan'
-p8907
-tp8908
-(lp8909
-(lp8910
-S'2016-10-14 20:16:29'
-p8911
-aS'C(14,3)'
-p8912
-aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
-p8913
-aa(lp8914
-S'2016-10-14 20:27:04'
-p8915
-aS'C(9,5)'
 p8916
+tp8917
+(lp8918
+(lp8919
+S'2016-10-14 20:16:29'
+p8920
+aS'C(14,3)'
+p8921
 aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
-p8917
+p8922
+aa(lp8923
+S'2016-10-14 20:27:04'
+p8924
+aS'C(9,5)'
+p8925
+aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
+p8926
 aas(g3125
 S'rjanowit'
-p8918
-tp8919
-(lp8920
-(lp8921
+p8927
+tp8928
+(lp8929
+(lp8930
 S'2016-10-14 23:53:33'
-p8922
+p8931
 aS'13'
-p8923
-aS'Please write an expression, not the final numerical result.'
-p8924
-aas(g969
-S'gurkiratsingh'
-p8925
-tp8926
-(lp8927
-(lp8928
-S'2016-10-14 20:20:37'
-p8929
-ag1
-aS'Please write an expression, not the final numerical result.'
-p8930
-aa(lp8931
-S'2016-10-14 20:27:22'
 p8932
-ag30
 aS'Please write an expression, not the final numerical result.'
 p8933
-aas(g7410
-S'isabella'
+aas(g969
+S'gurkiratsingh'
 p8934
 tp8935
 (lp8936
 (lp8937
-S'2016-10-14 20:37:38'
+S'2016-10-14 20:20:37'
 p8938
-ag30
+ag1
 aS'Please write an expression, not the final numerical result.'
 p8939
 aa(lp8940
-S'2016-10-14 20:45:54'
+S'2016-10-14 20:27:22'
 p8941
-ag1735
+ag30
 aS'Please write an expression, not the final numerical result.'
 p8942
-aas(g3295
-S'wesleymwong'
+aas(g7410
+S'isabella'
 p8943
 tp8944
 (lp8945
 (lp8946
-S'2016-10-14 21:41:51'
+S'2016-10-14 20:37:38'
 p8947
-aS'C(8,2)'
+ag30
+aS'Please write an expression, not the final numerical result.'
 p8948
-aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
-p8949
-aa(lp8950
-S'2016-10-14 21:41:52'
+aa(lp8949
+S'2016-10-14 20:45:54'
+p8950
+ag1735
+aS'Please write an expression, not the final numerical result.'
 p8951
-aS'C(8,2)'
+aas(g3295
+S'wesleymwong'
 p8952
+tp8953
+(lp8954
+(lp8955
+S'2016-10-14 21:41:51'
+p8956
+aS'C(8,2)'
+p8957
 aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
-p8953
+p8958
+aa(lp8959
+S'2016-10-14 21:41:52'
+p8960
+aS'C(8,2)'
+p8961
+aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
+p8962
 aas(g7572
 S'aliqbal'
-p8954
-tp8955
-(lp8956
-(lp8957
+p8963
+tp8964
+(lp8965
+(lp8966
 S'2016-10-15 00:19:43'
-p8958
-ag1
-aS'Please write an expression, not the final numerical result.'
-p8959
-aa(lp8960
-S'2016-10-15 00:19:45'
-p8961
-ag1
-aS'Please write an expression, not the final numerical result.'
-p8962
-aa(lp8963
-S'2016-10-15 00:19:45'
-p8964
-ag1
-aS'Please write an expression, not the final numerical result.'
-p8965
-aa(lp8966
-S'2016-10-15 00:19:47'
 p8967
 ag1
 aS'Please write an expression, not the final numerical result.'
 p8968
 aa(lp8969
-S'2016-10-15 00:19:47'
+S'2016-10-15 00:19:45'
 p8970
 ag1
 aS'Please write an expression, not the final numerical result.'
 p8971
 aa(lp8972
-S'2016-10-15 00:19:47'
+S'2016-10-15 00:19:45'
 p8973
 ag1
 aS'Please write an expression, not the final numerical result.'
 p8974
-aas(g1715
-S'djmoreno'
-p8975
-tp8976
-(lp8977
-(lp8978
-S'2016-10-15 00:05:05'
-p8979
-aS'11'
-p8980
-aS'Please write an expression, not the final numerical result.'
-p8981
-aas(g4233
-S'axl004'
-p8982
-tp8983
-(lp8984
-(lp8985
-S'2016-10-14 23:36:51'
-p8986
-aS'13'
-p8987
-aS'Please write an expression, not the final numerical result.'
-p8988
-aa(lp8989
-S'2016-10-14 23:37:26'
-p8990
-aS'17'
-p8991
-aS'Please write an expression, not the final numerical result.'
-p8992
-aas(g3740
-S'ottojursch'
-p8993
-tp8994
-(lp8995
-(lp8996
-S'2016-10-14 20:38:46'
-p8997
-aS'11'
-p8998
-aS'Please write an expression, not the final numerical result.'
-p8999
-aas(g6159
-S'kennyglee'
-p9000
-tp9001
-(lp9002
-(lp9003
-S'2016-10-14 16:31:20'
-p9004
-ag2
-aS'Please write an expression, not the final numerical result.'
-p9005
-aas(g3878
-S'kkhuong'
-p9006
-tp9007
-(lp9008
-(lp9009
-S'2016-10-14 17:16:03'
-p9010
+aa(lp8975
+S'2016-10-15 00:19:47'
+p8976
 ag1
 aS'Please write an expression, not the final numerical result.'
-p9011
-aa(lp9012
-S'2016-10-14 17:16:31'
+p8977
+aa(lp8978
+S'2016-10-15 00:19:47'
+p8979
+ag1
+aS'Please write an expression, not the final numerical result.'
+p8980
+aa(lp8981
+S'2016-10-15 00:19:47'
+p8982
+ag1
+aS'Please write an expression, not the final numerical result.'
+p8983
+aas(g1715
+S'djmoreno'
+p8984
+tp8985
+(lp8986
+(lp8987
+S'2016-10-15 00:05:05'
+p8988
+aS'11'
+p8989
+aS'Please write an expression, not the final numerical result.'
+p8990
+aas(g4233
+S'axl004'
+p8991
+tp8992
+(lp8993
+(lp8994
+S'2016-10-14 23:36:51'
+p8995
+aS'13'
+p8996
+aS'Please write an expression, not the final numerical result.'
+p8997
+aa(lp8998
+S'2016-10-14 23:37:26'
+p8999
+aS'17'
+p9000
+aS'Please write an expression, not the final numerical result.'
+p9001
+aas(g3740
+S'ottojursch'
+p9002
+tp9003
+(lp9004
+(lp9005
+S'2016-10-14 20:38:46'
+p9006
+aS'11'
+p9007
+aS'Please write an expression, not the final numerical result.'
+p9008
+aas(g6159
+S'kennyglee'
+p9009
+tp9010
+(lp9011
+(lp9012
+S'2016-10-14 16:31:20'
 p9013
-ag31
+ag2
 aS'Please write an expression, not the final numerical result.'
 p9014
-aas(g152
-S'danFlorencio'
+aas(g3878
+S'kkhuong'
 p9015
 tp9016
 (lp9017
 (lp9018
-S'2016-10-14 11:59:55'
+S'2016-10-14 17:16:03'
 p9019
-ag3
+ag1
 aS'Please write an expression, not the final numerical result.'
 p9020
-aas(g1787
-S'gstamp'
-p9021
-tp9022
-(lp9023
-(lp9024
-S'2016-10-14 23:19:08'
-p9025
-aS'C(10,7)'
-p9026
-aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
-p9027
-aa(lp9028
-S'2016-10-14 23:19:10'
-p9029
-aS'C(10,7)'
-p9030
-aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
-p9031
-aa(lp9032
-S'2016-10-14 23:20:52'
-p9033
-ag2
-aS'Please write an expression, not the final numerical result.'
-p9034
-aa(lp9035
-S'2016-10-14 23:34:32'
-p9036
-ag1735
-aS'Please write an expression, not the final numerical result.'
-p9037
-aa(lp9038
-S'2016-10-15 00:15:07'
-p9039
-aS'15'
-p9040
-aS'Please write an expression, not the final numerical result.'
-p9041
-aas(g3659
-S'HansGamboa'
-p9042
-tp9043
-(lp9044
-(lp9045
-S'2016-10-14 19:51:05'
-p9046
+aa(lp9021
+S'2016-10-14 17:16:31'
+p9022
 ag31
 aS'Please write an expression, not the final numerical result.'
-p9047
-aa(lp9048
-S'2016-10-14 19:53:09'
-p9049
-aS'C(5,3)'
-p9050
+p9023
+aas(g152
+S'danFlorencio'
+p9024
+tp9025
+(lp9026
+(lp9027
+S'2016-10-14 11:59:55'
+p9028
+ag3
+aS'Please write an expression, not the final numerical result.'
+p9029
+aas(g1787
+S'gstamp'
+p9030
+tp9031
+(lp9032
+(lp9033
+S'2016-10-14 23:19:08'
+p9034
+aS'C(10,7)'
+p9035
 aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
+p9036
+aa(lp9037
+S'2016-10-14 23:19:10'
+p9038
+aS'C(10,7)'
+p9039
+aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
+p9040
+aa(lp9041
+S'2016-10-14 23:20:52'
+p9042
+ag2
+aS'Please write an expression, not the final numerical result.'
+p9043
+aa(lp9044
+S'2016-10-14 23:34:32'
+p9045
+ag1735
+aS'Please write an expression, not the final numerical result.'
+p9046
+aa(lp9047
+S'2016-10-15 00:15:07'
+p9048
+aS'15'
+p9049
+aS'Please write an expression, not the final numerical result.'
+p9050
+aas(g3659
+S'HansGamboa'
 p9051
+tp9052
+(lp9053
+(lp9054
+S'2016-10-14 19:51:05'
+p9055
+ag31
+aS'Please write an expression, not the final numerical result.'
+p9056
+aa(lp9057
+S'2016-10-14 19:53:09'
+p9058
+aS'C(5,3)'
+p9059
+aS' The combination formula C(n,k) is not relevant to this question. How many bars are needed for 3 categories?'
+p9060
 aas(g696
 S'Derrick'
-p9052
-tp9053
-(lp9054
-(lp9055
-S'2016-10-14 19:09:13'
-p9056
-aS'14'
-p9057
-aS'Please write an expression, not the final numerical result.'
-p9058
-aa(lp9059
-S'2016-10-14 19:11:00'
-p9060
-aS'23'
 p9061
+tp9062
+(lp9063
+(lp9064
+S'2016-10-14 19:09:13'
+p9065
+aS'14'
+p9066
 aS'Please write an expression, not the final numerical result.'
-p9062
+p9067
+aa(lp9068
+S'2016-10-14 19:11:00'
+p9069
+aS'23'
+p9070
+aS'Please write an expression, not the final numerical result.'
+p9071
 aass(g1
 g30
 g20
-tp9063
-(dp9064
+tp9072
+(dp9073
 (g34
 S'JonDo'
-p9065
-tp9066
-(lp9067
-(lp9068
-S'2016-10-21 05:29:26'
-p9069
-aS'3/1225'
-p9070
-aS'Can the answer be fractional?'
-p9071
-aas(S'93'
-p9072
-S'Byung'
-p9073
-tp9074
-(lp9075
+p9074
+tp9075
 (lp9076
-S'2016-10-19 21:17:35'
-p9077
-aS'no attempt'
+(lp9077
+S'2016-10-21 05:29:26'
 p9078
-aS'Can the answer be fractional?'
+aS'3/1225'
 p9079
-aa(lp9080
-S'2016-10-19 21:18:07'
-p9081
-aS'no attempt'
-p9082
 aS'Can the answer be fractional?'
-p9083
+p9080
+aas(S'93'
+p9081
+S'Byung'
+p9082
+tp9083
+(lp9084
+(lp9085
+S'2016-10-19 21:17:35'
+p9086
+aS'no attempt'
+p9087
+aS'Can the answer be fractional?'
+p9088
+aa(lp9089
+S'2016-10-19 21:18:07'
+p9090
+aS'no attempt'
+p9091
+aS'Can the answer be fractional?'
+p9092
 aas(g1350
 S'adejesus'
-p9084
-tp9085
-(lp9086
-(lp9087
-S'2016-10-20 04:45:27'
-p9088
-aS'no attempt'
-p9089
-aS'Can the answer be fractional?'
-p9090
-aa(lp9091
-S'2016-10-20 04:48:38'
-p9092
-aS'no attempt'
 p9093
+tp9094
+(lp9095
+(lp9096
+S'2016-10-20 04:45:27'
+p9097
+aS'no attempt'
+p9098
 aS'Can the answer be fractional?'
-p9094
+p9099
+aa(lp9100
+S'2016-10-20 04:48:38'
+p9101
+aS'no attempt'
+p9102
+aS'Can the answer be fractional?'
+p9103
 aass(g31
 g30
 g31
-tp9095
-(dp9096
+tp9104
+(dp9105
 (g206
 S'Brnkvu'
-p9097
-tp9098
-(lp9099
-(lp9100
+p9106
+tp9107
+(lp9108
+(lp9109
 S'2016-10-05 23:20:04'
-p9101
+p9110
 aS'81900'
-p9102
+p9111
 aS'Please write an expression, not the final numerical result.'
-p9103
+p9112
 aass.
