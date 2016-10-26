@@ -5,18 +5,19 @@
 # random variables (no need to import random library)
 
 n = 2*random.randrange(40,50,1)
+m = n-1
 
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
-solution1 = "1/2"
-solution2 = "1/4"
-solution3 = "0"
-solution4 = "1/2"
-solution5 = "0"
-solution6 = "6/4"
+solution1 = "(0.5*0)+(0.5*1)"
+solution2 = "(0.5*(0-0.5)^2)+(0.5*(1-0.5)^2)"
+solution3 = "0.5-0.5"
+solution4 = "0.25+0.25"
+solution5 = "0.5-(2*0.5)+0.5"
+solution6 = "0.25+(4*0.25)+0.25"
 solution7 = "0"
-solution8 = "{0}/4".format(n)
+solution8 = "{0}*0.25".format(n)
 
 # Group all solutions into a list
 solutions = [solution1,solution2,solution3,solution4,solution5,solution6,solution7,solution8]
@@ -44,7 +45,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<p>Let \(X_1, X_2, \ldots, X_{100}\) be the outcomes of \(100\) independent rolls of a fair coin.</p><p>\[P(X_i=0)=P(X_i=1)=0.5\]</p><p>1.\(\mathbb{E}(X_1) = \)</p>
+<p>Let \(X_1, X_2, \ldots, X_{100}\) be the outcomes of \(100\) independent rolls of a fair coin.</p><p>\[P(X_i=0)=P(X_i=1)=0.5\]</p><p>1.) \(\mathbb{E}(X_1) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>
@@ -52,7 +53,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>2.\(var(X_1) = \)</p>
+<p>2.) \(var(X_1) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution2\]">
       <textline/>
@@ -60,7 +61,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>Define the random variable \(X\) to be \(X_1 - X_2\).</p><p>3.\(\mathbb{E}(X) = \)</p>
+<p>Define the random variable \(X = X_1 - X_2\).</p><p>3.) \(\mathbb{E}(X) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution3\]">
       <textline/>
@@ -68,7 +69,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>4.\(var(X) = \)</p>
+<p>4.) \(var(X) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution4\]">
       <textline/>
@@ -76,7 +77,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p><em>Hint:</em> if \(X,Y\) are independent random variables then \(var(X+Y)=var(X)+var(Y)\)</p><p>Define the random variable \(Y = X_1 - 2X_2 + X_3\).</p><p>5.\(\mathbb{E}(Y) = \)</p>
+<p><em>Hint:</em> if \(X,Y\) are independent random variables then \(var(X\pm Y)=var(X)+var(Y)\)</p><p>Define the random variable \(Y = X_1 - 2X_2 + X_3\).</p><p>5.) \(\mathbb{E}(Y) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution5\]">
       <textline/>
@@ -84,7 +85,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>6.\(var(Y) = \)</p>
+<p>6.) \(var(Y) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution6\]">
       <textline/>
@@ -92,7 +93,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p><em>Hint:</em> if \(a\) is a constant and \(X\) a random variable, then \(var(aX)=a^2 var(X)\).</p><p>Define the random variable \(Z = X_1 - X_2 + X_3 - X_4 + ... + X_{$n-1} - X_{$n}\).</p><p>7.\(\mathbb{E}(Z) = \)</p>
+<p><em>Hint:</em> if \(a\) is a constant and \(X\) a random variable, then \(var(aX)=a^2 var(X)\).</p><p>Define the random variable \(Z = X_1 - X_2 + X_3 - X_4 + ... + X_{$m} - X_{$n}\).</p><p>7.) \(\mathbb{E}(Z) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution7\]">
       <textline/>
@@ -100,7 +101,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>8.\(var(Z) = \)</p>
+<p>8.) \(var(Z) = \)</p>
 
     <customresponse cfn="check" expect="\[$solution8\]">
       <textline/>

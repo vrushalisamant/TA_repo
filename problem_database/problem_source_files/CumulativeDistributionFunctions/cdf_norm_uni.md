@@ -18,15 +18,15 @@ solutions = [solution1, solution2, solution3, solution4, solution5]
 
 
 
-* Below is the CDF of a mixture distribution with *two* components.
+* Below is the cumulative distribution function (CDF) of a mixture distribution with *two* components.
 
 One of the components is a normal distribution; the other is a uniform distribution.
 
 All parameters of component distributions are small multiples of 0.5.
 
-Std of normal components take on value 0.5, 1 or 1.5.
+Standard deviation (std) of normal components take on value 0.5, 1 or 1.5.
 
-Component weights take on multiples of 0.05 and they need to sum to one.
+Component weights take on multiples of 0.05 and they need to sum to 1.
 
 <img src="/static/$img_file"/>
 
