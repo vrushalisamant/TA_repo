@@ -1,6 +1,6 @@
 # Make sure you name your file with className.py
 # To test your class make sure you add the local path of hint_class_helpers in your system path
-class Problem3Part1:
+class Prob3_Part4:
 	"""
 	Author: Vrushali Samant
 	Date: 10/24/2016
@@ -12,7 +12,7 @@ class Problem3Part1:
 		self.att_tree = params['att_tree'] #attempt tree
 		self.ans_tree = params['ans_tree'] #solution tree
 
-		return "Is the spread of the normal component 1. narrow; 2. average; 3. wide? (Enter the number corresponding to the correct answer).", "1."
+		return "If the uniform, non-curved component extends from [1,4], what is its b-value?", "4"
 
 	def get_problems(self):
 		self.problem_list = ["CumulativeDistributionFunctions/cdf_norm_uni"]
