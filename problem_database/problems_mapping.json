@@ -42,10 +42,10 @@
 
     "Week6_Problem1": "ExpectationVariance/ExpVarOfSum",
     "Week6_Problem2": "Covariance/ContingencyTables1",
-    "Week6_Problem3": "Covariance/ContingencyTables2",
+    "Week6_Problem3": "Covariance/ContingencyTables5",
     "Week6_Problem4": "MarkovChebyshev/MarkovInequality",
     "Week6_Problem5": "MarkovChebyshev/RiggedDice",
-    "Week6_Problem1": "MarkovChebyshev/chebyshev",
+    "Week6_Problem6": "MarkovChebyshev/chebyshev",
     
 	"Week8_Problem1": "ExponentialPoisson/poisson_zz",
 	"Week8_Problem3": "ExponentialPoisson/ur_pb_9_4",
