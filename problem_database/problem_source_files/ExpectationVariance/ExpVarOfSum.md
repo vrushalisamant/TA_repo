@@ -25,26 +25,26 @@ Let \\\(X_1, X_2, \cdots X_{5}\\\) be independent random variables with:
 
 Compute:
 
-* the mean of \\\(X_1 + X_2 + X_3 + X_4 + X_5\\\)
+* What is the mean of \\\(X_1 + X_2 + X_3 + X_4 + X_5\\\) ?
 
 [_]
 
-* ...and the variance
+* How about the variance?
 
 [_]
 
-* the mean of \\\(X_1 - X_2 + X_3 - X_4 + X_5\\\)
+* What is the mean of \\\(X_1 - X_2 + X_3 - X_4 + X_5\\\) ?
 
 [_]
 
-* ...and the variance 
+* How about the variance?
 
 [_]
 
-* the mean of \\\(X_1 - 2X_2 + X_3 - 2X_4 + X_5\\\)
+* What is the mean of \\\(X_1 - 2X_2 + X_3 - 2X_4 + X_5\\\) ?
 
 [_]
 
-* ...and the variance 
+* How about the variance?
 
 [_]

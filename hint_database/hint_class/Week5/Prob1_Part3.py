@@ -14,7 +14,7 @@ class Prob1_Part3:
         hint = ''
 
         try:
-            hint = 'Look at the previous blank;You have already known the starting point of the distribution.'
+            hint = 'You should have found the starting point of the distribution from previous part.'
 
             if len(hint) > 0:
                 return hint + 'Should the slope of uniform distribution function between the interval [a,b] ' \
