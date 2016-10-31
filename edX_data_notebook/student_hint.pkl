@@ -1,0 +1,6852 @@
+(dp0
+(S'4'
+p1
+S'5'
+p2
+S'3'
+p3
+tp4
+(dp5
+(S'226'
+p6
+S'zkvick'
+p7
+tp8
+(lp9
+(lp10
+S'2016-10-20 21:49:42'
+p11
+aS'12'
+p12
+aS'Please write an expression, not the final numerical result.'
+p13
+aas(S'339'
+p14
+S'jarninfang'
+p15
+tp16
+(lp17
+(lp18
+S'2016-10-21 07:03:25'
+p19
+aS'1'
+p20
+aS'Please write an expression, not the final numerical result.'
+p21
+aas(S'145'
+p22
+S'gtran'
+p23
+tp24
+(lp25
+(lp26
+S'2016-10-21 16:52:20'
+p27
+aS'1533939'
+p28
+aS'Please write an expression, not the final numerical result.'
+p29
+aass(g1
+S'8'
+p30
+S'2'
+p31
+tp32
+(dp33
+(S'342'
+p34
+S'JonDo'
+p35
+tp36
+(lp37
+(lp38
+S'2016-10-21 05:30:42'
+p39
+aS'0.25'
+p40
+aS'Please write an expression, not the final numerical result.'
+p41
+aass(g1
+g20
+g31
+tp42
+(dp43
+(S'220'
+p44
+S'Darthsneak'
+p45
+tp46
+(lp47
+(lp48
+S'2016-10-21 09:52:30'
+p49
+aS'0'
+p50
+aS'Please write an expression, not the final numerical result.'
+p51
+aa(lp52
+S'2016-10-21 09:52:33'
+p53
+ag50
+aS'Please write an expression, not the final numerical result.'
+p54
+aa(lp55
+S'2016-10-21 09:52:34'
+p56
+ag50
+aS'Please write an expression, not the final numerical result.'
+p57
+aa(lp58
+S'2016-10-21 09:52:34'
+p59
+ag50
+aS'Please write an expression, not the final numerical result.'
+p60
+aa(lp61
+S'2016-10-21 09:52:35'
+p62
+ag50
+aS'Please write an expression, not the final numerical result.'
+p63
+aas(S'299'
+p64
+S'MarianCrofts'
+p65
+tp66
+(lp67
+(lp68
+S'2016-10-20 05:06:07'
+p69
+aS'0.55'
+p70
+aS'Please write an expression, not the final numerical result.'
+p71
+aa(lp72
+S'2016-10-20 05:07:07'
+p73
+aS'0.3'
+p74
+aS'Please write an expression, not the final numerical result.'
+p75
+aa(lp76
+S'2016-10-20 05:08:49'
+p77
+aS'0.5'
+p78
+aS'Please write an expression, not the final numerical result.'
+p79
+aas(S'333'
+p80
+S'kevinpham'
+p81
+tp82
+(lp83
+(lp84
+S'2016-10-20 17:44:03'
+p85
+aS'.92'
+p86
+aS'Please write an expression, not the final numerical result.'
+p87
+aas(S'307'
+p88
+S'tqh003'
+p89
+tp90
+(lp91
+(lp92
+S'2016-10-21 05:10:08'
+p93
+aS'.4'
+p94
+aS'Please write an expression, not the final numerical result.'
+p95
+aas(S'33'
+p96
+S'nesengup'
+p97
+tp98
+(lp99
+(lp100
+S'2016-10-21 16:13:49'
+p101
+aS'0.16'
+p102
+aS'Please write an expression, not the final numerical result.'
+p103
+aas(S'308'
+p104
+S'AndyYeung'
+p105
+tp106
+(lp107
+(lp108
+S'2016-10-20 07:08:46'
+p109
+aS'.3+.2-.38/.2'
+p110
+aS'Can the answer be negative?'
+p111
+aas(S'45'
+p112
+S'erlau'
+p113
+tp114
+(lp115
+(lp116
+S'2016-10-21 05:16:48'
+p117
+aS'0.4'
+p118
+aS'Please write an expression, not the final numerical result.'
+p119
+aas(S'327'
+p120
+S'JessKwok'
+p121
+tp122
+(lp123
+(lp124
+S'2016-10-21 05:37:35'
+p125
+aS'4.2'
+p126
+aS'Please write an expression, not the final numerical result.'
+p127
+aas(S'329'
+p128
+S'nguyenbui'
+p129
+tp130
+(lp131
+(lp132
+S'2016-10-21 16:36:54'
+p133
+aS'0.5'
+p134
+aS'Please write an expression, not the final numerical result.'
+p135
+aas(S'269'
+p136
+S'danFlorencio'
+p137
+tp138
+(lp139
+(lp140
+S'2016-10-21 04:24:21'
+p141
+aS'0.6'
+p142
+aS'Please write an expression, not the final numerical result.'
+p143
+aass(g1
+g20
+g20
+tp144
+(dp145
+(S'330'
+p146
+S'zjteoh'
+p147
+tp148
+(lp149
+(lp150
+S'2016-10-21 03:46:20'
+p151
+aS'0.04'
+p152
+aS'Please write an expression, not the final numerical result.'
+p153
+aas(g44
+S'Darthsneak'
+p154
+tp155
+(lp156
+(lp157
+S'2016-10-21 09:55:21'
+p158
+aS'.54'
+p159
+aS'Please write an expression, not the final numerical result.'
+p160
+aa(lp161
+S'2016-10-21 09:55:21'
+p162
+aS'.54'
+p163
+aS'Please write an expression, not the final numerical result.'
+p164
+aa(lp165
+S'2016-10-21 09:55:21'
+p166
+aS'.54'
+p167
+aS'Please write an expression, not the final numerical result.'
+p168
+aa(lp169
+S'2016-10-21 09:55:21'
+p170
+aS'.54'
+p171
+aS'Please write an expression, not the final numerical result.'
+p172
+aas(S'310'
+p173
+S'KabirGogia'
+p174
+tp175
+(lp176
+(lp177
+S'2016-10-21 06:02:33'
+p178
+aS'.36'
+p179
+aS'Please write an expression, not the final numerical result.'
+p180
+aas(S'343'
+p181
+S'RyanJHill'
+p182
+tp183
+(lp184
+(lp185
+S'2016-10-21 09:50:18'
+p186
+aS'.08'
+p187
+aS'Please write an expression, not the final numerical result.'
+p188
+aas(g80
+S'kevinpham'
+p189
+tp190
+(lp191
+(lp192
+S'2016-10-20 17:44:06'
+p193
+aS'.58'
+p194
+aS'Please write an expression, not the final numerical result.'
+p195
+aas(S'79'
+p196
+S'DongyoonHan'
+p197
+tp198
+(lp199
+(lp200
+S'2016-10-21 05:48:49'
+p201
+aS''
+p202
+aS'Please write an expression, not the final numerical result.'
+p203
+aas(g88
+S'tqh003'
+p204
+tp205
+(lp206
+(lp207
+S'2016-10-21 05:08:45'
+p208
+aS'.6'
+p209
+aS'Please write an expression, not the final numerical result.'
+p210
+aas(g120
+S'JessKwok'
+p211
+tp212
+(lp213
+(lp214
+S'2016-10-21 05:30:05'
+p215
+aS'.36'
+p216
+aS'Please write an expression, not the final numerical result.'
+p217
+aa(lp218
+S'2016-10-21 05:34:29'
+p219
+aS'.25'
+p220
+aS'Please write an expression, not the final numerical result.'
+p221
+aas(g136
+S'danFlorencio'
+p222
+tp223
+(lp224
+(lp225
+S'2016-10-21 04:51:24'
+p226
+aS'.04'
+p227
+aS'Please write an expression, not the final numerical result.'
+p228
+aas(S'101'
+p229
+S'DRavida'
+p230
+tp231
+(lp232
+(lp233
+S'2016-10-20 09:27:03'
+p234
+aS'.1'
+p235
+aS'Please write an expression, not the final numerical result.'
+p236
+aass(g3
+g1
+g3
+tp237
+(dp238
+(S'116'
+p239
+S'djmoreno'
+p240
+tp241
+(lp242
+(lp243
+S'2016-10-14 23:24:29'
+p244
+aS'48'
+p245
+aS'Please write an expression, not the final numerical result.'
+p246
+aas(S'278'
+p247
+S'PhillipJo'
+p248
+tp249
+(lp250
+(lp251
+S'2016-10-14 19:26:04'
+p252
+ag1
+aS'Please write an expression, not the final numerical result.'
+p253
+aas(S'155'
+p254
+S'j2chang'
+p255
+tp256
+(lp257
+(lp258
+S'2016-10-14 19:57:02'
+p259
+aS'7'
+p260
+aS'Please write an expression, not the final numerical result.'
+p261
+aas(S'121'
+p262
+S'CharlesCruz'
+p263
+tp264
+(lp265
+(lp266
+S'2016-10-14 17:46:48'
+p267
+aS'12'
+p268
+aS'Please write an expression, not the final numerical result.'
+p269
+aas(S'138'
+p270
+S'pgupta'
+p271
+tp272
+(lp273
+(lp274
+S'2016-10-15 00:20:51'
+p275
+ag260
+aS'Please write an expression, not the final numerical result.'
+p276
+aass(g1
+g30
+g3
+tp277
+(dp278
+(S'66'
+p279
+S'SothyrakSrey'
+p280
+tp281
+(lp282
+(lp283
+S'2016-10-21 08:10:35'
+p284
+aS'1-((C(43,2)*C(43,2))/C(45,4))'
+p285
+aS'Can the answer be negative?'
+p286
+aas(S'84'
+p287
+S'erxue'
+p288
+tp289
+(lp290
+(lp291
+S'2016-10-21 23:40:55'
+p292
+aS'974169/980100'
+p293
+aS'Please write an expression, not the final numerical result.'
+p294
+aass(g1
+g31
+g1
+tp295
+(dp296
+(g136
+S'danFlorencio'
+p297
+tp298
+(lp299
+(lp300
+S'2016-10-21 05:12:10'
+p301
+ag3
+aS'Please write an expression, not the final numerical result.'
+p302
+aas(S'65'
+p303
+S'Derrick'
+p304
+tp305
+(lp306
+(lp307
+S'2016-10-21 08:38:15'
+p308
+aS'0.25'
+p309
+aS'Please write an expression, not the final numerical result.'
+p310
+aass(g2
+S'6'
+p311
+g3
+tp312
+(dp313
+(S'167'
+p314
+S'vincebai'
+p315
+tp316
+(lp317
+(lp318
+S'2016-10-26 09:08:57'
+p319
+aS'6.5'
+p320
+aS'Please write an expression, not the final numerical result.'
+p321
+aass(g31
+S'9'
+p322
+g31
+tp323
+(dp324
+(S'179'
+p325
+S'gstamp'
+p326
+tp327
+(lp328
+(lp329
+S'2016-10-06 07:15:05'
+p330
+aS'8835488640'
+p331
+aS'Please write an expression, not the final numerical result.'
+p332
+aa(lp333
+S'2016-10-06 07:19:38'
+p334
+aS'8835488640'
+p335
+aS'Please write an expression, not the final numerical result.'
+p336
+aa(lp337
+S'2016-10-06 07:24:02'
+p338
+aS'11441304000'
+p339
+aS'Please write an expression, not the final numerical result.'
+p340
+aa(lp341
+S'2016-10-06 07:24:47'
+p342
+aS'50*49*48*47*46*45'
+p343
+aS'Please write an expression, not the final numerical result.'
+p344
+aas(S'107'
+p345
+S'nanguian'
+p346
+tp347
+(lp348
+(lp349
+S'2016-10-05 23:04:28'
+p350
+aS'18009460'
+p351
+aS'Please write an expression, not the final numerical result.'
+p352
+aas(S'134'
+p353
+S'a1vinwu'
+p354
+tp355
+(lp356
+(lp357
+S'2016-10-06 04:23:21'
+p358
+aS'205476480'
+p359
+aS'Please write an expression, not the final numerical result.'
+p360
+aas(S'250'
+p361
+S'tdea'
+p362
+tp363
+(lp364
+(lp365
+S'2016-10-05 21:56:59'
+p366
+aS'15890700'
+p367
+aS'Please write an expression, not the final numerical result.'
+p368
+aass(g1
+g2
+g20
+tp369
+(dp370
+(S'112'
+p371
+S'mhbae'
+p372
+tp373
+(lp374
+(lp375
+S'2016-10-21 06:27:01'
+p376
+aS'20'
+p377
+aS'Please write an expression, not the final numerical result.'
+p378
+aas(g303
+S'Derrick'
+p379
+tp380
+(lp381
+(lp382
+S'2016-10-21 12:13:06'
+p383
+ag30
+aS'Please write an expression, not the final numerical result.'
+p384
+aas(g173
+S'KabirGogia'
+p385
+tp386
+(lp387
+(lp388
+S'2016-10-21 06:26:02'
+p389
+aS'(4/47)*(4/46)'
+p390
+aS'Can the answer be fractional?'
+p391
+aa(lp392
+S'2016-10-21 06:30:13'
+p393
+ag202
+aS'Can the answer be fractional?'
+p394
+aa(lp395
+S'2016-10-21 06:30:13'
+p396
+ag202
+aS'Can the answer be fractional?'
+p397
+aa(lp398
+S'2016-10-21 06:32:19'
+p399
+aS'(4/47)*(4/46)*2'
+p400
+aS'Can the answer be fractional?'
+p401
+aas(S'133'
+p402
+S'vnoxdev'
+p403
+tp404
+(lp405
+(lp406
+S'2016-10-20 23:29:41'
+p407
+aS'18'
+p408
+aS'Please write an expression, not the final numerical result.'
+p409
+aas(S'271'
+p410
+S'WilliamZhu'
+p411
+tp412
+(lp413
+(lp414
+S'2016-10-21 07:05:06'
+p415
+aS'32'
+p416
+aS'Please write an expression, not the final numerical result.'
+p417
+aas(g14
+S'jarninfang'
+p418
+tp419
+(lp420
+(lp421
+S'2016-10-21 07:03:17'
+p422
+aS'8/52 * 7/52'
+p423
+aS'Can the answer be fractional?'
+p424
+aa(lp425
+S'2016-10-21 07:03:22'
+p426
+aS'8/52 * 7/52'
+p427
+aS'Can the answer be fractional?'
+p428
+aa(lp429
+S'2016-10-21 07:03:22'
+p430
+aS'8/52 * 7/52'
+p431
+aS'Can the answer be fractional?'
+p432
+aa(lp433
+S'2016-10-21 07:03:22'
+p434
+aS'8/52 * 7/52'
+p435
+aS'Can the answer be fractional?'
+p436
+aa(lp437
+S'2016-10-21 07:05:05'
+p438
+aS'C(52, 2) * 7/52 * 8/52'
+p439
+aS'Can the answer be fractional?'
+p440
+aa(lp441
+S'2016-10-21 08:04:49'
+p442
+aS'8/47 * 7/46'
+p443
+aS'Can the answer be fractional?'
+p444
+aa(lp445
+S'2016-10-21 08:18:40'
+p446
+ag30
+aS'Please write an expression, not the final numerical result.'
+p447
+aas(S'335'
+p448
+S'sokunev'
+p449
+tp450
+(lp451
+(lp452
+S'2016-10-21 09:14:27'
+p453
+aS'(2/13) * (1/13)'
+p454
+aS'Can the answer be fractional?'
+p455
+aas(S'120'
+p456
+S'SidneyNguyen'
+p457
+tp458
+(lp459
+(lp460
+S'2016-10-20 05:17:41'
+p461
+ag20
+aS'Please write an expression, not the final numerical result.'
+p462
+aas(g22
+S'gtran'
+p463
+tp464
+(lp465
+(lp466
+S'2016-10-21 16:52:14'
+p467
+aS'32'
+p468
+aS'Please write an expression, not the final numerical result.'
+p469
+aas(g6
+S'zkvick'
+p470
+tp471
+(lp472
+(lp473
+S'2016-10-20 21:49:40'
+p474
+ag30
+aS'Please write an expression, not the final numerical result.'
+p475
+aas(g279
+S'SothyrakSrey'
+p476
+tp477
+(lp478
+(lp479
+S'2016-10-21 04:23:24'
+p480
+ag20
+aS'Please write an expression, not the final numerical result.'
+p481
+aas(g196
+S'DongyoonHan'
+p482
+tp483
+(lp484
+(lp485
+S'2016-10-21 08:16:20'
+p486
+ag20
+aS'Please write an expression, not the final numerical result.'
+p487
+aas(S'332'
+p488
+S'BrianaW'
+p489
+tp490
+(lp491
+(lp492
+S'2016-10-20 18:50:01'
+p493
+ag260
+aS'Please write an expression, not the final numerical result.'
+p494
+aass(g3
+g31
+g260
+tp495
+(dp496
+(S'131'
+p497
+S'ETDuong'
+p498
+tp499
+(lp500
+(lp501
+S'2016-10-14 19:49:46'
+p502
+aS'.0546875005'
+p503
+aS'Please write an expression, not the final numerical result.'
+p504
+aas(S'127'
+p505
+S'karl-rummler'
+p506
+tp507
+(lp508
+(lp509
+S'2016-10-14 18:54:17'
+p510
+aS'1 - ((C(10,8) + C(10,9) + 1)*.5^10) * 317'
+p511
+aS'Can the answer be negative?'
+p512
+aas(g325
+S'gstamp'
+p513
+tp514
+(lp515
+(lp516
+S'2016-10-14 18:10:07'
+p517
+aS'0.99999999747337356688'
+p518
+aS'Please write an expression, not the final numerical result.'
+p519
+aas(S'62'
+p520
+S'Steven_Natalius'
+p521
+tp522
+(lp523
+(lp524
+S'2016-10-14 18:52:48'
+p525
+aS'1-(C(365,1)+C(365,0))*((C(10,0)+C(10,1)+C(10,2))/(2^10))'
+p526
+aS'Can the answer be negative?'
+p527
+aa(lp528
+S'2016-10-14 18:52:54'
+p529
+aS'1-(C(365,1)+C(365,0))*((C(10,0)+C(10,1)+C(10,2))/(2^10))'
+p530
+aS'Can the answer be negative?'
+p531
+aas(g270
+S'pgupta'
+p532
+tp533
+(lp534
+(lp535
+S'2016-10-15 00:11:18'
+p536
+aS'1 - 2^10'
+p537
+aS'Can the answer be negative?'
+p538
+aass(g1
+g31
+g2
+tp539
+(dp540
+(g136
+S'danFlorencio'
+p541
+tp542
+(lp543
+(lp544
+S'2016-10-21 05:12:11'
+p545
+ag3
+aS'Please write an expression, not the final numerical result.'
+p546
+aass(g2
+g311
+g2
+tp547
+(dp548
+(g402
+S'vnoxdev'
+p549
+tp550
+(lp551
+(lp552
+S'2016-10-25 20:30:48'
+p553
+ag2
+aS'Please write an expression, not the final numerical result.'
+p554
+aass(g3
+g322
+g20
+tp555
+(dp556
+(S'115'
+p557
+S'Max'
+p558
+tp559
+(lp560
+(lp561
+S'2016-10-14 15:48:29'
+p562
+aS'154440'
+p563
+aS'Please write an expression, not the final numerical result.'
+p564
+aass(g3
+g1
+g20
+tp565
+(dp566
+(S'261'
+p567
+S'ChenquanJiang'
+p568
+tp569
+(lp570
+(lp571
+S'2016-10-14 23:47:59'
+p572
+aS'120'
+p573
+aS'Please write an expression, not the final numerical result.'
+p574
+aas(g270
+S'pgupta'
+p575
+tp576
+(lp577
+(lp578
+S'2016-10-14 23:53:14'
+p579
+aS'32'
+p580
+aS'Please write an expression, not the final numerical result.'
+p581
+aas(S'203'
+p582
+S'ccaine'
+p583
+tp584
+(lp585
+(lp586
+S'2016-10-14 17:52:20'
+p587
+ag1
+aS'Please write an expression, not the final numerical result.'
+p588
+aas(S'345'
+p589
+S'wesleymwong'
+p590
+tp591
+(lp592
+(lp593
+S'2016-10-14 23:16:49'
+p594
+ag30
+aS'Please write an expression, not the final numerical result.'
+p595
+aas(g488
+S'BrianaW'
+p596
+tp597
+(lp598
+(lp599
+S'2016-10-14 22:04:12'
+p600
+aS'6!/(6!*4!)'
+p601
+aS'Can the answer be fractional?'
+p602
+aa(lp603
+S'2016-10-14 22:07:10'
+p604
+aS'32'
+p605
+aS'Please write an expression, not the final numerical result.'
+p606
+aas(S'54'
+p607
+S'Jyrodgers'
+p608
+tp609
+(lp610
+(lp611
+S'2016-10-14 15:58:53'
+p612
+aS'720'
+p613
+aS'Please write an expression, not the final numerical result.'
+p614
+aas(g262
+S'CharlesCruz'
+p615
+tp616
+(lp617
+(lp618
+S'2016-10-14 17:42:30'
+p619
+ag1
+aS'Please write an expression, not the final numerical result.'
+p620
+aa(lp621
+S'2016-10-14 17:46:41'
+p622
+aS'35'
+p623
+aS'Please write an expression, not the final numerical result.'
+p624
+aas(S'292'
+p625
+S'yaojeffrey'
+p626
+tp627
+(lp628
+(lp629
+S'2016-10-14 22:22:56'
+p630
+ag1
+aS'Please write an expression, not the final numerical result.'
+p631
+aass(g3
+g322
+g31
+tp632
+(dp633
+(S'273'
+p634
+S'jewidjaj'
+p635
+tp636
+(lp637
+(lp638
+S'2016-10-14 17:59:00'
+p639
+aS'15'
+p640
+aS'Please write an expression, not the final numerical result.'
+p641
+aas(g44
+S'Darthsneak'
+p642
+tp643
+(lp644
+(lp645
+S'2016-10-14 10:08:33'
+p646
+aS'495'
+p647
+aS'Please write an expression, not the final numerical result.'
+p648
+aas(S'284'
+p649
+S'shravangrandhi'
+p650
+tp651
+(lp652
+(lp653
+S'2016-10-14 10:12:59'
+p654
+aS'462'
+p655
+aS'Please write an expression, not the final numerical result.'
+p656
+aas(S'252'
+p657
+S'rdabir'
+p658
+tp659
+(lp660
+(lp661
+S'2016-10-14 18:42:17'
+p662
+aS'330'
+p663
+aS'Please write an expression, not the final numerical result.'
+p664
+aa(lp665
+S'2016-10-14 18:42:18'
+p666
+aS'330'
+p667
+aS'Please write an expression, not the final numerical result.'
+p668
+aass(g1
+g31
+g260
+tp669
+(dp670
+(S'183'
+p671
+S'mninette'
+p672
+tp673
+(lp674
+(lp675
+S'2016-10-21 16:02:25'
+p676
+aS'(.3+.25+.25-.4-.6-.3-.25-.25+.3+.25-.4+.3+.25-.45+.25+.25-.4)/(.25+.25-.4)'
+p677
+aS'Can the answer be negative?'
+p678
+aas(g80
+S'kevinpham'
+p679
+tp680
+(lp681
+(lp682
+S'2016-10-20 18:03:33'
+p683
+aS'.5'
+p684
+aS'Please write an expression, not the final numerical result.'
+p685
+aas(S'264'
+p686
+S'cshmerli'
+p687
+tp688
+(lp689
+(lp690
+S'2016-10-21 00:55:47'
+p691
+aS'(.25-.25-.25+((.25+.25)-.4)+((.25+.25)-.4)+((.25+.25)-.4)+.55)/((.25+.25)-.4)'
+p692
+aS'Can the answer be fractional?'
+p693
+aas(g229
+S'DRavida'
+p694
+tp695
+(lp696
+(lp697
+S'2016-10-20 21:53:21'
+p698
+aS'.7/(.3+.4-.5)'
+p699
+aS'Can the answer be fractional?'
+p700
+aas(g303
+S'Derrick'
+p701
+tp702
+(lp703
+(lp704
+S'2016-10-21 08:38:28'
+p705
+aS'0.25'
+p706
+aS'Please write an expression, not the final numerical result.'
+p707
+aass(g3
+g322
+g3
+tp708
+(dp709
+(g44
+S'Darthsneak'
+p710
+tp711
+(lp712
+(lp713
+S'2016-10-14 10:08:35'
+p714
+aS'126'
+p715
+aS'Please write an expression, not the final numerical result.'
+p716
+aas(g657
+S'rdabir'
+p717
+tp718
+(lp719
+(lp720
+S'2016-10-14 19:14:44'
+p721
+aS'165'
+p722
+aS'Please write an expression, not the final numerical result.'
+p723
+aass(g31
+g260
+g31
+tp724
+(dp725
+(S'186'
+p726
+S'URajkumar'
+p727
+tp728
+(lp729
+(lp730
+S'2016-10-06 01:04:23'
+p731
+aS'13800'
+p732
+aS'Please write an expression, not the final numerical result.'
+p733
+aas(S'337'
+p734
+S'ddantas'
+p735
+tp736
+(lp737
+(lp738
+S'2016-10-06 06:49:42'
+p739
+aS'15625'
+p740
+aS'Please write an expression, not the final numerical result.'
+p741
+aass(g1
+g311
+g31
+tp742
+(dp743
+(S'123'
+p744
+S'msp'
+p745
+tp746
+(lp747
+(lp748
+S'2016-10-21 05:19:39'
+p749
+aS'((1-C(43,1))*(C(46,1)*C(4,1)+C(46,1)*C(4,1)))/C(47,2)'
+p750
+aS'Can the answer be negative?'
+p751
+aas(g229
+S'DRavida'
+p752
+tp753
+(lp754
+(lp755
+S'2016-10-21 04:56:23'
+p756
+ag50
+aS'Please write an expression, not the final numerical result.'
+p757
+aas(S'265'
+p758
+S'NickWong'
+p759
+tp760
+(lp761
+(lp762
+S'2016-10-21 05:27:25'
+p763
+aS'32'
+p764
+aS'Please write an expression, not the final numerical result.'
+p765
+aass(g3
+g2
+g20
+tp766
+(dp767
+(g22
+S'gtran'
+p768
+tp769
+(lp770
+(lp771
+S'2016-10-14 17:27:09'
+p772
+aS'286'
+p773
+aS'Please write an expression, not the final numerical result.'
+p774
+aass(g1
+g1
+g20
+tp775
+(dp776
+(S'224'
+p777
+S'katielau'
+p778
+tp779
+(lp780
+(lp781
+S'2016-10-20 21:16:19'
+p782
+aS'.06'
+p783
+aS'Please write an expression, not the final numerical result.'
+p784
+aas(S'81'
+p785
+S'yjx99335'
+p786
+tp787
+(lp788
+(lp789
+S'2016-10-20 10:41:10'
+p790
+ag311
+aS'Please write an expression, not the final numerical result.'
+p791
+aass(g3
+g20
+g1
+tp792
+(dp793
+(S'297'
+p794
+S'Brnkvu'
+p795
+tp796
+(lp797
+(lp798
+S'2016-10-14 23:42:42'
+p799
+ag311
+aS'Please write an expression, not the final numerical result.'
+p800
+aas(g104
+S'AndyYeung'
+p801
+tp802
+(lp803
+(lp804
+S'2016-10-14 21:27:12'
+p805
+ag2
+aS'Please write an expression, not the final numerical result.'
+p806
+aas(g239
+S'djmoreno'
+p807
+tp808
+(lp809
+(lp810
+S'2016-10-15 00:48:12'
+p811
+aS'24'
+p812
+aS'Please write an expression, not the final numerical result.'
+p813
+aas(S'195'
+p814
+S'a9zhao'
+p815
+tp816
+(lp817
+(lp818
+S'2016-10-14 20:16:58'
+p819
+ag2
+aS'Please write an expression, not the final numerical result.'
+p820
+aa(lp821
+S'2016-10-14 20:18:48'
+p822
+ag2
+aS'Please write an expression, not the final numerical result.'
+p823
+aas(g345
+S'nanguian'
+p824
+tp825
+(lp826
+(lp827
+S'2016-10-14 22:18:53'
+p828
+ag3
+aS'Please write an expression, not the final numerical result.'
+p829
+aa(lp830
+S'2016-10-14 22:26:20'
+p831
+ag3
+aS'Please write an expression, not the final numerical result.'
+p832
+aas(g726
+S'URajkumar'
+p833
+tp834
+(lp835
+(lp836
+S'2016-10-14 22:29:15'
+p837
+ag3
+aS'Please write an expression, not the final numerical result.'
+p838
+aas(g505
+S'karl-rummler'
+p839
+tp840
+(lp841
+(lp842
+S'2016-10-14 20:23:22'
+p843
+ag3
+aS'Please write an expression, not the final numerical result.'
+p844
+aas(g657
+S'rdabir'
+p845
+tp846
+(lp847
+(lp848
+S'2016-10-14 19:37:45'
+p849
+ag2
+aS'Please write an expression, not the final numerical result.'
+p850
+aa(lp851
+S'2016-10-14 21:13:31'
+p852
+ag2
+aS'Please write an expression, not the final numerical result.'
+p853
+aa(lp854
+S'2016-10-14 21:13:32'
+p855
+ag2
+aS'Please write an expression, not the final numerical result.'
+p856
+aa(lp857
+S'2016-10-14 21:35:48'
+p858
+ag2
+aS'Please write an expression, not the final numerical result.'
+p859
+aas(g229
+S'DRavida'
+p860
+tp861
+(lp862
+(lp863
+S'2016-10-14 18:17:43'
+p864
+ag3
+aS'Please write an expression, not the final numerical result.'
+p865
+aa(lp866
+S'2016-10-14 22:16:22'
+p867
+ag3
+aS'Please write an expression, not the final numerical result.'
+p868
+aas(S'256'
+p869
+S'HansGamboa'
+p870
+tp871
+(lp872
+(lp873
+S'2016-10-14 23:11:01'
+p874
+aS'24'
+p875
+aS'Please write an expression, not the final numerical result.'
+p876
+aas(g128
+S'nguyenbui'
+p877
+tp878
+(lp879
+(lp880
+S'2016-10-14 20:09:54'
+p881
+aS'12'
+p882
+aS'Please write an expression, not the final numerical result.'
+p883
+aas(S'348'
+p884
+S'gurkiratsingh'
+p885
+tp886
+(lp887
+(lp888
+S'2016-10-14 23:04:07'
+p889
+ag3
+aS'Please write an expression, not the final numerical result.'
+p890
+aas(S'255'
+p891
+S'Nikan_Aminian'
+p892
+tp893
+(lp894
+(lp895
+S'2016-10-14 21:18:27'
+p896
+aS'1 - C(4,2)'
+p897
+aS'Can the answer be negative?'
+p898
+aa(lp899
+S'2016-10-14 21:53:01'
+p900
+aS'16'
+p901
+aS'Please write an expression, not the final numerical result.'
+p902
+aas(S'108'
+p903
+S'JaceChan'
+p904
+tp905
+(lp906
+(lp907
+S'2016-10-14 23:15:57'
+p908
+ag3
+aS'Please write an expression, not the final numerical result.'
+p909
+aas(S'315'
+p910
+S'FrankHuang'
+p911
+tp912
+(lp913
+(lp914
+S'2016-10-14 17:18:53'
+p915
+ag2
+aS'Please write an expression, not the final numerical result.'
+p916
+aa(lp917
+S'2016-10-14 17:18:59'
+p918
+ag2
+aS'Please write an expression, not the final numerical result.'
+p919
+aa(lp920
+S'2016-10-14 17:18:59'
+p921
+ag2
+aS'Please write an expression, not the final numerical result.'
+p922
+aas(g671
+S'mninette'
+p923
+tp924
+(lp925
+(lp926
+S'2016-10-14 19:32:02'
+p927
+ag2
+aS'Please write an expression, not the final numerical result.'
+p928
+aas(S'211'
+p929
+S'KimberlyLy'
+p930
+tp931
+(lp932
+(lp933
+S'2016-10-14 18:09:36'
+p934
+ag322
+aS'Please write an expression, not the final numerical result.'
+p935
+aa(lp936
+S'2016-10-14 18:36:55'
+p937
+ag3
+aS'Please write an expression, not the final numerical result.'
+p938
+aas(g488
+S'BrianaW'
+p939
+tp940
+(lp941
+(lp942
+S'2016-10-14 23:46:52'
+p943
+ag3
+aS'Please write an expression, not the final numerical result.'
+p944
+aas(S'352'
+p945
+S'whcombs'
+p946
+tp947
+(lp948
+(lp949
+S'2016-10-14 16:00:30'
+p950
+ag31
+aS'Please write an expression, not the final numerical result.'
+p951
+aas(S'189'
+p952
+S'ottojursch'
+p953
+tp954
+(lp955
+(lp956
+S'2016-10-14 21:16:10'
+p957
+aS'49'
+p958
+aS'Please write an expression, not the final numerical result.'
+p959
+aa(lp960
+S'2016-10-14 21:16:10'
+p961
+aS'49'
+p962
+aS'Please write an expression, not the final numerical result.'
+p963
+aas(S'104'
+p964
+S'heitorschueroff'
+p965
+tp966
+(lp967
+(lp968
+S'2016-10-14 20:06:08'
+p969
+aS'C(5,4) - C(5,2)'
+p970
+aS'Can the answer be negative?'
+p971
+aas(g136
+S'danFlorencio'
+p972
+tp973
+(lp974
+(lp975
+S'2016-10-14 21:13:13'
+p976
+ag30
+aS'Please write an expression, not the final numerical result.'
+p977
+aas(S'139'
+p978
+S'RodrigoM'
+p979
+tp980
+(lp981
+(lp982
+S'2016-10-14 23:50:33'
+p983
+ag1
+aS'Please write an expression, not the final numerical result.'
+p984
+aa(lp985
+S'2016-10-15 00:18:38'
+p986
+ag1
+aS'Please write an expression, not the final numerical result.'
+p987
+aas(S'241'
+p988
+S'nolin'
+p989
+tp990
+(lp991
+(lp992
+S'2016-10-15 00:26:42'
+p993
+ag2
+aS'Please write an expression, not the final numerical result.'
+p994
+aas(g14
+S'jarninfang'
+p995
+tp996
+(lp997
+(lp998
+S'2016-10-14 23:12:20'
+p999
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1000
+aa(lp1001
+S'2016-10-14 23:37:56'
+p1002
+aS'36'
+p1003
+aS'Please write an expression, not the final numerical result.'
+p1004
+aa(lp1005
+S'2016-10-14 23:42:01'
+p1006
+ag311
+aS'Please write an expression, not the final numerical result.'
+p1007
+aas(g589
+S'wesleymwong'
+p1008
+tp1009
+(lp1010
+(lp1011
+S'2016-10-14 20:14:26'
+p1012
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1013
+aas(g744
+S'msp'
+p1014
+tp1015
+(lp1016
+(lp1017
+S'2016-10-14 22:05:06'
+p1018
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1019
+aas(g649
+S'shravangrandhi'
+p1020
+tp1021
+(lp1022
+(lp1023
+S'2016-10-14 20:33:47'
+p1024
+aS'144'
+p1025
+aS'Please write an expression, not the final numerical result.'
+p1026
+aa(lp1027
+S'2016-10-14 20:39:31'
+p1028
+aS'144'
+p1029
+aS'Please write an expression, not the final numerical result.'
+p1030
+aas(S'285'
+p1031
+S'KevinChrisayrton'
+p1032
+tp1033
+(lp1034
+(lp1035
+S'2016-10-14 20:31:01'
+p1036
+ag2
+aS'Please write an expression, not the final numerical result.'
+p1037
+aa(lp1038
+S'2016-10-14 20:31:03'
+p1039
+ag2
+aS'Please write an expression, not the final numerical result.'
+p1040
+aa(lp1041
+S'2016-10-14 21:16:00'
+p1042
+aS'220'
+p1043
+aS'Please write an expression, not the final numerical result.'
+p1044
+aas(g303
+S'Derrick'
+p1045
+tp1046
+(lp1047
+(lp1048
+S'2016-10-14 21:41:52'
+p1049
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1050
+aass(g31
+g260
+g20
+tp1051
+(dp1052
+(S'109'
+p1053
+S'AlexM'
+p1054
+tp1055
+(lp1056
+(lp1057
+S'2016-10-04 09:05:56'
+p1058
+ag202
+aS'Please write an expression, not the final numerical result.'
+p1059
+aas(g734
+S'ddantas'
+p1060
+tp1061
+(lp1062
+(lp1063
+S'2016-10-06 06:40:39'
+p1064
+aS'26'
+p1065
+aS'Please write an expression, not the final numerical result.'
+p1066
+aas(g353
+S'a1vinwu'
+p1067
+tp1068
+(lp1069
+(lp1070
+S'2016-10-06 03:50:43'
+p1071
+aS'11/36'
+p1072
+aS'Can the answer be fractional?'
+p1073
+aas(S'340'
+p1074
+S'anMihaly'
+p1075
+tp1076
+(lp1077
+(lp1078
+S'2016-10-05 22:51:12'
+p1079
+ag311
+aS'Please write an expression, not the final numerical result.'
+p1080
+aa(lp1081
+S'2016-10-05 22:58:16'
+p1082
+aS'11/36'
+p1083
+aS'Can the answer be fractional?'
+p1084
+aas(g726
+S'URajkumar'
+p1085
+tp1086
+(lp1087
+(lp1088
+S'2016-10-06 01:01:18'
+p1089
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1090
+aa(lp1091
+S'2016-10-06 01:06:34'
+p1092
+aS'3/36'
+p1093
+aS'Can the answer be fractional?'
+p1094
+aas(S'283'
+p1095
+S'kkhuong'
+p1096
+tp1097
+(lp1098
+(lp1099
+S'2016-10-06 02:25:12'
+p1100
+aS'(6*6 - 5*5)/2'
+p1101
+aS'Can the answer be fractional?'
+p1102
+aass(g1
+g1
+g31
+tp1103
+(dp1104
+(g247
+S'PhillipJo'
+p1105
+tp1106
+(lp1107
+(lp1108
+S'2016-10-21 06:25:11'
+p1109
+aS'0.1'
+p1110
+aS'Please write an expression, not the final numerical result.'
+p1111
+aas(g785
+S'yjx99335'
+p1112
+tp1113
+(lp1114
+(lp1115
+S'2016-10-20 10:40:57'
+p1116
+aS'10'
+p1117
+aS'Please write an expression, not the final numerical result.'
+p1118
+aass(g3
+g20
+g2
+tp1119
+(dp1120
+(g910
+S'FrankHuang'
+p1121
+tp1122
+(lp1123
+(lp1124
+S'2016-10-14 17:18:13'
+p1125
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1126
+aa(lp1127
+S'2016-10-14 17:20:17'
+p1128
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1129
+aas(g814
+S'a9zhao'
+p1130
+tp1131
+(lp1132
+(lp1133
+S'2016-10-14 20:14:35'
+p1134
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1135
+aas(g671
+S'mninette'
+p1136
+tp1137
+(lp1138
+(lp1139
+S'2016-10-14 20:37:42'
+p1140
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1141
+aas(S'113'
+p1142
+S'cwasley'
+p1143
+tp1144
+(lp1145
+(lp1146
+S'2016-10-15 00:39:42'
+p1147
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1148
+aas(g239
+S'djmoreno'
+p1149
+tp1150
+(lp1151
+(lp1152
+S'2016-10-15 00:50:28'
+p1153
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1154
+aas(g120
+S'JessKwok'
+p1155
+tp1156
+(lp1157
+(lp1158
+S'2016-10-14 18:48:48'
+p1159
+ag31
+aS'Please write an expression, not the final numerical result.'
+p1160
+aas(S'304'
+p1161
+S'mtashman'
+p1162
+tp1163
+(lp1164
+(lp1165
+S'2016-10-14 18:52:58'
+p1166
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1167
+aas(g649
+S'shravangrandhi'
+p1168
+tp1169
+(lp1170
+(lp1171
+S'2016-10-14 20:50:30'
+p1172
+aS'.01472'
+p1173
+aS'Please write an expression, not the final numerical result.'
+p1174
+aas(g136
+S'danFlorencio'
+p1175
+tp1176
+(lp1177
+(lp1178
+S'2016-10-14 21:13:15'
+p1179
+aS'28'
+p1180
+aS'Please write an expression, not the final numerical result.'
+p1181
+aas(g1095
+S'kkhuong'
+p1182
+tp1183
+(lp1184
+(lp1185
+S'2016-10-14 20:29:39'
+p1186
+ag20
+aS'Please write an expression, not the final numerical result.'
+p1187
+aas(g657
+S'rdabir'
+p1188
+tp1189
+(lp1190
+(lp1191
+S'2016-10-14 21:12:34'
+p1192
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1193
+aa(lp1194
+S'2016-10-14 21:13:01'
+p1195
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1196
+aas(g1031
+S'KevinChrisayrton'
+p1197
+tp1198
+(lp1199
+(lp1200
+S'2016-10-14 20:25:37'
+p1201
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1202
+aa(lp1203
+S'2016-10-14 20:31:05'
+p1204
+ag2
+aS'Please write an expression, not the final numerical result.'
+p1205
+aass(g1
+g2
+g1
+tp1206
+(dp1207
+(g6
+S'zkvick'
+p1208
+tp1209
+(lp1210
+(lp1211
+S'2016-10-20 21:49:43'
+p1212
+ag20
+aS'Please write an expression, not the final numerical result.'
+p1213
+aas(g744
+S'msp'
+p1214
+tp1215
+(lp1216
+(lp1217
+S'2016-10-21 15:44:52'
+p1218
+aS'(4*(C(47,1)-(C(43,1)*C(4,1))))+4^2/C(47,2)'
+p1219
+aS'Can the answer be negative?'
+p1220
+aas(S'35'
+p1221
+S'adejesus'
+p1222
+tp1223
+(lp1224
+(lp1225
+S'2016-10-20 06:54:24'
+p1226
+aS'(C(47,2) - [C(4,1) * C(39,2)] + (C(47,2) - C(43,2))) / C(47,2)'
+p1227
+aS'Can the answer be negative?'
+p1228
+aas(S'43'
+p1229
+S'pyae'
+p1230
+tp1231
+(lp1232
+(lp1233
+S'2016-10-20 08:53:35'
+p1234
+aS'0.179'
+p1235
+aS'Please write an expression, not the final numerical result.'
+p1236
+aass(g1
+g2
+g31
+tp1237
+(dp1238
+(g794
+S'Brnkvu'
+p1239
+tp1240
+(lp1241
+(lp1242
+S'2016-10-20 23:42:52'
+p1243
+aS'12'
+p1244
+aS'Please write an expression, not the final numerical result.'
+p1245
+aas(g247
+S'PhillipJo'
+p1246
+tp1247
+(lp1248
+(lp1249
+S'2016-10-21 08:21:55'
+p1250
+aS'140'
+p1251
+aS'Please write an expression, not the final numerical result.'
+p1252
+aa(lp1253
+S'2016-10-21 08:21:56'
+p1254
+aS'140'
+p1255
+aS'Please write an expression, not the final numerical result.'
+p1256
+aas(g410
+S'WilliamZhu'
+p1257
+tp1258
+(lp1259
+(lp1260
+S'2016-10-21 07:05:05'
+p1261
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1262
+aas(g14
+S'jarninfang'
+p1263
+tp1264
+(lp1265
+(lp1266
+S'2016-10-21 07:03:23'
+p1267
+aS'8/52'
+p1268
+aS'Can the answer be fractional?'
+p1269
+aas(g448
+S'sokunev'
+p1270
+tp1271
+(lp1272
+(lp1273
+S'2016-10-21 09:14:20'
+p1274
+aS'1 - ((12/13) * (12/13))'
+p1275
+aS'Can the answer be fractional?'
+p1276
+aas(g744
+S'msp'
+p1277
+tp1278
+(lp1279
+(lp1280
+S'2016-10-21 15:44:49'
+p1281
+aS'4*(C(47,1)-(C(43,1)*C(4,1)))'
+p1282
+aS'Can the answer be negative?'
+p1283
+aas(S'156'
+p1284
+S'kevinmc'
+p1285
+tp1286
+(lp1287
+(lp1288
+S'2016-10-21 10:56:43'
+p1289
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1290
+aas(g22
+S'gtran'
+p1291
+tp1292
+(lp1293
+(lp1294
+S'2016-10-21 16:52:17'
+p1295
+aS'184'
+p1296
+aS'Please write an expression, not the final numerical result.'
+p1297
+aas(g6
+S'zkvick'
+p1298
+tp1299
+(lp1300
+(lp1301
+S'2016-10-20 21:49:42'
+p1302
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1303
+aa(lp1304
+S'2016-10-20 21:56:44'
+p1305
+aS'C(47,2)-(43*42)'
+p1306
+aS'Can the answer be negative?'
+p1307
+aa(lp1308
+S'2016-10-20 21:57:24'
+p1309
+aS'C(47,2)-C(47,43)'
+p1310
+aS'Can the answer be negative?'
+p1311
+aas(g196
+S'DongyoonHan'
+p1312
+tp1313
+(lp1314
+(lp1315
+S'2016-10-21 08:35:25'
+p1316
+aS'184'
+p1317
+aS'Please write an expression, not the final numerical result.'
+p1318
+aas(g884
+S'gurkiratsingh'
+p1319
+tp1320
+(lp1321
+(lp1322
+S'2016-10-21 10:07:40'
+p1323
+aS'198'
+p1324
+aS'Please write an expression, not the final numerical result.'
+p1325
+aass(g3
+g20
+g311
+tp1326
+(dp1327
+(g671
+S'mninette'
+p1328
+tp1329
+(lp1330
+(lp1331
+S'2016-10-14 18:47:14'
+p1332
+aS'C(4,1)*C(39,2)/C(52,5)'
+p1333
+aS'Can the answer be fractional?'
+p1334
+aas(g136
+S'danFlorencio'
+p1335
+tp1336
+(lp1337
+(lp1338
+S'2016-10-14 22:38:27'
+p1339
+aS'3456'
+p1340
+aS'Please write an expression, not the final numerical result.'
+p1341
+aas(g649
+S'shravangrandhi'
+p1342
+tp1343
+(lp1344
+(lp1345
+S'2016-10-14 20:33:49'
+p1346
+aS'570240'
+p1347
+aS'Please write an expression, not the final numerical result.'
+p1348
+aas(g1074
+S'anMihaly'
+p1349
+tp1350
+(lp1351
+(lp1352
+S'2016-10-14 22:27:42'
+p1353
+aS'712842'
+p1354
+aS'Please write an expression, not the final numerical result.'
+p1355
+aas(S'164'
+p1356
+S'HaeJoonYoon'
+p1357
+tp1358
+(lp1359
+(lp1360
+S'2016-10-14 18:12:03'
+p1361
+aS'57798'
+p1362
+aS'Please write an expression, not the final numerical result.'
+p1363
+aa(lp1364
+S'2016-10-14 18:12:11'
+p1365
+aS'57798'
+p1366
+aS'Please write an expression, not the final numerical result.'
+p1367
+aass(g3
+g311
+g31
+tp1368
+(dp1369
+(S'111'
+p1370
+S'arman'
+p1371
+tp1372
+(lp1373
+(lp1374
+S'2016-10-14 22:32:47'
+p1375
+aS'2600'
+p1376
+aS'Please write an expression, not the final numerical result.'
+p1377
+aas(g794
+S'Brnkvu'
+p1378
+tp1379
+(lp1380
+(lp1381
+S'2016-10-14 20:17:10'
+p1382
+aS'3251'
+p1383
+aS'Please write an expression, not the final numerical result.'
+p1384
+aas(S'262'
+p1385
+S'yiw392'
+p1386
+tp1387
+(lp1388
+(lp1389
+S'2016-10-15 00:13:10'
+p1390
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1391
+aas(S'132'
+p1392
+S'smkurtz'
+p1393
+tp1394
+(lp1395
+(lp1396
+S'2016-10-14 21:02:54'
+p1397
+aS'655'
+p1398
+aS'Please write an expression, not the final numerical result.'
+p1399
+aa(lp1400
+S'2016-10-14 21:02:55'
+p1401
+aS'655'
+p1402
+aS'Please write an expression, not the final numerical result.'
+p1403
+aas(g1142
+S'cwasley'
+p1404
+tp1405
+(lp1406
+(lp1407
+S'2016-10-14 23:46:03'
+p1408
+aS'1951'
+p1409
+aS'Please write an expression, not the final numerical result.'
+p1410
+aas(g567
+S'ChenquanJiang'
+p1411
+tp1412
+(lp1413
+(lp1414
+S'2016-10-15 00:03:10'
+p1415
+aS'652'
+p1416
+aS'Please write an expression, not the final numerical result.'
+p1417
+aa(lp1418
+S'2016-10-15 00:03:11'
+p1419
+aS'652'
+p1420
+aS'Please write an expression, not the final numerical result.'
+p1421
+aas(S'78'
+p1422
+S'aliqbal'
+p1423
+tp1424
+(lp1425
+(lp1426
+S'2016-10-15 00:01:59'
+p1427
+aS'650/4!'
+p1428
+aS'Can the answer be fractional?'
+p1429
+aas(g239
+S'djmoreno'
+p1430
+tp1431
+(lp1432
+(lp1433
+S'2016-10-14 23:36:37'
+p1434
+aS'1/(26*25)^4'
+p1435
+aS'Can the answer be fractional?'
+p1436
+aa(lp1437
+S'2016-10-14 23:36:48'
+p1438
+aS'1/(26*25)^4'
+p1439
+aS'Can the answer be fractional?'
+p1440
+aas(g607
+S'Jyrodgers'
+p1441
+tp1442
+(lp1443
+(lp1444
+S'2016-10-14 20:39:26'
+p1445
+aS'1951'
+p1446
+aS'Please write an expression, not the final numerical result.'
+p1447
+aas(g136
+S'danFlorencio'
+p1448
+tp1449
+(lp1450
+(lp1451
+S'2016-10-14 21:20:49'
+p1452
+aS'3251'
+p1453
+aS'Please write an expression, not the final numerical result.'
+p1454
+aas(g325
+S'gstamp'
+p1455
+tp1456
+(lp1457
+(lp1458
+S'2016-10-14 18:23:33'
+p1459
+aS'2601'
+p1460
+aS'Please write an expression, not the final numerical result.'
+p1461
+aas(g262
+S'CharlesCruz'
+p1462
+tp1463
+(lp1464
+(lp1465
+S'2016-10-14 18:08:04'
+p1466
+aS'P(26,2)/3'
+p1467
+aS'Can the answer be fractional?'
+p1468
+aas(S'331'
+p1469
+S'kennyglee'
+p1470
+tp1471
+(lp1472
+(lp1473
+S'2016-10-14 15:45:51'
+p1474
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1475
+aass(g2
+g2
+g30
+tp1476
+(dp1477
+(g314
+S'vincebai'
+p1478
+tp1479
+(lp1480
+(lp1481
+S'2016-10-26 08:44:27'
+p1482
+ag50
+aS'Please write an expression, not the final numerical result.'
+p1483
+aass(g2
+g2
+g311
+tp1484
+(dp1485
+(g402
+S'vnoxdev'
+p1486
+tp1487
+(lp1488
+(lp1489
+S'2016-10-25 19:47:53'
+p1490
+ag3
+aS'Please write an expression, not the final numerical result.'
+p1491
+aas(S'302'
+p1492
+S'g5park'
+p1493
+tp1494
+(lp1495
+(lp1496
+S'2016-10-25 18:56:27'
+p1497
+ag50
+aS'Please write an expression, not the final numerical result.'
+p1498
+aa(lp1499
+S'2016-10-25 18:56:28'
+p1500
+ag50
+aS'Please write an expression, not the final numerical result.'
+p1501
+aas(S'159'
+p1502
+S'KevinKlein'
+p1503
+tp1504
+(lp1505
+(lp1506
+S'2016-10-25 22:09:31'
+p1507
+aS'.25 - 4*.25 + .25'
+p1508
+aS'Can the answer be negative?'
+p1509
+aass(g3
+g20
+g260
+tp1510
+(dp1511
+(g303
+S'Derrick'
+p1512
+tp1513
+(lp1514
+(lp1515
+S'2016-10-14 21:46:36'
+p1516
+aS'1-(C(4,2)*C(13,2)*C(39,3)/C(52,5))'
+p1517
+aS'Can the answer be negative?'
+p1518
+aass(g1
+g322
+g311
+tp1519
+(dp1520
+(S'6'
+p1521
+S'zhenzhai'
+p1522
+tp1523
+(lp1524
+(lp1525
+S'2016-10-19 21:13:46'
+p1526
+aS'46'
+p1527
+aS'Please write an expression, not the final numerical result.'
+p1528
+aa(lp1529
+S'2016-10-19 21:26:26'
+p1530
+aS'45'
+p1531
+aS'Please write an expression, not the final numerical result.'
+p1532
+aass(g1
+g260
+g20
+tp1533
+(dp1534
+(S'316'
+p1535
+S'KevinKuo'
+p1536
+tp1537
+(lp1538
+(lp1539
+S'2016-10-21 23:58:18'
+p1540
+aS'C(32,5)-12*C(31,4)'
+p1541
+aS'Can the answer be negative?'
+p1542
+aas(S'124'
+p1543
+S'ctetreau'
+p1544
+tp1545
+(lp1546
+(lp1547
+S'2016-10-20 19:25:45'
+p1548
+aS'C(52-(5*4), 5)-(C(52,5) - C(52-(3*4),5))'
+p1549
+aS'Can the answer be negative?'
+p1550
+aa(lp1551
+S'2016-10-20 19:36:53'
+p1552
+aS'C(52-(5*4), 5) - C(52-(3*4),5)'
+p1553
+aS'Can the answer be negative?'
+p1554
+aas(S'268'
+p1555
+S'rrivasfe'
+p1556
+tp1557
+(lp1558
+(lp1559
+S'2016-10-21 06:18:08'
+p1560
+aS'97488'
+p1561
+aS'Please write an expression, not the final numerical result.'
+p1562
+aa(lp1563
+S'2016-10-21 06:22:13'
+p1564
+aS'93912'
+p1565
+aS'Please write an expression, not the final numerical result.'
+p1566
+aas(g557
+S'Max'
+p1567
+tp1568
+(lp1569
+(lp1570
+S'2016-10-20 19:55:55'
+p1571
+aS'C(52-20,5)- C(52-12, 5)'
+p1572
+aS'Can the answer be negative?'
+p1573
+aas(g112
+S'erlau'
+p1574
+tp1575
+(lp1576
+(lp1577
+S'2016-10-21 09:01:13'
+p1578
+aS'C(32,5) - (C(52,5) - C(40,5))'
+p1579
+aS'Can the answer be negative?'
+p1580
+aa(lp1581
+S'2016-10-21 09:12:29'
+p1582
+aS'(C(52,5) - C(20,5)) - (C(52,5) - C(12,5))'
+p1583
+aS'Can the answer be negative?'
+p1584
+aa(lp1585
+S'2016-10-21 09:12:39'
+p1586
+aS'(C(52,5) - C(20,5)) - (C(52,5) - C(12,5))'
+p1587
+aS'Can the answer be negative?'
+p1588
+aa(lp1589
+S'2016-10-21 09:20:35'
+p1590
+aS'C(32,5) - (C(52,5) - C(12,5))'
+p1591
+aS'Can the answer be negative?'
+p1592
+aa(lp1593
+S'2016-10-21 09:28:06'
+p1594
+aS'C(32,5) - C(40,5)'
+p1595
+aS'Can the answer be negative?'
+p1596
+aa(lp1597
+S'2016-10-21 09:29:33'
+p1598
+aS'(C(52,5) - C(20,5)) - (C(52,5) - C(12,5))'
+p1599
+aS'Can the answer be negative?'
+p1600
+aa(lp1601
+S'2016-10-21 10:24:12'
+p1602
+aS'C(32,5) - C(40,5) + C(16,5)'
+p1603
+aS'Can the answer be negative?'
+p1604
+aas(g6
+S'zkvick'
+p1605
+tp1606
+(lp1607
+(lp1608
+S'2016-10-20 22:18:48'
+p1609
+ag50
+aS'Please write an expression, not the final numerical result.'
+p1610
+aass(g3
+g1
+g1
+tp1611
+(dp1612
+(g625
+S'yaojeffrey'
+p1613
+tp1614
+(lp1615
+(lp1616
+S'2016-10-14 22:23:01'
+p1617
+aS'7.5'
+p1618
+aS'Please write an expression, not the final numerical result.'
+p1619
+aass(g1
+g322
+g2
+tp1620
+(dp1621
+(S'280'
+p1622
+S'Alix'
+p1623
+tp1624
+(lp1625
+(lp1626
+S'2016-10-21 08:34:05'
+p1627
+aS'2/3'
+p1628
+aS'Can the answer be fractional?'
+p1629
+aa(lp1630
+S'2016-10-21 08:36:14'
+p1631
+ag322
+aS'Please write an expression, not the final numerical result.'
+p1632
+aa(lp1633
+S'2016-10-21 08:36:40'
+p1634
+ag322
+aS'Please write an expression, not the final numerical result.'
+p1635
+aa(lp1636
+S'2016-10-21 08:43:53'
+p1637
+ag260
+aS'Please write an expression, not the final numerical result.'
+p1638
+aa(lp1639
+S'2016-10-21 08:52:45'
+p1640
+ag311
+aS'Please write an expression, not the final numerical result.'
+p1641
+aas(S'166'
+p1642
+S'Kevin_Pansawira'
+p1643
+tp1644
+(lp1645
+(lp1646
+S'2016-10-21 12:01:01'
+p1647
+aS'22'
+p1648
+aS'Please write an expression, not the final numerical result.'
+p1649
+aa(lp1650
+S'2016-10-21 12:05:08'
+p1651
+aS'50'
+p1652
+aS'Please write an expression, not the final numerical result.'
+p1653
+aas(g1221
+S'adejesus'
+p1654
+tp1655
+(lp1656
+(lp1657
+S'2016-10-20 05:21:28'
+p1658
+ag311
+aS'Please write an expression, not the final numerical result.'
+p1659
+aas(g34
+S'JonDo'
+p1660
+tp1661
+(lp1662
+(lp1663
+S'2016-10-21 06:35:29'
+p1664
+aS'10'
+p1665
+aS'Please write an expression, not the final numerical result.'
+p1666
+aas(g120
+S'JessKwok'
+p1667
+tp1668
+(lp1669
+(lp1670
+S'2016-10-21 17:36:04'
+p1671
+aS'10'
+p1672
+aS'Please write an expression, not the final numerical result.'
+p1673
+aas(g6
+S'zkvick'
+p1674
+tp1675
+(lp1676
+(lp1677
+S'2016-10-21 04:06:43'
+p1678
+aS'55'
+p1679
+aS'Please write an expression, not the final numerical result.'
+p1680
+aas(S'270'
+p1681
+S'JoshuaKomala'
+p1682
+tp1683
+(lp1684
+(lp1685
+S'2016-10-20 01:44:50'
+p1686
+aS'45'
+p1687
+aS'Please write an expression, not the final numerical result.'
+p1688
+aas(S'152'
+p1689
+S'Ankush_Sarow'
+p1690
+tp1691
+(lp1692
+(lp1693
+S'2016-10-20 01:34:38'
+p1694
+aS'13'
+p1695
+aS'Please write an expression, not the final numerical result.'
+p1696
+aas(S'160'
+p1697
+S'Melvinw'
+p1698
+tp1699
+(lp1700
+(lp1701
+S'2016-10-20 05:26:50'
+p1702
+aS'(9-3-1)*((9-3-1)/2)'
+p1703
+aS'Can the answer be fractional?'
+p1704
+aass(g1
+g3
+g1
+tp1705
+(dp1706
+(g247
+S'PhillipJo'
+p1707
+tp1708
+(lp1709
+(lp1710
+S'2016-10-21 06:16:39'
+p1711
+aS'0.000099985'
+p1712
+aS'Please write an expression, not the final numerical result.'
+p1713
+aass(g3
+g31
+g2
+tp1714
+(dp1715
+(g1370
+S'arman'
+p1716
+tp1717
+(lp1718
+(lp1719
+S'2016-10-14 21:05:07'
+p1720
+aS'1-(55/1024+1014/1024)'
+p1721
+aS'Can the answer be negative?'
+p1722
+aas(g744
+S'msp'
+p1723
+tp1724
+(lp1725
+(lp1726
+S'2016-10-15 00:25:52'
+p1727
+aS'1-((C(10,2)*((1/2)^10)) + (C(10,1)*(1/2)^10) + (1/(0.5^10)))'
+p1728
+aS'Can the answer be negative?'
+p1729
+aas(S'305'
+p1730
+S'axl004'
+p1731
+tp1732
+(lp1733
+(lp1734
+S'2016-10-14 23:02:04'
+p1735
+aS'1-(10!/2!+ 10!/1! +10!/0!)/2^10'
+p1736
+aS'Can the answer be negative?'
+p1737
+aas(g270
+S'pgupta'
+p1738
+tp1739
+(lp1740
+(lp1741
+S'2016-10-15 00:11:16'
+p1742
+aS'3 - 2^10'
+p1743
+aS'Can the answer be negative?'
+p1744
+aass(g1
+g1
+g3
+tp1745
+(dp1746
+(g1642
+S'Kevin_Pansawira'
+p1747
+tp1748
+(lp1749
+(lp1750
+S'2016-10-21 08:05:55'
+p1751
+aS'0.0959'
+p1752
+aS'Please write an expression, not the final numerical result.'
+p1753
+aass(g3
+g20
+g20
+tp1754
+(dp1755
+(g1622
+S'Alix'
+p1756
+tp1757
+(lp1758
+(lp1759
+S'2016-10-12 01:40:54'
+p1760
+aS'12'
+p1761
+aS'Please write an expression, not the final numerical result.'
+p1762
+aas(g1385
+S'yiw392'
+p1763
+tp1764
+(lp1765
+(lp1766
+S'2016-10-14 23:50:27'
+p1767
+ag202
+aS'Please write an expression, not the final numerical result.'
+p1768
+aa(lp1769
+S'2016-10-14 23:50:56'
+p1770
+aS'C(4,2)*13'
+p1771
+aS'Please write an expression, not the final numerical result.'
+p1772
+aa(lp1773
+S'2016-10-14 23:51:10'
+p1774
+aS'C(4,2)*13'
+p1775
+aS'Please write an expression, not the final numerical result.'
+p1776
+aa(lp1777
+S'2016-10-14 23:51:14'
+p1778
+aS'C(4,2)*13'
+p1779
+aS'Please write an expression, not the final numerical result.'
+p1780
+aa(lp1781
+S'2016-10-14 23:51:24'
+p1782
+aS'C(4,2)*13'
+p1783
+aS'Please write an expression, not the final numerical result.'
+p1784
+aa(lp1785
+S'2016-10-14 23:51:25'
+p1786
+aS'C(4,2)*13'
+p1787
+aS'Please write an expression, not the final numerical result.'
+p1788
+aa(lp1789
+S'2016-10-14 23:51:25'
+p1790
+aS'C(4,2)*13'
+p1791
+aS'Please write an expression, not the final numerical result.'
+p1792
+aa(lp1793
+S'2016-10-14 23:51:25'
+p1794
+aS'C(4,2)*13'
+p1795
+aS'Please write an expression, not the final numerical result.'
+p1796
+aa(lp1797
+S'2016-10-14 23:51:26'
+p1798
+aS'C(4,2)*13'
+p1799
+aS'Please write an expression, not the final numerical result.'
+p1800
+aa(lp1801
+S'2016-10-14 23:51:26'
+p1802
+aS'C(4,2)*13'
+p1803
+aS'Please write an expression, not the final numerical result.'
+p1804
+aa(lp1805
+S'2016-10-14 23:51:26'
+p1806
+aS'C(4,2)*13'
+p1807
+aS'Please write an expression, not the final numerical result.'
+p1808
+aa(lp1809
+S'2016-10-14 23:51:26'
+p1810
+aS'C(4,2)*13'
+p1811
+aS'Please write an expression, not the final numerical result.'
+p1812
+aa(lp1813
+S'2016-10-14 23:51:27'
+p1814
+aS'C(4,2)*13'
+p1815
+aS'Please write an expression, not the final numerical result.'
+p1816
+aa(lp1817
+S'2016-10-14 23:51:27'
+p1818
+aS'C(4,2)*13'
+p1819
+aS'Please write an expression, not the final numerical result.'
+p1820
+aa(lp1821
+S'2016-10-14 23:51:27'
+p1822
+aS'C(4,2)*13'
+p1823
+aS'Please write an expression, not the final numerical result.'
+p1824
+aas(g270
+S'pgupta'
+p1825
+tp1826
+(lp1827
+(lp1828
+S'2016-10-14 21:25:41'
+p1829
+aS'10'
+p1830
+aS'Please write an expression, not the final numerical result.'
+p1831
+aas(g910
+S'FrankHuang'
+p1832
+tp1833
+(lp1834
+(lp1835
+S'2016-10-14 16:23:07'
+p1836
+ag20
+aS'Please write an expression, not the final numerical result.'
+p1837
+aas(S'309'
+p1838
+S'bhaveshnibber'
+p1839
+tp1840
+(lp1841
+(lp1842
+S'2016-10-14 21:35:16'
+p1843
+aS'10'
+p1844
+aS'Please write an expression, not the final numerical result.'
+p1845
+aas(g567
+S'ChenquanJiang'
+p1846
+tp1847
+(lp1848
+(lp1849
+S'2016-10-14 07:56:07'
+p1850
+aS'16'
+p1851
+aS'Please write an expression, not the final numerical result.'
+p1852
+aas(g1356
+S'HaeJoonYoon'
+p1853
+tp1854
+(lp1855
+(lp1856
+S'2016-10-14 18:29:21'
+p1857
+aS'1770'
+p1858
+aS'Please write an expression, not the final numerical result.'
+p1859
+aas(g239
+S'djmoreno'
+p1860
+tp1861
+(lp1862
+(lp1863
+S'2016-10-14 22:05:56'
+p1864
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1865
+aas(g1161
+S'mtashman'
+p1866
+tp1867
+(lp1868
+(lp1869
+S'2016-10-14 18:42:55'
+p1870
+aS'3744'
+p1871
+aS'Please write an expression, not the final numerical result.'
+p1872
+aas(g325
+S'gstamp'
+p1873
+tp1874
+(lp1875
+(lp1876
+S'2016-10-14 17:27:03'
+p1877
+ag1
+aS'Please write an expression, not the final numerical result.'
+p1878
+aa(lp1879
+S'2016-10-14 17:27:25'
+p1880
+aS'4!/2!'
+p1881
+aS'Please write an expression, not the final numerical result.'
+p1882
+aa(lp1883
+S'2016-10-14 17:28:16'
+p1884
+aS'12'
+p1885
+aS'Please write an expression, not the final numerical result.'
+p1886
+aas(g229
+S'DRavida'
+p1887
+tp1888
+(lp1889
+(lp1890
+S'2016-10-14 18:38:31'
+p1891
+aS'12'
+p1892
+aS'Please write an expression, not the final numerical result.'
+p1893
+aass(g1
+g322
+g1
+tp1894
+(dp1895
+(g557
+S'Max'
+p1896
+tp1897
+(lp1898
+(lp1899
+S'2016-10-21 00:59:39'
+p1900
+ag30
+aS'Please write an expression, not the final numerical result.'
+p1901
+aas(S'100'
+p1902
+S'hunguyen'
+p1903
+tp1904
+(lp1905
+(lp1906
+S'2016-10-21 06:58:47'
+p1907
+ag2
+aS'Please write an expression, not the final numerical result.'
+p1908
+aas(g1221
+S'adejesus'
+p1909
+tp1910
+(lp1911
+(lp1912
+S'2016-10-20 05:09:56'
+p1913
+ag311
+aS'Please write an expression, not the final numerical result.'
+p1914
+aass(g1
+g260
+g3
+tp1915
+(dp1916
+(g1535
+S'KevinKuo'
+p1917
+tp1918
+(lp1919
+(lp1920
+S'2016-10-21 23:58:25'
+p1921
+aS'(C(32,5)-12*C(31,4))/(12*C(51,4))'
+p1922
+aS'Can the answer be negative?'
+p1923
+aas(g1543
+S'ctetreau'
+p1924
+tp1925
+(lp1926
+(lp1927
+S'2016-10-20 19:37:40'
+p1928
+aS'(C(52-(5*4), 5) - C(52-(3*4),5))/(C(52,5) - C(52-(3*4),5))'
+p1929
+aS'Can the answer be negative?'
+p1930
+aas(g557
+S'Max'
+p1931
+tp1932
+(lp1933
+(lp1934
+S'2016-10-20 19:55:53'
+p1935
+aS'(C(52-20,5)- C(52-12, 5) )/ C(52,5) - C(40,5)'
+p1936
+aS'Can the answer be negative?'
+p1937
+aas(g112
+S'erlau'
+p1938
+tp1939
+(lp1940
+(lp1941
+S'2016-10-21 09:01:38'
+p1942
+aS'(C(32,5) - (C(52,5) - C(40,5)))/(C(52,5) - C(40,5))'
+p1943
+aS'Can the answer be negative?'
+p1944
+aa(lp1945
+S'2016-10-21 09:13:22'
+p1946
+aS'((C(52,5) - C(20,5)) - (C(52,5) - C(12,5)))/(C(52,5) - C(40,5))'
+p1947
+aS'Can the answer be negative?'
+p1948
+aas(g6
+S'zkvick'
+p1949
+tp1950
+(lp1951
+(lp1952
+S'2016-10-20 22:18:49'
+p1953
+ag50
+aS'Please write an expression, not the final numerical result.'
+p1954
+aas(S'165'
+p1955
+S'TianYang'
+p1956
+tp1957
+(lp1958
+(lp1959
+S'2016-10-21 00:04:39'
+p1960
+aS'(C((13-5)*4,5)-C((13-5-3)*4,5))/C((13-5)*4,5)-C((13-5-3)*4,5)'
+p1961
+aS'Can the answer be negative?'
+p1962
+aass(g3
+g31
+g1
+tp1963
+(dp1964
+(g582
+S'ccaine'
+p1965
+tp1966
+(lp1967
+(lp1968
+S'2016-10-14 19:58:30'
+p1969
+aS'0.956054687'
+p1970
+aS'Please write an expression, not the final numerical result.'
+p1971
+aas(g270
+S'pgupta'
+p1972
+tp1973
+(lp1974
+(lp1975
+S'2016-10-15 00:11:11'
+p1976
+aS'2 - 2^10'
+p1977
+aS'Can the answer be negative?'
+p1978
+aass(g3
+g20
+g31
+tp1979
+(dp1980
+(g794
+S'Brnkvu'
+p1981
+tp1982
+(lp1983
+(lp1984
+S'2016-10-14 22:26:31'
+p1985
+aS'(C(4,1)*C(13,3))/C(52,3)'
+p1986
+aS'Can the answer be fractional?'
+p1987
+aas(g270
+S'pgupta'
+p1988
+tp1989
+(lp1990
+(lp1991
+S'2016-10-14 21:20:08'
+p1992
+aS'(13*1)/C(52,5)'
+p1993
+aS'Can the answer be fractional?'
+p1994
+aas(g104
+S'AndyYeung'
+p1995
+tp1996
+(lp1997
+(lp1998
+S'2016-10-14 21:07:36'
+p1999
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2000
+aas(S'180'
+p2001
+S'rshroyer'
+p2002
+tp2003
+(lp2004
+(lp2005
+S'2016-10-14 21:14:13'
+p2006
+aS'720'
+p2007
+aS'Please write an expression, not the final numerical result.'
+p2008
+aa(lp2009
+S'2016-10-14 21:14:29'
+p2010
+aS'120'
+p2011
+aS'Please write an expression, not the final numerical result.'
+p2012
+aas(g814
+S'a9zhao'
+p2013
+tp2014
+(lp2015
+(lp2016
+S'2016-10-14 20:50:57'
+p2017
+aS'14'
+p2018
+aS'Please write an expression, not the final numerical result.'
+p2019
+aas(S'347'
+p2020
+S'jefferyw'
+p2021
+tp2022
+(lp2023
+(lp2024
+S'2016-10-15 00:01:05'
+p2025
+aS'11'
+p2026
+aS'Please write an expression, not the final numerical result.'
+p2027
+aa(lp2028
+S'2016-10-15 00:01:06'
+p2029
+aS'11'
+p2030
+aS'Please write an expression, not the final numerical result.'
+p2031
+aas(g505
+S'karl-rummler'
+p2032
+tp2033
+(lp2034
+(lp2035
+S'2016-10-14 20:43:18'
+p2036
+aS'10'
+p2037
+aS'Please write an expression, not the final numerical result.'
+p2038
+aa(lp2039
+S'2016-10-14 20:48:09'
+p2040
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2041
+aas(S'38'
+p2042
+S'NicoleStone'
+p2043
+tp2044
+(lp2045
+(lp2046
+S'2016-10-14 18:31:25'
+p2047
+ag31
+aS'Please write an expression, not the final numerical result.'
+p2048
+aa(lp2049
+S'2016-10-14 18:35:02'
+p2050
+ag31
+aS'Please write an expression, not the final numerical result.'
+p2051
+aas(g567
+S'ChenquanJiang'
+p2052
+tp2053
+(lp2054
+(lp2055
+S'2016-10-14 07:59:41'
+p2056
+aS'15'
+p2057
+aS'Please write an expression, not the final numerical result.'
+p2058
+aa(lp2059
+S'2016-10-14 23:26:49'
+p2060
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2061
+aa(lp2062
+S'2016-10-14 23:28:37'
+p2063
+aS'120'
+p2064
+aS'Please write an expression, not the final numerical result.'
+p2065
+aas(g196
+S'DongyoonHan'
+p2066
+tp2067
+(lp2068
+(lp2069
+S'2016-10-14 18:17:59'
+p2070
+ag202
+aS'Please write an expression, not the final numerical result.'
+p2071
+aas(g1492
+S'g5park'
+p2072
+tp2073
+(lp2074
+(lp2075
+S'2016-10-14 19:03:41'
+p2076
+ag2
+aS'Please write an expression, not the final numerical result.'
+p2077
+aas(g1730
+S'axl004'
+p2078
+tp2079
+(lp2080
+(lp2081
+S'2016-10-15 00:32:45'
+p2082
+aS'12'
+p2083
+aS'Please write an expression, not the final numerical result.'
+p2084
+aas(g136
+S'danFlorencio'
+p2085
+tp2086
+(lp2087
+(lp2088
+S'2016-10-14 22:57:50'
+p2089
+aS'11'
+p2090
+aS'Please write an expression, not the final numerical result.'
+p2091
+aas(g325
+S'gstamp'
+p2092
+tp2093
+(lp2094
+(lp2095
+S'2016-10-14 17:33:06'
+p2096
+aS'120'
+p2097
+aS'Please write an expression, not the final numerical result.'
+p2098
+aas(g625
+S'yaojeffrey'
+p2099
+tp2100
+(lp2101
+(lp2102
+S'2016-10-14 22:02:27'
+p2103
+aS'57'
+p2104
+aS'Please write an expression, not the final numerical result.'
+p2105
+aas(S'56'
+p2106
+S'safarsi'
+p2107
+tp2108
+(lp2109
+(lp2110
+S'2016-10-14 18:02:05'
+p2111
+aS'12'
+p2112
+aS'Please write an expression, not the final numerical result.'
+p2113
+aas(S'184'
+p2114
+S'szh'
+p2115
+tp2116
+(lp2117
+(lp2118
+S'2016-10-12 21:35:29'
+p2119
+aS'720'
+p2120
+aS'Please write an expression, not the final numerical result.'
+p2121
+aas(g903
+S'JaceChan'
+p2122
+tp2123
+(lp2124
+(lp2125
+S'2016-10-12 21:34:43'
+p2126
+aS'210'
+p2127
+aS'Please write an expression, not the final numerical result.'
+p2128
+aa(lp2129
+S'2016-10-14 23:45:38'
+p2130
+aS'10'
+p2131
+aS'Please write an expression, not the final numerical result.'
+p2132
+aas(g64
+S'MarianCrofts'
+p2133
+tp2134
+(lp2135
+(lp2136
+S'2016-10-14 22:58:36'
+p2137
+aS'10'
+p2138
+aS'Please write an expression, not the final numerical result.'
+p2139
+aas(g671
+S'mninette'
+p2140
+tp2141
+(lp2142
+(lp2143
+S'2016-10-14 20:08:59'
+p2144
+ag30
+aS'Please write an expression, not the final numerical result.'
+p2145
+aas(g247
+S'PhillipJo'
+p2146
+tp2147
+(lp2148
+(lp2149
+S'2016-10-14 21:18:22'
+p2150
+aS'10'
+p2151
+aS'Please write an expression, not the final numerical result.'
+p2152
+aas(g929
+S'KimberlyLy'
+p2153
+tp2154
+(lp2155
+(lp2156
+S'2016-10-14 19:07:55'
+p2157
+aS'10'
+p2158
+aS'Please write an expression, not the final numerical result.'
+p2159
+aa(lp2160
+S'2016-10-14 19:07:58'
+p2161
+aS'10'
+p2162
+aS'Please write an expression, not the final numerical result.'
+p2163
+aa(lp2164
+S'2016-10-14 19:08:04'
+p2165
+aS'10'
+p2166
+aS'Please write an expression, not the final numerical result.'
+p2167
+aas(g1838
+S'bhaveshnibber'
+p2168
+tp2169
+(lp2170
+(lp2171
+S'2016-10-14 21:57:14'
+p2172
+ag2
+aS'Please write an expression, not the final numerical result.'
+p2173
+aas(S'295'
+p2174
+S'xzy0207'
+p2175
+tp2176
+(lp2177
+(lp2178
+S'2016-10-15 00:16:57'
+p2179
+aS'15'
+p2180
+aS'Please write an expression, not the final numerical result.'
+p2181
+aas(g945
+S'whcombs'
+p2182
+tp2183
+(lp2184
+(lp2185
+S'2016-10-14 17:01:29'
+p2186
+aS'11'
+p2187
+aS'Please write an expression, not the final numerical result.'
+p2188
+aas(S'334'
+p2189
+S'yash'
+p2190
+tp2191
+(lp2192
+(lp2193
+S'2016-10-14 21:47:12'
+p2194
+aS'10'
+p2195
+aS'Please write an expression, not the final numerical result.'
+p2196
+aas(g952
+S'ottojursch'
+p2197
+tp2198
+(lp2199
+(lp2200
+S'2016-10-14 20:01:40'
+p2201
+aS'15'
+p2202
+aS'Please write an expression, not the final numerical result.'
+p2203
+aa(lp2204
+S'2016-10-14 20:04:15'
+p2205
+aS'243'
+p2206
+aS'Please write an expression, not the final numerical result.'
+p2207
+aas(g44
+S'Darthsneak'
+p2208
+tp2209
+(lp2210
+(lp2211
+S'2016-10-14 20:01:40'
+p2212
+aS'10'
+p2213
+aS'Please write an expression, not the final numerical result.'
+p2214
+aas(S'227'
+p2215
+S'raghavmehta1996'
+p2216
+tp2217
+(lp2218
+(lp2219
+S'2016-10-15 00:24:28'
+p2220
+aS'10'
+p2221
+aS'Please write an expression, not the final numerical result.'
+p2222
+aas(g582
+S'ccaine'
+p2223
+tp2224
+(lp2225
+(lp2226
+S'2016-10-14 19:43:30'
+p2227
+aS'11'
+p2228
+aS'Please write an expression, not the final numerical result.'
+p2229
+aas(S'162'
+p2230
+S'Arash'
+p2231
+tp2232
+(lp2233
+(lp2234
+S'2016-10-15 00:47:43'
+p2235
+aS'15'
+p2236
+aS'Please write an expression, not the final numerical result.'
+p2237
+aas(g1142
+S'cwasley'
+p2238
+tp2239
+(lp2240
+(lp2241
+S'2016-10-15 00:47:26'
+p2242
+aS'10'
+p2243
+aS'Please write an expression, not the final numerical result.'
+p2244
+aas(g988
+S'nolin'
+p2245
+tp2246
+(lp2247
+(lp2248
+S'2016-10-14 22:35:53'
+p2249
+aS'P(6,6)/8'
+p2250
+aS'Can the answer be fractional?'
+p2251
+aa(lp2252
+S'2016-10-14 22:47:10'
+p2253
+aS'P(6,6)/(3!2!)'
+p2254
+aS'Can the answer be fractional?'
+p2255
+aas(g120
+S'JessKwok'
+p2256
+tp2257
+(lp2258
+(lp2259
+S'2016-10-14 18:00:42'
+p2260
+aS'12'
+p2261
+aS'Please write an expression, not the final numerical result.'
+p2262
+aa(lp2263
+S'2016-10-14 18:05:49'
+p2264
+aS'14'
+p2265
+aS'Please write an expression, not the final numerical result.'
+p2266
+aas(g649
+S'shravangrandhi'
+p2267
+tp2268
+(lp2269
+(lp2270
+S'2016-10-14 20:33:45'
+p2271
+aS'110'
+p2272
+aS'Please write an expression, not the final numerical result.'
+p2273
+aa(lp2274
+S'2016-10-14 20:50:28'
+p2275
+aS'10'
+p2276
+aS'Please write an expression, not the final numerical result.'
+p2277
+aas(g303
+S'Derrick'
+p2278
+tp2279
+(lp2280
+(lp2281
+S'2016-10-14 22:28:10'
+p2282
+aS'11'
+p2283
+aS'Please write an expression, not the final numerical result.'
+p2284
+aas(g488
+S'BrianaW'
+p2285
+tp2286
+(lp2287
+(lp2288
+S'2016-10-14 21:30:37'
+p2289
+aS'6!/3!2!2!'
+p2290
+aS'Please write an expression, not the final numerical result.'
+p2291
+aass(g1
+g322
+g3
+tp2292
+(dp2293
+(g1622
+S'Alix'
+p2294
+tp2295
+(lp2296
+(lp2297
+S'2016-10-21 08:26:49'
+p2298
+aS'27'
+p2299
+aS'Please write an expression, not the final numerical result.'
+p2300
+aas(g671
+S'mninette'
+p2301
+tp2302
+(lp2303
+(lp2304
+S'2016-10-21 17:18:54'
+p2305
+ag3
+aS'Please write an expression, not the final numerical result.'
+p2306
+aas(g410
+S'WilliamZhu'
+p2307
+tp2308
+(lp2309
+(lp2310
+S'2016-10-21 05:58:18'
+p2311
+aS'90'
+p2312
+aS'Please write an expression, not the final numerical result.'
+p2313
+aas(g1221
+S'adejesus'
+p2314
+tp2315
+(lp2316
+(lp2317
+S'2016-10-20 05:21:26'
+p2318
+aS'12'
+p2319
+aS'Please write an expression, not the final numerical result.'
+p2320
+aa(lp2321
+S'2016-10-20 05:22:23'
+p2322
+aS'15'
+p2323
+aS'Please write an expression, not the final numerical result.'
+p2324
+aa(lp2325
+S'2016-10-20 05:38:18'
+p2326
+aS'13'
+p2327
+aS'Please write an expression, not the final numerical result.'
+p2328
+aas(S'291'
+p2329
+S'kirkkw'
+p2330
+tp2331
+(lp2332
+(lp2333
+S'2016-10-20 09:23:15'
+p2334
+aS'28'
+p2335
+aS'Please write an expression, not the final numerical result.'
+p2336
+aas(g1284
+S'kevinmc'
+p2337
+tp2338
+(lp2339
+(lp2340
+S'2016-10-21 11:39:23'
+p2341
+ag3
+aS'Please write an expression, not the final numerical result.'
+p2342
+aa(lp2343
+S'2016-10-21 11:39:39'
+p2344
+ag3
+aS'Please write an expression, not the final numerical result.'
+p2345
+aas(g1689
+S'Ankush_Sarow'
+p2346
+tp2347
+(lp2348
+(lp2349
+S'2016-10-20 03:34:22'
+p2350
+aS'120'
+p2351
+aS'Please write an expression, not the final numerical result.'
+p2352
+aass(g3
+g311
+g3
+tp2353
+(dp2354
+(g794
+S'Brnkvu'
+p2355
+tp2356
+(lp2357
+(lp2358
+S'2016-10-14 20:28:10'
+p2359
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2360
+aas(g104
+S'AndyYeung'
+p2361
+tp2362
+(lp2363
+(lp2364
+S'2016-10-14 19:29:39'
+p2365
+aS'2601/(26*25)'
+p2366
+aS'Can the answer be fractional?'
+p2367
+aa(lp2368
+S'2016-10-14 19:33:39'
+p2369
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2370
+aas(g814
+S'a9zhao'
+p2371
+tp2372
+(lp2373
+(lp2374
+S'2016-10-14 17:36:07'
+p2375
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2376
+aas(S'29'
+p2377
+S'rjanowit'
+p2378
+tp2379
+(lp2380
+(lp2381
+S'2016-10-14 23:25:26'
+p2382
+ag31
+aS'Please write an expression, not the final numerical result.'
+p2383
+aa(lp2384
+S'2016-10-14 23:34:29'
+p2385
+ag2
+aS'Please write an expression, not the final numerical result.'
+p2386
+aas(g345
+S'nanguian'
+p2387
+tp2388
+(lp2389
+(lp2390
+S'2016-10-14 18:53:22'
+p2391
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2392
+aas(g1095
+S'kkhuong'
+p2393
+tp2394
+(lp2395
+(lp2396
+S'2016-10-14 20:06:04'
+p2397
+aS'3251'
+p2398
+aS'Please write an expression, not the final numerical result.'
+p2399
+aas(g505
+S'karl-rummler'
+p2400
+tp2401
+(lp2402
+(lp2403
+S'2016-10-14 21:03:14'
+p2404
+aS'3901'
+p2405
+aS'Please write an expression, not the final numerical result.'
+p2406
+aa(lp2407
+S'2016-10-14 21:15:30'
+p2408
+aS'2602'
+p2409
+aS'Please write an expression, not the final numerical result.'
+p2410
+aa(lp2411
+S'2016-10-14 21:28:45'
+p2412
+ag31
+aS'Please write an expression, not the final numerical result.'
+p2413
+aas(g262
+S'CharlesCruz'
+p2414
+tp2415
+(lp2416
+(lp2417
+S'2016-10-14 18:31:27'
+p2418
+ag50
+aS'Please write an expression, not the final numerical result.'
+p2419
+aa(lp2420
+S'2016-10-14 18:36:55'
+p2421
+aS'2600'
+p2422
+aS'Please write an expression, not the final numerical result.'
+p2423
+aa(lp2424
+S'2016-10-14 18:41:58'
+p2425
+aS'150'
+p2426
+aS'Please write an expression, not the final numerical result.'
+p2427
+aa(lp2428
+S'2016-10-14 18:42:51'
+p2429
+aS'2600'
+p2430
+aS'Please write an expression, not the final numerical result.'
+p2431
+aa(lp2432
+S'2016-10-14 18:49:05'
+p2433
+aS'3901'
+p2434
+aS'Please write an expression, not the final numerical result.'
+p2435
+aa(lp2436
+S'2016-10-14 18:51:31'
+p2437
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2438
+aa(lp2439
+S'2016-10-14 19:01:51'
+p2440
+aS'3250'
+p2441
+aS'Please write an expression, not the final numerical result.'
+p2442
+aa(lp2443
+S'2016-10-14 19:03:58'
+p2444
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2445
+aa(lp2446
+S'2016-10-14 19:17:58'
+p2447
+aS'3251'
+p2448
+aS'Please write an expression, not the final numerical result.'
+p2449
+aa(lp2450
+S'2016-10-14 19:21:49'
+p2451
+aS'3251'
+p2452
+aS'Please write an expression, not the final numerical result.'
+p2453
+aa(lp2454
+S'2016-10-14 19:22:12'
+p2455
+aS'3250'
+p2456
+aS'Please write an expression, not the final numerical result.'
+p2457
+aa(lp2458
+S'2016-10-14 19:22:13'
+p2459
+aS'3250'
+p2460
+aS'Please write an expression, not the final numerical result.'
+p2461
+aa(lp2462
+S'2016-10-14 19:22:53'
+p2463
+aS'3251'
+p2464
+aS'Please write an expression, not the final numerical result.'
+p2465
+aa(lp2466
+S'2016-10-14 19:23:22'
+p2467
+aS'3902'
+p2468
+aS'Please write an expression, not the final numerical result.'
+p2469
+aa(lp2470
+S'2016-10-14 19:23:47'
+p2471
+aS'3901-((j*P(26,2))+1)'
+p2472
+aS'Please write an expression, not the final numerical result.'
+p2473
+aa(lp2474
+S'2016-10-14 19:33:36'
+p2475
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2476
+aas(g1370
+S'arman'
+p2477
+tp2478
+(lp2479
+(lp2480
+S'2016-10-14 22:32:53'
+p2481
+ag2
+aS'Please write an expression, not the final numerical result.'
+p2482
+aas(g1730
+S'axl004'
+p2483
+tp2484
+(lp2485
+(lp2486
+S'2016-10-14 23:26:25'
+p2487
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2488
+aa(lp2489
+S'2016-10-14 23:26:59'
+p2490
+aS'3901/(26*25)'
+p2491
+aS'Can the answer be fractional?'
+p2492
+aas(g625
+S'yaojeffrey'
+p2493
+tp2494
+(lp2495
+(lp2496
+S'2016-10-14 22:50:54'
+p2497
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2498
+aa(lp2499
+S'2016-10-14 22:52:46'
+p2500
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2501
+aas(S'49'
+p2502
+S'jwdavies'
+p2503
+tp2504
+(lp2505
+(lp2506
+S'2016-10-14 18:52:44'
+p2507
+aS'3251'
+p2508
+aS'Please write an expression, not the final numerical result.'
+p2509
+aas(g929
+S'KimberlyLy'
+p2510
+tp2511
+(lp2512
+(lp2513
+S'2016-10-14 17:41:17'
+p2514
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2515
+aa(lp2516
+S'2016-10-14 17:41:25'
+p2517
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2518
+aa(lp2519
+S'2016-10-14 17:42:50'
+p2520
+aS'(3251)/(26 * 25)'
+p2521
+aS'Can the answer be fractional?'
+p2522
+aas(g1392
+S'smkurtz'
+p2523
+tp2524
+(lp2525
+(lp2526
+S'2016-10-14 21:02:56'
+p2527
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2528
+aas(g634
+S'jewidjaj'
+p2529
+tp2530
+(lp2531
+(lp2532
+S'2016-10-14 16:35:14'
+p2533
+aS'3901'
+p2534
+aS'Please write an expression, not the final numerical result.'
+p2535
+aa(lp2536
+S'2016-10-14 16:35:16'
+p2537
+aS'3901'
+p2538
+aS'Please write an expression, not the final numerical result.'
+p2539
+aa(lp2540
+S'2016-10-14 16:35:17'
+p2541
+aS'3901'
+p2542
+aS'Please write an expression, not the final numerical result.'
+p2543
+aas(g952
+S'ottojursch'
+p2544
+tp2545
+(lp2546
+(lp2547
+S'2016-10-14 21:05:55'
+p2548
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2549
+aas(g22
+S'gtran'
+p2550
+tp2551
+(lp2552
+(lp2553
+S'2016-10-14 21:46:56'
+p2554
+aS'12'
+p2555
+aS'Please write an expression, not the final numerical result.'
+p2556
+aas(g607
+S'Jyrodgers'
+p2557
+tp2558
+(lp2559
+(lp2560
+S'2016-10-14 20:39:27'
+p2561
+aS'1300'
+p2562
+aS'Please write an expression, not the final numerical result.'
+p2563
+aa(lp2564
+S'2016-10-14 21:53:45'
+p2565
+aS'50'
+p2566
+aS'Please write an expression, not the final numerical result.'
+p2567
+aa(lp2568
+S'2016-10-14 21:53:45'
+p2569
+aS'50'
+p2570
+aS'Please write an expression, not the final numerical result.'
+p2571
+aa(lp2572
+S'2016-10-14 22:06:44'
+p2573
+aS'56'
+p2574
+aS'Please write an expression, not the final numerical result.'
+p2575
+aas(g988
+S'nolin'
+p2576
+tp2577
+(lp2578
+(lp2579
+S'2016-10-14 23:34:19'
+p2580
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2581
+aas(g582
+S'ccaine'
+p2582
+tp2583
+(lp2584
+(lp2585
+S'2016-10-14 18:17:00'
+p2586
+ag2
+aS'Please write an expression, not the final numerical result.'
+p2587
+aas(g1142
+S'cwasley'
+p2588
+tp2589
+(lp2590
+(lp2591
+S'2016-10-14 23:46:51'
+p2592
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2593
+aas(g589
+S'wesleymwong'
+p2594
+tp2595
+(lp2596
+(lp2597
+S'2016-10-14 20:34:14'
+p2598
+aS'C(26,2)-3251'
+p2599
+aS'Can the answer be negative?'
+p2600
+aa(lp2601
+S'2016-10-14 20:56:23'
+p2602
+aS'2601 / P(26,2)'
+p2603
+aS'Can the answer be fractional?'
+p2604
+aa(lp2605
+S'2016-10-14 20:58:01'
+p2606
+ag2
+aS'Please write an expression, not the final numerical result.'
+p2607
+aas(S'99'
+p2608
+S'shadams'
+p2609
+tp2610
+(lp2611
+(lp2612
+S'2016-10-14 15:45:30'
+p2613
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2614
+aas(g303
+S'Derrick'
+p2615
+tp2616
+(lp2617
+(lp2618
+S'2016-10-14 18:59:57'
+p2619
+ag311
+aS'Please write an expression, not the final numerical result.'
+p2620
+aass(g2
+g311
+g20
+tp2621
+(dp2622
+(S'118'
+p2623
+S'alebedev'
+p2624
+tp2625
+(lp2626
+(lp2627
+S'2016-10-26 05:03:10'
+p2628
+aS'0.6'
+p2629
+aS'Please write an expression, not the final numerical result.'
+p2630
+aass(g3
+g20
+g3
+tp2631
+(dp2632
+(g270
+S'pgupta'
+p2633
+tp2634
+(lp2635
+(lp2636
+S'2016-10-14 21:20:14'
+p2637
+aS'13'
+p2638
+aS'Please write an expression, not the final numerical result.'
+p2639
+aas(g254
+S'j2chang'
+p2640
+tp2641
+(lp2642
+(lp2643
+S'2016-10-14 21:27:34'
+p2644
+aS'13'
+p2645
+aS'Please write an expression, not the final numerical result.'
+p2646
+aas(g978
+S'RodrigoM'
+p2647
+tp2648
+(lp2649
+(lp2650
+S'2016-10-14 23:09:42'
+p2651
+aS'13'
+p2652
+aS'Please write an expression, not the final numerical result.'
+p2653
+aas(g814
+S'a9zhao'
+p2654
+tp2655
+(lp2656
+(lp2657
+S'2016-10-14 18:45:26'
+p2658
+ag260
+aS'Please write an expression, not the final numerical result.'
+p2659
+aa(lp2660
+S'2016-10-14 21:43:54'
+p2661
+aS'13'
+p2662
+aS'Please write an expression, not the final numerical result.'
+p2663
+aas(g2377
+S'rjanowit'
+p2664
+tp2665
+(lp2666
+(lp2667
+S'2016-10-15 00:49:16'
+p2668
+aS'13'
+p2669
+aS'Please write an expression, not the final numerical result.'
+p2670
+aas(g345
+S'nanguian'
+p2671
+tp2672
+(lp2673
+(lp2674
+S'2016-10-14 22:18:48'
+p2675
+aS'13'
+p2676
+aS'Please write an expression, not the final numerical result.'
+p2677
+aas(g1095
+S'kkhuong'
+p2678
+tp2679
+(lp2680
+(lp2681
+S'2016-10-14 17:24:54'
+p2682
+aS'13'
+p2683
+aS'Please write an expression, not the final numerical result.'
+p2684
+aas(g726
+S'URajkumar'
+p2685
+tp2686
+(lp2687
+(lp2688
+S'2016-10-14 22:09:46'
+p2689
+aS'14'
+p2690
+aS'Please write an expression, not the final numerical result.'
+p2691
+aas(g505
+S'karl-rummler'
+p2692
+tp2693
+(lp2694
+(lp2695
+S'2016-10-14 20:21:30'
+p2696
+aS'13'
+p2697
+aS'Please write an expression, not the final numerical result.'
+p2698
+aas(g262
+S'CharlesCruz'
+p2699
+tp2700
+(lp2701
+(lp2702
+S'2016-10-14 22:17:25'
+p2703
+ag20
+aS'Please write an expression, not the final numerical result.'
+p2704
+aas(g229
+S'DRavida'
+p2705
+tp2706
+(lp2707
+(lp2708
+S'2016-10-15 00:02:44'
+p2709
+aS'14'
+p2710
+aS'Please write an expression, not the final numerical result.'
+p2711
+aas(g1370
+S'arman'
+p2712
+tp2713
+(lp2714
+(lp2715
+S'2016-10-15 00:03:19'
+p2716
+aS'13'
+p2717
+aS'Please write an expression, not the final numerical result.'
+p2718
+aa(lp2719
+S'2016-10-15 00:05:40'
+p2720
+aS'13'
+p2721
+aS'Please write an expression, not the final numerical result.'
+p2722
+aa(lp2723
+S'2016-10-15 00:42:39'
+p2724
+aS'42'
+p2725
+aS'Please write an expression, not the final numerical result.'
+p2726
+aas(g744
+S'msp'
+p2727
+tp2728
+(lp2729
+(lp2730
+S'2016-10-14 22:05:03'
+p2731
+aS'13'
+p2732
+aS'Please write an expression, not the final numerical result.'
+p2733
+aa(lp2734
+S'2016-10-14 22:28:17'
+p2735
+aS'13'
+p2736
+aS'Please write an expression, not the final numerical result.'
+p2737
+aas(g2020
+S'jefferyw'
+p2738
+tp2739
+(lp2740
+(lp2741
+S'2016-10-14 23:35:06'
+p2742
+ag3
+aS'Please write an expression, not the final numerical result.'
+p2743
+aas(g1074
+S'anMihaly'
+p2744
+tp2745
+(lp2746
+(lp2747
+S'2016-10-14 22:27:42'
+p2748
+aS'13'
+p2749
+aS'Please write an expression, not the final numerical result.'
+p2750
+aas(g1730
+S'axl004'
+p2751
+tp2752
+(lp2753
+(lp2754
+S'2016-10-15 00:10:20'
+p2755
+ag20
+aS'Please write an expression, not the final numerical result.'
+p2756
+aa(lp2757
+S'2016-10-15 00:23:34'
+p2758
+ag20
+aS'Please write an expression, not the final numerical result.'
+p2759
+aa(lp2760
+S'2016-10-15 00:23:35'
+p2761
+ag20
+aS'Please write an expression, not the final numerical result.'
+p2762
+aa(lp2763
+S'2016-10-15 00:32:48'
+p2764
+aS'11'
+p2765
+aS'Please write an expression, not the final numerical result.'
+p2766
+aa(lp2767
+S'2016-10-15 00:32:48'
+p2768
+aS'11'
+p2769
+aS'Please write an expression, not the final numerical result.'
+p2770
+aas(g136
+S'danFlorencio'
+p2771
+tp2772
+(lp2773
+(lp2774
+S'2016-10-14 21:13:12'
+p2775
+aS'28561'
+p2776
+aS'Please write an expression, not the final numerical result.'
+p2777
+aas(g325
+S'gstamp'
+p2778
+tp2779
+(lp2780
+(lp2781
+S'2016-10-14 23:46:05'
+p2782
+aS'13'
+p2783
+aS'Please write an expression, not the final numerical result.'
+p2784
+aas(S'178'
+p2785
+S'kel116'
+p2786
+tp2787
+(lp2788
+(lp2789
+S'2016-10-14 23:18:27'
+p2790
+aS'13'
+p2791
+aS'Please write an expression, not the final numerical result.'
+p2792
+aas(g2502
+S'jwdavies'
+p2793
+tp2794
+(lp2795
+(lp2796
+S'2016-10-14 20:43:49'
+p2797
+aS'13'
+p2798
+aS'Please write an expression, not the final numerical result.'
+p2799
+aas(g891
+S'Nikan_Aminian'
+p2800
+tp2801
+(lp2802
+(lp2803
+S'2016-10-14 21:32:32'
+p2804
+aS'156'
+p2805
+aS'Please write an expression, not the final numerical result.'
+p2806
+aa(lp2807
+S'2016-10-14 22:11:56'
+p2808
+aS'768'
+p2809
+aS'Please write an expression, not the final numerical result.'
+p2810
+aa(lp2811
+S'2016-10-14 22:13:23'
+p2812
+aS'324'
+p2813
+aS'Please write an expression, not the final numerical result.'
+p2814
+aas(g903
+S'JaceChan'
+p2815
+tp2816
+(lp2817
+(lp2818
+S'2016-10-14 23:08:16'
+p2819
+aS'13'
+p2820
+aS'Please write an expression, not the final numerical result.'
+p2821
+aas(g64
+S'MarianCrofts'
+p2822
+tp2823
+(lp2824
+(lp2825
+S'2016-10-14 21:50:18'
+p2826
+aS'13'
+p2827
+aS'Please write an expression, not the final numerical result.'
+p2828
+aa(lp2829
+S'2016-10-14 21:51:04'
+p2830
+aS'13'
+p2831
+aS'Please write an expression, not the final numerical result.'
+p2832
+aas(g910
+S'FrankHuang'
+p2833
+tp2834
+(lp2835
+(lp2836
+S'2016-10-14 16:30:55'
+p2837
+aS'13'
+p2838
+aS'Please write an expression, not the final numerical result.'
+p2839
+aa(lp2840
+S'2016-10-14 16:30:57'
+p2841
+aS'13'
+p2842
+aS'Please write an expression, not the final numerical result.'
+p2843
+aas(g671
+S'mninette'
+p2844
+tp2845
+(lp2846
+(lp2847
+S'2016-10-14 19:32:01'
+p2848
+aS'11'
+p2849
+aS'Please write an expression, not the final numerical result.'
+p2850
+aas(g929
+S'KimberlyLy'
+p2851
+tp2852
+(lp2853
+(lp2854
+S'2016-10-14 18:09:27'
+p2855
+aS'13'
+p2856
+aS'Please write an expression, not the final numerical result.'
+p2857
+aa(lp2858
+S'2016-10-14 18:09:28'
+p2859
+aS'13'
+p2860
+aS'Please write an expression, not the final numerical result.'
+p2861
+aa(lp2862
+S'2016-10-14 19:08:03'
+p2863
+ag322
+aS'Please write an expression, not the final numerical result.'
+p2864
+aas(g758
+S'NickWong'
+p2865
+tp2866
+(lp2867
+(lp2868
+S'2016-10-14 18:27:19'
+p2869
+ag1
+aS'Please write an expression, not the final numerical result.'
+p2870
+aas(g634
+S'jewidjaj'
+p2871
+tp2872
+(lp2873
+(lp2874
+S'2016-10-14 17:04:40'
+p2875
+aS'13'
+p2876
+aS'Please write an expression, not the final numerical result.'
+p2877
+aas(g952
+S'ottojursch'
+p2878
+tp2879
+(lp2880
+(lp2881
+S'2016-10-14 20:45:38'
+p2882
+aS'13'
+p2883
+aS'Please write an expression, not the final numerical result.'
+p2884
+aa(lp2885
+S'2016-10-14 21:57:55'
+p2886
+aS'13'
+p2887
+aS'Please write an expression, not the final numerical result.'
+p2888
+aas(g964
+S'heitorschueroff'
+p2889
+tp2890
+(lp2891
+(lp2892
+S'2016-10-14 19:19:27'
+p2893
+aS'13'
+p2894
+aS'Please write an expression, not the final numerical result.'
+p2895
+aa(lp2896
+S'2016-10-14 19:21:26'
+p2897
+aS'13'
+p2898
+aS'Please write an expression, not the final numerical result.'
+p2899
+aa(lp2900
+S'2016-10-14 23:04:59'
+p2901
+aS'P(5,5) - P'
+p2902
+aS'Can the answer be negative?'
+p2903
+aas(g146
+S'zjteoh'
+p2904
+tp2905
+(lp2906
+(lp2907
+S'2016-10-14 20:37:55'
+p2908
+aS'13'
+p2909
+aS'Please write an expression, not the final numerical result.'
+p2910
+aa(lp2911
+S'2016-10-14 20:54:21'
+p2912
+aS'13'
+p2913
+aS'Please write an expression, not the final numerical result.'
+p2914
+aas(g945
+S'whcombs'
+p2915
+tp2916
+(lp2917
+(lp2918
+S'2016-10-14 16:22:38'
+p2919
+aS'13'
+p2920
+aS'Please write an expression, not the final numerical result.'
+p2921
+aas(g557
+S'Max'
+p2922
+tp2923
+(lp2924
+(lp2925
+S'2016-10-14 16:14:49'
+p2926
+aS'13'
+p2927
+aS'Please write an expression, not the final numerical result.'
+p2928
+aa(lp2929
+S'2016-10-14 16:14:50'
+p2930
+aS'13'
+p2931
+aS'Please write an expression, not the final numerical result.'
+p2932
+aa(lp2933
+S'2016-10-14 19:48:14'
+p2934
+aS'12'
+p2935
+aS'Please write an expression, not the final numerical result.'
+p2936
+aas(g988
+S'nolin'
+p2937
+tp2938
+(lp2939
+(lp2940
+S'2016-10-15 00:14:42'
+p2941
+aS'13'
+p2942
+aS'Please write an expression, not the final numerical result.'
+p2943
+aas(g582
+S'ccaine'
+p2944
+tp2945
+(lp2946
+(lp2947
+S'2016-10-14 19:02:50'
+p2948
+aS'13'
+p2949
+aS'Please write an expression, not the final numerical result.'
+p2950
+aa(lp2951
+S'2016-10-14 19:06:24'
+p2952
+aS'13'
+p2953
+aS'Please write an expression, not the final numerical result.'
+p2954
+aas(g2230
+S'Arash'
+p2955
+tp2956
+(lp2957
+(lp2958
+S'2016-10-15 00:32:32'
+p2959
+aS'13'
+p2960
+aS'Please write an expression, not the final numerical result.'
+p2961
+aas(g1142
+S'cwasley'
+p2962
+tp2963
+(lp2964
+(lp2965
+S'2016-10-15 00:12:59'
+p2966
+aS'52'
+p2967
+aS'Please write an expression, not the final numerical result.'
+p2968
+aa(lp2969
+S'2016-10-15 00:13:57'
+p2970
+aS'169'
+p2971
+aS'Please write an expression, not the final numerical result.'
+p2972
+aas(g14
+S'jarninfang'
+p2973
+tp2974
+(lp2975
+(lp2976
+S'2016-10-14 22:06:56'
+p2977
+aS'13'
+p2978
+aS'Please write an expression, not the final numerical result.'
+p2979
+aas(g589
+S'wesleymwong'
+p2980
+tp2981
+(lp2982
+(lp2983
+S'2016-10-14 20:14:23'
+p2984
+aS'13'
+p2985
+aS'Please write an expression, not the final numerical result.'
+p2986
+aa(lp2987
+S'2016-10-14 20:14:25'
+p2988
+aS'13'
+p2989
+aS'Please write an expression, not the final numerical result.'
+p2990
+aa(lp2991
+S'2016-10-14 23:59:03'
+p2992
+aS'13'
+p2993
+aS'Please write an expression, not the final numerical result.'
+p2994
+aa(lp2995
+S'2016-10-14 23:59:04'
+p2996
+aS'13'
+p2997
+aS'Please write an expression, not the final numerical result.'
+p2998
+aas(g120
+S'JessKwok'
+p2999
+tp3000
+(lp3001
+(lp3002
+S'2016-10-14 18:05:47'
+p3003
+ag3
+aS'Please write an expression, not the final numerical result.'
+p3004
+aas(g1161
+S'mtashman'
+p3005
+tp3006
+(lp3007
+(lp3008
+S'2016-10-14 19:53:12'
+p3009
+aS'14'
+p3010
+aS'Please write an expression, not the final numerical result.'
+p3011
+aas(S'293'
+p3012
+S'isabella'
+p3013
+tp3014
+(lp3015
+(lp3016
+S'2016-10-14 21:10:01'
+p3017
+aS'13'
+p3018
+aS'Please write an expression, not the final numerical result.'
+p3019
+aa(lp3020
+S'2016-10-14 21:41:10'
+p3021
+aS'13'
+p3022
+aS'Please write an expression, not the final numerical result.'
+p3023
+aas(g239
+S'djmoreno'
+p3024
+tp3025
+(lp3026
+(lp3027
+S'2016-10-15 00:48:13'
+p3028
+aS'48'
+p3029
+aS'Please write an expression, not the final numerical result.'
+p3030
+aa(lp3031
+S'2016-10-15 00:59:45'
+p3032
+aS'13'
+p3033
+aS'Please write an expression, not the final numerical result.'
+p3034
+aas(g1031
+S'KevinChrisayrton'
+p3035
+tp3036
+(lp3037
+(lp3038
+S'2016-10-14 21:15:59'
+p3039
+aS'20'
+p3040
+aS'Please write an expression, not the final numerical result.'
+p3041
+aas(g488
+S'BrianaW'
+p3042
+tp3043
+(lp3044
+(lp3045
+S'2016-10-14 23:46:45'
+p3046
+aS'13'
+p3047
+aS'Please write an expression, not the final numerical result.'
+p3048
+aass(g1
+g322
+g31
+tp3049
+(dp3050
+(g1902
+S'hunguyen'
+p3051
+tp3052
+(lp3053
+(lp3054
+S'2016-10-21 06:58:47'
+p3055
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3056
+aas(g96
+S'nesengup'
+p3057
+tp3058
+(lp3059
+(lp3060
+S'2016-10-21 16:37:40'
+p3061
+ag322
+aS'Please write an expression, not the final numerical result.'
+p3062
+aa(lp3063
+S'2016-10-21 16:42:44'
+p3064
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3065
+aa(lp3066
+S'2016-10-21 16:49:00'
+p3067
+aS'10'
+p3068
+aS'Please write an expression, not the final numerical result.'
+p3069
+aas(g1284
+S'kevinmc'
+p3070
+tp3071
+(lp3072
+(lp3073
+S'2016-10-21 11:38:28'
+p3074
+ag2
+aS'Please write an expression, not the final numerical result.'
+p3075
+aas(g456
+S'SidneyNguyen'
+p3076
+tp3077
+(lp3078
+(lp3079
+S'2016-10-20 06:31:48'
+p3080
+ag322
+aS'Please write an expression, not the final numerical result.'
+p3081
+aas(g229
+S'DRavida'
+p3082
+tp3083
+(lp3084
+(lp3085
+S'2016-10-21 05:33:11'
+p3086
+aS'12'
+p3087
+aS'Please write an expression, not the final numerical result.'
+p3088
+aass(g31
+g2
+g20
+tp3089
+(dp3090
+(g1521
+S'zhenzhai'
+p3091
+tp3092
+(lp3093
+(lp3094
+S'2016-10-04 09:02:08'
+p3095
+aS'345'
+p3096
+aS'Please write an expression, not the final numerical result.'
+p3097
+aa(lp3098
+S'2016-10-05 04:34:21'
+p3099
+aS'24'
+p3100
+aS'Please write an expression, not the final numerical result.'
+p3101
+aa(lp3102
+S'2016-10-05 04:35:37'
+p3103
+aS'35'
+p3104
+aS'Please write an expression, not the final numerical result.'
+p3105
+aa(lp3106
+S'2016-10-05 04:36:24'
+p3107
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3108
+aass(g3
+g31
+g311
+tp3109
+(dp3110
+(g497
+S'ETDuong'
+p3111
+tp3112
+(lp3113
+(lp3114
+S'2016-10-14 19:49:39'
+p3115
+aS'2.82741888e-9'
+p3116
+aS'Can the answer be negative?'
+p3117
+aas(g814
+S'a9zhao'
+p3118
+tp3119
+(lp3120
+(lp3121
+S'2016-10-14 17:10:30'
+p3122
+aS'2.14129158e-8'
+p3123
+aS'Can the answer be negative?'
+p3124
+aas(S'96'
+p3125
+S'JonahCruz'
+p3126
+tp3127
+(lp3128
+(lp3129
+S'2016-10-14 20:45:38'
+p3130
+aS'1-(((10!/((10-2)!2!))/2^10)+(10/2^10)+(1/2^10))*370'
+p3131
+aS'Can the answer be negative?'
+p3132
+aas(S'314'
+p3133
+S'zpreeces'
+p3134
+tp3135
+(lp3136
+(lp3137
+S'2016-10-15 00:21:43'
+p3138
+aS'1-(383*(C(10,8)+C(10,9)+1)/(2^10))'
+p3139
+aS'Can the answer be negative?'
+p3140
+aas(g1370
+S'arman'
+p3141
+tp3142
+(lp3143
+(lp3144
+S'2016-10-14 21:05:07'
+p3145
+aS'(1-(55/1024+1014/1024))*335'
+p3146
+aS'Can the answer be negative?'
+p3147
+aass(g2
+g2
+g1
+tp3148
+(dp3149
+(S'63'
+p3150
+S'christhoperbernard'
+p3151
+tp3152
+(lp3153
+(lp3154
+S'2016-10-25 18:40:21'
+p3155
+aS'(0.5*0.5)-(1.5*0.5)'
+p3156
+aS'Can the answer be negative?'
+p3157
+aass(g1
+g311
+g20
+tp3158
+(dp3159
+(g1622
+S'Alix'
+p3160
+tp3161
+(lp3162
+(lp3163
+S'2016-10-21 08:04:15'
+p3164
+aS'C(47,2) - C(39,8)'
+p3165
+aS'Can the answer be negative?'
+p3166
+aas(S'135'
+p3167
+S'tsy'
+p3168
+tp3169
+(lp3170
+(lp3171
+S'2016-10-21 05:48:17'
+p3172
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3173
+aa(lp3174
+S'2016-10-21 05:48:18'
+p3175
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3176
+aas(g1221
+S'adejesus'
+p3177
+tp3178
+(lp3179
+(lp3180
+S'2016-10-20 05:55:05'
+p3181
+aS'64'
+p3182
+aS'Please write an expression, not the final numerical result.'
+p3183
+aa(lp3184
+S'2016-10-20 05:55:59'
+p3185
+aS'64'
+p3186
+aS'Please write an expression, not the final numerical result.'
+p3187
+aa(lp3188
+S'2016-10-20 05:56:20'
+p3189
+aS'128'
+p3190
+aS'Please write an expression, not the final numerical result.'
+p3191
+aa(lp3192
+S'2016-10-20 05:57:47'
+p3193
+aS'16'
+p3194
+aS'Please write an expression, not the final numerical result.'
+p3195
+aas(g758
+S'NickWong'
+p3196
+tp3197
+(lp3198
+(lp3199
+S'2016-10-21 05:19:01'
+p3200
+aS'64'
+p3201
+aS'Please write an expression, not the final numerical result.'
+p3202
+aa(lp3203
+S'2016-10-21 05:25:53'
+p3204
+aS'16'
+p3205
+aS'Please write an expression, not the final numerical result.'
+p3206
+aa(lp3207
+S'2016-10-21 05:26:15'
+p3208
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3209
+aas(g744
+S'msp'
+p3210
+tp3211
+(lp3212
+(lp3213
+S'2016-10-21 05:19:36'
+p3214
+aS'(1-C(43,1))*(C(46,1)*C(4,1)+C(46,1)*C(4,1))'
+p3215
+aS'Can the answer be negative?'
+p3216
+aas(g229
+S'DRavida'
+p3217
+tp3218
+(lp3219
+(lp3220
+S'2016-10-21 04:56:20'
+p3221
+ag50
+aS'Please write an expression, not the final numerical result.'
+p3222
+aass(g1
+g31
+g31
+tp3223
+(dp3224
+(g136
+S'danFlorencio'
+p3225
+tp3226
+(lp3227
+(lp3228
+S'2016-10-21 05:12:07'
+p3229
+aS'.12'
+p3230
+aS'Please write an expression, not the final numerical result.'
+p3231
+aas(g2785
+S'kel116'
+p3232
+tp3233
+(lp3234
+(lp3235
+S'2016-10-21 13:02:03'
+p3236
+aS'0.15'
+p3237
+aS'Please write an expression, not the final numerical result.'
+p3238
+aass(g3
+g260
+g20
+tp3239
+(dp3240
+(g146
+S'zjteoh'
+p3241
+tp3242
+(lp3243
+(lp3244
+S'2016-10-14 19:41:30'
+p3245
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3246
+aa(lp3247
+S'2016-10-14 19:47:17'
+p3248
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3249
+aa(lp3250
+S'2016-10-14 19:48:23'
+p3251
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3252
+aa(lp3253
+S'2016-10-14 19:52:45'
+p3254
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3255
+aa(lp3256
+S'2016-10-14 22:37:33'
+p3257
+ag20
+aS'Please write an expression, not the final numerical result.'
+p3258
+aa(lp3259
+S'2016-10-14 22:42:21'
+p3260
+ag3
+aS'Please write an expression, not the final numerical result.'
+p3261
+aas(g607
+S'Jyrodgers'
+p3262
+tp3263
+(lp3264
+(lp3265
+S'2016-10-14 19:51:14'
+p3266
+aS'240'
+p3267
+aS'Please write an expression, not the final numerical result.'
+p3268
+aa(lp3269
+S'2016-10-14 22:15:16'
+p3270
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3271
+aas(g1838
+S'bhaveshnibber'
+p3272
+tp3273
+(lp3274
+(lp3275
+S'2016-10-14 19:45:13'
+p3276
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3277
+aas(g2020
+S'jefferyw'
+p3278
+tp3279
+(lp3280
+(lp3281
+S'2016-10-14 22:41:52'
+p3282
+ag2
+aS'Please write an expression, not the final numerical result.'
+p3283
+aas(g1469
+S'kennyglee'
+p3284
+tp3285
+(lp3286
+(lp3287
+S'2016-10-14 16:10:08'
+p3288
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3289
+aass(g1
+g322
+g20
+tp3290
+(dp3291
+(S'234'
+p3292
+S'wesokuhara'
+p3293
+tp3294
+(lp3295
+(lp3296
+S'2016-10-20 00:43:32'
+p3297
+aS'10'
+p3298
+aS'Please write an expression, not the final numerical result.'
+p3299
+aa(lp3300
+S'2016-10-20 00:43:33'
+p3301
+aS'10'
+p3302
+aS'Please write an expression, not the final numerical result.'
+p3303
+aas(g279
+S'SothyrakSrey'
+p3304
+tp3305
+(lp3306
+(lp3307
+S'2016-10-21 06:29:15'
+p3308
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3309
+aas(g1543
+S'ctetreau'
+p3310
+tp3311
+(lp3312
+(lp3313
+S'2016-10-20 20:20:47'
+p3314
+aS'13'
+p3315
+aS'Please write an expression, not the final numerical result.'
+p3316
+aas(g120
+S'JessKwok'
+p3317
+tp3318
+(lp3319
+(lp3320
+S'2016-10-21 15:57:03'
+p3321
+aS'40'
+p3322
+aS'Please write an expression, not the final numerical result.'
+p3323
+aa(lp3324
+S'2016-10-21 17:26:49'
+p3325
+ag260
+aS'Please write an expression, not the final numerical result.'
+p3326
+aas(g456
+S'SidneyNguyen'
+p3327
+tp3328
+(lp3329
+(lp3330
+S'2016-10-20 06:31:46'
+p3331
+aS'10'
+p3332
+aS'Please write an expression, not the final numerical result.'
+p3333
+aas(g96
+S'nesengup'
+p3334
+tp3335
+(lp3336
+(lp3337
+S'2016-10-21 16:37:38'
+p3338
+ag2
+aS'Please write an expression, not the final numerical result.'
+p3339
+aa(lp3340
+S'2016-10-21 16:42:45'
+p3341
+ag2
+aS'Please write an expression, not the final numerical result.'
+p3342
+aa(lp3343
+S'2016-10-21 16:47:03'
+p3344
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3345
+aa(lp3346
+S'2016-10-21 16:48:59'
+p3347
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3348
+aas(g34
+S'JonDo'
+p3349
+tp3350
+(lp3351
+(lp3352
+S'2016-10-21 05:40:46'
+p3353
+aS'10'
+p3354
+aS'Please write an expression, not the final numerical result.'
+p3355
+aas(g1902
+S'hunguyen'
+p3356
+tp3357
+(lp3358
+(lp3359
+S'2016-10-21 06:58:47'
+p3360
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3361
+aa(lp3362
+S'2016-10-21 07:03:33'
+p3363
+ag20
+aS'Please write an expression, not the final numerical result.'
+p3364
+aas(g3125
+S'JonahCruz'
+p3365
+tp3366
+(lp3367
+(lp3368
+S'2016-10-21 16:01:10'
+p3369
+ag322
+aS'Please write an expression, not the final numerical result.'
+p3370
+aas(g1284
+S'kevinmc'
+p3371
+tp3372
+(lp3373
+(lp3374
+S'2016-10-21 11:38:25'
+p3375
+ag311
+aS'Please write an expression, not the final numerical result.'
+p3376
+aas(g1730
+S'axl004'
+p3377
+tp3378
+(lp3379
+(lp3380
+S'2016-10-20 05:31:36'
+p3381
+ag311
+aS'Please write an expression, not the final numerical result.'
+p3382
+aas(g314
+S'vincebai'
+p3383
+tp3384
+(lp3385
+(lp3386
+S'2016-10-19 21:26:36'
+p3387
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3388
+aas(g777
+S'katielau'
+p3389
+tp3390
+(lp3391
+(lp3392
+S'2016-10-20 22:46:33'
+p3393
+ag20
+aS'Please write an expression, not the final numerical result.'
+p3394
+aas(g1697
+S'Melvinw'
+p3395
+tp3396
+(lp3397
+(lp3398
+S'2016-10-20 05:01:21'
+p3399
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3400
+aas(g1689
+S'Ankush_Sarow'
+p3401
+tp3402
+(lp3403
+(lp3404
+S'2016-10-20 03:19:37'
+p3405
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3406
+aas(g229
+S'DRavida'
+p3407
+tp3408
+(lp3409
+(lp3410
+S'2016-10-21 05:31:04'
+p3411
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3412
+aas(S'188'
+p3413
+S'alidding'
+p3414
+tp3415
+(lp3416
+(lp3417
+S'2016-10-20 03:58:23'
+p3418
+aS'10'
+p3419
+aS'Please write an expression, not the final numerical result.'
+p3420
+aass(g2
+g2
+g31
+tp3421
+(dp3422
+(g402
+S'vnoxdev'
+p3423
+tp3424
+(lp3425
+(lp3426
+S'2016-10-25 19:43:20'
+p3427
+aS'0.5'
+p3428
+aS'Please write an expression, not the final numerical result.'
+p3429
+aass(g3
+g31
+g20
+tp3430
+(dp3431
+(g247
+S'PhillipJo'
+p3432
+tp3433
+(lp3434
+(lp3435
+S'2016-10-14 19:10:18'
+p3436
+aS'0.233474441'
+p3437
+aS'Please write an expression, not the final numerical result.'
+p3438
+aas(g254
+S'j2chang'
+p3439
+tp3440
+(lp3441
+(lp3442
+S'2016-10-14 19:03:17'
+p3443
+aS'0.0439'
+p3444
+aS'Please write an expression, not the final numerical result.'
+p3445
+aass(g1
+g31
+g3
+tp3446
+(dp3447
+(g136
+S'danFlorencio'
+p3448
+tp3449
+(lp3450
+(lp3451
+S'2016-10-21 05:12:09'
+p3452
+aS'.12'
+p3453
+aS'Please write an expression, not the final numerical result.'
+p3454
+aass(g1
+g3
+g3
+tp3455
+(dp3456
+(g247
+S'PhillipJo'
+p3457
+tp3458
+(lp3459
+(lp3460
+S'2016-10-21 06:16:28'
+p3461
+aS'0.000002009'
+p3462
+aS'Please write an expression, not the final numerical result.'
+p3463
+aass(g2
+g2
+g3
+tp3464
+(dp3465
+(g402
+S'vnoxdev'
+p3466
+tp3467
+(lp3468
+(lp3469
+S'2016-10-25 19:43:22'
+p3470
+aS'0.5'
+p3471
+aS'Please write an expression, not the final numerical result.'
+p3472
+aass(g3
+g30
+g3
+tp3473
+(dp3474
+(g136
+S'danFlorencio'
+p3475
+tp3476
+(lp3477
+(lp3478
+S'2016-10-14 11:56:07'
+p3479
+aS'56'
+p3480
+aS'Please write an expression, not the final numerical result.'
+p3481
+aa(lp3482
+S'2016-10-14 11:58:23'
+p3483
+aS'36'
+p3484
+aS'Please write an expression, not the final numerical result.'
+p3485
+aa(lp3486
+S'2016-10-14 11:59:51'
+p3487
+ag3
+aS'Please write an expression, not the final numerical result.'
+p3488
+aa(lp3489
+S'2016-10-14 12:00:53'
+p3490
+ag3
+aS'Please write an expression, not the final numerical result.'
+p3491
+aa(lp3492
+S'2016-10-14 12:01:25'
+p3493
+aS'1001'
+p3494
+aS'Please write an expression, not the final numerical result.'
+p3495
+aas(g325
+S'gstamp'
+p3496
+tp3497
+(lp3498
+(lp3499
+S'2016-10-14 23:19:25'
+p3500
+aS'C(5,3)'
+p3501
+aS'Please write an expression, not the final numerical result.'
+p3502
+aas(g1142
+S'cwasley'
+p3503
+tp3504
+(lp3505
+(lp3506
+S'2016-10-14 23:53:42'
+p3507
+aS'35'
+p3508
+aS'Please write an expression, not the final numerical result.'
+p3509
+aa(lp3510
+S'2016-10-14 23:54:46'
+p3511
+aS'3024'
+p3512
+aS'Please write an expression, not the final numerical result.'
+p3513
+aas(g869
+S'HansGamboa'
+p3514
+tp3515
+(lp3516
+(lp3517
+S'2016-10-14 19:51:16'
+p3518
+aS'1001'
+p3519
+aS'Please write an expression, not the final numerical result.'
+p3520
+aa(lp3521
+S'2016-10-14 20:04:07'
+p3522
+aS'28'
+p3523
+aS'Please write an expression, not the final numerical result.'
+p3524
+aas(g1370
+S'arman'
+p3525
+tp3526
+(lp3527
+(lp3528
+S'2016-10-14 22:53:45'
+p3529
+aS'28'
+p3530
+aS'Please write an expression, not the final numerical result.'
+p3531
+aass(g2
+g260
+g31
+tp3532
+(dp3533
+(g402
+S'vnoxdev'
+p3534
+tp3535
+(lp3536
+(lp3537
+S'2016-10-25 20:35:05'
+p3538
+aS'14'
+p3539
+aS'Please write an expression, not the final numerical result.'
+p3540
+aas(g314
+S'vincebai'
+p3541
+tp3542
+(lp3543
+(lp3544
+S'2016-10-26 09:15:06'
+p3545
+aS'40'
+p3546
+aS'Please write an expression, not the final numerical result.'
+p3547
+aass(g1
+g3
+g31
+tp3548
+(dp3549
+(g247
+S'PhillipJo'
+p3550
+tp3551
+(lp3552
+(lp3553
+S'2016-10-21 09:50:37'
+p3554
+aS'0.020092'
+p3555
+aS'Please write an expression, not the final numerical result.'
+p3556
+aass(g3
+g31
+g3
+tp3557
+(dp3558
+(g884
+S'gurkiratsingh'
+p3559
+tp3560
+(lp3561
+(lp3562
+S'2016-10-14 20:56:41'
+p3563
+ag50
+aS'Please write an expression, not the final numerical result.'
+p3564
+aass(g1
+g31
+g311
+tp3565
+(dp3566
+(g497
+S'ETDuong'
+p3567
+tp3568
+(lp3569
+(lp3570
+S'2016-10-21 03:31:33'
+p3571
+aS'(.55-.4)+.3-.6'
+p3572
+aS'Can the answer be negative?'
+p3573
+aas(g303
+S'Derrick'
+p3574
+tp3575
+(lp3576
+(lp3577
+S'2016-10-21 08:38:21'
+p3578
+aS'0.55-0.25-0.25-0.3+(0.25*0.25)+(0.25*0.3)+(0.25*0.3)'
+p3579
+aS'Can the answer be negative?'
+p3580
+aas(g64
+S'MarianCrofts'
+p3581
+tp3582
+(lp3583
+(lp3584
+S'2016-10-21 04:11:52'
+p3585
+ag20
+aS'Please write an expression, not the final numerical result.'
+p3586
+aas(S'221'
+p3587
+S'AmirAssad'
+p3588
+tp3589
+(lp3590
+(lp3591
+S'2016-10-21 05:40:23'
+p3592
+aS'0.12'
+p3593
+aS'Please write an expression, not the final numerical result.'
+p3594
+aa(lp3595
+S'2016-10-21 05:40:32'
+p3596
+aS'0.12'
+p3597
+aS'Please write an expression, not the final numerical result.'
+p3598
+aa(lp3599
+S'2016-10-21 05:45:01'
+p3600
+aS'0.3+0.2+0.3-0.1-0.15-0.15-0.55'
+p3601
+aS'Can the answer be negative?'
+p3602
+aas(g361
+S'tdea'
+p3603
+tp3604
+(lp3605
+(lp3606
+S'2016-10-21 07:02:51'
+p3607
+ag20
+aS'Please write an expression, not the final numerical result.'
+p3608
+aas(S'294'
+p3609
+S'rdrabik'
+p3610
+tp3611
+(lp3612
+(lp3613
+S'2016-10-20 19:58:07'
+p3614
+aS'.5'
+p3615
+aS'Please write an expression, not the final numerical result.'
+p3616
+aa(lp3617
+S'2016-10-20 19:58:10'
+p3618
+ag202
+aS'Please write an expression, not the final numerical result.'
+p3619
+aas(S'190'
+p3620
+S'DChour'
+p3621
+tp3622
+(lp3623
+(lp3624
+S'2016-10-20 23:40:12'
+p3625
+aS'.3'
+p3626
+aS'Please write an expression, not the final numerical result.'
+p3627
+aa(lp3628
+S'2016-10-21 16:47:12'
+p3629
+aS'.2'
+p3630
+aS'Please write an expression, not the final numerical result.'
+p3631
+aas(S'254'
+p3632
+S'BrianIsAHoe'
+p3633
+tp3634
+(lp3635
+(lp3636
+S'2016-10-20 22:54:08'
+p3637
+aS'.55'
+p3638
+aS'Please write an expression, not the final numerical result.'
+p3639
+aass(g1
+g31
+g20
+tp3640
+(dp3641
+(g136
+S'danFlorencio'
+p3642
+tp3643
+(lp3644
+(lp3645
+S'2016-10-21 05:12:06'
+p3646
+aS'.09'
+p3647
+aS'Please write an expression, not the final numerical result.'
+p3648
+aas(g1161
+S'mtashman'
+p3649
+tp3650
+(lp3651
+(lp3652
+S'2016-10-20 07:49:21'
+p3653
+aS'.0625'
+p3654
+aS'Please write an expression, not the final numerical result.'
+p3655
+aas(g794
+S'Brnkvu'
+p3656
+tp3657
+(lp3658
+(lp3659
+S'2016-10-20 20:39:38'
+p3660
+aS'.45-.6'
+p3661
+aS'Can the answer be negative?'
+p3662
+aas(g3012
+S'isabella'
+p3663
+tp3664
+(lp3665
+(lp3666
+S'2016-10-21 15:27:20'
+p3667
+aS'0.05'
+p3668
+aS'Please write an expression, not the final numerical result.'
+p3669
+aass(g31
+g322
+g20
+tp3670
+(dp3671
+(g794
+S'Brnkvu'
+p3672
+tp3673
+(lp3674
+(lp3675
+S'2016-10-05 23:32:08'
+p3676
+aS'20'
+p3677
+aS'Please write an expression, not the final numerical result.'
+p3678
+aas(g3413
+S'alidding'
+p3679
+tp3680
+(lp3681
+(lp3682
+S'2016-10-06 06:25:40'
+p3683
+aS'5 * 5 / 2'
+p3684
+aS'Can the answer be fractional?'
+p3685
+aas(g353
+S'a1vinwu'
+p3686
+tp3687
+(lp3688
+(lp3689
+S'2016-10-06 04:23:16'
+p3690
+ag202
+aS'Please write an expression, not the final numerical result.'
+p3691
+aass(g2
+g2
+g20
+tp3692
+(dp3693
+(S'248'
+p3694
+S'Ken'
+p3695
+tp3696
+(lp3697
+(lp3698
+S'2016-10-26 02:11:19'
+p3699
+ag50
+aS'Please write an expression, not the final numerical result.'
+p3700
+aas(g314
+S'vincebai'
+p3701
+tp3702
+(lp3703
+(lp3704
+S'2016-10-26 08:39:59'
+p3705
+ag50
+aS'Please write an expression, not the final numerical result.'
+p3706
+aass(g3
+g30
+g20
+tp3707
+(dp3708
+(g1370
+S'arman'
+p3709
+tp3710
+(lp3711
+(lp3712
+S'2016-10-14 22:49:56'
+p3713
+aS'14'
+p3714
+aS'Please write an expression, not the final numerical result.'
+p3715
+aa(lp3716
+S'2016-10-14 22:53:40'
+p3717
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3718
+aas(g794
+S'Brnkvu'
+p3719
+tp3720
+(lp3721
+(lp3722
+S'2016-10-14 20:50:36'
+p3723
+ag322
+aS'Please write an expression, not the final numerical result.'
+p3724
+aas(g2230
+S'Arash'
+p3725
+tp3726
+(lp3727
+(lp3728
+S'2016-10-15 00:41:37'
+p3729
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3730
+aas(g3012
+S'isabella'
+p3731
+tp3732
+(lp3733
+(lp3734
+S'2016-10-14 20:37:38'
+p3735
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3736
+aa(lp3737
+S'2016-10-14 20:45:54'
+p3738
+ag260
+aS'Please write an expression, not the final numerical result.'
+p3739
+aas(g1422
+S'aliqbal'
+p3740
+tp3741
+(lp3742
+(lp3743
+S'2016-10-15 00:19:43'
+p3744
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3745
+aa(lp3746
+S'2016-10-15 00:19:45'
+p3747
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3748
+aa(lp3749
+S'2016-10-15 00:19:45'
+p3750
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3751
+aa(lp3752
+S'2016-10-15 00:19:47'
+p3753
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3754
+aa(lp3755
+S'2016-10-15 00:19:47'
+p3756
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3757
+aa(lp3758
+S'2016-10-15 00:19:47'
+p3759
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3760
+aas(g2377
+S'rjanowit'
+p3761
+tp3762
+(lp3763
+(lp3764
+S'2016-10-14 23:53:33'
+p3765
+aS'13'
+p3766
+aS'Please write an expression, not the final numerical result.'
+p3767
+aas(g1469
+S'kennyglee'
+p3768
+tp3769
+(lp3770
+(lp3771
+S'2016-10-14 16:31:20'
+p3772
+ag2
+aS'Please write an expression, not the final numerical result.'
+p3773
+aas(g239
+S'djmoreno'
+p3774
+tp3775
+(lp3776
+(lp3777
+S'2016-10-15 00:05:05'
+p3778
+aS'11'
+p3779
+aS'Please write an expression, not the final numerical result.'
+p3780
+aas(g1730
+S'axl004'
+p3781
+tp3782
+(lp3783
+(lp3784
+S'2016-10-14 23:36:51'
+p3785
+aS'13'
+p3786
+aS'Please write an expression, not the final numerical result.'
+p3787
+aa(lp3788
+S'2016-10-14 23:37:26'
+p3789
+aS'17'
+p3790
+aS'Please write an expression, not the final numerical result.'
+p3791
+aas(g952
+S'ottojursch'
+p3792
+tp3793
+(lp3794
+(lp3795
+S'2016-10-14 20:38:46'
+p3796
+aS'11'
+p3797
+aS'Please write an expression, not the final numerical result.'
+p3798
+aas(g869
+S'HansGamboa'
+p3799
+tp3800
+(lp3801
+(lp3802
+S'2016-10-14 19:51:05'
+p3803
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3804
+aas(g1095
+S'kkhuong'
+p3805
+tp3806
+(lp3807
+(lp3808
+S'2016-10-14 17:16:03'
+p3809
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3810
+aa(lp3811
+S'2016-10-14 17:16:31'
+p3812
+ag31
+aS'Please write an expression, not the final numerical result.'
+p3813
+aas(g136
+S'danFlorencio'
+p3814
+tp3815
+(lp3816
+(lp3817
+S'2016-10-14 11:59:55'
+p3818
+ag3
+aS'Please write an expression, not the final numerical result.'
+p3819
+aas(g325
+S'gstamp'
+p3820
+tp3821
+(lp3822
+(lp3823
+S'2016-10-14 23:20:52'
+p3824
+ag2
+aS'Please write an expression, not the final numerical result.'
+p3825
+aa(lp3826
+S'2016-10-14 23:34:32'
+p3827
+ag260
+aS'Please write an expression, not the final numerical result.'
+p3828
+aa(lp3829
+S'2016-10-15 00:15:07'
+p3830
+aS'15'
+p3831
+aS'Please write an expression, not the final numerical result.'
+p3832
+aas(g884
+S'gurkiratsingh'
+p3833
+tp3834
+(lp3835
+(lp3836
+S'2016-10-14 20:20:37'
+p3837
+ag1
+aS'Please write an expression, not the final numerical result.'
+p3838
+aa(lp3839
+S'2016-10-14 20:27:22'
+p3840
+ag30
+aS'Please write an expression, not the final numerical result.'
+p3841
+aas(g303
+S'Derrick'
+p3842
+tp3843
+(lp3844
+(lp3845
+S'2016-10-14 19:09:13'
+p3846
+aS'14'
+p3847
+aS'Please write an expression, not the final numerical result.'
+p3848
+aa(lp3849
+S'2016-10-14 19:11:00'
+p3850
+aS'23'
+p3851
+aS'Please write an expression, not the final numerical result.'
+p3852
+aass(g1
+g30
+g20
+tp3853
+(dp3854
+(g34
+S'JonDo'
+p3855
+tp3856
+(lp3857
+(lp3858
+S'2016-10-21 05:29:26'
+p3859
+aS'3/1225'
+p3860
+aS'Can the answer be fractional?'
+p3861
+aass(g31
+g30
+g31
+tp3862
+(dp3863
+(g794
+S'Brnkvu'
+p3864
+tp3865
+(lp3866
+(lp3867
+S'2016-10-05 23:20:04'
+p3868
+aS'81900'
+p3869
+aS'Please write an expression, not the final numerical result.'
+p3870
+aass(g2
+g311
+g31
+tp3871
+(dp3872
+(S'48'
+p3873
+S'ray003'
+p3874
+tp3875
+(lp3876
+(lp3877
+S'2016-10-25 23:29:18'
+p3878
+aS'0.25'
+p3879
+aS'Please write an expression, not the final numerical result.'
+p3880
+aass.

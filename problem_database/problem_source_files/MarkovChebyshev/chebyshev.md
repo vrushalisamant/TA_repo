@@ -16,7 +16,7 @@ solution2 = "0.5*1/(({0}-{1})/{2})^2".format(record, mean, sd)#{Compute("0.5*1/(
 
 We will use Chebyshev's inequality in this problem. The Chebyshev's theorem is stated as below:
 
-Let X be a random variable with finite expected value \\\(μ\\\) and finite non-zero variance \\\(σ^2\\\). Then for any real number \\\(k > 0\\\), \\\(\Pr(|X-\mu|\geq k\sigma) \leq \frac{1}{k^2}\\\), which is the same as \\\(\mathbb{P}(|X-\mathbb{E}(X)| \geq a) \leq \frac{\textrm{Var}(X)}{a^2}\\\) for any \\\(a>0\\\).
+Let X be a random variable with finite expected value \\\(\mu\\\) and finite non-zero variance \\\(\rho^2\\\). Then for any real number \\\(k > 0\\\), \\\(\Pr(|X-\mu|\geq k\sigma) \leq \frac{1}{k^2}\\\), which is the same as \\\(\mathbb{P}(|X-\mathbb{E}(X)| \geq a) \leq \frac{\textrm{Var}(X)}{a^2}\\\) for any \\\(a>0\\\).
 
 ---
 
