@@ -22,7 +22,7 @@ Let X be a random variable with finite expected value \\\(\mu\\\) and finite non
 
 Suppose the mean noon-time temperature for September days in San Diego is \\\($mean^{\circ}\\\) and the standard deviation is $sd. (Temperature in this problem is measured in degrees celsius)
 
-(1) Using Chebyshev's theorem, what is the *minimal* probability (**in percents**) that the noon-time temperature of a september days is between \\\($b1^{\circ}\\\) and \\\($b2^{\circ}\\\)?
+(1) Using Chebyshev's theorem, what is the *minimal* probability (**in percents**) that the noon-time temperature of a September day is between \\\($b1^{\circ}\\\) and \\\($b2^{\circ}\\\)?
 
 [_]
 
