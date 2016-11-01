@@ -116,7 +116,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
     </customresponse>
 
 
-<p>(4) Are \(X\)  and \(X\)  identically distributed? (0=no, 1=yes)</p>
+<p>(4) Are \(X\)  and \(Y\)  identically distributed? (0=no, 1=yes)</p>
 
     <customresponse cfn="check" expect="\[$solution8\]">
       <textline/>

@@ -1,6 +1,7 @@
 class Prob2_Part9:
 	"""
 	Author: Chang Qiu
+	Edit: Zhen Zhai
 	Date: 10/31/2016
 	"""
 
@@ -16,38 +17,33 @@ class Prob2_Part9:
 		try:
 			if not '/' in self.attempt:
 				
-				hint = 'Use the formula provided above to find the Cov'
-				return hint + ' If E(XY) is 4, E(X)E(Y) is 2, what is Cov(X,Y)?', '2'
+				hint = 'Recall the formula to find the expected value.'
+				return hint + ' If the probability that X happens is 1/2, and X has the value 4, what is the E(X)?', '2'
 
 			elif not '+' in self.attempt:
 				
-				hint = 'Use the formula provided above to find the Cov'
-				return hint + ' If E(XY) is 4, E(X)E(Y) is 2, what is Cov(X,Y)?', '2'
-
+				hint = 'Recall the formula to find the expected value.'
+				return hint + ' If the probability that X happens is 1/2, and X has the value 4, what is the E(X)?', '2'
 
 			elif not '*' in self.attempt:
 				
-				hint = 'Use the formula provided above to find the Cov'
-				return hint + ' If E(XY) is 4, E(X)E(Y) is 2, what is Cov(X,Y)?', '2'
-
+				hint = 'Recall the formula to find the expected value.'
+				return hint + ' If the probability that X happens is 1/2, and X has the value 4, what is the E(X)?', '2'
 
 			elif '-' in self.attempt:
 
-				hint = 'Use the formula provided above to find the Cov'
-				return hint + ' If E(XY) is 4, E(X)E(Y) is 2, what is Cov(X,Y)?', '2'
-
+				hint = 'Should you do subtraction?'
+				return hint + ' If the probability that X happens is 1/2, and X has the value 4, what is the E(X)?', '2'
 
 			elif '!' in self.attempt:
 
-				hint = 'Use the formula provided above to find the Cov'
-				return hint + ' If E(XY) is 4, E(X)E(Y) is 2, what is Cov(X,Y)?', '2'
-
+				hint = 'Should you do factorial?'
+				return hint + ' If the probability that X happens is 1/2, and X has the value 4, what is the E(X)?', '2'
 
 			if len(hint) > 0:
 
-
-				return hint + ' If E(XY) is 4, E(X)E(Y) is 2, what is Cov(X,Y)?', '2'
-
+				return hint + ' If the probability that X happens is 1/2, and X has the value 4, what is the E(X)?', '2'
+			
 			else:
 
 				return '',''
@@ -57,5 +53,5 @@ class Prob2_Part9:
 			return '',''
 
 	def get_problems(self):
-		self.problem_list = ["Covariance/ContingencyTables1/part9"]
+		self.problem_list = ["Covariance/ContingencyTables1/part5"]
 		return self.problem_list

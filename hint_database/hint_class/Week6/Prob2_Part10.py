@@ -1,6 +1,7 @@
 class Prob2_Part10:
 	"""
 	Author: Chang Qiu
+	Edit: Zhen Zhai
 	Date: 10/31/2016
 	"""
 
@@ -16,37 +17,33 @@ class Prob2_Part10:
 		try:
 			if not '/' in self.attempt:
 				
-				hint = 'Use the formula provided above to find the correlation coefficient between X and Y.'
-				return hint + ' If Cov(X,Y) is 4, sqrt(Var(X)) is 2 and sqrt(Var(Y)) is 2, what is the correlation coefficient between X and Y?', '1'
+				hint = 'Recall the formula to find the expected value.'
+				return hint + ' If the probability that Y happens is 1/2, and Y has the value 4, what is the E(Y)?', '2'
 
 			elif not '+' in self.attempt:
 				
-				hint = 'Use the formula provided above to find the correlation coefficient between X and Y.'
-				return hint + ' If Cov(X,Y) is 4, sqrt(Var(X)) is 2 and sqrt(Var(Y)) is 2, what is the correlation coefficient between X and Y?', '1'
-
+				hint = 'Recall the formula to find the expected value.'
+				return hint + ' If the probability that Y happens is 1/2, and Y has the value 4, what is the E(Y)?', '2'
 
 			elif not '*' in self.attempt:
 				
-				hint = 'Use the formula provided above to find the correlation coefficient between X and Y.'
-				return hint + ' If Cov(X,Y) is 4, sqrt(Var(X)) is 2 and sqrt(Var(Y)) is 2, what is the correlation coefficient between X and Y?', '1'
-
+				hint = 'Recall the formula to find the expected value.'
+				return hint + ' If the probability that Y happens is 1/2, and Y has the value 4, what is the E(Y)?', '2'
 
 			elif '-' in self.attempt:
 
-				hint = 'Use the formula provided above to find the correlation coefficient between X and Y.'
-				return hint + ' If Cov(X,Y) is 4, sqrt(Var(X)) is 2 and sqrt(Var(Y)) is 2, what is the correlation coefficient between X and Y?', '1'
-
+				hint = 'Should you do subtraction?'
+				return hint + ' If the probability that Y happens is 1/2, and Y has the value 4, what is the E(Y)?', '2'
 
 			elif '!' in self.attempt:
 
-				hint = 'Use the formula provided above to find the correlation coefficient between X and Y.'
-				return hint + ' If Cov(X,Y) is 4, sqrt(Var(X)) is 2 and sqrt(Var(Y)) is 2, what is the correlation coefficient between X and Y?', '1'
-
+				hint = 'Should you do factorial?'
+				return hint + ' If the probability that Y happens is 1/2, and Y has the value 4, what is the E(Y)?', '2'
 
 			if len(hint) > 0:
 
-				return hint + ' If Cov(X,Y) is 4, sqrt(Var(X)) is 2 and sqrt(Var(Y)) is 2, what is the correlation coefficient between X and Y?', '1'
-
+				return hint + ' If the probability that Y happens is 1/2, and Y has the value 4, what is the E(Y)?', '2'
+			
 			else:
 
 				return '',''
@@ -56,5 +53,5 @@ class Prob2_Part10:
 			return '',''
 
 	def get_problems(self):
-		self.problem_list = ["Covariance/ContingencyTables1/part10"]
+		self.problem_list = ["Covariance/ContingencyTables1/part6"]
 		return self.problem_list

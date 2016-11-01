@@ -1,6 +1,7 @@
-class Prob2_Part3:
+class Prob2_Part15:
     """
     Author: Chang Qiu
+    Edit: Zhen Zhai
     Date: 10/31/2016
     """
 
@@ -11,8 +12,8 @@ class Prob2_Part3:
         self.att_tree = params['att_tree']  # attempt tree
         self.ans_tree = params['ans_tree']  # solution tree
 
-        return "What is the relationship between Covariance and independence? If X and Y are independent, what could be the COV?", "2"
-
+        return 'What is the correlation coefficient between X and Y you got from part 10? If they are correlated, what is the answer?', '1'
+    
     def get_problems(self):
-        self.problem_list = ["Covariance/ContingencyTables1/part3"]
+        self.problem_list = ["Covariance/ContingencyTables1/part11"]
         return self.problem_list
