@@ -29,7 +29,7 @@ class Prob1_Part2:
 				hint='Find the variance values for each random variable X_i by replacing i and the find the variance of linear combination of random variables. '
 			
 			if len(hint)>0:
-				return hint+ ' What is the Variance value of Var[aX + bY], where X and Y are independent random variable and a and b are constants. ',' Var[aX + bY] = a^2Var[X] + b^2Var[Y]'
+				return hint+ ' What is the Variance value of Var[2X + 3Y], where X and Y are independent random variable and Var(X) = 3, Var(Y) =1. ',' 2*2*3 + 3*3*1'
 			else:
 				return '',''
 

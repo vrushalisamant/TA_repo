@@ -30,7 +30,7 @@ class Prob1_Part1:
 				hint='Find the expectation values for each random variable X_i by replacing i and the find the expectation of linear combination of random variables. '
 			
 			if len(hint)>0:
-				return hint+ ' What is the expectation value of E[aX + bY], where X and Y are random variable and a and b are constants. ',' E[aX + bY] = aE[X] + bE[Y]'
+				return hint+ ' What is the expectation value of E[2X + 3Y], where X and Y are random variable and E[X] =2 , E[Y] =1 ',' 2*2 + 3*1'
 			else:
 				return '',''
 
