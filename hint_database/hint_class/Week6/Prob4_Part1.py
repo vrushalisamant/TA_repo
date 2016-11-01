@@ -15,7 +15,7 @@ class Prob4_Part1:
         matching_node = [m[0] for m in matches]
 
         try:
-            return "What is E(X) in terms of N? ___ * N","0.4"
+            return "What is E(X) in terms of N if the coin is unbiased and fair? ___ * N","0.5"
 
         except Exception:
             return '',''
