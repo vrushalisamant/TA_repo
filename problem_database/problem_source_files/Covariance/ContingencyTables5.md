@@ -94,7 +94,7 @@ solutions = [solution1, solution2, solution3, solution4, solution5, solution6, s
 
 [_]
 
-(4) Are \\\(X\\\)  and \\\(X\\\)  identically distributed? (0=no, 1=yes)
+(4) Are \\\(X\\\)  and \\\(Y\\\)  identically distributed? (0=no, 1=yes)
 
 [_]
 
