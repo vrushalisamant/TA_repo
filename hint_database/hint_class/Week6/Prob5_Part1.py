@@ -1,6 +1,6 @@
 from hint_class_helpers.find_matches import find_matches
 
-class Prob1_Part1:
+class Prob5_Part1:
     """
     Author: <Tony Salim>
     Date: <11-1-2016>
@@ -16,7 +16,7 @@ class Prob1_Part1:
 
         try:
             for m in matches:
-                if 'R.1' not in m:
+                if 'R.1' in m:
                     hint='When probability is twice as high, its 2 times the original. '
                 if 'R.1.0' in m:
                     hint='Remember that the sum formula from 1 to n is  n(n+1)/2. '

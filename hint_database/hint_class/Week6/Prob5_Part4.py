@@ -1,6 +1,6 @@
 from hint_class_helpers.find_matches import find_matches
 
-class Prob1_Part1:
+class Prob5_Part4:
     """
     Author: <Tony Salim>
     Date: <11-1-2016>
