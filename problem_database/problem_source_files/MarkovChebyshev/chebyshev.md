@@ -1,7 +1,7 @@
 ```python
 #cannot check answer
-mean = 24;
-sd = random.randrange(30, 50, 1)/10#random(3,5,.1);
+mean = 24
+sd = random.randrange(30, 50, 1)/10
 k = random.randrange(2,3,1)
 record = 44
 a = k * sd

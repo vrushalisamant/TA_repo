@@ -3,8 +3,8 @@
     <script type="loncapa/python">
 
 #cannot check answer
-mean = 24;
-sd = random.randrange(30, 50, 1)/10#random(3,5,.1);
+mean = 24
+sd = random.randrange(30, 50, 1)/10
 k = random.randrange(2,3,1)
 record = 44
 a = k * sd
@@ -38,7 +38,7 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
 
 
-<h3>Chebyshev's Inequality</h3><p>We will use Chebyshev's inequality in this problem. The Chebyshev's theorem is stated as below:</p><p>Let X be a random variable with finite expected value \(\mu\) and finite non-zero variance \(\rho^2\). Then for any real number \(k &gt; 0\), \(\Pr(|X-\mu|\geq k\sigma) \leq \frac{1}{k^2}\), which is the same as \(\mathbb{P}(|X-\mathbb{E}(X)| \geq a) \leq \frac{\textrm{Var}(X)}{a^2}\) for any \(a&gt;0\).</p><hr /><p>Suppose the mean noon-time temperature for September days in San Diego is \($mean^{\circ}\) and the standard deviation is $sd. (Temperature in this problem is measured in degrees celsius)</p><p>(1) Using Chebyshev's theorem, what is the <em>minimal</em> probability (<strong>in percents</strong>) that the noon-time temperature of a september days is between \($b1^{\circ}\) and \($b2^{\circ}\)?</p>
+<h3>Chebyshev's Inequality</h3><p>We will use Chebyshev's inequality in this problem. The Chebyshev's theorem is stated as below:</p><p>Let X be a random variable with finite expected value \(\mu\) and finite non-zero variance \(\rho^2\). Then for any real number \(k &gt; 0\), \(\Pr(|X-\mu|\geq k\sigma) \leq \frac{1}{k^2}\), which is the same as \(\mathbb{P}(|X-\mathbb{E}(X)| \geq a) \leq \frac{\textrm{Var}(X)}{a^2}\) for any \(a&gt;0\).</p><hr /><p>Suppose the mean noon-time temperature for September days in San Diego is \($mean^{\circ}\) and the standard deviation is $sd. (Temperature in this problem is measured in degrees celsius)</p><p>(1) Using Chebyshev's theorem, what is the <em>minimal</em> probability(<strong>in percents</strong>) that the noon-time temperature of a September day is between \($b1^{\circ}\) and \($b2^{\circ}\)?</p>
 
     <customresponse cfn="check" expect="\[$solution1\]">
       <textline/>

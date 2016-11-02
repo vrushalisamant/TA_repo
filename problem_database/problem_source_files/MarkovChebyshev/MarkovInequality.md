@@ -31,6 +31,6 @@ John has a biased coin with \\\(P(\mathrm{heads}) = $r\\\). He tosses this coin 
 
 Suppose John lends you this coin. If you flip the coin $n2 times, what is the upper bound of the probability of seeing at least $k2 heads using Markov's inequality?
 
-(2) \\\(P(\mbox{Number of heads} > $k2)\\\) \\\(\le\\\)
+(2) \\\(P(\mbox{Number of heads} \geq $k2)\\\) \\\(\le\\\)
 
 [_]
