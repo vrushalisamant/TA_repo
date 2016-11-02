@@ -1,6 +1,7 @@
 class Prob3_Part12:
     """
     Author: Liu Han
+    Edit: Zhen Zhai
     Date: 10/31/2016
     """
 
@@ -17,7 +18,7 @@ class Prob3_Part12:
             hint = 'E[XY]=E[X]*E[Y] only if X and Y are two independent random variables.'
 
             if len(hint) > 0:
-                return hint + 'If X and Y are two dependent random variables,when you calculate E[XY],' \
+                return hint + ' If X and Y are two dependent random variables,when you calculate E[XY], ' \
                               'should you apply the formula E[XY]=E[X]*E[Y](1=YES,0=NO)', '0'
             else:
                 return '', ''

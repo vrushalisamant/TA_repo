@@ -1,6 +1,7 @@
 class Prob3_Part13:
     """
     Author: Liu Han
+    Edit: Zhen Zhai
     Date: 10/31/2016
     """
 
@@ -14,11 +15,11 @@ class Prob3_Part13:
         hint = ''
 
         try:
-            hint = 'Cov(X,Y)=E[XY]-E[X]*E[Y];According to the previous parts, you know E[XY],E[X],and E[Y].' \
+            hint = 'Cov(X,Y) = E[XY]-E[X]*E[Y]. According to the previous parts, you know E[XY],E[X],and E[Y]. ' \
                    'You can calculate Cov(X,Y) based on those answers.'
 
             if len(hint) > 0:
-                return hint + 'Suppose E[X]=1/3,E[Y]=1/3,E[XY]=1/6;What is Cov(X,Y)?', '1/18'
+                return hint + ' Suppose E[X]=1/3, E[Y]=1/3, E[XY]=1/6. What is Cov(X,Y)?', '1/18'
             else:
                 return '', ''
 

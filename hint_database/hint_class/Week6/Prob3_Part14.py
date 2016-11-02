@@ -1,6 +1,7 @@
 class Prob3_Part14:
     """
     Author: Liu Han
+    Edit: Zhen Zhai
     Date: 10/31/2016
     """
 
@@ -14,11 +15,11 @@ class Prob3_Part14:
         hint = ''
 
         try:
-            hint = 'Corr(X,Y)=Cov(X,Y)/[Var(X)*Var(Y)]^(1/2);According to the previous parts,you know ' \
-                   'Cov(X,Y),Var(X),Var(Y); You can calculate Corr(X,Y) based on those answers.'
+            hint = 'Corr(X,Y)=Cov(X,Y)/[Var(X)*Var(Y)]^(1/2). According to the previous parts, you know ' \
+                   'Cov(X,Y), Var(X), Var(Y). You can calculate Corr(X,Y) based on those answers.'
 
             if len(hint) > 0:
-                return hint + 'Suppose Cov(x,y)=1/3,Var(Y)=1/3,Var(X)=1/3;What is Corr(X,Y)?', '1'
+                return hint + ' Suppose Cov(x,y)=1/3, Var(Y)=1/3, Var(X)=1/3. What is Corr(X,Y)?', '1'
             else:
                 return '', ''
 
