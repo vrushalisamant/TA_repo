@@ -113,7 +113,7 @@ The following formula are useful for this assignment:
 
 [_]
 
-(4) Are \\\(X\\\)  and \\\(X\\\)  identically distributed? (0=no, 1=yes)
+(4) Are \\\(X\\\)  and \\\(Y\\\)  identically distributed? (0=no, 1=yes)
 
 [_]
 
