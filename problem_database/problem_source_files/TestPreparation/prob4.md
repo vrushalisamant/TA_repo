@@ -1,5 +1,10 @@
 ```python
-# random variables (no need to import random library)
+# variable names and values
+# if multiple variables, the number of values to test should be the same
+variable_values = {'x':[20,50,80], 'n':[5000,2000,1250]}
+
+# value index used to extract hint
+index_of_test_value = 2
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
@@ -14,7 +19,6 @@ solution7 = "1000*100/(x - sqrt(100))"
 
 # Group all solutions into a list
 solutions = [solution1,solution2,solution3,solution4,solution5,solution6,solution7]
-
 
 ```
 

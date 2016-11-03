@@ -47,20 +47,30 @@
     "Week6_Problem5": "MarkovChebyshev/RiggedDice",
     "Week6_Problem6": "MarkovChebyshev/chebyshev",
     
-	"Week8_Problem1": "ExponentialPoisson/poisson_zz",
-	"Week8_Problem3": "ExponentialPoisson/ur_pb_9_4",
-	"Week8_Problem4": "ExponentialPoisson/stat212",
-	"Week8_Problem5": "ExponentialPoisson/poisson_rs",
-	"Week8_Problem6": "ExpectationVariance/probs69",
-	"Week8_Problem7": "ExpectationVariance/ExpVarOfSum",
-	"Week8_Problem8": "CentralLimitTheorem/ur_pb_12_4",
-	"Week8_Problem9": "CentralLimitTheorem/ur_pb_11_7",
-	"Week8_Problem10": "CentralLimitTheorem/ur_pb_12_3",
-	"Week8_Problem11": "CentralLimitTheorem/clt_demo",
+	"Week6old_Problem1": "ExponentialPoisson/poisson_zz",
+	"Week6old_Problem3": "ExponentialPoisson/ur_pb_9_4",
+	"Week6old_Problem4": "ExponentialPoisson/stat212",
+	"Week6old_Problem5": "ExponentialPoisson/poisson_rs",
+	"Week6old_Problem6": "ExpectationVariance/probs69",
+	"Week6old_Problem7": "ExpectationVariance/ExpVarOfSum",
+	"Week6old_Problem8": "CentralLimitTheorem/ur_pb_12_4",
+	"Week6old_Problem9": "CentralLimitTheorem/ur_pb_11_7",
+	"Week6old_Problem10": "CentralLimitTheorem/ur_pb_12_3",
+	"Week6old_Problem11": "CentralLimitTheorem/clt_demo",
 
 	"Week7_Problem2": "HypothesisTesting/psychic",
 	"Week7_Problem6": "HypothesisTesting/gust75",
 	"Week7_Problem7": "HypothesisTesting/Chi2.2",
 	"Week7_Problem8": "HypothesisTesting/Chi2.3",
-	"Week7_Problem9": "TestPreparation/prob4"
+	"Week7_Problem9": "TestPreparation/prob4",
+
+	"Week8_Problem1": "RandomizedAlgs/TestingOrderInAnd",
+	"Week8_Problem2": "RandomizedAlgs/RandAlgs_2_1",
+	"Week8_Problem3": "RandomizedAlgs/RandAlgs_2_2",
+	"Week8_Problem4": "RandomizedAlgs/QuicksortPivot",
+	"Week8_Problem5": "RandomizedAlgs/probs9QuicksortVariant",
+	"Week8_Problem6": "RandomizedAlgs/Hashing_1",
+	"Week8_Problem7": "RandomizedAlgs/Hashing_2",
+	"Week8_Problem8": "RandomizedAlgs/Hashing_3"
+
 }
