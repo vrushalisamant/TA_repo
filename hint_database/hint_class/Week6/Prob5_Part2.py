@@ -13,9 +13,10 @@ class Prob5_Part2:
         self.ans_tree = params['ans_tree'] #solution tree
 
         matches = find_matches(params)
+        matching_node = [m[0] for m in matches]
 
         try:
-            for m in matches:
+            for m in matching_node:
                 if 'R.1' not in m:
                     hint='Since the dice is biased, use linearity of expectation to calculate the expectation for each outcome separately'
                 if 'R.0' not in m:

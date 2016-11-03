@@ -13,9 +13,10 @@ class Prob5_Part3:
         self.ans_tree = params['ans_tree'] #solution tree
 
         matches = find_matches(params)
+        matching_node = [m[0] for m in matches]
 
         try:
-            for m in matches:
+            for m in matching_node:
                 if ('R.0' not in m) or ('R.1' not in m):
                     hint='Are the two dice dependent or not? What does that say about linearity of expectation.'
             if len(hint)>0:

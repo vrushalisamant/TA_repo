@@ -13,9 +13,10 @@ class Prob5_Part1:
         self.ans_tree = params['ans_tree'] #solution tree
 
         matches = find_matches(params)
+        matching_node = [m[0] for m in matches]
 
         try:
-            for m in matches:
+            for m in matching_node:
                 if 'R.1' in m:
                     hint='When probability is twice as high, its 2 times the original. '
                 if 'R.1.0' in m:
