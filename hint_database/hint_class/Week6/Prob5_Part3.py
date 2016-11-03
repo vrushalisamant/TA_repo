@@ -20,7 +20,7 @@ class Prob5_Part3:
                 if ('R.0' not in m) or ('R.1' not in m):
                     hint='Are the two dice dependent or not? What does that say about linearity of expectation.'
             if len(hint)>0:
-                return hint ,''
+                return hint ,'What is E(X + Y), where X and Y are independent random variable. E(X)=1 and E(Y)=2?','1+2'
             else:
                 return '',''
 

@@ -20,7 +20,7 @@ class Prob5_Part4:
                 if ('R.0' not in m) or ('R.1' not in m):
                     hint='To solve for k, express k in terms of expectation, which value you have from previous part.'
             if len(hint)>0:
-                return hint , ''
+                return hint ,'What is the bound for variable Y to have more than 5 if mean of Y, or E(Y) is 5/2 ?','5/(5/2)'
             else:
                 return '',''
 
