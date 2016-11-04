@@ -1,0 +1,73 @@
+```python
+# variable names and values
+# if multiple variables, the number of values to test should be the same
+variable_values = {'p':[1,2,3], 'k':[4,5,6]}
+
+F1 = "1/36"
+F2 = "2/36"
+F3 = "3/36"
+F4 = "4/36"
+F5 = "5/36"
+F6 = "6/36"
+
+# random variables
+r = random.randrange(3,6,1)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "p"
+solution2 = "3.5"
+solution3 = "7"
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3]
+
+
+```
+
+
+
+For a random variable $X$ that takes on a finite set of possible values, the *mean*, or *expected value*, is
+
+$$ \mathbb{E}(X) \ = \ \sum_{x} x \, \mbox{Pr}(X = x) $$
+
+(where the summation is over all the possible values $x$ that $X$ can have). This is a direct generalization of the notion of *average* (which is typically defined in situations where the outcomes are equally likely). If $X$ is a continuous random variable, then this summation needs to be replaced by an equivalent integral; but we'll get to that later in the course.
+
+Here are some examples.
+
+### Coin with bias (heads probability) $p$. ###
+
+Define $X$ to be $1$ if the outcome is heads, or $0$ if it is tails. Then
+
+$$ \mathbb{E}(X) =
+0 \cdot \mbox{Pr}(X = 0) + 1 \cdot \mbox{Pr}(X = 1)  =
+0 \cdot (1-p) + 1 \cdot p =  $$
+
+[_]
+
+
+Another random variable on this space is $X^2$, which also takes on values in $\{0,1\}$.
+
+Notice that $X^2 = X$, and in fact $X^k = X$ for all $k = 1,2,3,\ldots$! Thus,
+$\mathbb{E}(X^2) = p$ as well. This simple case shows that in general, $\mathbb{E}(X^2) \neq \mathbb{E}(X)^2$.
+
+
+### Fair die ###
+
+Define $X$ to be the outcome of the roll, so $X \in \{1,2,3,4,5,6\}$. Then $\mathbb{E}(X) = $
+
+[_]
+
+
+### Two dice ###
+
+Let $X$ be their sum, so that $X \in \{2,3,4,\ldots, 12\}$. We can calculate the probabilities of each possible value of $X$ and tabulate them as follows:
+
+
+|x|2|3|4|5|6|7|8|9|10|11|12|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Pr(X=x)|$\$F1$|$\$F2$|$\$F3$|$\$F4$|$\$F5$|$\$F6$|$\$F5$|$\$F4$|$\$F3$|$\$F2$|$\$F1$|
+
+This gives $\mathbb{E}(X) = $
+
+[_]

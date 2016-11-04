@@ -1,3 +1,9 @@
+## Written by Zipeng Yan and Zhen Zhai
+## Translate imd files to xml
+## Can have math expressions wrapped with $$ \math $$
+## and also inline math expression $ \math $
+## Use variables in html by having \$ at front
+
 import markdown
 import json
 import sys
@@ -9,7 +15,29 @@ def read_md(contents):
 	python_code = "".join(python_code)
 
 	md_code = contents[end_index+1:]
-	html_code = markdown.markdown("".join(md_code))
+	inline = 0
+	double = 0
+	inlineSub = ['\\\\\\(', '\\\\\\)']
+	doubleSub = ['\\\\\\[', '\\\\\\]']
+	for j in xrange(len(md_code)):
+		line = md_code[j]
+		line = line.replace('\\$','\001')
+		i=0
+		while i < len(line):
+			if line[i:i+2] == '$$':
+				line = line[:i]+doubleSub[double]+line[i+2:]
+				double = 1-double
+				i += 4
+				continue
+			if line[i] == '$':
+				line = line[:i]+inlineSub[inline]+line[i+1:]
+				inline = 1-inline
+				i += 4
+				continue
+			i += 1
+		line = line.replace('\001','$')
+		md_code[j] = line
+	html_code = markdown.markdown("".join(md_code), extensions=['markdown.extensions.tables'])
 
 	f.close()
 	return python_code, html_code
@@ -61,8 +89,8 @@ if __name__ == "__main__":
 	template = f.readlines()
 	f.close()
 
-	# input_file_name = 'test.md'
-	# output_file_name = "test.xml"
+	#input_file_name = "problem_source_files/ExpectationVariance/Notes_3_2_1.imd"
+	#output_file_name = "test.xml"
 	f = open(input_file_name, "r")
 	contents = f.readlines()
 	f.close()
