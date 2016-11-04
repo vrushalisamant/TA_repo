@@ -1,6 +1,7 @@
-#### Written by Yoav Freund 11/3/2016
 
 ```python
+#### Written by Yoav Freund 11/3/2016
+
 # random variables (no need to import random library)
 def rand_vals(i=1,j=100,n=3):
     return [random.randrange(i,j,1) for k in range(n)]
@@ -11,6 +12,7 @@ for i in range(len(a_rand)):
         a_vals.append(a_rand[i])
         b_vals.append(b_rand[j])
 variable_values = {'a':a_vals, 'b':b_vals}
+
 # Random valued coefficients:
 [c,d,e]=rand_vals(i=2,j=8,n=3)
 
@@ -27,6 +29,7 @@ solution6 = "0"
 # Group all solutions into a list
 solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
 ```
+
 # Expectation and Variance Calculations
 
 Suppose $X_1,X_2$ are independent and identically distributed random variables 
@@ -34,26 +37,26 @@ such that $a=E(X_1)=E(X_2)$ , $b^2=Var(X)$
 
 Express the following using $a$ and $b$:
 
-1. $E(\c X_1 - \c X_2)$
+(1) $E(\$c X_1 - \$c X_2)$
 
 [_]
 
-2. $E(\c X_1 - \c X_1)$
+(2) $E(\$c X_1 - \$c X_1)$
 
 [_]
 
-3. $E(\c X_1 - \d X_1)$
+(3) $E(\$c X_1 - \$d X_1)$
 
 [_]
 
-4. $Var(\c X_1 + \e)$
+(4) $Var(\$c X_1 + \$e)$
 
 [_]
 
-5. $Var(\c X_1 - \c X_2)$
+(5) $Var(\$c X_1 - \$c X_2)$
 
 [_]
 
-6. $Var(\c X_1 - \c X_1)$
+(6) $Var(\$c X_1 - \$c X_1)$
 
 [_]
