@@ -73,6 +73,7 @@ if __name__ == "__main__":
 		print "python translate.py <Week ID> <Problem ID> <1>"
 		sys.exit()
 
+	var = ""
 	if len(sys.argv) == 3:
 		week, problem = sys.argv[1:]
 	elif len(sys.argv) == 4:
@@ -94,8 +95,8 @@ if __name__ == "__main__":
 	template = f.readlines()
 	f.close()
 
-	input_file_name = "problem_source_files/ExpectationVariance/ExpectationVarianceScaling.imd"
-	output_file_name = "test.xml"
+	#input_file_name = "problem_source_files/ExpectationVariance/Covariance.imd"
+	#output_file_name = "test.xml"
 	f = open(input_file_name, "r")
 	contents = f.readlines()
 	f.close()
