@@ -1,0 +1,73 @@
+```python
+# variable names and values
+# if multiple variables, the number of values to test should be the same
+variable_values = {'p':[0.1,0.2,0.3]}
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "2"
+solution2 = "1/p"
+
+# Group all solutions into a list
+solutions = [solution1, solution2]
+
+
+```
+
+
+### Roll n die; how many sixes appear? ###
+
+Let $X$ be the number of $6$'s. We've already analyzed the distribution of $X$, so
+
+$$ E(X) =  
+\sum_{k = 0}^n k \, \mbox{Pr}(X = k)$$
+$$=  \sum_{k = 0}^n k {n \choose k} \left(\frac{1}{6} \right)^k \left( \frac{5}{6} \right)^{n-k} $$
+$$ = \frac{n}{6}$$
+
+The last step is somewhat mysterious; just take our word for it, and we'll get back to it later!
+
+---
+
+### Toss a fair coin forever; how many tosses to the first heads? ###
+
+Let $X \in \{1,2,\ldots\}$ be the number of tosses until you first see heads. Then
+
+$$ \mbox{Pr}(X = k) =  
+\mbox{Pr}((T,T,T,\ldots,T,H))
+ =  
+\frac{1}{2^k}$$
+
+It follows that 
+
+$$ \mathbb{E}(X) =  
+\sum_{k=1}^\infty \frac{k}{2^k} = $$
+
+[_]
+
+To answer this question we need the following formulas for the infinite geometric series: for any  $0 < r < 1$
+
+$$ r + r^2 + \cdots = \frac{r}{1-r} $$
+
+and
+
+$$ r + 2r^2 + 3r^3+\cdots \ = \ \frac{r}{(1-r)^2}$$
+
+You can find these and other useful sums here:
+http://en.wikipedia.org/wiki/List_of_mathematical_series#Low-order_polylogarithms
+
+---
+
+### Toss a coin with bias $p$ forever; how many tosses to the first heads? ###
+
+Once again, $X \in \{1,2,\ldots\}$, but this time the distribution is different:
+
+$$ \mbox{Pr}(X = k) = \mbox{Pr}((T,T,T,\ldots,T,H)) = (1-p)^{k-1}p $$
+
+Using the same technique as before, we get $\mathbb{E}(X) =$
+
+[_]
+
+There's another way to derive this expectation. We always need at least one coin toss.
+If we're lucky (with probability $p$), we're done; otherwise (with probability $1-p$),
+we start again from scratch. Therefore $\mathbb{E}(X) = 1 + (1-p) \mathbb{E}(X)$, and we have the same result.
+

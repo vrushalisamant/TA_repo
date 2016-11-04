@@ -69,13 +69,15 @@ def convert_html(html_code, template):
 
 if __name__ == "__main__":
 	if sys.argv[1] == "--help":
-		print "Please type in parameters as follow:"
-		print "python translate.py <Week ID> <Problem ID>"
+		print "Please type in parameters as follow(if you have variables type in 1 at the end):"
+		print "python translate.py <Week ID> <Problem ID> <1>"
 		sys.exit()
 
-	try:
-		week,problem= sys.argv[1:]
-	except:
+	if len(sys.argv) == 3:
+		week, problem = sys.argv[1:]
+	elif len(sys.argv) == 4:
+		week, problem, var = sys.argv[1:]
+	else:
 		sys.exit("Error, see 'python translate.py --help' for input requirement")
 
 	mapping = json.loads(open("problems_mapping.json").read())
@@ -83,14 +85,17 @@ if __name__ == "__main__":
 	file_name = mapping[mapping_key]
 	input_file_name = "problem_source_files/{0}.md".format(file_name)
 	output_file_name = "problem_XML_files/{0}.xml".format(mapping_key)
-	template_file = "template.xml"
+	if var:
+		template_file = "template_w_variables.xml"
+	else:
+		template_file = "template.xml"
 
 	f = open(template_file, "r")
 	template = f.readlines()
 	f.close()
 
-	#input_file_name = "problem_source_files/ExpectationVariance/Notes_3_2_1.imd"
-	#output_file_name = "test.xml"
+	input_file_name = "problem_source_files/ExpectationVariance/ExpectationVarianceScaling.imd"
+	output_file_name = "test.xml"
 	f = open(input_file_name, "r")
 	contents = f.readlines()
 	f.close()
