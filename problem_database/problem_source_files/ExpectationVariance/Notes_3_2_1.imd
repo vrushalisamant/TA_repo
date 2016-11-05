@@ -16,28 +16,30 @@ r = random.randrange(3,6,1)
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
 solution1 = "p"
-solution2 = "3.5"
-solution3 = "7"
+solution2 = "p(1-p)"
+solution3 = "(1.+2+3+4+5+6)/6"
+solution4 = "((1.-3.5)^2 + (2.-3.5)^2 + (3.-3.5)^2 + (4.-3.5)^2 + (5.-3.5)^2 + (6.-3.5)^2)/6"
+solution5 = "2*{0}".format(solution3)
+solution6 = "2*{0}".format(solution4)
 
 # Group all solutions into a list
-solutions = [solution1, solution2, solution3]
-
-
+solutions = [solution1, solution2, solution3, solution4]
 ```
 
+Suppose the random variable $X$ attains a finite set of values $A$, the *mean*, or *expected value*, is
 
+$$ \mathbb{E}(X) \ = \ \sum_{x\in A} x \, \mbox{Pr}(X = x) $$
 
-For a random variable $X$ that takes on a finite set of possible values, the *mean*, or *expected value*, is
+Consider a few examples
 
-$$ \mathbb{E}(X) \ = \ \sum_{x} x \, \mbox{Pr}(X = x) $$
+### Biased coin ###
 
-(where the summation is over all the possible values $x$ that $X$ can have). This is a direct generalization of the notion of *average* (which is typically defined in situations where the outcomes are equally likely). If $X$ is a continuous random variable, then this summation needs to be replaced by an equivalent integral; but we'll get to that later in the course.
+We flip a coin one time, define $X$ to be the random variable that is $1$ if 
+the outcome is heads, and $0$ if it is tails. 
 
-Here are some examples.
+Let $p=P(X=1)$, $1-p = P(X=0)$
 
-### Coin with bias (heads probability) $p$. ###
-
-Define $X$ to be $1$ if the outcome is heads, or $0$ if it is tails. Then
+Complete the calculation of the expectation $\mathbb{E}(X)$:
 
 $$ \mathbb{E}(X) =
 0 \cdot \mbox{Pr}(X = 0) + 1 \cdot \mbox{Pr}(X = 1)  =
@@ -48,8 +50,11 @@ $$ \mathbb{E}(X) =
 
 Another random variable on this space is $X^2$, which also takes on values in $\{0,1\}$.
 
-Notice that $X^2 = X$, and in fact $X^k = X$ for all $k = 1,2,3,\ldots$! Thus,
-$\mathbb{E}(X^2) = p$ as well. This simple case shows that in general, $\mathbb{E}(X^2) \neq \mathbb{E}(X)^2$.
+Notice that $X^2 = X$, and in fact $X^k = X$ for all $k = 1,2,3,\ldots$! 
+
+Recall that $Var(X) = E(X^2) - E(X)^2$. Therefor, for a coin whose bias is $p$, the variance is 
+
+[_]
 
 
 ### Fair die ###
@@ -58,16 +63,24 @@ Define $X$ to be the outcome of the roll, so $X \in \{1,2,3,4,5,6\}$. Then $\mat
 
 [_]
 
+The Variance of $X$ is
+
+[_]
+
 
 ### Two dice ###
 
-Let $X$ be their sum, so that $X \in \{2,3,4,\ldots, 12\}$. We can calculate the probabilities of each possible value of $X$ and tabulate them as follows:
+Suppose we roll the dice twice and let $Y$ be the random variable corresponding to
+the sum.
 
+Recall that for **any** random variables $X_1,X_2$, $E(X_1+X_2) = E(X_1) + E(X_2)$. 
 
-|x|2|3|4|5|6|7|8|9|10|11|12|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|Pr(X=x)|$\$F1$|$\$F2$|$\$F3$|$\$F4$|$\$F5$|$\$F6$|$\$F5$|$\$F4$|$\$F3$|$\$F2$|$\$F1$|
+Therefor $\mathbb{E}(Y) = $
 
-This gives $\mathbb{E}(X) = $
+[_]
+
+Recall that for **independent** random variables $X_1,X_2$, $Var(X_1+X_2) = Var(X_1) + Var(X_2)$
+
+Therefor $Var(Y)=$
 
 [_]
