@@ -62,8 +62,9 @@
 	"Week7_Problem2": "ExpectationVariance/ExpectationVarianceScaling.imd",
 	"Week7_Problem3": "ExpectationVariance/Notes_3_2_1.imd",
 	"Week7_Problem4": "ExpectationVariance/Notes_3_2_2.imd",
-	"Week7_Problem5": "ExpectationVariance/Covariance.imd",
-	"Week7_Problem6": "ExpectationVariance/probs70.imd",
+	"Week7_Problem5": "ExpectationVariance/cov_dep_corr.imd",
+	"Week7_Problem6": "ExpectationVariance/cov_dep_uncor.imd",
+	"Week7_Problem7": "ExpectationVariance/cov_indep_uncor.imd",
 
 	"Week7old_Problem2": "HypothesisTesting/psychic",
 	"Week7old_Problem6": "HypothesisTesting/gust75",

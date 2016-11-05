@@ -20,7 +20,7 @@ matrices={'dep_corr1':np.array([[1./3,0,0],[0,1./3,0],[0,0,1./3]]),
           'dep_uncor': np.array([[.2,0,.2],[0,.2,0],[.2,0,.2]])
           }
 
-joint=matrices['dep_uncor']
+joint=matrices['indep_uncor']
 
 joint00 = "%.2f"%joint[0,0]
 joint01 = "%.2f"%joint[0,1]
