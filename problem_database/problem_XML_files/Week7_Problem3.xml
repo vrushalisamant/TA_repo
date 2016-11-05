@@ -1,0 +1,116 @@
+<problem>
+  <text>
+    <script type="loncapa/python">
+
+# variable names and values
+# if multiple variables, the number of values to test should be the same
+variable_values = {'p':[0.1,0.2,0.3]}
+
+F1 = "1/36"
+F2 = "2/36"
+F3 = "3/36"
+F4 = "4/36"
+F5 = "5/36"
+F6 = "6/36"
+
+# random variables
+r = random.randrange(3,6,1)
+
+# Solutions with variables converted to string
+# Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
+solution1 = "p"
+solution2 = "3.5"
+solution3 = "7"
+
+# Group all solutions into a list
+solutions = [solution1, solution2, solution3]
+
+
+# hint text id
+hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
+    </script>
+
+    <script type="text/javascript">
+      //fill in number of hint
+        var hint_number = 2;
+
+      //fill in hint input box id
+        var hintIds = ["input_57ccdc78397649aca59b419c95573254_2_1",
+                "input_1ddc9e0c3eea4ba3b61b291a7cfb650d_2_1"];
+
+      //fill in problem input box id
+        var proIds = ["input_0463a3ce78dd46429e9e2fcf681616d9_2_1",
+               "input_0463a3ce78dd46429e9e2fcf681616d9_3_1"];
+               
+      //fill in hint text id. Need to match the hint_text_id from above
+        var hintTextIds = ["cse103fall2016week1problem1part1",
+                  "cse103fall2016week1problem1part2"];
+    </script>
+
+
+
+<p>For a random variable \(X\) that takes on a finite set of possible values, the <em>mean</em>, or <em>expected value</em>, is</p><p>\[ \mathbb{E}(X) \ = \ \sum_{x} x \, \mbox{Pr}(X = x) \]</p><p>(where the summation is over all the possible values \(x\) that \(X\) can have). This is a direct generalization of the notion of <em>average</em> (which is typically defined in situations where the outcomes are equally likely). If \(X\) is a continuous random variable, then this summation needs to be replaced by an equivalent integral; but we'll get to that later in the course.</p><p>Here are some examples.</p><h3>Coin with bias (heads probability) \(p\).</h3><p>Define \(X\) to be \(1\) if the outcome is heads, or \(0\) if it is tails. Then</p><p>\[ \mathbb{E}(X) =0 \cdot \mbox{Pr}(X = 0) + 1 \cdot \mbox{Pr}(X = 1)  =0 \cdot (1-p) + 1 \cdot p =  \]</p>
+
+    <customresponse cfn="check" expect="\[$solution1\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<p>Another random variable on this space is \(X^2\), which also takes on values in \({0,1}\).</p><p>Notice that \(X^2 = X\), and in fact \(X^k = X\) for all \(k = 1,2,3,\ldots\)! Thus,\(\mathbb{E}(X^2) = p\) as well. This simple case shows that in general, \(\mathbb{E}(X^2) \neq \mathbb{E}(X)^2\).</p><h3>Fair die</h3><p>Define \(X\) to be the outcome of the roll, so \(X \in {1,2,3,4,5,6}\). Then \(\mathbb{E}(X) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution2\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+<h3>Two dice</h3><p>Let \(X\) be their sum, so that \(X \in {2,3,4,\ldots, 12}\). We can calculate the probabilities of each possible value of \(X\) and tabulate them as follows:</p><table><thead><tr><th>x</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th></th></tr></thead><tbody><tr><td>Pr(X=x)</td><td>\($F1\)</td><td>\($F2\)</td><td>\($F3\)</td><td>\($F4\)</td><td>\($F5\)</td><td>\($F6\)</td><td>\($F5\)</td><td>\($F4\)</td><td>\($F3\)</td><td>\($F2\)</td><td>\($F1\)</td><td></td></tr></tbody></table><p>This gives \(\mathbb{E}(X) = \)</p>
+
+    <customresponse cfn="check" expect="\[$solution3\]">
+      <textline/>
+      <hintgroup hintfn="hint_fn"/>
+    </customresponse>
+
+
+
+    
+    
+
+    
+
+    <script type="loncapa/python">
+from hint import evaluate
+from hint.get_hint import get_hint
+
+# grader of the problem
+def check(expect, ans):
+  return evaluate.evaluate(expect, ans)
+
+# hint function
+def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = str(student_answers[aid])
+  i = int(aid[-3])-2
+
+  if ans == "":
+    return
+  key = new_cmap.keys()[0]
+  if new_cmap[key]['correctness'] == "correct":
+    return
+
+  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  new_cmap.set_hint_and_mode(aid,hint,'always')
+    </script>
+
+        
+    <script type="text/javascript" src="/static/js/adaptive_hint.js"></script>
+    <script type="text/javascript">                             
+      for (var i=0; i != hint_number; i++) {
+        hide_hint(i);
+      }
+      show_hint(hint_number);
+    </script>
+
+  </text>
+</problem>

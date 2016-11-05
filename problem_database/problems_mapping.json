@@ -58,11 +58,18 @@
 	"Week6old_Problem10": "CentralLimitTheorem/ur_pb_12_3",
 	"Week6old_Problem11": "CentralLimitTheorem/clt_demo",
 
-	"Week7_Problem2": "HypothesisTesting/psychic",
-	"Week7_Problem6": "HypothesisTesting/gust75",
-	"Week7_Problem7": "HypothesisTesting/Chi2.2",
-	"Week7_Problem8": "HypothesisTesting/Chi2.3",
-	"Week7_Problem9": "TestPreparation/prob4",
+	"Week7_Problem1": "ExpectationVariance/ExpectationScaling.imd",
+	"Week7_Problem2": "ExpectationVariance/ExpectationVarianceScaling.imd",
+	"Week7_Problem3": "ExpectationVariance/Notes_3_2_1.imd",
+	"Week7_Problem4": "ExpectationVariance/Notes_3_2_2.imd",
+	"Week7_Problem5": "ExpectationVariance/Covariance.imd",
+	"Week7_Problem6": "ExpectationVariance/probs70.imd",
+
+	"Week7old_Problem2": "HypothesisTesting/psychic",
+	"Week7old_Problem6": "HypothesisTesting/gust75",
+	"Week7old_Problem7": "HypothesisTesting/Chi2.2",
+	"Week7old_Problem8": "HypothesisTesting/Chi2.3",
+	"Week7old_Problem9": "TestPreparation/prob4",
 
 	"Week8_Problem1": "RandomizedAlgs/TestingOrderInAnd",
 	"Week8_Problem2": "RandomizedAlgs/RandAlgs_2_1",

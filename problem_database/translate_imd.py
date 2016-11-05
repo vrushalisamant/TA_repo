@@ -84,7 +84,7 @@ if __name__ == "__main__":
 	mapping = json.loads(open("problems_mapping.json").read())
 	mapping_key = "Week{0}_Problem{1}".format(week, problem)
 	file_name = mapping[mapping_key]
-	input_file_name = "problem_source_files/{0}.md".format(file_name)
+	input_file_name = "problem_source_files/{0}".format(file_name)
 	output_file_name = "problem_XML_files/{0}.xml".format(mapping_key)
 	if var:
 		template_file = "template_w_variables.xml"
