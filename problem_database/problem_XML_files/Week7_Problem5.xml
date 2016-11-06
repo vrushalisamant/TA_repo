@@ -55,24 +55,24 @@ Exy = np.sum(np.multiply(xy,joint))
 independent=np.sum(np.outer(marginal_Y,marginal_X)-joint)==0
 
 # Dist of X
-solution1="+".join([str(p) for p in joint[:,0]])
-solution2="+".join([str(p) for p in joint[:,1]])
-solution3="+".join([str(p) for p in joint[:,2]])
+solution1="+".join(["%.2f"%p for p in joint[:,0]])
+solution2="+".join(["%.2f"%p for p in joint[:,1]])
+solution3="+".join(["%.2f"%p for p in joint[:,2]])
 solution4="+".join(["(%.2f*%.2f)"%(marginal_X[i],X_vals[i]) for i in range(len(X_vals))])
 solution5="+".join(["(%.2f*(%.2f**2))"%(marginal_X[i],X_Nvals[i]) for i in range(len(X_vals))])
 # Dist of Y
-solution6="+".join([str(p) for p in joint[0,:]])
-solution7="+".join([str(p) for p in joint[1,:]])
-solution8="+".join([str(p) for p in joint[2,:]])
+solution6="+".join(["%.2f"%p for p in joint[0,:]])
+solution7="+".join(["%.2f"%p for p in joint[1,:]])
+solution8="+".join(["%.2f"%p for p in joint[2,:]])
 solution9="+".join(["(%.2f*%.2f)"%(marginal_Y[i],Y_vals[i]) for i in range(len(Y_vals))])
 solution10="+".join(["(%.2f*(%.2f**2))"%(marginal_Y[i],Y_Nvals[i]) for i in range(len(Y_vals))])
 #Interactions between X and Y
 flat_xy=xy.flatten()
 flat_joint=joint.flatten()
 solution11="+".join(["(%.2f*%.2f)"%(flat_joint[i],flat_xy[i]) for i in range(len(flat_xy))])
-solution12="{0}-({1}*{2})".format(Exy,mean_X,mean_Y)
-solution13="{0}/sqrt({1}*{2})".format(Cov,var_X,var_Y)
-solution14=1*independent
+solution12="{0:.2f}-({1:.2f}*{2:.2f})".format(Exy,mean_X,mean_Y)
+solution13="{0:.2f}/sqrt({1:.2f}*{2:.2f})".format(Cov,var_X,var_Y)
+solution14=str(1*independent)
 solutions=[solution1,solution2,solution3,solution4,solution5,solution6,solution7,solution8,
            solution9,solution10,solution11,solution12,solution13,solution14]
 solutions
