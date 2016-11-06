@@ -24,13 +24,13 @@ variable_values = {'a':a_vals, 'b':b_vals}
 solution1 = "{0}*a-{0}*a".format(c)
 solution2 = "{0}*a-{0}*a".format(c)
 solution3 = "{0}*a-{1}*a".format(c,d)
-solution4 = "({0}**2)*b".format(c)
-solution5 = "2*({0}**2)*b".format(c,d)
+solution4 = "(({0})^2)*b".format(c)
+solution5 = "2*(({0})^2)*b".format(c,d)
 solution6 = "0"
 
 # Group all solutions into a list
 solutions = [solution1, solution2, solution3, solution4, solution5, solution6]
-# hint text id
+# hint id
 hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1part2"]
     </script>
 
@@ -109,11 +109,11 @@ hint_text_id = ["cse103fall2016week1problem1part1","cse103fall2016week1problem1p
 
     <script type="loncapa/python">
 from hint import evaluate
-from hint.get_hint import get_hint
+from hint.get_hint import get_hint_w_variables
 
 # grader of the problem
 def check(expect, ans):
-  return evaluate.evaluate(expect, ans)
+  return evaluate.evaluate_w_variables(expect, ans, variable_values)
 
 # hint function
 def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
@@ -127,7 +127,7 @@ def hint_fn(answer_ids, student_answers, new_cmap, old_cmap):
   if new_cmap[key]['correctness'] == "correct":
     return
 
-  hint = get_hint(solutions[i], ans, hint_text_id, i)
+  hint = get_hint_w_variables(solutions[i], ans, hint_text_id, i, variable_values)
   new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
 

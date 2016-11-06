@@ -63,16 +63,16 @@ solution1="+".join(joint_str[:,0])
 solution2="+".join(joint_str[:,1])
 solution3="+".join(joint_str[:,2])
 marginal_X_str = [solution1, solution2, solution3]
-solution4="+".join(["((%s) * %d)"%(marginal_X_str[i],int(X_vals[i])) for i in range(len(X_vals))])
-solution5="+".join(["((%s) * (%d^2))"%(marginal_X_str[i],X_Nvals[i]) for i in range(len(X_vals))])
+solution4="+".join(["((%s) * (%d))"%(marginal_X_str[i],int(X_vals[i])) for i in range(len(X_vals))])
+solution5="+".join(["((%s) * ((%d)^2))"%(marginal_X_str[i],X_Nvals[i]) for i in range(len(X_vals))])
 
 # Dist of Y
 solution6="+".join(joint_str[0,:])
 solution7="+".join(joint_str[1,:])
 solution8="+".join(joint_str[2,:])
 marginal_Y_str = [solution6, solution7, solution8]
-solution9="+".join(["((%s) * %d)"%(marginal_Y_str[i],int(Y_vals[i])) for i in range(len(Y_vals))])
-solution10="+".join(["((%s) * (%d^2))"%(marginal_Y_str[i],Y_Nvals[i]) for i in range(len(Y_vals))])
+solution9="+".join(["((%s) * (%d))"%(marginal_Y_str[i],int(Y_vals[i])) for i in range(len(Y_vals))])
+solution10="+".join(["((%s) * ((%d)^2))"%(marginal_Y_str[i],Y_Nvals[i]) for i in range(len(Y_vals))])
 
 #Interactions between X and Y
 flat_xy=xy.flatten()

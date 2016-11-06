@@ -22,8 +22,8 @@ variable_values = {'a':a_vals, 'b':b_vals}
 solution1 = "{0}*a-{0}*a".format(c)
 solution2 = "{0}*a-{0}*a".format(c)
 solution3 = "{0}*a-{1}*a".format(c,d)
-solution4 = "({0}**2)*b".format(c)
-solution5 = "2*({0}**2)*b".format(c,d)
+solution4 = "(({0})^2)*b".format(c)
+solution5 = "2*(({0})^2)*b".format(c,d)
 solution6 = "0"
 
 # Group all solutions into a list
