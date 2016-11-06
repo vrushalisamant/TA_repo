@@ -51,7 +51,7 @@ Cov = np.sum(np.multiply(Nxy,joint))
 Exy = np.sum(np.multiply(xy,joint))
 
 #print Exy, Cov, Cov/np.sqrt(var_X*var_Y)
-independent=np.sum(np.outer(marginal_Y,marginal_X)==joint)==9
+independent=np.sum((np.outer(marginal_Y,marginal_X)-joint)**2)<0.01
 
 # Dist of X
 solution1="+".join([str(p) for p in joint[:,0]])
@@ -83,105 +83,3 @@ solutions=[solution1,solution2,solution3,solution4,solution5,solution6,solution7
 #print 'Nxy=\n',Nxy
 #print 'Cov=',Cov
 #print '\n'.join(solutions)
-```
-
-### Covariance Calculations
-
-
-Suppose X,Y are discrete random variables whose joint distribution is
-
-<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:500px">
-	<caption>Joint probabilities</caption>
-	<thead>
-		<tr>
-			<th scope="row"></th>
-			<th scope="col" style="text-align: center; vertical-align: bottom;">x=1</th>
-			<th scope="col" style="text-align: center; vertical-align: bottom;">x=2</th>
-			<th scope="col" style="text-align: center; vertical-align: bottom;">x=3</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row" style="text-align:center; vertical-align:bottom">y=1</th>
-			<td style="text-align:center; vertical-align:bottom">\$joint00</td>
-			<td style="text-align:center; vertical-align:bottom">\$joint01</td>
-			<td style="text-align:center; vertical-align:bottom">\$joint02</td>
-		</tr>
-		<tr>
-			<th scope="row" style="text-align:center; vertical-align:bottom">y=2</th>
-			<td style="text-align:center; vertical-align:bottom">\$joint10</td>
-			<td style="text-align:center; vertical-align:bottom">\$joint11</td>
-			<td style="text-align:center; vertical-align:bottom">\$joint12</td>
-		</tr>
-		<tr>
-			<th scope="row" style="text-align:center; vertical-align:bottom">y=3</th>
-			<td style="text-align:center; vertical-align:bottom">\$joint20</td>
-			<td style="text-align:center; vertical-align:bottom">\$joint21</td>
-			<td style="text-align:center; vertical-align:bottom">\$joint22</td>
-		</tr>
-	</tbody>
-</table>
-
-###(1) What is the distribution over $X$?
-
-$P(X=1)=$
-
-[_]
-
-$P(X=2)=$
-
-[_]
-
-$P(X=3)=$
-
-[_]
-
-
-What is $E(X)$ ?
-
-[_]
-
-What is $Var(X)$ ?
-
-[_]
-
-
-###(2) What is the distribution over $Y$?
-
-$P(Y=1)=$
-
-[_]
-
-$P(Y=2)=$
-
-[_]
-
-$P(Y=3)=$
-
-[_]
-
-What is $E(Y)$ ?
-
-[_]
-
-What is $Var(Y)$ ?
-
-[_]
-
-###(3) What is the relationship between $X$ and $Y$ ?
-
-What is $E(XY)$ ?
-
-[_]
-
-What is $Cov(X,Y)$ ?
-
-[_]
-
-What is $Corr(X,Y)$ ?
-
-[_]
-
-Are $X$ and $Y$ independent (1=independent, 0=dependent)?
-
-[_]
