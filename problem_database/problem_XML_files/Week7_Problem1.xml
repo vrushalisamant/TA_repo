@@ -16,7 +16,7 @@ for i in range(len(a_rand)):
 variable_values = {'a':a_vals, 'b':b_vals}
 
 # Random valued coefficients:
-[c,d,e,f,g]=rand_vals(i=1,j=4,n=5)
+[c,d,e,f,g]=rand_vals(i=2,j=5,n=5)
 
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1. 
