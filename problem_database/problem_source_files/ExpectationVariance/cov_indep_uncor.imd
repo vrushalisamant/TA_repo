@@ -42,14 +42,14 @@ Y_Nvals=Y_vals-mean_Y
 var_X=np.dot(marginal_X,X_Nvals**2)
 var_Y=np.dot(marginal_Y,Y_Nvals**2)
 
-xy=np.outer(X_vals,Y_vals)
-Nxy=np.outer(X_Nvals,Y_Nvals)
+xy=np.outer(Y_vals,X_vals)
+Nxy=np.outer(Y_Nvals,X_Nvals)
 
 Cov = np.sum(np.multiply(Nxy,joint))
 Exy = np.sum(np.multiply(xy,joint))
 
 #print Exy, Cov, Cov/np.sqrt(var_X*var_Y)
-independent=np.sum(np.outer(marginal_Y,marginal_X)-joint)==0
+independent=np.sum(np.outer(marginal_Y,marginal_X)==joint)==9
 
 # Dist of X
 solution1="+".join(["%.2f"%p for p in joint[:,0]])
@@ -72,12 +72,15 @@ solution13="{0:.2f}/sqrt({1:.2f}*{2:.2f})".format(Cov,var_X,var_Y)
 solution14=str(1*independent)
 solutions=[solution1,solution2,solution3,solution4,solution5,solution6,solution7,solution8,
            solution9,solution10,solution11,solution12,solution13,solution14]
-solutions
-"""**Yoav:** Note quite sure of a few things
-   * can I refer to the elements of a numpy array in the markdown, i.e. does the syntax `${joint[0,0]}` work?
-   * I did my best to give a calculation as the answer for each part. I am not sure whether the evaluator will know how to deal with "sqrt" in the answer.
-   * In coded int `matrices` three different matrices, for 3 different problems. I am not sure what is the best way to generate the three problems without replicating the code.
-"""
+#print k, dic_key
+#print 'joint=\n',joint
+#print 'np.outer(marginal_Y,marginal_X)=\n',np.outer(marginal_Y,marginal_X)
+#print 'mean_X,Mean_Y = ',mean_X,mean_Y
+#print 'X_Nvals=',X_Nvals
+#print 'Y_Nvals=',Y_Nvals
+#print 'Nxy=\n',Nxy
+#print 'Cov=',Cov
+#print '\n'.join(solutions)
 ```
 
 ### Covariance Calculations
